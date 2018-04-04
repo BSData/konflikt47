@@ -403,7 +403,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="aa39-6fe6-8e1b-a6ac" name="Artillery" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -700,7 +702,10 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6488-4649-c8b7-1ab1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c11d-1733-4e1f-0d77" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
@@ -757,7 +762,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="fdfd-4b45-ac68-9f6d" name="Anti-tank Grenades" hidden="false" collective="true" type="upgrade">
           <profiles/>
@@ -771,7 +778,10 @@
             </infoLink>
           </infoLinks>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33ab-26e1-fa0b-d1ab" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9f1-def7-ffd3-8402" type="min"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -782,14 +792,14 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e67e-9a12-417c-eb7c" name="Additional Men" hidden="false" collective="false">
+        <selectionEntryGroup id="e67e-9a12-417c-eb7c" name="Additional Men" hidden="false" collective="false" defaultSelectionEntryId="af67-34a8-c1ef-d9a5">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c065-2e8b-8219-960c" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b23c-337b-0e22-d8d2" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c065-2e8b-8219-960c" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b23c-337b-0e22-d8d2" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
@@ -809,6 +819,7 @@
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="645a-e614-33cc-94cb" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfe4-4043-e14b-7da5" type="max"/>
                   </constraints>
                   <categoryLinks/>
                   <selectionEntries/>
@@ -826,9 +837,31 @@
                       <profiles/>
                       <rules/>
                       <infoLinks/>
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="3">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                       <constraints>
-                        <constraint field="selections" scope="af67-34a8-c1ef-d9a5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e44-6b84-34e2-7a3f" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9e44-6b84-34e2-7a3f" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="3a41-04ad-ebcc-dd8c" name="LMG" hidden="false" targetId="a0ad-28a0-04d0-20d6" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="20">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="7fa4-9b6e-b577-5b59" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c79e-7c48-8d1c-0d36" type="max"/>
                       </constraints>
                       <categoryLinks/>
                     </entryLink>
@@ -849,7 +882,10 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="832d-4ef4-9491-8bd2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d68b-784b-b3f5-263c" type="min"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -866,7 +902,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="10.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
