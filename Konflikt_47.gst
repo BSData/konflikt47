@@ -29,6 +29,11 @@
         <characteristicType id="8922-2543-58b3-efb3" name="Tow"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="4dde-1bbe-a285-8a61" name="Team Crew">
+      <characteristicTypes>
+        <characteristicType id="644f-2fac-829b-80b1" name="Crew"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="fb1a-cb93-a427-51cf" name="Headquarters" hidden="false">
@@ -197,6 +202,82 @@
           <constraints>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="3012-512b-7348-14df" type="max"/>
           </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="5fb1-3771-5c5d-8224" name="Reinforced Armoured Platoon" book="Konflikt 47: Resurgence" page="35" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="5d31-9988-f155-08c6" name="Infantry" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba41-8c6b-c360-edc6" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8978-1ebf-08e7-65ab" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="221b-0a2f-62af-3ee8" name="Armored Cars, Recce Vehicles, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9fbd-c7f8-c204-305e" name="Artillery and Anti-tank Guns" hidden="false" targetId="5056-7005-6edc-4816" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="38b3-7619-aeea-b5ca" name="Free Units" hidden="false" targetId="60fd-ed23-32dc-eb94" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f278-e9da-6035-12c8" name="Headquarters" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9045-09bf-d0b6-c95e" name="Infantry Support" hidden="false" targetId="0c7f-603d-05ec-f61c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2063-7a5a-5515-b971" name="Tanks, Tank Destroyers, Anti-aircraft Vehicles, Self-propelled Artillery, Medium and Heavy Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="43fc-9c1a-6505-276c" name="Tows" hidden="false" targetId="f3c7-5675-463e-b566" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="db6d-efb2-d1db-0734" name="Transports" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -1710,6 +1791,43 @@
       <entryLinks/>
       <costs/>
     </selectionEntry>
+    <selectionEntry id="61ee-7e2c-428a-991e" name="Meteor Launcher" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3f79-0b0c-7bf8-5b61" name="Meteor Launcher" hidden="false" targetId="98b4-3216-b8de-a42e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="50cf-3f4d-bb61-feac" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="edd7-afa7-d6d2-3f11" name="Meteor Strike" hidden="false" targetId="b363-7b24-18ca-e596" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a02a-8ba1-215e-6204" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -2144,6 +2262,31 @@ Recce vehicles will also spot hidden enemy units at longer ranges than other veh
 * Artillery - Roll a D6, 1-4 use infantry result, 5-6 the gun is destroyed
 * Vehicle - Roll an additional &apos;to hit&apos; roll
 * Building - No effect</description>
+    </rule>
+    <rule id="b363-7b24-18ca-e596" name="Meteor Strike" book="Konflikt 47: Resurgence" page="29" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Roll 1D6 to determine the number of shots on target. Then roll to hit for each shot as normal. For infantry and artillery, this is the number of hits; roll to damage using the base PEN value of the weapon. For vehicles, the PEN value of the weapon is equal to it&apos;s base value, +1 for each successful hit. Roll a single damage roll at this modified PEN value.</description>
+    </rule>
+    <rule id="12a2-4a18-eb50-2652" name="Gun Shield" book="Konflikt 47 Rules" page="88" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If a gun is equipped with a gun shield, the die roll an enemy requires to score damage from the front arc of the gun as described above is increased to 6+ regardless of the quality of the crew. Thsi die roll is modified by the penetration value of the weapon in the usual way.</description>
+    </rule>
+    <rule id="2257-21e2-e6a0-367d" name="Flak" book="Konflikt 47 Rules" page="79" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A unit with flak that is not currently Down  automatically fires at any attacking aircraft if the token or model lies within their firing arc and range. Flak units fire regardless of whether they have already taken an action or not that turn. Flak fire does not require an action and takes place outside of the normal turn sequence. The usual line of sight rules are ignored when firing at aircraft between the target is plainly visible in the sky. Measure the range between the shooter and target ignoring everything in between. Rolls to hit aircraft are always at a -2 penalty because they are fast moving targets and inherently difficult to hit.
+
+Flak units that are not currently Down must test to hold their fire against friendly attacking aircraft if they are in arc and range of the marked position. Roll a D6 for each flak unit. To successfully hold their fire inexperienced units need a 5+, regular a 4+, and veteran a 3+. Units that fail the test will shoot at the incoming aircraft as if it were an enemy.
+
+Any flak units that are in Ambush lose their ambush status if they shoot at aircraft, in which case their order die is flipped to Down. Any units that are hidden as described in the scenarios section lose their hidden status if they shoot at aircraft.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -2835,6 +2978,54 @@ Recce vehicles will also spot hidden enemy units at longer ranges than other veh
         <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="2"/>
         <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+3"/>
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, Gravity Pulse"/>
+      </characteristics>
+    </profile>
+    <profile id="98b4-3216-b8de-a42e" name="Meteor Launcher" book="Konflikt 47: Resurgence" page="26" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="60&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1D6"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+4"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, Meteor Strike"/>
+      </characteristics>
+    </profile>
+    <profile id="b6c1-c83f-a555-17ce" name="Team 2" hidden="false" profileTypeId="4dde-1bbe-a285-8a61" profileTypeName="Team Crew">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Crew" characteristicTypeId="644f-2fac-829b-80b1" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="7368-80e0-15af-d330" name="Team 3" hidden="false" profileTypeId="4dde-1bbe-a285-8a61" profileTypeName="Team Crew">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Crew" characteristicTypeId="644f-2fac-829b-80b1" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="f05e-dc7f-d24f-7acb" name="Team 4" hidden="false" profileTypeId="4dde-1bbe-a285-8a61" profileTypeName="Team Crew">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Crew" characteristicTypeId="644f-2fac-829b-80b1" value="4"/>
+      </characteristics>
+    </profile>
+    <profile id="efe1-2d4f-9fad-6602" name="Team 5" hidden="false" profileTypeId="4dde-1bbe-a285-8a61" profileTypeName="Team Crew">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Crew" characteristicTypeId="644f-2fac-829b-80b1" value="5"/>
       </characteristics>
     </profile>
   </sharedProfiles>
