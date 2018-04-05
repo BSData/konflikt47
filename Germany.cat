@@ -763,7 +763,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+            <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fdfd-4b45-ac68-9f6d" name="Anti-tank Grenades" hidden="false" collective="true" type="upgrade">
@@ -777,18 +777,24 @@
               <modifiers/>
             </infoLink>
           </infoLinks>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="2">
+              <repeats>
+                <repeat field="selections" scope="7fa4-9b6e-b577-5b59" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33ab-26e1-fa0b-d1ab" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9f1-def7-ffd3-8402" type="min"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9f1-def7-ffd3-8402" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs>
-            <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="2.0"/>
-          </costs>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -902,9 +908,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs>
-        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="10.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>

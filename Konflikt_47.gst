@@ -10,6 +10,7 @@
     <profileType id="ee55-42f4-196c-0bcb" name="Troop Quality">
       <characteristicTypes>
         <characteristicType id="6207-ecad-dfbc-16d3" name="Morale"/>
+        <characteristicType id="d21b-3304-ffd7-575b" name="Damage Value"/>
       </characteristicTypes>
     </profileType>
     <profileType id="6f79-864b-5586-5191" name="Weapon">
@@ -433,7 +434,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1efc-f6d3-abb7-0876" name="Automatic Rifle" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -452,7 +455,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ff34-acf0-0405-2cfb" name="MMG" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -483,7 +488,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5689-3f2d-5130-1632" name="Dual Weapon Pack (Small Arm)" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -508,7 +515,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8ae2-3e72-b2d1-6619" name="Dual Weapon Pack (Heavy Weapon)" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -527,7 +536,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="26df-ebe9-f37a-4485" name="HMG" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -558,7 +569,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7cb3-5137-bd8a-4c60" name="Light Automatic Cannon" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -595,7 +608,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="beb9-f6f1-ca97-4bcf" name="Heavy Automatic Cannon" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -632,7 +647,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bf80-1393-76d8-5b2f" name="Anti-tank Rifle" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -657,7 +674,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="94b9-2bda-955a-beef" name="PIAT" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -688,7 +707,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1f59-fcb3-b035-5e82" name="Bazooka" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -719,7 +740,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="44e3-67cb-3abc-f13c" name="Super-bazooka" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -750,7 +773,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5509-32a0-e168-1573" name="Panzerschreck" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -781,7 +806,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a3a4-0714-1a7e-1343" name="Panzerfaust" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -812,7 +839,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="169b-30ba-4907-7e96" name="Light AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -849,7 +878,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="18d0-3b64-50f8-83e6" name="Medium AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -886,7 +917,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6097-5029-9ccd-f779" name="Heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -923,7 +956,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a942-d250-c139-8e8a" name="Super-heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -960,7 +995,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d5e9-fd6f-525c-f542" name="Flamethrower (Infantry)" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -991,7 +1028,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="db6f-f860-ed49-5e80" name="Light Flamethrower (Vehicle)" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1016,7 +1055,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="39e6-7490-bb4b-9baa" name="Flamethrower (Vehicle)" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1041,7 +1082,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4492-e0f5-5aa1-5c8a" name="Rifle Grenade" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1072,7 +1115,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a995-196d-d370-750c" name="Light Mortar" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1109,7 +1154,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="565d-33ad-6e9f-e303" name="Medium Mortar" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1152,7 +1199,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="489b-4134-1a49-c442" name="Heavy Mortar" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1195,7 +1244,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e6cc-3474-2994-85a9" name="Light Howitzer" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1244,7 +1295,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b249-641b-1c00-2f92" name="Medium Howitzer" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1293,7 +1346,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5007-330d-54cc-bf7c" name="Heavy Howitzer" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1342,7 +1397,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="37e8-6e69-9735-81d7" name="M17 Tesla Cannon" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1379,7 +1436,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="085b-58f4-3814-4bff" name="Zvukovoy Proyektor" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1416,7 +1475,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="74f5-cc38-0b89-9ccc" name="Schwerefeld Projektor" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1441,6 +1502,200 @@
           <modifiers/>
         </infoLink>
         <infoLink id="fc58-a9a6-c2ef-c29e" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="29d9-f2e1-e6a2-4a62" name="Compression Rifle" book="Konflikt 47: Resurgence" page="25" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9d1e-00fb-1c39-3378" name="Compression Rifle" hidden="false" targetId="0be9-ea48-dcc3-fcea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ae11-272a-e56b-feb2" name="Heavy Tesla Rifle (Rapid Fire Mode)" book="Konflikt 47: Resurgence" page="25" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3dec-ddef-06b7-b41c" name="Heavy Tesla Rifle (Rapid Fire Mode)" hidden="false" targetId="e737-613c-8e1e-62a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b8af-cbcf-4a51-db19" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="dad7-959f-dce7-8066" name="Light Compression Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d718-4496-ce4f-a38f" name="Light Compression Cannon" hidden="false" targetId="1b0a-c1a0-cafe-ea6d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bcfd-2361-f2e4-8568" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c72d-f718-18a6-42f9" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5801-6bb8-0219-2b3c" name="Compression Wave" hidden="false" targetId="eab3-f43d-e594-1f7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="545a-d271-eee0-0625" name="Compression Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="bf89-45e9-4c0e-9946" name="Compression Cannon" hidden="false" targetId="f863-d6ed-ac05-cafa" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fff6-6ef9-670a-8777" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b819-469e-290a-dbcb" name="Compression Wave" hidden="false" targetId="eab3-f43d-e594-1f7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f2e8-efad-dcc3-3553" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ab2f-90e7-fef4-7a35" name="M21 Light Tesla Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3eb6-e352-9ed3-f1bf" name="M21 Light Tesla Cannon" hidden="false" targetId="7993-3b63-95e3-5c39" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6033-d1f6-df1b-7b86" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f650-77f3-8cca-81ed" name="Tesla" hidden="false" targetId="54e4-5047-175a-9421" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0ebc-ed6a-4eb3-53a8" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="4681-9d5a-6088-614a" name="Light Schwerefeld Projektor" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6fd9-505a-90c6-1967" name="Light Schwerefeld Projektor" hidden="false" targetId="b986-9db2-1fcb-fac7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9297-5f9c-64a4-1ae1" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7d4b-1422-39ae-21c8" name="Gravity Pulse" hidden="false" targetId="5b0b-40c4-bd14-81be" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6e5f-4100-27ad-fa99" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1763,12 +2018,12 @@ When fired against vehicles, hits from indirect fire weapons always strike the v
 
 Weapons cannot be fired indirect when given an Ambush order. Howitzers and mortars can also fire smoke shells to lay a smoke screen - see page 89 for rules covering this.</description>
     </rule>
-    <rule id="54e4-5047-175a-9421" name="Tesla" book="Konflikt 47 Rules" page="66" hidden="false">
+    <rule id="54e4-5047-175a-9421" name="Tesla" book="Konflikt 47: Resurgence" page="29" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Tesla weapons have two penetration values, the lower value is used against infantry and artillery, the higher value is used against vehicles.
+      <description>Tesla weapons have two penetration values, the lower value is used against infantry and artillery, the higher value is used against vehicles. Penetration is not reduced when firing at long range.
 
 When targeting infantry and artillery the weapon arcs to nearby targets. After a successful hit is rolled, roll a D6, and this number of additional hits is inflicted on the unit. If the number of hits exceeds the number of models in the unit, any excess hits are lost.</description>
     </rule>
@@ -1785,6 +2040,110 @@ When targeting infantry and artillery the weapon arcs to nearby targets. After a
       <infoLinks/>
       <modifiers/>
       <description>When firing a shockwave weapon, draw a line from the barrel of the weapon in a staight line out to the weapon&apos;s maximum range. Any unit with a model under the line is hit on a 4+ and suffers D3 pin markers. Infantry and artillery units that are hit also suffer D3 hits with a Pen value of +1. Vehicle models hit by the shockwave suffer a &apos;crew stunned&apos; damage result from the damage results table.</description>
+    </rule>
+    <rule id="cc4e-54c3-faab-0936" name="Walker" book="Konflikt 47 Rules" page="97" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Hits on walkers do not recieve any penetration bonus for hitting the side, top, or rear armor.</description>
+    </rule>
+    <rule id="7e17-fe3a-569d-ccc5" name="Assault (Vehicle)" book="Konflikt 47 Rules" page="104" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A vehicle with this special rules is permitted to assault enemy infantry and vehicles using the unique rules for walkers detailed in the vehicle close quarters rules.</description>
+    </rule>
+    <rule id="5209-ad07-7198-6f88" name="Command Vehicle" book="Konflikt 47 Rules" page="104" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The command vehicle adds a morale bonus of +1 to itself and to any other friendly armoured vehicle within 12&quot;.</description>
+    </rule>
+    <rule id="f0af-b11f-cc9c-e041" name="Turret Rear-Mounted Machine Gun" book="Konflikt 47 Rules" page="104" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When firing, first select a target for the tank main gun (or co-axial machine gun) and resolve it. Whichever arc the main gun has engaged an enemy, the rear-mounted machine gun can only shoot into the opposite arc.</description>
+    </rule>
+    <rule id="9e10-9ea1-508b-ae43" name="Slow (Vehicle)" book="Konflikt 47 Rules" page="104" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A vehicle that is designated as slow has a basic move rate of 6&quot; when advancing and 12&quot; at a Run.</description>
+    </rule>
+    <rule id="70c6-fb82-b363-7792" name="Tough (Vehicle)" book="Konflikt 47 Rules" page="104" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A vehicle with the tough special rule rolls a D6 every time an opponent rolls equal or over its Damage value; the damage is ignored on a roll of 5+.</description>
+    </rule>
+    <rule id="fa0e-9e9d-0e65-1e3b" name="Recce" book="Konflikt 47 Rules" page="104" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Once per turn a recce vehicle, that is not towing, is allowed to react to an enemy shooting or assaulting them by making a special recce reaction. The player can choose to do this whether the vehicle has already taken an action that turn or not. A reaction test must be made as normal when the shooting or assault is declared. If the test is failed the vehicle may attempt another recce move later in the turn.
+
+If a target of a recce vehicle is successful in making a firefight or stand and shoot reaction, the recce vehicle may elect to attempt a recce move reaction to that response instead o fcontinuing its previous order. Should the recce reaction fail, it cannot revert to its original Fire or assault order and its order dice is flipped to Down. Note that it can still make further recce reaction attempts later in the turn as normal.
+
+The recce move reaction allows the vehicle to make a reverse move at their basic move rate to try and escape the threat. Some recce vehicles are allowed to evade at their run movement rate as described in the vehicle descriptions.
+
+Once a vehicle has made its escape move it comes to a halt and its order die is flipped to Down, or a Down order is placed next to it if it has yet to take an action that turn. The enemy&apos;s shot or assault is then conducted as normal based on the recce vehicle&apos;s new location. If the recce vehicle has moved out of range or line of sight then the shot automatically misses or the assault fails.
+
+Recce vehicles will also spot hidden enemy units at longer ranges than other vehicles as noted in the rules for hidden set up on page 120.</description>
+    </rule>
+    <rule id="78e9-4993-8002-8c31" name="Amphibious" book="Konflikt 47 Rules" page="105" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>An amphibious vehicle can move directly forward only over otherwise impassable deep water at half speed by means of an Advance action. A vehicle cannot make any other action whilst moving over water, cannot reverse, cannot turn, and will ignore all rules that otherwise oblige it to reverse or go Down. A vehicle that is immobilised whilst in the water is sunk or abandoned and is therefore destroyed together with any occupants. Note that vehicles can shoot whilst afloat, but if equipped with floatation screens will not be able to do so with any hull-mounted weapons.</description>
+    </rule>
+    <rule id="29c0-1d9f-1f84-7795" name="Open-Topped" book="Konflikt 47 Rules" page="105" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Open-topped armoured vehicles are pinned by hits from small arms in the same way as soft-skins and infantry. If assaulted by infantry open-topped armoured vehicles are destroyed automatically if the vehicle is damaged, in the same way as for soft-skins.If hit by indirect fire then add +1 to the damage result roll to represetn the effect of a shot falling into an open-topped vehicle.</description>
+    </rule>
+    <rule id="4a4f-888e-9547-2696" name="Jump" book="Konflikt 47 Rules" page="106" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Vehicles with the jump special rule ignore terrain when moving so are always considered to be moving in open terrain. A vehicle with the jump special rule may also move over intervening models so long as it has enough movement to clear the troops and it can land over 1&quot; from any other unit. All jump movement is conducted at the vehicle&apos;s Run movement rate and must be in a straight line - no turns are permitted.</description>
+    </rule>
+    <rule id="952d-3a1b-a7be-28ac" name="Fist" book="Konflikt 47 Rules" page="106" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Some walkers are equipped with powered fists that imitate the functions of a hand. These are mainly appplicable in close quarters combat but also assist the walker in navigating rough terrain and clearing obstacles.</description>
+    </rule>
+    <rule id="d970-8622-a65d-57a6" name="Agile" book="Konflikt 47 Rules" page="106" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A vehicle with the agile special rule may make an additional 90 degree pivot at any point in its movement (Advance or Run).</description>
+    </rule>
+    <rule id="eab3-f43d-e594-1f7e" name="Compression Wave" book="Konflikt 47: Resurgence" page="28" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When firing a compression weapon (except compression rifles), roll to hit normally for its three shots. It does damage at the appropriate PEN value for each shot following the normal rules for multi-shot weapons. However, if all three shots hit the target apply the following secondary effects before rolling to damage, and for this attack only:
+
+* Infantry - Roll an additional 3 &apos;to hit&apos; rolls.
+* Artillery - Roll a D6, 1-4 use infantry result, 5-6 the gun is destroyed
+* Vehicle - Roll an additional &apos;to hit&apos; roll
+* Building - No effect</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1848,13 +2207,13 @@ When targeting infantry and artillery the weapon arcs to nearby targets. After a
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="-"/>
       </characteristics>
     </profile>
-    <profile id="709f-70a0-e25d-bf63" name="Assault Rifle" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+    <profile id="709f-70a0-e25d-bf63" name="Assault Rifle" book="Konflikt 47: Resurgence" page="25" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="24&quot;"/>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="18&quot;"/>
         <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="2"/>
         <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-"/>
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Assault"/>
@@ -1879,7 +2238,7 @@ When targeting infantry and artillery the weapon arcs to nearby targets. After a
       <modifiers/>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
-        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="4"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="5"/>
         <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-"/>
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
       </characteristics>
@@ -2227,6 +2586,7 @@ When targeting infantry and artillery the weapon arcs to nearby targets. After a
       <modifiers/>
       <characteristics>
         <characteristic name="Morale" characteristicTypeId="6207-ecad-dfbc-16d3" value="8"/>
+        <characteristic name="Damage Value" characteristicTypeId="d21b-3304-ffd7-575b" value="3+"/>
       </characteristics>
     </profile>
     <profile id="f029-0937-76dc-18bb" name="Regular" book="Konflikt 47 Rules" page="42" hidden="false" profileTypeId="ee55-42f4-196c-0bcb" profileTypeName="Troop Quality">
@@ -2236,6 +2596,7 @@ When targeting infantry and artillery the weapon arcs to nearby targets. After a
       <modifiers/>
       <characteristics>
         <characteristic name="Morale" characteristicTypeId="6207-ecad-dfbc-16d3" value="9"/>
+        <characteristic name="Damage Value" characteristicTypeId="d21b-3304-ffd7-575b" value="4+"/>
       </characteristics>
     </profile>
     <profile id="0f37-68ae-dd72-d2dd" name="Veteran" book="Konflikt 47 Rules" page="42" hidden="false" profileTypeId="ee55-42f4-196c-0bcb" profileTypeName="Troop Quality">
@@ -2245,6 +2606,7 @@ When targeting infantry and artillery the weapon arcs to nearby targets. After a
       <modifiers/>
       <characteristics>
         <characteristic name="Morale" characteristicTypeId="6207-ecad-dfbc-16d3" value="10"/>
+        <characteristic name="Damage Value" characteristicTypeId="d21b-3304-ffd7-575b" value="5+"/>
       </characteristics>
     </profile>
     <profile id="d1e1-7f47-e5ff-ad2e" name="No Weapon" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
@@ -2257,6 +2619,222 @@ When targeting infantry and artillery the weapon arcs to nearby targets. After a
         <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="-"/>
         <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-"/>
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="db73-1b48-cf5a-7aff" name="Soft-Skinned Vehicle" book="" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="3d5b-a40e-875a-8691" value="Soft-Skinned Vehicle"/>
+        <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="6+"/>
+        <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
+        <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+      </characteristics>
+    </profile>
+    <profile id="58aa-3685-155b-e6a4" name="Scout Walker" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="3d5b-a40e-875a-8691" value="Scout Walker"/>
+        <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="6+"/>
+        <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
+        <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+      </characteristics>
+    </profile>
+    <profile id="efd3-31c5-154c-f4dc" name="Armored Car" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="3d5b-a40e-875a-8691" value="Armored Car"/>
+        <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="7+"/>
+        <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
+        <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+      </characteristics>
+    </profile>
+    <profile id="52b0-f9c6-b4c6-9da1" name="Armored Carrier" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="3d5b-a40e-875a-8691" value="Armored Carrier"/>
+        <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="7+"/>
+        <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556" value=""/>
+        <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+      </characteristics>
+    </profile>
+    <profile id="5fe1-b45c-ad99-58cc" name="Light Tank" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="3d5b-a40e-875a-8691" value="Light Tank"/>
+        <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="8+"/>
+        <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
+        <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+      </characteristics>
+    </profile>
+    <profile id="58fc-34d8-c1ba-1236" name="Light Walker" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="3d5b-a40e-875a-8691" value="Light Walker"/>
+        <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="7+"/>
+        <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
+        <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+      </characteristics>
+    </profile>
+    <profile id="1dcf-e5c3-f99c-67f1" name="Medium Walker" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="3d5b-a40e-875a-8691" value="Medium Walker"/>
+        <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="8+"/>
+        <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
+        <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+      </characteristics>
+    </profile>
+    <profile id="f945-ed13-872d-e38b" name="Medium Tank" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="3d5b-a40e-875a-8691" value="Medium Tank"/>
+        <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="9+"/>
+        <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
+        <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+      </characteristics>
+    </profile>
+    <profile id="98d8-436e-81b1-10a7" name="Heavy Walker" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="3d5b-a40e-875a-8691" value="Heavy Walker"/>
+        <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="9+"/>
+        <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
+        <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+      </characteristics>
+    </profile>
+    <profile id="923d-ea2a-6016-ed02" name="Heavy Tank" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="3d5b-a40e-875a-8691" value="Heavy Tank"/>
+        <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="10+"/>
+        <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
+        <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+      </characteristics>
+    </profile>
+    <profile id="bfe8-25df-36d1-6a10" name="Super-Heavy Walker" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="3d5b-a40e-875a-8691" value="Super-Heavy Walker"/>
+        <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="10+"/>
+        <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
+        <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+      </characteristics>
+    </profile>
+    <profile id="9c52-9f97-c5e1-23d0" name="Super-Heavy Tank" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="3d5b-a40e-875a-8691" value="Super-Heavy Tank"/>
+        <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="11+"/>
+        <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
+        <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+      </characteristics>
+    </profile>
+    <profile id="0be9-ea48-dcc3-fcea" name="Compression Rifle" book="Konflikt 47: Resurgence" page="25" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="24&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="3"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-1"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="e737-613c-8e1e-62a0" name="Heavy Tesla Rifle (Rapid Fire Mode)" book="Konflikt 47: Resurgence" page="25" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="12&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="3"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Assault"/>
+      </characteristics>
+    </profile>
+    <profile id="1b0a-c1a0-cafe-ea6d" name="Light Compression Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="3"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+3"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, Compression Wave"/>
+      </characteristics>
+    </profile>
+    <profile id="f863-d6ed-ac05-cafa" name="Compression Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="48&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="3"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+4"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, Compression Wave"/>
+      </characteristics>
+    </profile>
+    <profile id="7993-3b63-95e3-5c39" name="M21 Light Tesla Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="30&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+1/+4"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, Tesla"/>
+      </characteristics>
+    </profile>
+    <profile id="b986-9db2-1fcb-fac7" name="Light Schwerefeld Projektor" book="Konflikt 47: Resurgence" page="26" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="2"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+3"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, Gravity Pulse"/>
       </characteristics>
     </profile>
   </sharedProfiles>
