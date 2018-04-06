@@ -1831,21 +1831,21 @@
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
-    <rule id="d35f-b1c7-d0ff-2d11" name="Tough Fighters" book="Konflikt 47 Rules" page="81" hidden="false">
+    <rule id="d35f-b1c7-d0ff-2d11" name="Tough Fighters" book="Konflikt 47: Resurgence" page="30" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Each model in a unit with this special rule has two attacks in hand-to-hand combat when carrying out close quarter combat against infantry and artillery crew, regardless of what weapons they carry.</description>
+      <description>When a model with this special rule scores a casualty in hand-to-hand fighting agains enemy infantry or artillery units, it can immediately make a second damage roll. These additional damage rolls cannot generate additional rolls themselves.</description>
     </rule>
-    <rule id="522c-b079-6711-12b1" name="Fanatics" book="Konflikt 47 Rules" page="81" hidden="false">
+    <rule id="522c-b079-6711-12b1" name="Fanatics" book="Konflikt 47: Resurgence" page="30" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When a fanatic unit loses half of its numbers from enemy fire it does not take a morale check, and it continues to fight as normal so long as it includs at least two men. Should the unit be reduced to a single man he must take checks as normal.
+      <description>When a fanatic unit loses half of its numbers from enemy fire it does not take a morale check, and it continues to fight as normal so long as it includes at least two men. Should the unit be reduced to a single man he must take checks as normal.
 
-When a fanatic unit is defeated in close quarter combat, the fight counts as a draw instead and the fanatic unit must always opt for a follow-on round of combat, although if their opponent declines, both units can consolidate as normal.</description>
+When a fanatic unit wins in close quarter combat, the fanatic unit must always opt for a follow-on round of combat.</description>
     </rule>
     <rule id="563f-7fb1-5c51-64cd" name="Shirkers" book="Konflikt 47 Rules" page="81" hidden="false">
       <profiles/>
@@ -1947,12 +1947,12 @@ Bikes are not allowed to make an assault action and if assaulted may make a free
       <modifiers/>
       <description>Units with this special rule count double when calculating capacity for transports.</description>
     </rule>
-    <rule id="e8fc-b495-4724-e2fd" name="Flight" book="Konflikt 47 Rules" page="84" hidden="false">
+    <rule id="e8fc-b495-4724-e2fd" name="Flight" book="Konflikt 47: Resurgence" page="30" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Units with the flight rule may move up to 12&quot; when advancing and 18&quot; when running. Flying troops ignore any terrain restrictions on their movement, but must not end their flight in impassable terrain. Infantry with the flight rule may elect to move as normal infantry at the start of their activation, in which case they follow all normal rules for infantry movement.</description>
+      <description>Units with the flight rule may move up to 12&quot; when advancing and 18&quot; when running. Flying troops ignore any terrain restrictions on their movement, but must not end their flight in impassable terrain. Infantry with the flight rule may elect to move as normal infantry at the start of their activation, in which case they follow all normal rules for infantry movement. If Ambushed whilst using their Flight movement troops with this rule count asin the open and cannot claim cover.</description>
     </rule>
     <rule id="a5b5-a51e-5ff3-1f4e" name="Slow" book="Konflikt 47 Rules" page="84" hidden="false">
       <profiles/>
@@ -2287,6 +2287,57 @@ Recce vehicles will also spot hidden enemy units at longer ranges than other veh
 Flak units that are not currently Down must test to hold their fire against friendly attacking aircraft if they are in arc and range of the marked position. Roll a D6 for each flak unit. To successfully hold their fire inexperienced units need a 5+, regular a 4+, and veteran a 3+. Units that fail the test will shoot at the incoming aircraft as if it were an enemy.
 
 Any flak units that are in Ambush lose their ambush status if they shoot at aircraft, in which case their order die is flipped to Down. Any units that are hidden as described in the scenarios section lose their hidden status if they shoot at aircraft.</description>
+    </rule>
+    <rule id="6603-dad5-d74f-da0d" name="Snap to Action" book="Konflikt 47: Resurgence" page="29" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When an Second Lieutenant receives an order successfully other than Down, you can immediately take one of your order dice from the bag and give an order to a single friendly unit within 6&quot; - you may pre-measure the distance to your units before taking the dice out of the bag. A First Lieutenant may take two dice, a Captain three dice, and a Major four dice. Captains and Majors can do this with a range of 12&quot; rather than 6&quot;.
+
+Allocate each order dice before resolving any order tests or actions. Once all dice have been allocated, they can be activated in any order, finishing each unit&apos;s action before going on to the next. Not that units ordered this wa still need to tak eorder tests as normal if they are pinned, and cannot be given an orer dice if they already have one. Officers in reserve cannot use this special rule.</description>
+    </rule>
+    <rule id="5125-e49a-6442-19ef" name="Medic" book="Konflikt 47 Rules" page="76" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If an infantry or artillery unit, including the medic team itself, has a medic model within 6&quot; roll a die every time th eunit suffers a casualty from small-arms fire. On a 6, that casualty is ignored. Note that a medic cannot be used in cases of exceptional damage, against casualties inflicted by heavy weapons, or against damage suffered in close quarters combat.
+
+Medics may not fire weapons or assault, but can defend themselves if assaulted using point-blank fire if armed, or hand-to-hand combat otherwise. Medic units cannot be used to control or contest objectives in scenarios.</description>
+    </rule>
+    <rule id="f420-1714-bff9-df70" name="Motivate" book="Konflikt 47: Resurgence" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When a model or unit with this special rule is allocated an order dice, it may select one other activated infantry or artillery unit within 6&quot; and remove the order dice from that unit and place it back in the dice bag. The selected unit can therefore be activated again later in the turn. This does allow an officer to motivate a nearby unit and then immediately allocate it a new order using the Snap to Action rules.</description>
+    </rule>
+    <rule id="d913-33b1-2d8e-cd0f" name="Hunters" book="Konflikt 47: Resurgence" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Units with this special rule may conduct an Advance order as normal, but may change the order dice to Ambush instead of firing on the completion of their move. Should the unit fire as an Ambush reaction, it does not count as moving; however, you cannot use the Sniper special rule in the same turnas you use the Hunter special rule.</description>
+    </rule>
+    <rule id="67c4-b526-4222-9d1a" name="Stubborn" book="Konflikt 47: Resurgence" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If forced to take a morale check, this unit ignores negative morale modifiers from pin markers.</description>
+    </rule>
+    <rule id="ed5a-27d0-55a5-79bc" name="War Dogs" book="Konflikt 47: Resurgence" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="989b-f1c2-debc-660a" name="ARV" book="Konflikt 47: Resurgence" page="33" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles>
