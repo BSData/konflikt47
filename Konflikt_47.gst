@@ -2339,6 +2339,13 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
       <infoLinks/>
       <modifiers/>
     </rule>
+    <rule id="0e48-4316-c02c-2605" name="Animated Corpse" book="Konflikt 47 Rules" page="131" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Animated corpses ignore pin markers and morale checks. Additionally they are not affected by Medics.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="45fa-b48d-a682-3620" name="Rifle" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
@@ -3077,6 +3084,15 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
       <modifiers/>
       <characteristics>
         <characteristic name="Crew" characteristicTypeId="644f-2fac-829b-80b1" value="5"/>
+      </characteristics>
+    </profile>
+    <profile id="0105-1371-d4e3-ecc6" name="Team 6" hidden="false" profileTypeId="4dde-1bbe-a285-8a61" profileTypeName="Team Crew">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Crew" characteristicTypeId="644f-2fac-829b-80b1" value="6"/>
       </characteristics>
     </profile>
   </sharedProfiles>

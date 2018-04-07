@@ -1520,7 +1520,14 @@
     <selectionEntry id="167b-dacd-7bcf-70d6" name="Medic" book="Konflikt 47 Rules" page="182" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="c0fe-ec1e-04b4-74d6" name="Medic" hidden="false" targetId="5125-e49a-6442-19ef" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -3979,6 +3986,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="901c-d0cd-8c5e-85c2" name="Snipers" hidden="false" targetId="8856-457a-f514-8251" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -4037,7 +4050,10 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c756-7c2b-1d34-4e0e" type="min"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d88d-ff2b-17d1-815f" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
