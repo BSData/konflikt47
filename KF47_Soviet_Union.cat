@@ -226,7 +226,7 @@
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups>
-                <selectionEntryGroup id="156a-8e35-bbe0-b80f" name="Weapon" hidden="false" collective="false">
+                <selectionEntryGroup id="156a-8e35-bbe0-b80f" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="ba8a-5895-e3b0-1b63">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -288,7 +288,7 @@
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups>
-                <selectionEntryGroup id="766a-bb8c-1e96-0c3c" name="Weapon" hidden="false" collective="false">
+                <selectionEntryGroup id="766a-bb8c-1e96-0c3c" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="7c71-1fb1-2ef5-b54d">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -350,7 +350,7 @@
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups>
-                <selectionEntryGroup id="b4d1-ed9d-1271-55a3" name="Weapon" hidden="false" collective="false">
+                <selectionEntryGroup id="b4d1-ed9d-1271-55a3" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="3c9c-fef5-a0ab-8042">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -887,7 +887,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c9b-722d-0405-1232" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c9b-722d-0405-1232" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="289b-5939-1436-5410" name="New CategoryLink" hidden="false" targetId="60fd-ed23-32dc-eb94" primary="true">
@@ -1008,7 +1008,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e9c9-0372-34f7-ea65" name="Additional Men" hidden="false" collective="false">
+        <selectionEntryGroup id="e9c9-0372-34f7-ea65" name="Additional Men" hidden="false" collective="false" defaultSelectionEntryId="843f-e045-38c0-701f">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1167,30 +1167,26 @@
                 <selectionEntry id="52d7-a3e5-3a01-de84" name="Dual Weapon Pack" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
-                  <infoLinks/>
+                  <infoLinks>
+                    <infoLink id="e30e-c0a8-b0b5-4336" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="9e80-a4e5-d66a-f03a" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="f41a-5fbd-bf12-cf96" name="Dual Weapon Pack (Small Arm)" hidden="false" targetId="0168-39ad-f815-1ecb" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
                   <modifiers/>
                   <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
-                  <entryLinks>
-                    <entryLink id="c02f-ad6a-a798-c7d3" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="8ae2-3e72-b2d1-6619" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                    <entryLink id="b39c-ac01-d9e7-56d1" name="Dual Weapon Pack (Small Arm)" hidden="false" targetId="5689-3f2d-5130-1632" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                  </entryLinks>
+                  <entryLinks/>
                   <costs>
                     <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
                   </costs>
@@ -1198,7 +1194,20 @@
                 <selectionEntry id="25f0-927f-5ee0-ebc3" name="Two Dual Weapon Packs" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
-                  <infoLinks/>
+                  <infoLinks>
+                    <infoLink id="6057-8eef-4f37-c1c4" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="9e80-a4e5-d66a-f03a" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="7853-65b1-e216-8663" name="Dual Weapon Pack (Small Arm)" hidden="false" targetId="0168-39ad-f815-1ecb" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="11fa-2ea4-9119-50d5" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="425d-4af0-3d9d-0b01" type="max"/>
@@ -1206,24 +1215,7 @@
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
-                  <entryLinks>
-                    <entryLink id="87ab-8668-591e-00cc" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="8ae2-3e72-b2d1-6619" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                    <entryLink id="8e92-2267-86a8-a7c0" name="Dual Weapon Pack (Small Arm)" hidden="false" targetId="5689-3f2d-5130-1632" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                  </entryLinks>
+                  <entryLinks/>
                   <costs>
                     <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="20.0"/>
                   </costs>
@@ -1263,7 +1255,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ee69-033c-bdef-312c" name="Additional Men" hidden="false" collective="false">
+        <selectionEntryGroup id="ee69-033c-bdef-312c" name="Additional Men" hidden="false" collective="false" defaultSelectionEntryId="b28a-c0ff-fc11-edbc">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1283,7 +1275,7 @@
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups>
-                <selectionEntryGroup id="c57b-beef-35d5-eada" name="Weapon" hidden="false" collective="false">
+                <selectionEntryGroup id="c57b-beef-35d5-eada" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="ae01-676e-29e6-278e">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1297,30 +1289,26 @@
                     <selectionEntry id="ae01-676e-29e6-278e" name="Dual Weapon Pack &amp; Assault Weapon" hidden="false" collective="false" type="upgrade">
                       <profiles/>
                       <rules/>
-                      <infoLinks/>
+                      <infoLinks>
+                        <infoLink id="d13f-4807-8835-98b4" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="9e80-a4e5-d66a-f03a" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="98ad-6414-8bd3-1461" name="Dual Weapon Pack (Small Arm)" hidden="false" targetId="0168-39ad-f815-1ecb" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
                       <modifiers/>
                       <constraints/>
                       <categoryLinks/>
                       <selectionEntries/>
                       <selectionEntryGroups/>
-                      <entryLinks>
-                        <entryLink id="49d7-0481-60a2-966b" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="8ae2-3e72-b2d1-6619" type="selectionEntry">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                        </entryLink>
-                        <entryLink id="5cb4-57c6-8994-9e55" name="Dual Weapon Pack (Small Arm)" hidden="false" targetId="5689-3f2d-5130-1632" type="selectionEntry">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                        </entryLink>
-                      </entryLinks>
+                      <entryLinks/>
                       <costs>
                         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
                       </costs>
@@ -1328,7 +1316,20 @@
                     <selectionEntry id="9393-fd7e-2108-914b" name="Two Dual Weapon Packs" hidden="false" collective="false" type="upgrade">
                       <profiles/>
                       <rules/>
-                      <infoLinks/>
+                      <infoLinks>
+                        <infoLink id="aaac-caf5-66e6-a494" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="9e80-a4e5-d66a-f03a" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="f2f3-7a5c-e28d-7e3a" name="Dual Weapon Pack (Small Arm)" hidden="false" targetId="0168-39ad-f815-1ecb" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
                       <modifiers/>
                       <constraints>
                         <constraint field="selections" scope="11fa-2ea4-9119-50d5" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dcc-50ee-5cc8-565a" type="max"/>
@@ -1336,24 +1337,7 @@
                       <categoryLinks/>
                       <selectionEntries/>
                       <selectionEntryGroups/>
-                      <entryLinks>
-                        <entryLink id="8d47-7b5f-755c-5255" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="8ae2-3e72-b2d1-6619" type="selectionEntry">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                        </entryLink>
-                        <entryLink id="0a2d-2f70-80fd-db51" name="Dual Weapon Pack (Small Arm)" hidden="false" targetId="5689-3f2d-5130-1632" type="selectionEntry">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                          <constraints/>
-                          <categoryLinks/>
-                        </entryLink>
-                      </entryLinks>
+                      <entryLinks/>
                       <costs>
                         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="20.0"/>
                       </costs>
@@ -3521,22 +3505,29 @@
         <selectionEntry id="f40f-bd0d-f001-b0e5" name="Turret-mounted Zvukovoy Proyektor" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="943e-f8e8-3254-e275" name="Zvukovoy Proyektor" hidden="false" targetId="085b-58f4-3814-4bff" type="selectionEntry">
+          <infoLinks>
+            <infoLink id="547c-82a9-88a8-1f40" name="Zvukovoy Proyektor" hidden="false" targetId="a412-f148-3195-f9e9" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
+            </infoLink>
+            <infoLink id="b97c-1c53-4c2a-4bed" name="Shockwave" hidden="false" targetId="48cd-7351-3021-3a75" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc41-5734-c716-a356" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e52f-0599-44ae-5138" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
           <costs>
             <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
           </costs>
@@ -3553,7 +3544,10 @@
             </infoLink>
           </infoLinks>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e734-8145-be08-f048" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0da-71f5-7175-e145" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -3657,7 +3651,14 @@
         <selectionEntry id="af88-56a2-b1d7-d1db" name="Pintle-Mount Tripod" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="40c7-dd90-0f97-f5a7" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e5c-3e97-fb93-25b6" type="min"/>
@@ -4842,7 +4843,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="9271-db6c-f1d6-8d16" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="6299-6163-5a0d-fcf7" name="Experience" hidden="false" collective="false" defaultSelectionEntryId="de5c-8643-7b83-b6e2">
@@ -5464,7 +5473,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="e9dd-ec49-ccd4-ed61" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9ef6-99bf-9c5b-d699" name="Coaxial MMG" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -5721,7 +5738,15 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="3f8b-648f-dc70-0f6d" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8c8a-a93f-e53d-57f9" name="Hull-mounted forward-facing heavy AT gun" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -7432,7 +7457,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -7575,7 +7602,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>

@@ -1980,7 +1980,7 @@ Bikes are not allowed to make an assault action and if assaulted may make a free
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Units with the IR vision special rule ignore smake and may fight normally during night-fighting scenarios.</description>
+      <description>Units with the IR vision special rule ignore smoke and may fight normally during night-fighting scenarios.</description>
     </rule>
     <rule id="3425-a896-a3bb-8bef" name="Strong" book="Konflikt 47 Rules" page="84" hidden="false">
       <profiles/>
