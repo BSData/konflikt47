@@ -79,7 +79,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c78-11ee-9e44-3053" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c78-11ee-9e44-3053" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="ef0a-f940-bbcc-2634" name="Medic" hidden="false" targetId="64b3-a04b-d6d0-add2" primary="false">
@@ -242,7 +242,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80cd-bb23-4fe7-cc25" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80cd-bb23-4fe7-cc25" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="94a7-d111-5050-e43c" name="Medic" hidden="false" targetId="64b3-a04b-d6d0-add2" primary="false">
@@ -394,7 +394,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84f7-9d9a-5cf4-c013" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84f7-9d9a-5cf4-c013" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="cb65-e0ac-8a8a-83bc" name="Medic" hidden="false" targetId="64b3-a04b-d6d0-add2" primary="false">
