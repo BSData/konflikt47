@@ -254,131 +254,6 @@
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="8473-f759-e512-ae97" name="Generic Reinforced Platoon" book="Konflikt 47 Rules" page="126" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <forceEntries/>
-      <categoryLinks>
-        <categoryLink id="0140-c6f1-37d1-c2a5" name="Armored Cars, Recce Vehicles, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="f70f-ce80-48c3-3fdf" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="9a4d-063e-7555-a299" name="Artillery and Anti-tank Guns" hidden="false" targetId="5056-7005-6edc-4816" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="68ba-7dcf-0a3c-378b" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="707e-c794-bc55-6b72" name="Free Units" hidden="false" targetId="60fd-ed23-32dc-eb94" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="e72b-4d25-acb8-02f1" name="Headquarters" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e19-b87f-dc69-aaca" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26e6-2729-6704-e648" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="04dd-7223-cc10-bdbc" name="Infantry" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="d80d-234c-837d-4cbc" type="min"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="5925-864b-f41d-e181" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e186-1a38-8d3c-ff53" name="Infantry Support" hidden="false" targetId="0c7f-603d-05ec-f61c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="1d13-cd46-b455-cfe4" name="Tanks, Tank Destroyers, Anti-aircraft Vehicles, Self-propelled Artillery, Medium and Heavy Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="578b-4833-b2c9-4785" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="1aab-85a3-d8d0-5acc" name="Tows" hidden="false" targetId="f3c7-5675-463e-b566" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="60b4-d8ae-9f3a-9a6d" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="5056-7005-6edc-4816" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="60b4-d8ae-9f3a-9a6d" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7b58-b5ba-a6a4-e0f5" name="Transports" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="3012-512b-7348-14df" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="360a-867e-e501-63b2" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="0c7f-603d-05ec-f61c" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb1a-cb93-a427-51cf" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="3012-512b-7348-14df" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="b250-8b8b-4b31-b4a7" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbef-7fd5-113c-838a" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="22ae-9a01-98a8-3ac7" name="Medic" hidden="false" targetId="64b3-a04b-d6d0-add2" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccff-b16f-770c-1cdd" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
     <forceEntry id="5fb1-3771-5c5d-8224" name="Reinforced Armoured Platoon" book="Konflikt 47: Resurgence" page="35" hidden="false">
       <profiles/>
       <rules/>
@@ -731,54 +606,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="1d6b-16ce-681e-368c" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5689-3f2d-5130-1632" name="Dual Weapon Pack (Small Arm)" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="1f62-3676-18a5-ff3b" name="Dual Weapon Pack (Small Arm)" hidden="false" targetId="0168-39ad-f815-1ecb" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ea01-efff-bab2-6158" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8ae2-3e72-b2d1-6619" name="Dual Weapon Pack (Heavy Weapon)" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="c188-3bc9-f19c-6680" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="9e80-a4e5-d66a-f03a" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1794,33 +1621,6 @@
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ae11-272a-e56b-feb2" name="Heavy Tesla Rifle (Rapid Fire Mode)" book="Konflikt 47: Resurgence" page="25" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="3dec-ddef-06b7-b41c" name="Heavy Tesla Rifle (Rapid Fire Mode)" hidden="false" targetId="e737-613c-8e1e-62a0" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b8af-cbcf-4a51-db19" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="dad7-959f-dce7-8066" name="Light Compression Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
@@ -2016,11 +1816,11 @@
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4410-85d9-3c5d-3ecc" name="Heavy Tesla Rifle (Single Shot Mode)" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cf14-d022-f031-dd65" name="Anti-Tank Grenades" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="e79a-c450-c21f-9ce9" name="Heavy Tesla Rifle (Single Shot Mode)" hidden="false" targetId="7c09-aa71-e598-c330" type="profile">
+        <infoLink id="c387-4569-0390-b6a8" name="Tank Hunters" hidden="false" targetId="c707-cf7b-113b-507b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2037,11 +1837,140 @@
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cf14-d022-f031-dd65" name="Anti-Tank Grenades" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="255b-0ebf-96b4-86de" name="Luftfaust" book="Konflikt 47: Defiance" page="15" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="c387-4569-0390-b6a8" name="Tank Hunters" hidden="false" targetId="c707-cf7b-113b-507b" type="rule">
+        <infoLink id="407f-46e6-15c2-55da" name="Luftfaust" hidden="false" targetId="ebf4-6485-e352-340f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="733d-35c8-47d9-b870" name="One-Shot" hidden="false" targetId="4342-1652-de73-4014" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="976a-87bc-9f77-7fdc" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="984d-e7dd-c9e3-6c57" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="24b7-7446-6056-7e69" name="Heavy Tesla Rifle" book="Konflikt 47: Resurgence" page="25" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="eded-defa-4b6e-7328" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b3eb-c21a-4caf-eebc" name="Heavy Tesla Rifle (Rapid Fire Mode)" hidden="false" targetId="e737-613c-8e1e-62a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="807d-c1e5-929f-c637" name="Heavy Tesla Rifle (Single Shot Mode)" hidden="false" targetId="7c09-aa71-e598-c330" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="e6f1-e969-2e44-1ff3" name="Dual Weapon Pack" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="73cd-509f-8d51-53ab" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e12b-7166-def1-182e" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="9e80-a4e5-d66a-f03a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="377f-9590-224e-5fc9" name="Dual Weapon Pack (Small Arm)" hidden="false" targetId="0168-39ad-f815-1ecb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="937b-3637-ac69-f44f" name="Grenade Launcher" book="Konflikt 47: Defiance" page="15" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="74d7-f69b-a454-799d" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e544-424a-d44b-aa74" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c7f5-99cf-aca9-90d6" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4c6c-e3f0-be9f-a848" name="Shaped Charge" hidden="false" targetId="15c0-3a4d-d191-89df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0cb9-d19a-a447-0e62" name="Grenade Launcher (Anti-Tank)" hidden="false" targetId="76b6-928d-55a2-5928" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0422-c683-6f89-1eca" name="Grenade Launchder (HE)" hidden="false" targetId="eb5a-39fe-3d26-7afb" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2575,6 +2504,38 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
       <infoLinks/>
       <modifiers/>
       <description>Animated corpses ignore pin markers and morale checks. Additionally they are not affected by Medics.</description>
+    </rule>
+    <rule id="f9e5-c861-f1df-74d5" name="Rail Gun" book="Konflikt 47: Defiance" page="14" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Rail guns do not suffer a reduction in penetration at long range. After each shot roll a D6, on a 1 the weapon&apos;s power supply is disrupted and it may only fire at half of its normal PEN value (rounding up) in the following turn. A rail gun can also benefit from the Target Designator speical rule in the same way as an anti-tank gun.
+
+When shooting at buildings, a rail gun round delivers enough kinetic energy to potentially cause the building to collapse. Roll 2d6 if a rail gun hits a building, a roll of 11+ will collapse the structure as detailed in the building rules on page 110 of the Konflikt 47 rulebook.</description>
+    </rule>
+    <rule id="b0b2-a8ed-77f8-6c43" name="Behind Enemy Lines" book="Konflikt 47: Defiance" page="16" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Units with this rule may ignore the -1 modifier to the Command Test for attempting to enter the table as part of the Outflanking rules in a scenario. The unit may also be set up in the same way as a Sniper or Forward Observer as detailed in the scenario specific instructions.</description>
+    </rule>
+    <rule id="5ee9-9b1c-5ea8-b5a4" name="Elite" book="Konflikt 47: Defiance" page="16" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A unit with this rule is activated with an order die as normal. On the completion of its order it may then take an Order Test (subject to pins, officers, and other modifiers as normal). If successful, it can replace the order die back into the dice cup. At least one friendly unit must receive an order die before the Elite unit can be allocated its second order die of the turn, if this is not possible for any reason, the unit may not take advantage of this rule.
+
+Units that are given an Ambush or Down order are unable to return a die to the cup. However they may Rally and still return their die.</description>
+    </rule>
+    <rule id="0d3a-95d1-13c4-f94b" name="Rally to the Colors!" book="Konflikt 47: Defiance" page="16" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>All friendly infantry and artillery units within 12&quot; of a model with this special rule can re-roll failed Orders Tests when attempting to follow a Rally order. In addition, if a Rally order is successfully issued, the unit rolls two dice to determine the number of pin markers removed and select she higher roll. However, when a model with this special rule is in Ambush or Down, the rule has no effect.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -3374,6 +3335,42 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
         <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+1"/>
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="ebf4-6485-e352-340f" name="Luftfaust" book="Konflikt 47: Defiance" page="15" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="24&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+2"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="One-Shot, Flak, HE (D2)"/>
+      </characteristics>
+    </profile>
+    <profile id="76b6-928d-55a2-5928" name="Grenade Launcher (Anti-Tank)" book="Konflikt 47: Defiance" page="15" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="24&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+3"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Shaped Charge"/>
+      </characteristics>
+    </profile>
+    <profile id="eb5a-39fe-3d26-7afb" name="Grenade Launchder (HE)" book="Konflikt 47: Defiance" page="15" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="6&quot; - 24&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="HE"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Indirect Fire, HE (D2)"/>
       </characteristics>
     </profile>
   </sharedProfiles>
