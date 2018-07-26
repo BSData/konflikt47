@@ -27,11 +27,17 @@
         <characteristicType id="4f61-e8d9-24f4-779e" name="Damage Value"/>
         <characteristicType id="d07d-e4b6-5527-c556" name="Transport"/>
         <characteristicType id="8922-2543-58b3-efb3" name="Tow"/>
+        <characteristicType id="ab9c-2ff9-5b22-5874" name="Movement"/>
       </characteristicTypes>
     </profileType>
     <profileType id="4dde-1bbe-a285-8a61" name="Team Crew">
       <characteristicTypes>
         <characteristicType id="644f-2fac-829b-80b1" name="Crew"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="5a0e-7392-d4e4-5f85" name="Vehicle Quality">
+      <characteristicTypes>
+        <characteristicType id="dd97-f3c9-76bc-bd37" name="Morale"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -43,7 +49,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="360a-867e-e501-63b2" name="Infantry" hidden="false">
+    <categoryEntry id="360a-867e-e501-63b2" name="Infantry Squad" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -64,7 +70,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="00b4-e9d7-e705-1f53" name="Armored Cars, Recce Vehicles, Scout and Light Walkers" hidden="false">
+    <categoryEntry id="00b4-e9d7-e705-1f53" name="Armored Cars, Scout and Light Walkers" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -92,7 +98,154 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="45ac-0cd1-0fd0-edd3" name="Tanks, Tank Destroyers, Anti-aircraft Vehicles, Self-propelled Artillery, Medium and Heavy Walkers" hidden="false">
+    <categoryEntry id="45ac-0cd1-0fd0-edd3" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="b14d-60bd-51cb-1c49" name="Senior Officer" book="Konflikt 47: Rules" page="126" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="64b3-a04b-d6d0-add2" name="Medic" book="Konflikt 47: Rules" page="126" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="c048-dfb7-583d-2e79" name="Forward Observer" book="Konflikt 47: Rules" page="126" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="0f78-57ab-9c84-2888" name="Political Officer" book="Konflikt 47: Defiance" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="4b60-7497-ac09-653a" name="Conscript Squad" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="1f3d-c608-4cb7-2ec0" name="Forward Artillery Observer" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="1a15-5468-fc36-e232" name="Forward Air Observer" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="1688-881c-5284-0be8" name="Machine Gun Team" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="d9b6-6214-f7d0-e6f4" name="Mortar Team" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="4195-7b78-7f05-2c68" name="Heavy Mortar Team" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="6077-3929-61c8-5eb7" name="Sniper Team" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="c5aa-dfef-70b7-726b" name="Flamethrower Team" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="c04e-ff05-f7cb-ae9b" name="Anti-Tank Team" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="3e9a-cc33-d23c-8cfa" name="Light Artillery" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="b832-4bea-9ccd-c783" name="Light AT Gun" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="c4b7-8392-f634-0f37" name="Medium AT Gun" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="1715-0474-f0de-7175" name="Medium Artillery" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="54f0-ca0f-37e6-33fc" name="Super Heavy AT Gun" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="9e4b-337b-7b0a-20f2" name="Light and Medium Mortar Team" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="b4ef-18ac-e4b0-39cf" name="Tank, Tank Destroyer, and Walker" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="4bd2-90aa-426c-2737" name="AA Vehicle and Self-Propelled Artillery" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -139,7 +292,10 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e19-b87f-dc69-aaca" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26e6-2729-6704-e648" type="max"/>
+          </constraints>
         </categoryLink>
         <categoryLink id="04dd-7223-cc10-bdbc" name="Infantry" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
           <profiles/>
@@ -201,6 +357,24 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="3012-512b-7348-14df" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b250-8b8b-4b31-b4a7" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbef-7fd5-113c-838a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="22ae-9a01-98a8-3ac7" name="Medic" hidden="false" targetId="64b3-a04b-d6d0-add2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccff-b16f-770c-1cdd" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -1616,7 +1790,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ae11-272a-e56b-feb2" name="Heavy Tesla Rifle (Rapid Fire Mode)" book="Konflikt 47: Resurgence" page="25" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1641,7 +1817,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dad7-959f-dce7-8066" name="Light Compression Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1678,7 +1856,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="545a-d271-eee0-0625" name="Compression Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1715,7 +1895,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ab2f-90e7-fef4-7a35" name="M21 Light Tesla Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1752,7 +1934,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4681-9d5a-6088-614a" name="Light Schwerefeld Projektor" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1789,7 +1973,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="61ee-7e2c-428a-991e" name="Meteor Launcher" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1814,6 +2000,48 @@
           <modifiers/>
         </infoLink>
         <infoLink id="a02a-8ba1-215e-6204" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4410-85d9-3c5d-3ecc" name="Heavy Tesla Rifle (Single Shot Mode)" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e79a-c450-c21f-9ce9" name="Heavy Tesla Rifle (Single Shot Mode)" hidden="false" targetId="7c09-aa71-e598-c330" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf14-d022-f031-dd65" name="Anti-Tank Grenades" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c387-4569-0390-b6a8" name="Tank Hunters" hidden="false" targetId="c707-cf7b-113b-507b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2039,20 +2267,24 @@ In the case of a non-artillery team weapon unit - such as a mortar, bazooka, and
       <modifiers/>
       <description>These powerful weapons suffer a -1 penalty on all rolls to hit. However, they never suffer the -1 penetration modifier for firing at long range.</description>
     </rule>
-    <rule id="33a1-c3d8-4ca6-7869" name="Flamethrower" book="Konflikt 47 Rules" page="64" hidden="false">
+    <rule id="33a1-c3d8-4ca6-7869" name="Flamethrower" book="Konflikt 47: Resurgence" page="28" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A flamethrower hits automatically - no roll is made to hit the target and no modifiers are applied. It also means that a flamethrower team reduced to one man can continue to fire at full effect, although he still suffers the -1 morale penalty as noted under Team. When shooting with a flamethrower the number of hits is determined randomly by rolling a D6 for man-pack flamethrowers, 2D6-1 for light vehicle flamethrowers and 2D6 for vehicle flamethrowers. Roll for damage in the usual manner.
+      <description>Flamethrowers never suffer the &apos;to hit&apos; penalties for cover or if a target is down. When shooting a flamethrower roll a single dice to hit. If you score a hit then the number of hits is multiplied by the dice roll specified in the weapon profile.
 
-The penetration modifiers for shooting at armoured vehicles with heavy weapons do apply as described in the Vehicles section of the rules (page 90). The Gun Shield rule (page 88) does not apply when shooting at artillery targets with a flamethrower. The extra protection rule (page 109) does not apply when shooting at targets inside buildings with a flamethrower.
+Flamethrowers always hit the top armor of vehicles and do not suffer -1 PEN penalty when firing at long range.
 
-A flamethrower always inflicts D3+1 pin markers on an infantry or artillery target. Note that vehicles take just the one pin marker for being hit. The target of a flamethrower must check its morale once firing has been worked out and pin markers allocated regardless of the damage suffered by the target. A unit failing this check is destroyed immediately, including vehicles which are considered abandoned.
+The Gun Shield rule (rulebook, page 88) does not apply when shoting at artillery targets. The Extra Protection rule (rulebook, page 109) does not apply when shooting at targets inside of buildings.
 
-After shooting with an infantry man-pack flamethrower roll a D6. On a result of 1 or 2 the flamethrower has run out of fuel and is now useless. If this happens the entire flamethrower team is removed as if it had fallen casualty. Where an infantry flamethrower is carried on a vehicle, do not remove the vehicle if the flamethrower runs out of fuel.
+Any unit hit by a flamethrower takes D3+1 pin markers to account for the terror of flamethrower attack. After pin markers have been allocated the hit unit must make a morale check regardless of damage caused. Any unit, including vehicles, which fails this check is considered destroyed.
 
-After shooting with a vehicle-mounted flamethrower roll a D6. On a result of 1 the flamethrower has run out of fuel and is now useless. This does not otherwise affect the vehicle. When rolling on the damage effects chart against a vehicle equipped with flamethrowers, add an extra +1 to the roll to represent the increased risk from carrying around so much volatile fule for the flamethrower.</description>
+After shooting with an infantry man-pack flamethrower, roll a D6. On a 1 the weapon has run out of fuel and is now useless. Remove the team as if it has fallen casualty.
+
+After shooting with a vehicle-mounted flamethrower, roll a D6 for each flamethrower on the vehicle. On a result of 1, that flamethrower is out of fuel and now useless. This does not otherwise affect the vehicle.
+
+When rolling on the damage effects chart against vehicles with flamethrowers, add an extra +1 to the roll to represent the increase risk of carrying extra fuel.</description>
     </rule>
     <rule id="80d8-e9db-f2c5-5c48" name="Howitzer" book="Konflikt 47 Rules" page="65" hidden="false">
       <profiles/>
@@ -2201,20 +2433,18 @@ When targeting infantry and artillery the weapon arcs to nearby targets. After a
       <modifiers/>
       <description>A vehicle with the tough special rule rolls a D6 every time an opponent rolls equal or over its Damage value; the damage is ignored on a roll of 5+.</description>
     </rule>
-    <rule id="fa0e-9e9d-0e65-1e3b" name="Recce" book="Konflikt 47 Rules" page="104" hidden="false">
+    <rule id="fa0e-9e9d-0e65-1e3b" name="Recce" book="Konflikt 47: Resurgence" page="34" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Once per turn a recce vehicle, that is not towing, is allowed to react to an enemy shooting or assaulting them by making a special recce reaction. The player can choose to do this whether the vehicle has already taken an action that turn or not. A reaction test must be made as normal when the shooting or assault is declared. If the test is failed the vehicle may attempt another recce move later in the turn.
+      <description>Once per turn a recce vehicle, that is not towing or transporting, is allowed to react to an enemy shooting or assaulting them by making a special recce reaction. The player can choose to do this whether the vehicle has already taken an action that turn or not. A reaction test must be made as normal when the shooting or assault is declared. If the test is failed the vehicle may attempt another recce move later in the turn.
 
-If a target of a recce vehicle is successful in making a firefight or stand and shoot reaction, the recce vehicle may elect to attempt a recce move reaction to that response instead o fcontinuing its previous order. Should the recce reaction fail, it cannot revert to its original Fire or assault order and its order dice is flipped to Down. Note that it can still make further recce reaction attempts later in the turn as normal.
+A recce reaction is a move at Advance or Run rate, which may be forward or reverse, so long as this results in the escaping vehicle ending out of sight of the attacking enemy, or in cover from teh attack, or at least further away from the attacker than when the attack is declared. Once the escape move is done, marke the vehicle as Down. The enemy&apos;s shot is then resolved as normal. If the target has moved out of range or sight then the unit shoots and automatically misses.
 
-The recce move reaction allows the vehicle to make a reverse move at their basic move rate to try and escape the threat. Some recce vehicles are allowed to evade at their run movement rate as described in the vehicle descriptions.
+When an enemy unit declares an assault against a recce vehicle the vehicle may react with a recce reaction. If the recce vehicle does not attept a recce move it may instead attempt a Stand and Shoot or Escape reaction as normal if it is able. After the recce move is done, measure the range from the assaulting unit. If the unit is out of range, the assaulting unit must move it&apos;s run distance toward the recce vehicle in its new location. If the assault succeeds, the assault is resolved as normal with infantry hitting on 6, even if the reverse move was done at Run speed.
 
-Once a vehicle has made its escape move it comes to a halt and its order die is flipped to Down, or a Down order is placed next to it if it has yet to take an action that turn. The enemy&apos;s shot or assault is then conducted as normal based on the recce vehicle&apos;s new location. If the recce vehicle has moved out of range or line of sight then the shot automatically misses or the assault fails.
-
-Recce vehicles will also spot hidden enemy units at longer ranges than other vehicles as noted in the rules for hidden set up on page 120.</description>
+When attacking, if a target of a recce vehicle is successful in making a Firefight or Stand and Shoot reaction, the recce vehicle may not elect to attempt a Recce move reaction to that response; instead it continues with its previous order.</description>
     </rule>
     <rule id="78e9-4993-8002-8c31" name="Amphibious" book="Konflikt 47 Rules" page="105" hidden="false">
       <profiles/>
@@ -2230,7 +2460,7 @@ Recce vehicles will also spot hidden enemy units at longer ranges than other veh
       <modifiers/>
       <description>Open-topped armoured vehicles are pinned by hits from small arms in the same way as soft-skins and infantry. If assaulted by infantry open-topped armoured vehicles are destroyed automatically if the vehicle is damaged, in the same way as for soft-skins.If hit by indirect fire then add +1 to the damage result roll to represetn the effect of a shot falling into an open-topped vehicle.</description>
     </rule>
-    <rule id="4a4f-888e-9547-2696" name="Jump" book="Konflikt 47 Rules" page="106" hidden="false">
+    <rule id="4a4f-888e-9547-2696" name="Jump" book="Konflikt 47: Resurgence" page="34" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2420,7 +2650,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Assault"/>
       </characteristics>
     </profile>
-    <profile id="2ba8-828f-bf14-c107" name="LMG" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+    <profile id="2ba8-828f-bf14-c107" name="LMG" book="Konflikt 47: Resurgence" page="25" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2432,7 +2662,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="-"/>
       </characteristics>
     </profile>
-    <profile id="ab50-4650-872b-78e2" name="MMG" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+    <profile id="ab50-4650-872b-78e2" name="MMG" book="Konflikt 47: Resurgence" page="25" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2648,14 +2878,14 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Flamethrower"/>
       </characteristics>
     </profile>
-    <profile id="b054-22fa-fd96-c983" name="Flamethrower (Vehicle)" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+    <profile id="b054-22fa-fd96-c983" name="Flamethrower (Vehicle)" book="Konflikt 47: Resurgence" page="26" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="12"/>
-        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="2D6"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="D6+1"/>
         <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+3"/>
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Flamethrower"/>
       </characteristics>
@@ -2832,6 +3062,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="6+"/>
         <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
         <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+        <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874"/>
       </characteristics>
     </profile>
     <profile id="58aa-3685-155b-e6a4" name="Scout Walker" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
@@ -2844,6 +3075,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="6+"/>
         <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
         <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+        <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874" value="12&quot;-18&quot; (Walker)"/>
       </characteristics>
     </profile>
     <profile id="efd3-31c5-154c-f4dc" name="Armored Car" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
@@ -2856,6 +3088,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="7+"/>
         <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
         <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+        <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874" value="12&quot;-24&quot; (Wheeled)"/>
       </characteristics>
     </profile>
     <profile id="52b0-f9c6-b4c6-9da1" name="Armored Carrier" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
@@ -2868,6 +3101,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="7+"/>
         <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556" value=""/>
         <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+        <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874"/>
       </characteristics>
     </profile>
     <profile id="5fe1-b45c-ad99-58cc" name="Light Tank" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
@@ -2880,6 +3114,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="8+"/>
         <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
         <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+        <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874" value="9&quot;-18&quot; (Tracked)"/>
       </characteristics>
     </profile>
     <profile id="58fc-34d8-c1ba-1236" name="Light Walker" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
@@ -2892,6 +3127,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="7+"/>
         <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
         <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+        <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874" value="12&quot;-18&quot; (Walker)"/>
       </characteristics>
     </profile>
     <profile id="1dcf-e5c3-f99c-67f1" name="Medium Walker" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
@@ -2904,6 +3140,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="8+"/>
         <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
         <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+        <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874" value="12&quot;-18&quot; (Walker)"/>
       </characteristics>
     </profile>
     <profile id="f945-ed13-872d-e38b" name="Medium Tank" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
@@ -2916,6 +3153,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="9+"/>
         <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
         <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+        <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874" value="9&quot;-18&quot; (Tracked)"/>
       </characteristics>
     </profile>
     <profile id="98d8-436e-81b1-10a7" name="Heavy Walker" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
@@ -2928,6 +3166,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="9+"/>
         <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
         <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+        <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874" value="12&quot;-18&quot; (Walker)"/>
       </characteristics>
     </profile>
     <profile id="923d-ea2a-6016-ed02" name="Heavy Tank" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
@@ -2940,6 +3179,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="10+"/>
         <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
         <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+        <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874" value="9&quot;-18&quot; (Tracked)"/>
       </characteristics>
     </profile>
     <profile id="bfe8-25df-36d1-6a10" name="Super-Heavy Walker" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
@@ -2952,6 +3192,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="10+"/>
         <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
         <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+        <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874" value="12&quot;-18&quot; (Walker)"/>
       </characteristics>
     </profile>
     <profile id="9c52-9f97-c5e1-23d0" name="Super-Heavy Tank" hidden="false" profileTypeId="df59-65fe-854f-0590" profileTypeName="Vehicle">
@@ -2964,6 +3205,7 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
         <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="11+"/>
         <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556"/>
         <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3"/>
+        <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874" value="9&quot;-18&quot; (Tracked)"/>
       </characteristics>
     </profile>
     <profile id="0be9-ea48-dcc3-fcea" name="Compression Rifle" book="Konflikt 47: Resurgence" page="25" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
@@ -3093,6 +3335,45 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
       <modifiers/>
       <characteristics>
         <characteristic name="Crew" characteristicTypeId="644f-2fac-829b-80b1" value="6"/>
+      </characteristics>
+    </profile>
+    <profile id="f899-8972-8556-faeb" name="Inexperienced (Vehicle)" book="Konflikt 47 Rules" page="42" hidden="false" profileTypeId="5a0e-7392-d4e4-5f85" profileTypeName="Vehicle Quality">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Morale" characteristicTypeId="dd97-f3c9-76bc-bd37" value="8"/>
+      </characteristics>
+    </profile>
+    <profile id="fc80-9bff-1ffc-abd5" name="Regular (Vehicle)" hidden="false" profileTypeId="5a0e-7392-d4e4-5f85" profileTypeName="Vehicle Quality">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Morale" characteristicTypeId="dd97-f3c9-76bc-bd37" value="9"/>
+      </characteristics>
+    </profile>
+    <profile id="87de-25e7-d35e-25a7" name="Veteran (Vehicle)" hidden="false" profileTypeId="5a0e-7392-d4e4-5f85" profileTypeName="Vehicle Quality">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Morale" characteristicTypeId="dd97-f3c9-76bc-bd37" value="10"/>
+      </characteristics>
+    </profile>
+    <profile id="7c09-aa71-e598-c330" name="Heavy Tesla Rifle (Single Shot Mode)" book="Konflikt 47: Resurgence" page="26" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="24&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+1"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="-"/>
       </characteristics>
     </profile>
   </sharedProfiles>
