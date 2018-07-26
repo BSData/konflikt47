@@ -454,7 +454,208 @@
       <modifiers/>
       <constraints/>
       <forceEntries/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="63fc-da04-cf12-2781" name="Headquarters" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e4d7-d156-33e6-33b4" name="Infantry Squads" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3b2-7cee-9f23-1ffc" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dd3-d1c2-94ea-f3ee" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="84f5-a80a-36d0-9397" name="Infantry Support Squads" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6f49-c2da-7509-f3a6" name="Tanks and Tank Destroyers" hidden="false" targetId="8847-c5b7-a651-1556" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f7c3-2492-e2e7-a569" name="Assault Guns and Self-Propelled Artillery" hidden="false" targetId="ae27-9d73-1390-d87c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7725-defa-9272-d500" name="Artillery and Anti-tank Guns" hidden="false" targetId="5056-7005-6edc-4816" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9668-ab2d-9ebd-b165" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5605-a3fd-736e-e104" name="Armoured Cars and Anti-Aircraft Vehicles" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6cdb-325f-25ef-ea43" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2758-81c5-78bd-cf06" name="Characters" hidden="false" targetId="be7e-306b-30b5-03b8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5e4c-5056-a412-9f84" name="Tows" hidden="false" targetId="f3c7-5675-463e-b566" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8cf4-82f7-fa0d-9332" name="Transports" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="66a9-1598-43c7-3037" name="Commander" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e07-23a7-5c8a-b2bc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9bd-af8b-2098-c803" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="02f3-2ba3-4236-8ca3" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0834-9d6e-a2f7-0d58" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ac39-5504-0037-a150" name="Medic" hidden="false" targetId="64b3-a04b-d6d0-add2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13cc-45a2-f563-9b95" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="9818-c86b-ec5d-81e9" name="Specialist Medic" hidden="false" targetId="0c9a-eabf-f084-652b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="048c-0688-b133-21c4" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3816-1413-29f0-22ec" name="Forward Air Observer" hidden="false" targetId="1a15-5468-fc36-e232" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f267-5fb6-9a60-b23d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2e01-0c03-ce24-5916" name="Forward Artillery Observer" hidden="false" targetId="1f3d-c608-4cb7-2ec0" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0e4-ed74-359f-4eb0" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="c61e-b308-2caf-7aa9" name="Machine Gun Team" hidden="false" targetId="1688-881c-5284-0be8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcbd-75c2-408f-e36f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ca96-e542-dd6b-7a94" name="Mortar Team" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c585-335c-97f0-b3ee" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8a57-fe74-9408-5606" name="Sniper Team" hidden="false" targetId="6077-3929-61c8-5eb7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fc4-e07e-e403-b1d3" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="33f0-1f51-331c-587e" name="Flamethrower Team" hidden="false" targetId="c5aa-dfef-70b7-726b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b628-c054-7798-5721" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="732d-0683-9c3a-8d57" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82a5-0b5d-2a70-6333" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d2b4-b038-9bec-49af" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eec-e807-0f84-1a25" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="9c07-4f8e-3737-39a3" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05c5-8f7f-83c8-538b" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
     </forceEntry>
     <forceEntry id="98cc-9018-2112-97ec" name="German Heavy Infantry Platoon" book="" hidden="false">
       <profiles/>
@@ -463,7 +664,197 @@
       <modifiers/>
       <constraints/>
       <forceEntries/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="c9cd-9fcc-ac60-7e04" name="Headquarters" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c6fb-07cb-93b8-075f" name="Infantry Squads" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7a8-ff40-2fec-8944" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b6e-d213-da0e-b3fa" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="164e-3fe4-215f-54fc" name="Infantry Support Squads" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4472-69b9-ff9d-32a3" name="Tanks and Tank Destroyers" hidden="false" targetId="8847-c5b7-a651-1556" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="55d6-855d-93ac-4480" name="Assault Guns and Self-Propelled Artillery" hidden="false" targetId="ae27-9d73-1390-d87c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="be32-e26f-4ce7-79ca" name="Artillery and Anti-tank Guns" hidden="false" targetId="5056-7005-6edc-4816" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c7cd-5555-e1e3-2b79" name="Armoured Cars and Anti-Aircraft Vehicles" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5b85-d428-17af-8fa7" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d784-de7a-5f7a-8e6a" name="Tows" hidden="false" targetId="f3c7-5675-463e-b566" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ef53-238b-478c-f1b0" name="Transports" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d540-1099-0e92-3fe4" name="Characters" hidden="false" targetId="be7e-306b-30b5-03b8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="14ba-63ce-bd1a-887a" name="Commander" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d199-44a2-ad81-d8ac" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b77a-8246-8e17-00e4" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="10bb-908b-a10a-485c" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec5c-5d3e-40fa-d6c1" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3f62-a83f-bcf0-234f" name="Medic" hidden="false" targetId="64b3-a04b-d6d0-add2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfb0-c10a-32e5-f866" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2db4-5a2c-b0de-61d5" name="Specialist Medic" hidden="false" targetId="0c9a-eabf-f084-652b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dfe-0755-1af4-adc0" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7663-4b0c-ebd3-fc0b" name="Forward Observer" hidden="false" targetId="c048-dfb7-583d-2e79" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8198-3e0b-2e3b-58e8" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="22ab-9201-1c86-2cd6" name="Machine Gun Team" hidden="false" targetId="1688-881c-5284-0be8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1da6-4c8a-c01b-b957" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="0e19-3b20-116a-2dc8" name="Mortar Team" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5cb-06d6-5a9f-9622" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="6f9a-8007-3312-16f3" name="Flamethrower Team" hidden="false" targetId="c5aa-dfef-70b7-726b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c92-db01-6207-9553" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="1157-3639-8f06-9e9c" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf82-471f-9d9e-c035" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4fd5-e39b-2676-ad75" name="Heavy and Super Heavy AT Guns, Medium and Heavy Artillery" hidden="false" targetId="2b0f-97b2-f74a-0007" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f5-e3d8-4570-d049" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="c364-d980-cfbc-2cf1" name="Scout and Light Walkers" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8603-8953-2f71-4282" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="da1b-cb7f-ca89-890b" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34e6-8ead-c8c6-bb38" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries>
@@ -1748,7 +2139,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="651e-64f5-4f41-baf3" name="Sniper Team" hidden="false" targetId="6077-3929-61c8-5eb7" primary="false">
+        <categoryLink id="873a-8403-9f5b-ed00" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
