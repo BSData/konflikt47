@@ -435,6 +435,29 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
+        <selectionEntryGroup id="6f93-9e6f-9cc4-53ca" name="Experience" hidden="false" collective="false" defaultSelectionEntryId="a269-93f8-e57b-500f">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2894-c94e-df43-910f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62f3-7f77-257c-c86b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="a269-93f8-e57b-500f" name="Veteran" hidden="false" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="9c38-e3f3-1546-9bf8" name="Anti-Tank Grenades" hidden="false" targetId="cf14-d022-f031-dd65" type="selectionEntry">
@@ -622,15 +645,15 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="bc75-dfe1-e080-8345" name="Regular Soldier" hidden="false" collective="false" type="model">
+            <selectionEntry id="bc75-dfe1-e080-8345" name="Regular Soldier" hidden="true" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="hidden" value="true">
+                <modifier type="set" field="hidden" value="false">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="7f44-3150-f645-a847" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a8f2-e32a-764a-5a16" type="greaterThan"/>
+                    <condition field="selections" scope="7f44-3150-f645-a847" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -747,15 +770,15 @@
                 <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a8f2-e32a-764a-5a16" name="Veteran Soldier" hidden="false" collective="false" type="model">
+            <selectionEntry id="a8f2-e32a-764a-5a16" name="Veteran Soldier" hidden="true" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="hidden" value="true">
+                <modifier type="set" field="hidden" value="false">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="7f44-3150-f645-a847" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bc75-dfe1-e080-8345" type="greaterThan"/>
+                    <condition field="selections" scope="7f44-3150-f645-a847" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -869,6 +892,37 @@
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="352b-4dc7-ab65-a86e" name="Experience" hidden="false" collective="false" defaultSelectionEntryId="ac7f-6376-cc71-a981">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3725-61b9-e038-20a6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39ca-6d0b-e9cb-acd5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="ac7f-6376-cc71-a981" name="Regular" hidden="false" targetId="020b-0c80-419b-6391" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2716-f4d2-bac3-dbbc" name="Veteran" hidden="false" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
