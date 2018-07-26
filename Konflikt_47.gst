@@ -42,21 +42,14 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="fb1a-cb93-a427-51cf" name="Headquarters" hidden="false">
+    <categoryEntry id="fb1a-cb93-a427-51cf" name="Commander" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="360a-867e-e501-63b2" name="Infantry Squad" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="0c7f-603d-05ec-f61c" name="Infantry Support" hidden="false">
+    <categoryEntry id="360a-867e-e501-63b2" name="Infantry Squads" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -196,41 +189,6 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="3e9a-cc33-d23c-8cfa" name="Light Artillery" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="b832-4bea-9ccd-c783" name="Light AT Gun" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="c4b7-8392-f634-0f37" name="Medium AT Gun" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="1715-0474-f0de-7175" name="Medium Artillery" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="54f0-ca0f-37e6-33fc" name="Super Heavy AT Gun" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
     <categoryEntry id="9e4b-337b-7b0a-20f2" name="Light and Medium Mortar Team" hidden="false">
       <profiles/>
       <rules/>
@@ -266,25 +224,103 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="0c9a-eabf-f084-652b" name="Specialist Medic" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="1842-7654-2d60-c182" name="Light Artillery, Light and Medium AT Guns" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="d949-1609-9ca2-a4c8" name="Armoured Cars" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="81cb-605d-a02f-88ca" name="Scout and Light Walkers" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="2b0f-97b2-f74a-0007" name="Heavy and Super Heavy AT Guns, Medium and Heavy Artillery" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="c000-16a2-fa3b-c139" name="Fortifications" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="2161-15bd-f8a3-750b" name="Walkers" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="8847-c5b7-a651-1556" name="Tanks and Tank Destroyers" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="b7cf-ebf3-4ee6-2706" name="Infantry Support Squads" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="1ca2-f9d6-c173-2664" name="Headquarters" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="ae27-9d73-1390-d87c" name="Assault Guns and Self-Propelled Artillery" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="5c3c-21b9-e716-a67e" name="Armoured Cars and Anti-Aircraft Vehicles" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="be7e-306b-30b5-03b8" name="Characters" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="4fcf-76d8-8f5b-ffa8" name="Reinforced Armoured Platoon" book="Konflikt 47: Resurgence" page="35" hidden="false">
       <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="c7d2-c9e3-5faf-559b" name="Command Vehicle" hidden="false" targetId="5209-ad07-7198-6f88" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d614-ac4f-b3d1-36cb" name="Radio Networks" hidden="false" targetId="0727-1eba-1222-74fd" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <forceEntries/>
@@ -416,6 +452,55 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="62fb-a448-aa1a-e6dc" name="Transports" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="49e1-9ede-bbb6-b1b4" name="Headquarters" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2edc-3d3e-0531-e812" name="Infantry Support Squads" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="735f-2945-22fd-8743" name="Tanks and Tank Destroyers" hidden="false" targetId="8847-c5b7-a651-1556" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="68ea-27be-7844-95fd" name="Assault Guns and Self-Propelled Artillery" hidden="false" targetId="ae27-9d73-1390-d87c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d7bb-3f7c-b186-5b27" name="Armoured Cars and Anti-Aircraft Vehicles" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="00d9-da59-b208-e190" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1e1d-fb17-6a0f-4f99" name="Characters" hidden="false" targetId="be7e-306b-30b5-03b8" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -564,6 +649,74 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </categoryLink>
+        <categoryLink id="840c-a27d-47be-2b13" name="Headquarters" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8984-363b-227a-0e56" name="Infantry Support Squads" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="67ff-6d0f-796c-692d" name="Tanks and Tank Destroyers" hidden="false" targetId="8847-c5b7-a651-1556" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="47d5-d20d-73bf-159d" name="Assault Guns and Self-Propelled Artillery" hidden="false" targetId="ae27-9d73-1390-d87c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b06c-7052-df09-7533" name="Armoured Cars and Anti-Aircraft Vehicles" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="138a-75b0-bedf-a488" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="de84-4edf-2da8-d572" name="Characters" hidden="false" targetId="be7e-306b-30b5-03b8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="01ac-2012-0c86-e5e2" name="Fortified Emplacement" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="cb55-8a62-db5e-01bb" name="Fortification" hidden="false" targetId="c000-16a2-fa3b-c139" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dfe-1d5c-0670-a764" type="min"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -1279,7 +1432,7 @@
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a942-d250-c139-8e8a" name="Super-heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a942-d250-c139-8e8a" name="Super-Heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2109,7 +2262,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="24b7-7446-6056-7e69" name="Heavy Tesla Rifle" book="Konflikt 47: Resurgence" page="25" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2140,7 +2295,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e6f1-e969-2e44-1ff3" name="Dual Weapon Pack" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2171,7 +2328,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="937b-3637-ac69-f44f" name="Grenade Launcher" book="Konflikt 47: Defiance" page="15" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2208,6 +2367,271 @@
           <modifiers/>
         </infoLink>
         <infoLink id="0422-c683-6f89-1eca" name="Grenade Launchder (HE)" hidden="false" targetId="eb5a-39fe-3d26-7afb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e2f-756e-856c-84e4" name="Radio Networks" book="Konflikt 47: Resurgence" page="37" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="88e5-1ba7-9d90-1259" name="Radio Networks" hidden="false" targetId="0727-1eba-1222-74fd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="4fcf-76d8-8f5b-ffa8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="notInstanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2f7-1aba-45d4-8a6e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1490-84ec-67d8-0dae" name="Command Vehicle" book="Konflikt 47: Resurgence" page="37" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0af5-34a6-c5ba-2396" name="Command Vehicle" hidden="false" targetId="5209-ad07-7198-6f88" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="4fcf-76d8-8f5b-ffa8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="notInstanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bced-3bf4-5d86-38ac" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="77e4-f9fd-9558-15e5" name="Senior Command Vehicle" hidden="false" targetId="ba3f-311f-cdef-2044" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba3f-311f-cdef-2044" name="Senior Command Vehicle" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d04d-fa12-3d03-e8f1" name="Senior Command Vehicle" hidden="false" targetId="4272-afb2-0059-83de" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3c3-b3f2-b5f1-6909" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42f5-8409-2b95-6aa9" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="359d-ffaf-84b8-7008" name="Turret Mounted Super-Heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="01c0-4f1e-5e24-dad2" name="Turret Mounted Super-heavy AT Gun" hidden="false" targetId="4836-b695-e9a2-828d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9e10-3f26-1c40-77cc" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b3a3-be1c-2be4-2c46" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7f04-8500-7a18-5323" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cfd8-d421-3cd2-ab75" name="Coaxial MMG" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9ce7-da44-1710-91a6" name="Coaxial MMG" hidden="false" targetId="f08d-ea25-9525-68a6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eae6-3622-278d-961e" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="397b-a8ec-dfc7-5f70" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f61-03a6-aa4d-d303" name="Turret Mounted Schwerefeld Projektor" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d999-3a83-e0a1-e70d" name="Turret Mounted Schwerefeld Projektor" hidden="false" targetId="406d-5c3b-1e7f-6b5c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c0c0-57bf-db66-7740" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d47e-b16c-3585-9ee3" name="Gravity Pulse" hidden="false" targetId="5b0b-40c4-bd14-81be" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="90f8-9f7a-e611-eb7d" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0eb8-ef2c-f337-579d" name="Inexperienced (Vehicle)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="890a-7ffb-a284-b0f4" name="Inexperienced (Vehicle)" hidden="false" targetId="f899-8972-8556-faeb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="db47-30f7-6497-9700" name="Regular (Vehicle)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="91a3-7eb6-8416-1331" name="Regular (Vehicle)" hidden="false" targetId="fc80-9bff-1ffc-abd5" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="bf9f-ad2a-55c5-505e" name="Veteran (Vehicle)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f3d9-f0a6-4a42-c80e" name="Veteran (Vehicle)" hidden="false" targetId="87de-25e7-d35e-25a7" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2789,6 +3213,20 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
       <infoLinks/>
       <modifiers/>
       <description>If the three compulsory vehicles in the blatoon are from the same unit entry in the force listst, then the player can declare they have a Radio Network. The Radio Network adds +1 to the command vehicle&apos;s morale bonus when adding its bonus to any armoured vehicle that forms part of the same platoon. The Radio Network costs an additional +5 points, added to the command vehicle&apos;s points cost. Note that the three compulsory vehicles can have different options or upgrades if relevant, but must be from the same unit entry.</description>
+    </rule>
+    <rule id="4272-afb2-0059-83de" name="Senior Command Vehicle" book="Konflikt 47: Resurgence" page="37" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A Senior Command Vehicle can add +3 to the morale values of vehicles in the whole force which are within 12&quot;. A senior Command Vehicle may not use the Snap to Action rule.</description>
+    </rule>
+    <rule id="8ba6-531c-b977-f1c4" name="Turret Emplacement" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The turret emplacement counts as a vehicle. It is always counted as in Hard Cover to attackers and counts immobilized Damage results as crew stunned instead. It cannot move for the entire game and is therefore always set-up onto the table (up to 12&quot; from the player&apos;s table edge) even in scenarios that do not allow initial set-up of units.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -3624,6 +4062,42 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
         <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
         <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="HE"/>
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Indirect Fire, HE (D2)"/>
+      </characteristics>
+    </profile>
+    <profile id="f08d-ea25-9525-68a6" name="Coaxial MMG" book="Konflikt 47: Resurgence" page="25" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="5"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
+      </characteristics>
+    </profile>
+    <profile id="4836-b695-e9a2-828d" name="Turret Mounted Super-heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="84&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+7"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D3)"/>
+      </characteristics>
+    </profile>
+    <profile id="406d-5c3b-1e7f-6b5c" name="Turret Mounted Schwerefeld Projektor" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="48"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="2"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+2"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, Gravity Pulse"/>
       </characteristics>
     </profile>
   </sharedProfiles>
