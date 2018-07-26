@@ -168,6 +168,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82ee-7145-cfe8-43b2" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="4a90-49c8-b7ce-37b8" name="Infantry Squad" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78d4-f49f-06e0-c273" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bd3-4906-f2e0-f4f1" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="40a1-c81b-e132-a8b8" name="United States Marine Corps Platoon" book="Konflikt 47: Defiance" page="23" hidden="false">
