@@ -21,7 +21,44 @@
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
-  <forceEntries/>
+  <forceEntries>
+    <forceEntry id="239b-a621-9beb-fd50" name="Soviet Infantry Platoon" book="Konflikt 47: Defiance" page="31" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks/>
+    </forceEntry>
+    <forceEntry id="a947-9542-b95c-0d6a" name="Sovient Airborne Platoon" book="Konflikt 47: Defiance" page="31" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks/>
+    </forceEntry>
+    <forceEntry id="357c-dc46-52a0-84c5" name="Soviet Guards Platoon" book="Konflikt 47: Defiance" page="31" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks/>
+    </forceEntry>
+    <forceEntry id="9d47-0db7-7253-3038" name="Soviet Heavy Assault Platoon" book="Konflikt 47: Defiance" page="31" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks/>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries>
     <selectionEntry id="ab62-247f-6542-2769" name="Officer" book="Konflikt 47 Rules" page="182" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -39,7 +76,14 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7220-bae5-cf44-1c63" type="min"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="7d9e-d11c-7347-46d1" name="New CategoryLink" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="true">
+        <categoryLink id="ae40-4340-c823-d086" name="Commander" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f79f-aa7c-799b-87e4" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1402,7 +1446,21 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="3652-e6cb-74b4-4754" name="New CategoryLink" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="true">
+        <categoryLink id="3652-e6cb-74b4-4754" name="New CategoryLink" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="734a-5df2-e93c-ece6" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4732-67e4-371c-989e" name="Scout and Light Walkers" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1531,7 +1589,14 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="9667-fb28-b795-a5ce" name="New CategoryLink" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="true">
+        <categoryLink id="4674-ebb5-7a54-2b20" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="91a0-f386-d058-5337" name="Medic" hidden="false" targetId="64b3-a04b-d6d0-add2" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1661,14 +1726,28 @@
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b475-9d08-075a-9f87" name="Forward Observer" book="Konflikt 47 Rules" page="182" hidden="false" collective="false" type="unit">
+    <selectionEntry id="b475-9d08-075a-9f87" name="Forward Air Observer" book="Konflikt 47 Rules" page="182" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="60ae-7536-dff9-863c" name="New CategoryLink" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="true">
+        <categoryLink id="1c85-93b1-afaf-cc49" name="Forward Air Observer" hidden="false" targetId="1a15-5468-fc36-e232" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="26cd-baad-f38c-2689" name="Forward Observer" hidden="false" targetId="c048-dfb7-583d-2e79" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="49f9-dbf8-2342-19d2" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1715,7 +1794,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4c0b-5a24-651b-4186" name="Command" hidden="false" collective="false" defaultSelectionEntryId="e9e9-a8ed-810b-eea1">
+        <selectionEntryGroup id="4c0b-5a24-651b-4186" name="Command" hidden="false" collective="false" defaultSelectionEntryId="2274-6fda-fb38-cea2">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1726,20 +1805,6 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="e9e9-a8ed-810b-eea1" name="Artillery" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="2274-6fda-fb38-cea2" name="Air Force" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
@@ -1955,7 +2020,14 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="63f8-95a0-a827-b021" name="New CategoryLink" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="true">
+        <categoryLink id="59e5-8608-40aa-fa0b" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cea9-dae0-7af4-e106" name="Political Officer" hidden="false" targetId="0f78-57ab-9c84-2888" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3500,7 +3572,35 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="cd34-09b5-c97d-570b" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="cd34-09b5-c97d-570b" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0526-e932-eca9-8226" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="64f9-bdd2-b4ff-dc47" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e0b5-1284-bc88-f003" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1e3c-4a1f-0d55-3643" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3622,7 +3722,14 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="61e4-2cab-3637-60b3" name="New CategoryLink" hidden="false" targetId="0c7f-603d-05ec-f61c" primary="true">
+        <categoryLink id="11cd-0459-8bff-62e0" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d7ff-3ec8-a98f-bbc3" name="Machine Gun Team" hidden="false" targetId="1688-881c-5284-0be8" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3761,7 +3868,14 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="8fda-f15d-9430-3060" name="New CategoryLink" hidden="false" targetId="0c7f-603d-05ec-f61c" primary="true">
+        <categoryLink id="dba2-6093-ddce-ce8d" name="Machine Gun Team" hidden="false" targetId="1688-881c-5284-0be8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="65f4-ab66-6983-d1fb" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3900,7 +4014,14 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="8604-d202-542c-4d91" name="New CategoryLink" hidden="false" targetId="0c7f-603d-05ec-f61c" primary="true">
+        <categoryLink id="8f5e-47f0-8ca3-3108" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1230-a7b8-82ed-93ed" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3996,7 +4117,14 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="422e-851f-e066-60de" name="New CategoryLink" hidden="false" targetId="0c7f-603d-05ec-f61c" primary="true">
+        <categoryLink id="2de6-c21a-cce6-f6a5" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="080a-f80d-b08e-4743" name="Sniper Team" hidden="false" targetId="6077-3929-61c8-5eb7" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4075,7 +4203,14 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="fd9b-c511-db8a-20b3" name="New CategoryLink" hidden="false" targetId="0c7f-603d-05ec-f61c" primary="true">
+        <categoryLink id="8d81-83c3-843c-1386" name="Flamethrower Team" hidden="false" targetId="c5aa-dfef-70b7-726b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="eaf1-98dd-a584-2d7f" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4151,7 +4286,21 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="e3de-d7df-ff47-fb74" name="New CategoryLink" hidden="false" targetId="0c7f-603d-05ec-f61c" primary="true">
+        <categoryLink id="4348-b7cd-b65f-7935" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bb81-dda1-9d51-281f" name="Light and Medium Mortar Team" hidden="false" targetId="9e4b-337b-7b0a-20f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8b02-6c28-4c14-0f62" name="Mortar Team" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4241,7 +4390,21 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="f0e1-dc9e-d21d-5d8b" name="New CategoryLink" hidden="false" targetId="0c7f-603d-05ec-f61c" primary="true">
+        <categoryLink id="ef7b-464f-f2e0-9657" name="Light and Medium Mortar Team" hidden="false" targetId="9e4b-337b-7b0a-20f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7a70-db95-6071-6a28" name="Mortar Team" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="740e-3d8f-2ae6-fe08" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4331,7 +4494,21 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="4dc6-6589-bfaf-5c4e" name="New CategoryLink" hidden="false" targetId="0c7f-603d-05ec-f61c" primary="true">
+        <categoryLink id="24d3-a778-210a-a64c" name="Heavy Mortar Team" hidden="false" targetId="4195-7b78-7f05-2c68" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2ae9-380f-e75d-b538" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8bea-8152-a957-547c" name="Mortar Team" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4442,6 +4619,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="3fa6-3a3f-7162-4159" name="Light Artillery, Light and Medium AT Guns" hidden="false" targetId="1842-7654-2d60-c182" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -4540,6 +4724,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="c743-bf2e-b00e-119e" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9152-838e-c6c2-7d7c" name="Heavy and Super Heavy AT Guns, Medium and Heavy Artillery" hidden="false" targetId="2b0f-97b2-f74a-0007" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4651,6 +4842,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="c4f3-689b-467d-c48a" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c176-de6d-871f-3c91" name="Heavy and Super Heavy AT Guns, Medium and Heavy Artillery" hidden="false" targetId="2b0f-97b2-f74a-0007" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4771,6 +4969,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5086-0143-4f38-0a60" name="Light Artillery, Light and Medium AT Guns" hidden="false" targetId="1842-7654-2d60-c182" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -4861,6 +5066,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="9271-db6c-f1d6-8d16" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="09a0-4eeb-17a3-7998" name="Light Artillery, Light and Medium AT Guns" hidden="false" targetId="1842-7654-2d60-c182" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4963,6 +5175,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="718b-0570-de98-f12c" name="Heavy and Super Heavy AT Guns, Medium and Heavy Artillery" hidden="false" targetId="2b0f-97b2-f74a-0007" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -5046,7 +5265,35 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="c3f8-6d08-53e3-29b6" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="c3f8-6d08-53e3-29b6" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8b3d-756a-f82c-cf3d" name="Tanks and Tank Destroyers" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="078d-06e2-b6ac-9f80" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6a2f-f8f0-117c-e1eb" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4607-ef66-67dc-a01c" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5191,7 +5438,35 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="f49b-2e03-dcec-ee83" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="f49b-2e03-dcec-ee83" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cdb8-cc48-3b41-68af" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6ac8-6b3a-7b41-16a0" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="841c-6c7b-b552-4c67" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a1d3-236c-f348-697e" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5316,7 +5591,35 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="64de-175d-00a3-2fb0" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="64de-175d-00a3-2fb0" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1f8e-24ba-4316-a162" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c275-c49f-1dbe-e689" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7fc7-2beb-c06d-5d7b" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4a22-fb03-fbee-7f44" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5490,7 +5793,35 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="e9dd-ec49-ccd4-ed61" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="e9dd-ec49-ccd4-ed61" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7e22-b0f4-7738-283f" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3051-0b9d-e5a9-37bb" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="061e-10b0-37b4-f3ed" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ef27-9b8c-d316-6260" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5651,7 +5982,35 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="dffd-7f16-5520-4ba1" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="90e4-5374-668e-88d2" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2cf8-74eb-4f76-80b7" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="221a-ef6c-7f53-4d52" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3381-4b0c-5d7b-ee3b" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d2fd-2d07-92f6-ddeb" name="Tanks and Tank Destroyers" hidden="false" targetId="8847-c5b7-a651-1556" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5755,7 +6114,28 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="3f8b-648f-dc70-0f6d" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="3f8b-648f-dc70-0f6d" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c050-320b-1f40-a24f" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9b83-19f9-df1c-44e0" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="187d-c6d5-bb40-04b0" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5900,7 +6280,35 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="3036-e531-45fb-e0e9" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="3036-e531-45fb-e0e9" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5447-8d49-e923-66b8" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3870-6164-89f0-b669" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4d3d-033f-31e3-cba1" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="464b-1f18-38cd-cc0e" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6165,7 +6573,28 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="e1cb-c0a3-6c7c-28b9" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="e1cb-c0a3-6c7c-28b9" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="eb31-424a-b233-f9cc" name="New CategoryLink" hidden="false" targetId="ae27-9d73-1390-d87c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="533b-1931-f959-65cd" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2da5-8cdf-64d4-dec8" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6281,7 +6710,28 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="3532-6d0a-a384-5b78" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="3532-6d0a-a384-5b78" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ee05-ce9e-c22b-f428" name="New CategoryLink" hidden="false" targetId="ae27-9d73-1390-d87c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9585-cbdf-327d-574f" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="27d9-a576-0b30-983b" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6371,7 +6821,28 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="6d59-1c5c-435e-89a7" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="6d59-1c5c-435e-89a7" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5f98-2a88-7720-6815" name="New CategoryLink" hidden="false" targetId="ae27-9d73-1390-d87c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bdef-8a95-2675-13fe" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5e7a-88b3-f0db-f7c8" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6492,7 +6963,21 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="4292-eaca-f2af-1cd2" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="4292-eaca-f2af-1cd2" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="66c0-56cd-5ca7-360f" name="New CategoryLink" hidden="false" targetId="ae27-9d73-1390-d87c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="653c-c4bf-9def-98c3" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6619,7 +7104,35 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="eaa6-8788-630c-9033" name="New CategoryLink" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="true">
+        <categoryLink id="eaa6-8788-630c-9033" name="New CategoryLink" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="06f3-664b-0574-7fa7" name="Armoured Cars" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d84d-e4a1-7b42-101c" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5210-8bd7-cbd2-5a67" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0c48-1d45-446d-4197" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6720,6 +7233,7 @@
             <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="6+"/>
             <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556" value="Up to 12 men"/>
             <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3" value="Light howitzer; light or medium anti-tank gun"/>
+            <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6839,6 +7353,7 @@
             <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="6+"/>
             <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556" value="Up to 12 men"/>
             <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3" value="Light howitzer; light or medium anti-tank gun"/>
+            <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6966,6 +7481,7 @@
             <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="6+"/>
             <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556" value="Up to 3 men"/>
             <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3" value="Light anti-tank gun"/>
+            <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7118,6 +7634,7 @@
             <characteristic name="Damage Value" characteristicTypeId="4f61-e8d9-24f4-779e" value="6+"/>
             <characteristic name="Transport" characteristicTypeId="d07d-e4b6-5527-c556" value="Up to 3 men"/>
             <characteristic name="Tow" characteristicTypeId="8922-2543-58b3-efb3" value="Any AT gun, any howitzer"/>
+            <characteristic name="Movement" characteristicTypeId="ab9c-2ff9-5b22-5874"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7146,7 +7663,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="6913-171f-bb3d-1610" name="New CategoryLink" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="false">
+        <categoryLink id="189c-04fe-29e4-2e0e" name="Transports" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7283,7 +7800,21 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="c6bb-1c6b-ddb7-7a35" name="New CategoryLink" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="true">
+        <categoryLink id="ff41-c7a8-9ab2-ddab" name="Political Officer" hidden="false" targetId="0f78-57ab-9c84-2888" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="877d-30c5-e673-dffe" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="de4e-282a-48f2-d8e1" name="New CategoryLink" hidden="false" targetId="be7e-306b-30b5-03b8" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7427,7 +7958,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="049d-e23c-8078-df76" name="New CategoryLink" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="true">
+        <categoryLink id="2f83-9427-0eef-e4ff" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7544,7 +8075,35 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="85ef-16fd-b778-b900" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="85ef-16fd-b778-b900" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f9f4-efd3-aaa1-f866" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="82fb-a0b9-82e1-2f7f" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b222-9a45-d474-73fc" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="abc5-940a-04d9-d1c8" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7709,7 +8268,35 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="4c9c-08a5-0afd-ce22" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="true">
+        <categoryLink id="4c9c-08a5-0afd-ce22" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="49c3-de9c-cd10-3c4b" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="be2c-c461-2f6f-1015" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7757-64df-ba89-f9c7" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7edd-8e9b-8308-3793" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8015,6 +8602,313 @@
       <costs>
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="10.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="492d-2234-5e98-12ad" name="Forward Artillery Observer" book="Konflikt 47 Rules" page="182" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f174-5823-2bac-657f" name="Forward Artillery Observer" hidden="false" targetId="1f3d-c608-4cb7-2ec0" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="96b1-9cd5-1607-1d09" name="Forward Observer" hidden="false" targetId="c048-dfb7-583d-2e79" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2ba3-62e3-502e-0491" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="889d-8f77-5d0b-6f91" name="Experience" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b31-c493-adf1-df5b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8f8-9bd2-3d75-d562" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="7937-0ff6-cf6f-ac66" name="Regular" hidden="false" targetId="020b-0c80-419b-6391" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c8ca-b527-5a2b-1a22" name="Veteran" hidden="false" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="15">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d55b-016c-890a-05eb" name="Command" hidden="false" collective="false" defaultSelectionEntryId="7477-5255-36dd-fd73">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e8-046a-3691-48ea" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c70-169d-3cd4-4ab2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="7477-5255-36dd-fd73" name="Artillery" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="12a7-5b5c-a467-ba85" name="Additional Men" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="080b-e310-3f9a-611d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="8f11-8017-1c2f-cc0e" name="Regular Soldier" hidden="true" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7937-0ff6-cf6f-ac66" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="da02-90ca-8bb4-b403" name="Weapon" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91d0-6c97-c9a0-d4e2" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="947d-8433-d81f-9768" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="dabd-666d-5bb0-5f7c" name="Pistol" hidden="false" targetId="d7b1-e557-88f6-1ac4" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="c6e8-0e8e-920a-2e8e" name="Rifle" hidden="false" targetId="69b8-002c-ef16-c6e4" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="8172-6e50-76de-a847" name="SMG" hidden="false" targetId="da2f-423c-1523-5126" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6652-6e1d-f539-9e89" name="Veteran Soldier" hidden="true" collective="false" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c8ca-b527-5a2b-1a22" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="d5ed-47a4-82ac-5f29" name="Weapon" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0db-e27e-1255-8dd2" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b00-c557-15a1-4d76" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="95d9-e198-6741-82fd" name="Pistol" hidden="false" targetId="d7b1-e557-88f6-1ac4" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="95e6-70d2-eee9-a478" name="Rifle" hidden="false" targetId="69b8-002c-ef16-c6e4" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                    <entryLink id="1228-d36d-79cc-a167" name="SMG" hidden="false" targetId="da2f-423c-1523-5126" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b8a5-bcf6-6122-3831" name="Weapon" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e78-6c70-dd57-760f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f1e-7c60-4dea-110b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="4389-5736-cc38-e204" name="Pistol" hidden="false" targetId="d7b1-e557-88f6-1ac4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="70f0-3f6c-5639-8e8a" name="Rifle" hidden="false" targetId="69b8-002c-ef16-c6e4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="a6a4-5f98-05f2-b30f" name="SMG" hidden="false" targetId="da2f-423c-1523-5126" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8984-6ed2-9b08-e4ef" name="Senior Officer" book="Konflikt 47 Rules" page="182" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a0c8-bf02-f2e0-ba83" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="24bc-bdc5-2933-b374" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>

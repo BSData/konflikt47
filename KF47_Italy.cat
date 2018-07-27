@@ -1,16 +1,99 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="d493-1108-bf82-3e47" name="Italy" revision="1" battleScribeVersion="2.01" gameSystemId="9a47-ac76-5252-54d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
-  <rules/>
+  <rules>
+    <rule id="2eac-2315-9fbf-0ac8" name="Avanti!" book="Konflikt 47: Defiance" page="76" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="7881-61b3-37b7-43b9" name="Breda VS MG42 &amp; Bren" book="Konflikt 47: Defiance" page="76" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+  </rules>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
-  <forceEntries/>
+  <forceEntries>
+    <forceEntry id="f142-eaf0-79b4-7e4d" name="ENR Platoon" book="Konflikt 47: Defiance" page="34" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c702-d5b5-ef05-ccdf" name="Defensive Strategy (ENR)" hidden="false" targetId="4e06-d020-72ff-9129" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0976-1744-5465-287c" name="Wehrmacht Mentorship (ENR)" hidden="false" targetId="44fc-621f-690c-f45c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks/>
+    </forceEntry>
+    <forceEntry id="2875-4924-d74a-7cad" name="ECI Platoon" book="Konflikt 47: Defiance" page="34" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a3b1-f4aa-e334-63e6" name="Allied Mentorship (ECI)" hidden="false" targetId="01e8-fb63-1418-1424" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ddad-f74c-864f-860d" name="Eight Million Bayonets (ECI)" hidden="false" targetId="487c-6322-a5be-d64d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks/>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries/>
   <entryLinks/>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
-  <sharedRules/>
+  <sharedRules>
+    <rule id="4e06-d020-72ff-9129" name="Defensive Strategy (ENR)" book="Konflikt 47: Defiance" page="76" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="44fc-621f-690c-f45c" name="Wehrmacht Mentorship (ENR)" book="Konflikt 47: Defiance" page="77" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="01e8-fb63-1418-1424" name="Allied Mentorship (ECI)" book="Konflikt 47: Defiance" page="77" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="487c-6322-a5be-d64d" name="Eight Million Bayonets (ECI)" book="Konflikt 47: Defiance" page="77" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+  </sharedRules>
   <sharedProfiles/>
 </catalogue>
