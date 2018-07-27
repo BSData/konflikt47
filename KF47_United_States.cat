@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="2367-9a00-5a8f-f0d2" name="United States" revision="1" battleScribeVersion="2.01" gameSystemId="9a47-ac76-5252-54d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
-  <rules/>
+  <rules>
+    <rule id="cd04-0743-2f38-c444" name="Plentiful Supply" book="Konflikt 47 Rules" page="146" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Any US team weapon may re-roll &apos;to hit&apos; rolls of 1.</description>
+    </rule>
+    <rule id="03d3-9a7c-4f51-07fe" name="Fire and Manoeuvre" book="Konflikt 47 Rules" page="146" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>US infantry equipped with with rifles and BAR do not suffer the -1 to hit penalty for shooting and moving.</description>
+    </rule>
+    <rule id="edc9-41f6-7260-97ef" name="Modern Communications" book="Konflikt 47 Rules" page="146" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When US units take an order test to move from reserve onto the table, do not apply the usual -1 penalty, but use their basic morale value instead.</description>
+    </rule>
+    <rule id="fcab-ee24-e29e-5026" name="Gyro-Stabilisers" book="Konflikt 47 Rules" page="146" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When a vehicle is described as gyro-stabilised in a vehicle&apos;s entry, it does not suffer the -1 &apos;to hit&apos; penalty for shooting and moving if its crew are veteran. This does not apply to non-veteran crews or co-axial machine guns.</description>
+    </rule>
+  </rules>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
@@ -959,6 +988,2361 @@
       <costs>
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="5ff6-48f0-9a37-2b2d" name="Paragon Support Unit" book="Konflikt 47: Defiance" page="50" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="01c9-02ee-58cf-9664" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="5bdd-a73e-ff48-4d7d" name="Tesla AT Gun" book="Konflikt 47: Defiance" page="51" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3f74-0a92-8d04-4669" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5604-8f10-fe6b-2824" name="New CategoryLink" hidden="false" targetId="1842-7654-2d60-c182" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="9ef6-b612-a8eb-1c7a" name="M4 Sherman T34 Calliope" book="Konflikt 47: Defiance" page="51" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="51a9-0afe-8ef7-bf79" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0af1-bd40-bcf9-8d43" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ecb4-362a-a1ad-6b4a" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9e36-0ace-c195-8e66" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="abe0-35a3-7885-f903" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2263-56e2-744f-9ce0" name="M4A3E2 Sherman Jumbo Heavy Assault Tank" book="Konflikt 47: Defiance" page="51" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f33f-5857-91c6-280e" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8402-b13a-10de-1611" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0e78-537a-1701-8188" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="42ac-2586-feab-ba00" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0449-a496-72ce-f165" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="222.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7fc1-aba5-21ed-a6ab" name="M4A2 Sherman Crocodile Flamethrower Tank" book="Konflikt 47: Defiance" page="52" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1126-5d9f-6a71-5497" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="32cd-44dd-9d91-7d88" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8d01-02c0-dace-64e1" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="36a8-7e56-7979-ad91" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b08b-accc-023f-085e" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56e5-9066-ced0-0d6a" name="LVT-3/LVT-4/LVT(A)-5 Amphibious Vehicle" book="Konflikt 47: Defiance" page="52" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="268c-566f-1343-0fe1" name="New CategoryLink" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="411e-f96c-d26f-0a89" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="112.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9617-159c-a610-dcc7" name="Tesla Turret Emplacement" book="Konflikt 47: Defiance" page="53" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4235-c255-53a0-b36e" name="New CategoryLink" hidden="false" targetId="c000-16a2-fa3b-c139" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="165.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ab1-05d3-8183-3bd2" name="Armoured Officer" book="Konflikt 47: Resurgence" page="43" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="039d-9203-0bb9-cc50" name="New CategoryLink" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6fbf-d335-1dfb-0024" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="112a-542e-6955-eecd" name="Armoured Senior Officer" book="Konflikt 47: Resurgence" page="43" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2cc9-2983-370b-8e84" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cc20-7f83-582c-6e80" name="New CategoryLink" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="d069-c57a-bb28-966b" name="Paragon Officer &apos;Slammer&apos; Samuels" book="Konflikt 47: Resurgence" page="43" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9464-f60c-e4c4-5d98" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fff2-8a3c-6aab-ab95" name="New CategoryLink" hidden="false" targetId="be7e-306b-30b5-03b8" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5d0f-1229-8195-95c1" name="New CategoryLink" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="5228-c79e-81d1-500d" name="Paragon Squad" book="Konflikt 47: Defiance" page="44" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="95c9-b1a7-213e-1afe" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b38e-d198-db9b-43ee" name="New CategoryLink" hidden="false" targetId="be7e-306b-30b5-03b8" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="4ead-f7be-4ff1-8757" name="Armoured Tesla AT Gun" book="Konflikt 47: Resurgence" page="44" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f333-2437-15a8-9d5b" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c096-0e02-f43c-6f5f" name="New CategoryLink" hidden="false" targetId="1842-7654-2d60-c182" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="0ef6-92b7-5f73-4056" name="M3A2 Pondskater Scout Walker" book="Konflikt 47: Resurgence" page="45" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f015-6389-65c2-d904" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e6a5-6bc1-c99a-cb87" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f57a-c8da-16a4-ef33" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d582-0fdc-1c02-f417" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="90ac-4e6c-228d-1633" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5200-3296-7406-982d" name="New CategoryLink" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="13af-fabc-b4bc-65c9" name="New CategoryLink" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1bcb-e1fc-2e12-84b6" name="M2 Mudskipper Jump Walker" book="Konflikt 47: Resurgence" page="45" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5b24-4442-5c77-5787" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b072-7b56-e846-087c" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="801a-bada-15b8-28d9" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b735-e748-be08-f3c4" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2afa-7361-020d-09b1" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="240.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4e1-d2cc-36a7-90ec" name="M8 Grissly ARV" book="Konflikt 47: Resurgence" page="46" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f36e-978f-8bf3-b1e6" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e0b6-1da4-c36c-77c0" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="057f-f360-f52a-60a0" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c3b9-623b-13c2-da89" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5856-7893-1ec7-9a76" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="63f1-4e11-f853-1108" name="M8A3 Tesla Scout" book="Konflikt 47: Resurgence" page="46" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1f5d-7803-b003-3403" name="New CategoryLink" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dd7e-7d29-0839-b2d5" name="New CategoryLink" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c29d-bfec-9f0c-5824" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f37e-ae16-bdb0-87e8" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97a8-e565-8557-4222" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="1324-6f9c-49d9-f338" name="M32 ARV" book="Konflikt 47: Resurgence" page="46" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c861-be8d-1739-557b" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="7b8e-dc0d-f186-40b5" name="Tank Recovery Tractor" book="Konflikt 47: Resurgence" page="46" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5171-7a50-8cc4-1607" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="1d29-91c4-5f1c-6d0e" name="Officer" book="Konflikt 47 Rules" page="147" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c644-d1a9-c82d-44af" name="New CategoryLink" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8bbf-db72-f7fe-9302" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="94d5-85cf-8c3f-0dfd" name="Senior Officer" book="Konflikt 47 Rules" page="147" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ee72-e623-ee16-273b" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d7a5-bdbc-2396-c924" name="New CategoryLink" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="3142-f61f-7866-90df" name="Medic" book="Konflikt 47 Rules" page="147" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="609f-dceb-6fad-3f62" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dbef-c721-57bf-7a61" name="New CategoryLink" hidden="false" targetId="64b3-a04b-d6d0-add2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="8bdb-1c48-74fe-d4c9" name="Forward Artillery Observer" book="Konflikt 47 Rules" page="147" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="da3e-a77a-8f09-6b3c" name="New CategoryLink" hidden="false" targetId="1f3d-c608-4cb7-2ec0" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9560-85a7-1faa-34d2" name="New CategoryLink" hidden="false" targetId="c048-dfb7-583d-2e79" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3203-691a-00a7-d8a3" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="a174-f145-2a83-564e" name="Forward Air Observer" book="Konflikt 47 Rules" page="147" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1b76-f6a0-74f9-e050" name="New CategoryLink" hidden="false" targetId="1a15-5468-fc36-e232" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="630f-4c25-c865-c39b" name="New CategoryLink" hidden="false" targetId="c048-dfb7-583d-2e79" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="30ab-35dd-6806-4df8" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="507a-bd45-ee27-1523" name="Heavy Infantry Squad" book="Konflikt 47 Rules" page="148" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="713a-e47a-deb5-611b" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="a237-3709-e1ac-7592" name="Infantry Squad" book="Konflikt 47 Rules" page="148" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a770-469d-6e3d-061f" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ecba-a14d-00cc-d854" name="Firefly Jump Infantry Squad" book="Konflikt 47 Rules" page="148" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5494-d2cb-92ad-db02" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="0196-1007-891a-4433" name="Heavy Bazooka Team" book="Konflikt 47 Rules" page="150" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="aa17-815a-6ba9-6515" name="New CategoryLink" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e90f-695f-87d3-3536" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="3dbe-0934-f8bd-5271" name="Bazooka Team" book="Konflikt 47 Rules" page="150" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3152-75ac-ff63-a216" name="New CategoryLink" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1719-1ebe-f8ef-7f32" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="84b2-92bf-be5d-a2e6" name=".30 Cal Medium Machine Gun Team" book="Konflikt 47 Rules" page="150" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6cdb-bd25-a374-bb9e" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="74a9-2b5a-59cb-0fc0" name="New CategoryLink" hidden="false" targetId="1688-881c-5284-0be8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="e8de-9d67-8998-fdca" name=".50 Cal Heavy Machine Gun Team" book="Konflikt 47 Rules" page="150" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ab8e-a2e0-3b33-afa0" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="91f3-41cb-1454-be59" name="New CategoryLink" hidden="false" targetId="1688-881c-5284-0be8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="4325-9c72-b8bd-b8b9" name="Sniper Team" book="Konflikt 47 Rules" page="150" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8abb-67b1-3a1e-bd6e" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d295-6416-bc4c-74e6" name="New CategoryLink" hidden="false" targetId="6077-3929-61c8-5eb7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ad32-44e8-3be8-51f2" name="Flamethrower Team" book="Konflikt 47 Rules" page="150" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e255-c7b7-9485-d608" name="New CategoryLink" hidden="false" targetId="c5aa-dfef-70b7-726b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="aab1-b0e8-725b-b2b8" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="d920-dcea-2900-a77d" name="60mm Light Mortar" book="Konflikt 47 Rules" page="151" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c071-3daa-76c6-5e32" name="New CategoryLink" hidden="false" targetId="9e4b-337b-7b0a-20f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="210d-07e8-f135-d2f2" name="New CategoryLink" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="40fb-4ef8-3d54-e2b1" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="384b-172d-bbd6-e03f" name="81mm Medium Mortar" book="Konflikt 47 Rules" page="151" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2afa-726c-086f-ce6b" name="New CategoryLink" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9d27-6e89-8aa4-711a" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="c653-9585-7775-7bc6" name="107mm Heavy Mortar" book="Konflikt 47 Rules" page="151" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="095a-0bbd-84fc-fac0" name="New CategoryLink" hidden="false" targetId="4195-7b78-7f05-2c68" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c895-3a72-551b-c397" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="3cc7-a5dc-499a-68ed" name="Light Artillery" book="Konflikt 47 Rules" page="152" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d202-7789-3426-5c58" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ac21-47ff-b661-a6c3" name="New CategoryLink" hidden="false" targetId="1842-7654-2d60-c182" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="2cdc-6093-5b5d-d290" name="Medium Artillery" book="Konflikt 47 Rules" page="152" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c427-8f1c-9319-4368" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="98b2-7450-fbc9-93d9" name="New CategoryLink" hidden="false" targetId="2b0f-97b2-f74a-0007" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="166d-2206-6a73-898d" name="Heavy Artillery" book="Konflikt 47 Rules" page="152" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="93cc-cbdf-2eb8-7b59" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b0e1-11dd-42cf-6a28" name="New CategoryLink" hidden="false" targetId="2b0f-97b2-f74a-0007" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="0506-14fc-c319-ab81" name="57mm M18" book="Konflikt 47 Rules" page="152" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1578-907a-d681-8c00" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="60a1-d330-7411-467b" name="New CategoryLink" hidden="false" targetId="1842-7654-2d60-c182" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="c3c4-d1a8-61a8-aadf" name="75mm M20" book="Konflikt 47 Rules" page="152" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="62f2-ff6f-bcf5-c394" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0a57-fb26-19c1-3294" name="New CategoryLink" hidden="false" targetId="1842-7654-2d60-c182" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="43ed-e0b7-2103-357a" name="37mm Anti-Tank Gun" book="Konflikt 47 Rules" page="153" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e228-beca-e98b-ab0a" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d6df-e3b2-6782-d240" name="New CategoryLink" hidden="false" targetId="1842-7654-2d60-c182" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ea77-9945-19f9-1c1e" name="57mm Anti-Tank Gun" book="Konflikt 47 Rules" page="153" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="61ff-4a75-ff1e-7357" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="37c9-b757-272e-0907" name="New CategoryLink" hidden="false" targetId="1842-7654-2d60-c182" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="1986-c8c9-75bb-910b" name="3-Inch Anti-Tank Gun" book="Konflikt 47 Rules" page="153" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8d14-327c-1ecf-046c" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1283-84b0-b403-722a" name="New CategoryLink" hidden="false" targetId="2b0f-97b2-f74a-0007" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="c222-ad5c-8b1f-277e" name="M5A1 Stuart" book="Konflikt 47 Rules" page="154" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="319c-7e01-7665-e5d9" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8ebe-578a-1cba-e7b7" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="126d-1358-4f68-e2d3" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ae50-0751-fae0-e016" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="243c-35ae-5960-d482" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="53d6-67ae-e098-23e9" name="M24 Chaffee" book="Konflikt 47 Rules" page="154" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4126-df5d-a001-33b9" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3278-2fae-f335-9a8c" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d512-8e5e-3460-45fe" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f31a-f7bf-8cea-b4b3" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="41f8-d501-d048-83a2" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="cbaf-88c6-0c8c-850f" name="M4A3 Sherman" book="Konflikt 47 Rules" page="154" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8f52-8f80-e80c-3225" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="112f-6ff7-19ac-e77b" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9ac9-f015-0c2e-359a" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="096b-39c7-b292-eaf8" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f06c-5e83-8681-f904" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="f631-f574-c7e1-241e" name="M4A9 Sherman-T" book="Konflikt 47 Rules" page="154" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="290e-1b33-30ad-92f3" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4f70-89f9-1fe1-e6d7" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2d89-b160-9c31-f8c3" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6648-f46d-b9af-a783" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="060d-86e2-c641-2856" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="3749-bf27-eedb-ecd3" name="M26 Pershing" book="Konflikt 47 Rules" page="156" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ecc3-43a0-bc32-ad21" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="063c-e019-202f-4d06" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3357-5db6-c741-cae9" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7a3f-b447-d0a8-ea57" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2b33-d2d4-f0e8-e586" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="5512-fd4d-afdb-c3b3" name="M10 Tank Destroyer" book="Konflikt 47 Rules" page="156" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a893-fa63-f31d-7289" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8cd9-9d4d-3b53-f81e" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e8ab-677e-f216-dea3" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="83b0-4cca-4c9d-cc55" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9b82-04c0-af85-5618" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="54dc-ad36-200f-db8c" name="M18 Hellcat" book="Konflikt 47 Rules" page="157" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9249-ef74-4156-4caf" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b378-ea44-1e87-5d60" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1b4e-1ac0-b86d-f6de" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a2d3-9345-faa0-d45d" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="64c5-6eb0-8ded-a32d" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="64f8-7518-802c-c9a7" name="M36 Jackson" book="Konflikt 47 Rules" page="157" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="581a-ea5f-1ff9-07ff" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5812-0479-cae5-73a9" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3f7d-4b96-010d-274f" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1f90-57ba-77a1-46e6" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2fd5-e189-5f4c-5f05" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="624d-c62f-c98b-7938" name="M5A2 Coyote Light Walker" book="Konflikt 47 Rules" page="157" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a155-7bb4-5373-99ec" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9b24-02d4-ab1b-7128" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d956-d8e6-793c-5a7f" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f5a2-eefe-e8de-f42e" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c848-95f0-cd6e-8603" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f4ce-711b-0239-a7f8" name="New CategoryLink" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c6b6-5eaa-6fe5-6bb0" name="New CategoryLink" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ae32-52c8-72c3-240d" name="M5A5/6 Jackal Light Walker" book="Konflikt 47 Rules" page="157" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2ccf-0f28-9246-80d9" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b799-88d7-64e8-626c" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="17ef-8652-8e2c-b057" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8239-4ef8-54d5-d702" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d1ff-264c-d80b-e8a9" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c237-3021-48fa-d701" name="New CategoryLink" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="36c5-6250-4614-c989" name="New CategoryLink" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="adaf-6bfa-eba1-4290" name="M8 Grizzly Medium Assault Walker" book="Konflikt 47 Rules" page="158" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="236f-44ea-ecc6-eeea" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="52c5-28d0-ff50-944b" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="74ec-8cb8-a50b-5c9f" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0063-88e6-5e0e-938b" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="59e6-d92a-2a0b-fb21" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="c18f-0920-f1b4-e77b" name="M8A4 Bruin Support Walker" book="Konflikt 47 Rules" page="158" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c573-63d3-9f08-eb34" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="37a7-865e-d9e4-b263" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9fc5-ee47-37f6-b354" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b3d3-e609-4253-2db7" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ea77-dfae-b19f-ef3f" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="4c77-a5a0-4277-f8cc" name="M9A2 Kodiak Close Assault Walker" book="Konflikt 47 Rules" page="158" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6e3e-086f-4087-3702" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cf90-844d-7dd8-6d49" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b019-259f-9fe7-683e" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="df27-10cd-227a-d5b0" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dc49-0925-f460-59be" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="3957-2535-5134-d39b" name="M7 Priest" book="Konflikt 47 Rules" page="159" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0db1-3eb5-4854-466e" name="New CategoryLink" hidden="false" targetId="4bd2-90aa-426c-2737" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2993-4160-f1ee-9c7e" name="New CategoryLink" hidden="false" targetId="ae27-9d73-1390-d87c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d85c-210d-81f1-ea53" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="651a-440a-73fe-f512" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="4651-9623-d56c-6121" name="M12 Gun Motor Carriage" book="Konflikt 47 Rules" page="159" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="20d6-39e4-013e-fcc4" name="New CategoryLink" hidden="false" targetId="4bd2-90aa-426c-2737" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="85ef-142d-dff7-5380" name="New CategoryLink" hidden="false" targetId="ae27-9d73-1390-d87c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0308-d938-3880-ebb2" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6180-24a1-ca60-e525" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="af84-c7cd-9a7b-df27" name="M21 Mortar Carrier" book="Konflikt 47 Rules" page="159" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="37b8-55ab-0c74-234a" name="New CategoryLink" hidden="false" targetId="4bd2-90aa-426c-2737" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1164-f82f-7264-b19c" name="New CategoryLink" hidden="false" targetId="ae27-9d73-1390-d87c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9544-6db7-ac8f-6839" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3166-4294-29bb-a4a6" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="bfb7-bff2-20f7-45dd" name="M16 Anti-Aircraft Carriage" book="Konflikt 47 Rules" page="161" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5c69-dcf1-a509-5460" name="New CategoryLink" hidden="false" targetId="4bd2-90aa-426c-2737" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7a65-b406-4ae4-0e9f" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="99bd-7d01-7d9b-0536" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0dfe-ee55-5d56-0104" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="f52d-be55-aa73-de21" name="M8 Greyhound Armoured Car" book="Konflikt 47 Rules" page="161" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="23fe-0983-e422-6fbd" name="New CategoryLink" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ed07-dda7-70ed-0ab4" name="New CategoryLink" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5740-7d1f-89c7-fd37" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6885-fa04-43ec-118f" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="734b-20a1-ad0b-26d1" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="f74a-d399-8e7c-e520" name="M20 Scout Car" book="Konflikt 47 Rules" page="161" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3c23-b51f-515b-e93b" name="New CategoryLink" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bef3-6f20-453d-55b1" name="New CategoryLink" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="40be-0372-7774-3cbd" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="67dd-1c4d-8005-953d" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="aa59-679f-75df-8552" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="8e97-1ca7-4b93-6e89" name="2.5 Ton Truck" book="Konflikt 47 Rules" page="162" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3359-15c0-7b31-d7e3" name="New CategoryLink" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bbbe-8fba-5942-aa74" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="7075-ffd4-fe24-2307" name="Jeep" book="Konflikt 47 Rules" page="162" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a820-5888-3104-df85" name="New CategoryLink" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5f48-0714-81f5-df18" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="9f69-67a3-1029-9119" name="Dodge 3/4 Ton" book="Konflikt 47 Rules" page="162" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bd92-0ec5-bfa5-e686" name="New CategoryLink" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="27c5-3467-adb7-14cd" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="04c6-99b1-f703-7caa" name="M4/M5 Artillery Tractor" book="Konflikt 47 Rules" page="162" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b12a-371e-b346-2df9" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="05ae-d69e-e495-5691" name="M3 Half-Track" book="Konflikt 47 Rules" page="162" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f33e-e522-d7b7-b05b" name="New CategoryLink" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="083b-638a-9bd5-ae79" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>

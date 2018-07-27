@@ -6,8 +6,221 @@
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
-  <forceEntries/>
-  <selectionEntries/>
+  <forceEntries>
+    <forceEntry id="d304-b7ae-fc35-71d3" name="British and Commonwealth Infantry Platoon" book="Konflikt 47: Defiance" page="25" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks/>
+    </forceEntry>
+    <forceEntry id="6b29-b06d-3e79-a0d2" name="British Airborne Platoon" book="Konflikt 47: Defiance" page="25" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks/>
+    </forceEntry>
+    <forceEntry id="d95e-da72-2fab-4c51" name="British Heavy Infantry Platoon" book="Konflikt 47: Defiance" page="25" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks/>
+    </forceEntry>
+    <forceEntry id="d94b-b4c4-0d8b-557a" name="Canadian Infantry Platoon" book="Konflikt 47: Defiance" page="25" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks/>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="56e8-cd69-c2d1-36f0" name="Veteran Infantry Section" book="Konflikt 47: Defiance" page="54" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="aaad-11f1-bbea-f66f" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="b3d3-ed9e-82b5-e1f5" name="Commando Section" book="Konflikt 47: Defiance" page="54" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="da39-e1b5-7910-5862" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="6d3f-77ec-178f-724e" name="Airborne Infantry Section" book="Konflikt 47: Defiance" page="55" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6340-881a-0e1e-98c2" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="16f3-2bd0-490f-2acc" name="Gurkha Infantry Section" book="Konflikt 47: Defiance" page="56" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7096-bc50-d4b4-88cc" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="a116-641e-aea8-d2d6" name="SAS Section" book="Konflikt 47: Defiance" page="56" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a974-24af-f403-8f95" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="d08d-65dd-59b4-4fd3" name="Tesla AT Gun" book="Konflikt 47: Defiance" page="57" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a1e5-de99-2df0-51d3" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="58c6-c09b-2195-93c6" name="New CategoryLink" hidden="false" targetId="1842-7654-2d60-c182" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="b899-da57-04b0-af97" name="M22 Locust Light Tank" book="Konflikt 47: Defiance" page="57" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4e0d-def6-5c44-18d4" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3864-2a24-0747-d140" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b7ad-513a-f7d1-9eac" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="67d1-4307-a1b2-0e46" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e181-ef42-1bdb-c412" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+  </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
