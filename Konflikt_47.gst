@@ -2763,6 +2763,321 @@
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b4a1-baaf-b548-358c" name="360-Degree Pintle-Mounted Dual HMG" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e5b2-828e-4767-1639" name="360-Degree Pintle-Mounted Dual HMG" hidden="false" targetId="d6da-698d-adef-99cd" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e8a2-0abc-ee68-91d0" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a0b3-6ee8-2e7d-51e0" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="313c-cc03-e580-126f" name="360-Degree Pintle-Mounted HMG" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c4b4-64ec-481b-4873" name="360-Degree Pintle-Mounted HMG" hidden="false" targetId="c6df-f50f-59e2-56de" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7fed-730d-2081-ac89" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bedd-f637-d240-22f1" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3d9-1a0f-0031-e8c7" name="Hull-Mounted Forward-Facing MMG" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="97e8-aa5e-9266-7438" name="Hull-Mounted Forward-Facing MMG" hidden="false" targetId="8149-6382-e2ae-f795" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7a23-f100-e36d-3a05" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0802-3a41-8385-facb" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e225-a1a7-6595-3b34" name="Hull-Mounted Forward-Facing Light AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="74d4-0fd6-e002-f7e2" name="Hull-Mounted Forward-Facing Light AT Gun" hidden="false" targetId="7863-0573-cebe-45ea" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="391d-8f0f-15e3-82b4" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d6ee-2a2d-6ee7-f762" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fba4-13c4-849e-6633" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d077-40df-3690-60e8" name="Linked Casement-Mounted Light Automatic Cannon" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ae27-7926-5bb5-dc8c" name="Linked Casement-Mounted Light Automatic Cannon" hidden="false" targetId="8eca-1bd4-7433-0b19" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5998-e82c-bda7-04b4" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2da8-1487-308d-d1c6" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="65a4-f12a-a576-3076" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="91a5-f776-4466-3bc1" name="Linked Weapon" hidden="false" targetId="ee9e-cbe2-d442-9e46" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8503-f9cf-c544-aa05" name="Fist" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="be05-7609-630e-99ba" name="Fist" hidden="false" targetId="6ac3-5ca6-e53a-df24" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c518-0ab8-22f1-c55c" name="Fist" hidden="false" targetId="952d-3a1b-a7be-28ac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="120c-e493-2f7b-a6fb" name="Arm-Mounted HMG" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c548-51b9-257a-ed61" name="Arm-Mounted HMG" hidden="false" targetId="a1ae-99a8-2b41-8e43" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6899-0ded-146c-db2e" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a440-9eda-83ac-dddc" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0562-0a56-8841-c1ed" name="Arm-Mounted Bazooka" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b9c3-f121-153f-9613" name="Arm-Mounted Bazooka" hidden="false" targetId="0526-4b72-d3e2-afeb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5d38-da1f-9f85-5d45" name="Shaped Charge" hidden="false" targetId="15c0-3a4d-d191-89df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f706-31e3-75e2-2546" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a27-8bb6-79a1-2407" name="Turret-Mounted M21 Light Tesla Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4398-bd9a-4167-a4a4" name="Turret-Mounted M21 Light Tesla Cannon" hidden="false" targetId="d8f6-c826-7522-4cdf" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c7be-bbd5-21dd-d085" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6ec3-b7d7-8510-e443" name="Tesla" hidden="false" targetId="54e4-5047-175a-9421" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5ad6-1d08-bc3b-123a" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -3351,6 +3666,20 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
       <infoLinks/>
       <modifiers/>
       <description>This vehicle may reverse move at its Run speed.</description>
+    </rule>
+    <rule id="5a7a-1ca8-871f-4cef" name="Immune to Horror" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit does not suffer any penalties caused by Horror.</description>
+    </rule>
+    <rule id="ee9e-cbe2-d442-9e46" name="Linked Weapon" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Linked weapons may be fired at the same target as eachother.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -4258,6 +4587,114 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
         <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="2"/>
         <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+2"/>
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D2)"/>
+      </characteristics>
+    </profile>
+    <profile id="8149-6382-e2ae-f795" name="Hull-Mounted Forward-Facing MMG" book="Konflikt 47: Resurgence" page="25" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="5"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
+      </characteristics>
+    </profile>
+    <profile id="c6df-f50f-59e2-56de" name="360-Degree Pintle-Mounted HMG" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="3"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+1"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
+      </characteristics>
+    </profile>
+    <profile id="d6da-698d-adef-99cd" name="360-Degree Pintle-Mounted Dual HMG" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="6"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+1"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
+      </characteristics>
+    </profile>
+    <profile id="7863-0573-cebe-45ea" name="Hull-Mounted Forward-Facing Light AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="48&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+4"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D2)"/>
+      </characteristics>
+    </profile>
+    <profile id="8eca-1bd4-7433-0b19" name="Linked Casement-Mounted Light Automatic Cannon" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="48&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="2"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+2"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D2), Linked Weapon"/>
+      </characteristics>
+    </profile>
+    <profile id="6ac3-5ca6-e53a-df24" name="Fist" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="-"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Fist"/>
+      </characteristics>
+    </profile>
+    <profile id="a1ae-99a8-2b41-8e43" name="Arm-Mounted HMG" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="3"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+1"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
+      </characteristics>
+    </profile>
+    <profile id="0526-4b72-d3e2-afeb" name="Arm-Mounted Bazooka" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="24&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+5"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Shaped Charge"/>
+      </characteristics>
+    </profile>
+    <profile id="d8f6-c826-7522-4cdf" name="Turret-Mounted M21 Light Tesla Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="30&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+1/+4"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, Tesla"/>
       </characteristics>
     </profile>
   </sharedProfiles>
