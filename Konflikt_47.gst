@@ -3500,6 +3500,94 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec9b-71dd-f633-2d1d" name="Light Rocket System" book="Konflikt 47: Defiance" page="67" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5211-b465-aae9-202d" name="Light Rocket System" hidden="false" targetId="8d58-392d-5c8c-1579" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="32ff-645c-f6b8-2477" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9f69-9079-e553-30ff" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dc93-97dc-3b6b-d56f" name="High Explosive (D6)" hidden="false" targetId="0a02-e32c-4873-ca4a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="00ee-fdbf-440f-1adc" name="Rocket System" hidden="false" targetId="a26c-b588-3c65-4ac8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="df09-d518-5944-8cd0" name="Hull-Mounted Forward-Facing Light Rocket System" book="Konflikt 47: Defiance" page="67" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4005-57f4-aefa-685b" name="Hull-Mounted Forward-Facing Light Rocket System" hidden="false" targetId="046f-f174-6055-8fee" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="646f-da66-e2d9-a140" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8c59-31d3-5490-71b3" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d2da-3b3b-599d-70c6" name="High Explosive (D6)" hidden="false" targetId="0a02-e32c-4873-ca4a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d1c2-d76c-581e-0a7b" name="Rocket System" hidden="false" targetId="a26c-b588-3c65-4ac8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
       <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -4118,6 +4206,13 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
       <infoLinks/>
       <modifiers/>
       <description>Select one mode when firing this weapon. The AT rifle configuration does not suffer a PEN reduction at long range.</description>
+    </rule>
+    <rule id="a26c-b588-3c65-4ac8" name="Rocket System" book="Konflikt 47: Defiance" page="67" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This weapon counts as a howitzer of appropriate size but may only direct-fire on targets.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -5253,6 +5348,30 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
         <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="-"/>
         <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-"/>
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Tough Fighter"/>
+      </characteristics>
+    </profile>
+    <profile id="8d58-392d-5c8c-1579" name="Light Rocket System" book="Konflikt 47: Defiance" page="67" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="48&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="HE"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D6)"/>
+      </characteristics>
+    </profile>
+    <profile id="046f-f174-6055-8fee" name="Hull-Mounted Forward-Facing Light Rocket System" book="Konflikt 47: Defiance" page="67" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="48&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="HE"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D6)"/>
       </characteristics>
     </profile>
   </sharedProfiles>
