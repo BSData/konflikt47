@@ -2484,7 +2484,7 @@
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="359d-ffaf-84b8-7008" name="Turret Mounted Super-Heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="359d-ffaf-84b8-7008" name="Turret-Mounted Super-Heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2556,7 +2556,7 @@
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f61-03a6-aa4d-d303" name="Turret Mounted Schwerefeld Projektor" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8f61-03a6-aa4d-d303" name="Turret-Mounted Schwerefeld Projektor" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2658,7 +2658,7 @@
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="53be-9f51-21cd-9ca6" name="Turret Mounted Light Schwerefeld Projektor" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="53be-9f51-21cd-9ca6" name="Turret-Mounted Light Schwerefeld Projektor" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3545,7 +3545,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="df09-d518-5944-8cd0" name="Hull-Mounted Forward-Facing Light Rocket System" book="Konflikt 47: Defiance" page="67" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -3588,7 +3590,393 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7aca-da9f-6474-bb2e" name="Linked Hull-Mounted Forward-Facing MMG" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="cccb-2d65-1e3f-13a4" name="Linked Hull-Mounted Forward-Facing MMG" hidden="false" targetId="684b-e37f-3df1-147f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2496-0503-ebc2-f8dc" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="02f4-c578-f2c3-fa54" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8631-bede-ed91-ff75" name="Casement-Mounted Forward-Facing Light AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="be9a-56b7-40f9-c8e3" name="Casement-Mounted Forward-Facing Light AT Gun" hidden="false" targetId="0412-5c5f-f031-17fa" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2d93-47a0-4ef9-3b8a" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="778e-df6e-2f9f-3810" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="55cf-3bea-6ebd-8269" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c802-e9f1-ef3c-c2fe" name="Casement-Mounted Forward-Facing Light Compression Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3782-b87e-98d8-36fb" name="Casement-Mounted Forward-Facing Light Compression Cannon" hidden="false" targetId="9334-a0a6-0d69-cb0a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="137b-0db5-70fe-bd21" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d81c-ee48-9ac7-7feb" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="46a0-163d-8efd-e8a5" name="Compression Wave" hidden="false" targetId="eab3-f43d-e594-1f7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc28-0208-2b44-a5ac" name="Turret-Mounted Light AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="82d9-ac4e-5767-349d" name="Turret-Mounted Light AT Gun" hidden="false" targetId="6ffb-8493-7339-eb62" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f7ce-468d-542d-bd26" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f441-3497-cd2c-7175" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="18a1-93c8-219e-07a1" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="96c5-5bfc-cecc-66e9" name="Turret-Mounted Medium AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="567c-57b3-cf80-ea84" name="Turret-Mounted Medium AT Gun" hidden="false" targetId="ca0a-5749-2a3c-0288" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="af88-1e49-2f88-cf68" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="92f6-0d7a-1e03-35fb" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="df99-cb91-d312-1ade" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0734-a2a1-6e61-78b0" name="Turret-Mounted Rear-Facing MMG" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="13f3-f592-9a30-4f70" name="Turret-Mounted Rear-Facing MMG" hidden="false" targetId="4f59-1585-76a2-2324" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c7c4-e69f-f5bc-42c8" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3a99-6b4f-5e55-815d" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6701-2bd8-0f7b-199f" name="Turret Rear-Mounted Machine Gun" hidden="false" targetId="f0af-b11f-cc9c-e041" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d837-1e14-a538-69b8" name="Turret-Mounted Light Howitzer" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="465e-0c80-7336-f57d" name="Turret-Mounted Light Howitzer" hidden="false" targetId="75e6-502c-f9b6-427a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f699-57b6-e62d-068c" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9b73-ec4e-4b90-e3aa" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5ee6-0a29-2f0e-3523" name="High Explosive (D6)" hidden="false" targetId="0a02-e32c-4873-ca4a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2646-a6b6-4414-d0fa" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="67ea-605c-6434-ab5d" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="487e-8951-b11b-9255" name="Turret-Mounted Compression Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7ce3-2fc6-9726-4886" name="Turret-Mounted Compression Cannon" hidden="false" targetId="e4b2-0e5c-c143-964d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8db6-cb01-805d-7842" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ffca-8db5-8ef8-4c09" name="Compression Wave" hidden="false" targetId="eab3-f43d-e594-1f7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b46d-0c0a-efb8-f43c" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfff-d753-0356-8205" name="Turret-Mounted MMG" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="78a6-5d71-8cd0-bb87" name="Turret-Mounted MMG" hidden="false" targetId="5ed3-784e-1f05-28cb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d1b3-8f1d-cbe8-71c6" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8320-606f-a0e9-1e8f" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e21f-3661-f05b-8a03" name="Turret-Mounted HMG" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4d05-b2ce-d140-bc34" name="Turret-Mounted HMG" hidden="false" targetId="bb58-0429-c85d-2f64" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c4a7-a054-211b-1ffc" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7b52-a3b4-e2fb-3262" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
@@ -4408,7 +4796,7 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Shaped Charge"/>
       </characteristics>
     </profile>
-    <profile id="76a6-d8b9-a653-0b1d" name="Super-bazooka" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+    <profile id="76a6-d8b9-a653-0b1d" name="Super-Bazooka" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4480,7 +4868,7 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D3)"/>
       </characteristics>
     </profile>
-    <profile id="49b5-8198-173e-c6ae" name="Super-heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+    <profile id="49b5-8198-173e-c6ae" name="Super-Heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5062,7 +5450,7 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
       </characteristics>
     </profile>
-    <profile id="4836-b695-e9a2-828d" name="Turret Mounted Super-heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+    <profile id="4836-b695-e9a2-828d" name="Turret-Mounted Super-Heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5074,7 +5462,7 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D3)"/>
       </characteristics>
     </profile>
-    <profile id="406d-5c3b-1e7f-6b5c" name="Turret Mounted Schwerefeld Projektor" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+    <profile id="406d-5c3b-1e7f-6b5c" name="Turret-Mounted Schwerefeld Projektor" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5086,7 +5474,7 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, Gravity Pulse"/>
       </characteristics>
     </profile>
-    <profile id="9438-a00b-1220-efbb" name="Turret Mounted Light Schwerefeld Projektor" book="Konflikt 47: Resurgence" page="26" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+    <profile id="9438-a00b-1220-efbb" name="Turret-Mounted Light Schwerefeld Projektor" book="Konflikt 47: Resurgence" page="26" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5372,6 +5760,126 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
         <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
         <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="HE"/>
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D6)"/>
+      </characteristics>
+    </profile>
+    <profile id="684b-e37f-3df1-147f" name="Linked Hull-Mounted Forward-Facing MMG" book="Konflikt 47: Resurgence" page="25" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="5"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
+      </characteristics>
+    </profile>
+    <profile id="0412-5c5f-f031-17fa" name="Casement-Mounted Forward-Facing Light AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="48&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+4"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D2)"/>
+      </characteristics>
+    </profile>
+    <profile id="9334-a0a6-0d69-cb0a" name="Casement-Mounted Forward-Facing Light Compression Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="3"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+3"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, Compression Wave"/>
+      </characteristics>
+    </profile>
+    <profile id="6ffb-8493-7339-eb62" name="Turret-Mounted Light AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="48&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+4"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D2)"/>
+      </characteristics>
+    </profile>
+    <profile id="ca0a-5749-2a3c-0288" name="Turret-Mounted Medium AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="60&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+5"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D2)"/>
+      </characteristics>
+    </profile>
+    <profile id="4f59-1585-76a2-2324" name="Turret-Mounted Rear-Facing MMG" book="Konflikt 47: Resurgence" page="25" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="5"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
+      </characteristics>
+    </profile>
+    <profile id="75e6-502c-f9b6-427a" name="Turret-Mounted Light Howitzer" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="0/24-48&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="HE"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, Indirect Fire, HE (D6)"/>
+      </characteristics>
+    </profile>
+    <profile id="e4b2-0e5c-c143-964d" name="Turret-Mounted Compression Cannon" book="Konflikt 47: Resurgence" page="26" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="48&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="3"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+4"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, Compression Wave"/>
+      </characteristics>
+    </profile>
+    <profile id="5ed3-784e-1f05-28cb" name="Turret-Mounted MMG" book="Konflikt 47: Resurgence" page="25" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="5"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
+      </characteristics>
+    </profile>
+    <profile id="bb58-0429-c85d-2f64" name="Turret-Mounted HMG" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="3"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+1"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
       </characteristics>
     </profile>
   </sharedProfiles>
