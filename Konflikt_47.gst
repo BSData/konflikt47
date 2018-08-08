@@ -3456,6 +3456,31 @@
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="90e3-e743-a8d4-f311" name="Sword" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f6ad-4fdb-5918-83f7" name="Tough Fighters" hidden="false" targetId="d35f-b1c7-d0ff-2d11" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d15a-dedf-4713-25f9" name="Sword" hidden="false" targetId="1460-4fd8-ef46-2378" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -5195,6 +5220,18 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
         <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="3"/>
         <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+1"/>
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
+      </characteristics>
+    </profile>
+    <profile id="1460-4fd8-ef46-2378" name="Sword" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="-"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="-"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Tough Fighter"/>
       </characteristics>
     </profile>
   </sharedProfiles>
