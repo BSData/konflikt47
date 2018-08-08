@@ -2321,6 +2321,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="90d9-6eab-dbca-acf3" name="Dual Weapon System" hidden="false" targetId="9326-1cf8-d9e2-3d4f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -3339,6 +3345,117 @@
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1e5e-01a4-011f-33ee" name="Twin Dual Weapon Pack" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="01c7-1fd4-1769-9688" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="33b4-c8ac-e8e9-b06a" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="9e80-a4e5-d66a-f03a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9234-ae3b-a6fe-1c5d" name="Dual Weapon Pack (Small Arm)" hidden="false" targetId="0168-39ad-f815-1ecb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dcfc-e700-68f5-3edd" name="Dual Weapon System" hidden="false" targetId="9326-1cf8-d9e2-3d4f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3296-6844-2b99-aa77" name="Turret-Mounted Heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1b99-e9f3-64ca-d111" name="Turret-Mounted Heavy AT Gun" hidden="false" targetId="14a1-ce46-6725-2f55" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="50f9-371b-7057-25a9" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ef7b-40fe-e74d-8564" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c5c0-71e8-46b8-58b3" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d7a-e491-7f93-70d9" name="Pintle-Mounted Turret-Based HMG" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b635-86d1-9860-7b0a" name="Pintle-Mounted Turret-Based HMG" hidden="false" targetId="fe08-4495-93d5-8497" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6ce2-48b4-1e30-08dc" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b66f-752c-54d9-cea3" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -3948,6 +4065,13 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
       <infoLinks/>
       <modifiers/>
       <description>This vehicle may fire only one of its weapon systems per turn.</description>
+    </rule>
+    <rule id="9326-1cf8-d9e2-3d4f" name="Dual Weapon System" book="Konflikt 47: Resurgence" page="54" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Select one mode when firing this weapon. The AT rifle configuration does not suffer a PEN reduction at long range.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -5047,6 +5171,30 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
         <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="2"/>
         <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+3"/>
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D2)"/>
+      </characteristics>
+    </profile>
+    <profile id="14a1-ce46-6725-2f55" name="Turret-Mounted Heavy AT Gun" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="72&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+6"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D3)"/>
+      </characteristics>
+    </profile>
+    <profile id="fe08-4495-93d5-8497" name="Pintle-Mounted Turret-Based HMG" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="3"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+1"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
       </characteristics>
     </profile>
   </sharedProfiles>
