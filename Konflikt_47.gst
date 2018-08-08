@@ -3479,6 +3479,27 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3af7-415d-30eb-3561" name="Flag" book="Konflikt 47: Defiance" page="67" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d37b-43d3-0868-21a8" name="Rally to the Colors!" hidden="false" targetId="0d3a-95d1-13c4-f94b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
       <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
