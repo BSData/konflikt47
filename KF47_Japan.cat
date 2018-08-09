@@ -6028,7 +6028,28 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="bcee-e0be-a37e-5537" name="New CategoryLink" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="true">
+        <categoryLink id="7c43-cc9b-e074-0c8d" name="New CategoryLink" hidden="false" targetId="4bd2-90aa-426c-2737" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a22f-92e7-a0b1-a919" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="487b-93d7-bdbf-8039" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="574e-639c-7216-355d" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6036,32 +6057,7 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="dc76-832f-ddbd-5d72" name="Platform-mounted light autocannon" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="a789-8ce1-5ed0-c74f" name="Light Automatic Cannon" hidden="false" targetId="43a3-43cf-bb32-b796" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec46-4681-116e-3164" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7150-8502-3aea-b77f" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="18a4-74a6-b1ab-578c" name="Experience" hidden="false" collective="false" defaultSelectionEntryId="c9c7-b363-ac0e-7674">
           <profiles/>
@@ -6115,7 +6111,19 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="e693-c030-8d6b-d5ed" name="360-Degree Platform-Mounted Light Automatic Cannon" hidden="false" targetId="dc40-6493-a87b-95fd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d55f-1817-e29c-8029" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3242-ffda-c6da-3caf" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="40.0"/>
       </costs>
@@ -6156,32 +6164,7 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="00ed-0b7f-901a-23bf" name="Forward-facing pintle-mounted MMG" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="12b0-6b01-dd21-cfb3" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d188-a357-70c5-f5ef" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2616-d227-7016-e2cd" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="7fa8-5a94-9201-c055" name="Experience" hidden="false" collective="false" defaultSelectionEntryId="855e-9943-78a8-2e15">
           <profiles/>
@@ -6235,7 +6218,25 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="bb0d-1a08-a7b8-f2bb" name="Pintle-Mounted Forward-Facing MMG" hidden="false" targetId="3384-54f8-488f-d217" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="15">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="029d-77d1-dfb2-6e53" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4f2-4b1a-4ed8-c9b8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="33.0"/>
       </costs>
@@ -6276,32 +6277,7 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="f9f2-14ec-ebd7-1c87" name="Forward-facing pintle-mounted MMG" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="a632-6d48-b79b-af4e" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d7e-a96b-c8b7-ab2c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd4a-96a3-84b7-8533" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="c234-6309-716b-6e71" name="Experience" hidden="false" collective="false" defaultSelectionEntryId="3235-55b5-a2a9-31d5">
           <profiles/>
@@ -6355,7 +6331,25 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="5e72-469d-afaf-a578" name="Pintle-Mounted Forward-Facing MMG" hidden="false" targetId="3384-54f8-488f-d217" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="15">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6460-0132-fd7b-8a1b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed5f-3ff7-c1cd-a558" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="25.0"/>
       </costs>
@@ -6404,7 +6398,7 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c639-1df2-de8b-5f28" name="Hull-mounted left-arc MMG" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="c639-1df2-de8b-5f28" name="Hull-Mounted Left-Arc MMG" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -6428,7 +6422,7 @@
             <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="afaa-2f88-8167-f28d" name="Hull-mounted right-arc MMG" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="afaa-2f88-8167-f28d" name="Hull-Mounted Right-Arc MMG" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -6452,7 +6446,7 @@
             <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="88fc-3dbd-394e-369c" name="Pintle-mounted rear-arc MMG" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="88fc-3dbd-394e-369c" name="Pintle-Mounted Rear-Arc MMG" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
