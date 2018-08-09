@@ -6539,7 +6539,7 @@
             <modifier type="set" field="d07d-e4b6-5527-c556" value="None">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="8405-3ddf-1731-339e" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="31bd-e5e5-4390-5557" type="greaterThan"/>
+                <condition field="selections" scope="8405-3ddf-1731-339e" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e210-2543-84ca-87ef" type="greaterThan"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6573,38 +6573,7 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="31bd-e5e5-4390-5557" name="Pintle-mounted MMG" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="e9e3-07d5-10f9-747f" name="MMG" hidden="false" targetId="ab50-4650-872b-78e2" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="fce3-279d-8b35-f265" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="906f-929b-13bb-403d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ad2-44f4-4e77-6b29" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="e1d2-5359-255d-c6be" name="Experience" hidden="false" collective="false" defaultSelectionEntryId="0839-0a51-a845-2c9a">
           <profiles/>
@@ -6658,7 +6627,25 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="e210-2543-84ca-87ef" name="360-Degree Pintle-Mounted MMG" hidden="false" targetId="7e4e-f831-cd1b-a78d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="15">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d23-fee4-953e-cdae" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d97-6e82-9bc8-bad4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="18.0"/>
       </costs>
@@ -6673,7 +6660,7 @@
             <modifier type="set" field="d07d-e4b6-5527-c556" value="None">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="4b48-c328-6d51-c6af" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ffa-4261-468a-65f3" type="greaterThan"/>
+                <condition field="selections" scope="4b48-c328-6d51-c6af" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1a62-faaf-e9f6-2ea2" type="greaterThan"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6707,38 +6694,7 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="1ffa-4261-468a-65f3" name="Pintle-mounted MMG" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="595c-8ecc-1ae6-2449" name="MMG" hidden="false" targetId="ab50-4650-872b-78e2" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="3c09-51a4-b9ae-f1e7" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2063-e7d2-764e-5d00" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5df2-4e43-6404-e0d8" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="d38a-e7d1-2bb0-6302" name="Experience" hidden="false" collective="false" defaultSelectionEntryId="41a5-501c-978e-d9d4">
           <profiles/>
@@ -6792,7 +6748,25 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="1a62-faaf-e9f6-2ea2" name="360-Degree Pintle-Mounted MMG" hidden="false" targetId="7e4e-f831-cd1b-a78d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="15">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faa6-148c-778c-8152" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3476-0cdd-c563-6e29" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="45.0"/>
       </costs>
@@ -6942,32 +6916,7 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="ea5d-ca43-785f-15d6" name="Pintle-mounted forward-facing MMG" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="b85a-6093-6da7-573a" name="MMG" hidden="false" targetId="ab50-4650-872b-78e2" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edab-5b6c-0d14-339c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16bb-9d0a-cbca-7ea2" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="7896-c215-1d1a-a67d" name="Experience" hidden="false" collective="false" defaultSelectionEntryId="2c7c-1dd7-05d2-6e36">
           <profiles/>
@@ -7021,7 +6970,25 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="2639-f6d9-cdc5-cc47" name="Pintle-Mounted Forward-Facing MMG" hidden="false" targetId="3384-54f8-488f-d217" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="15">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caef-80b8-dfc5-184e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f285-cc57-71c5-73c8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="10.0"/>
       </costs>

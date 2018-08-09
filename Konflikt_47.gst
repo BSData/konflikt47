@@ -4017,6 +4017,39 @@
         <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7e4e-f831-cd1b-a78d" name="360-Degree Pintle-Mounted MMG" book="Konflikt 47 Rules" page="58" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c290-1144-bce9-d201" name="360-Degree Pintle-Mounted MMG" hidden="false" targetId="7710-3942-0a99-bb82" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1ba8-0e51-d7fa-03d4" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="27cb-6532-e564-d5bb" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -5931,6 +5964,18 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
         <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="2"/>
         <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="+2"/>
         <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed, HE (D2)"/>
+      </characteristics>
+    </profile>
+    <profile id="7710-3942-0a99-bb82" name="360-Degree Pintle-Mounted MMG" book="Konflikt 47: Resurgence" page="25" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="e5a6-c007-53d3-2748" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="3885-f1a7-cf7b-2689" value="5"/>
+        <characteristic name="Penetration" characteristicTypeId="3085-58ff-3eed-bef7" value="-"/>
+        <characteristic name="Special Rules" characteristicTypeId="97a0-68ed-1e14-2ede" value="Team, Fixed"/>
       </characteristics>
     </profile>
   </sharedProfiles>
