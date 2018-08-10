@@ -4681,6 +4681,13 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
       <modifiers/>
       <description>This unit ignores movement penalties for snow and other winter conditions.</description>
     </rule>
+    <rule id="92a0-632d-8207-77aa" name="Deep Strike" book="Konflikt 47: Resurgence" page="75" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this unit outflanks in a scenario, it may enter from any board edge.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="45fa-b48d-a682-3620" name="Rifle" book="Konflikt 47 Rules" page="58" hidden="false" profileTypeId="6f79-864b-5586-5191" profileTypeName="Weapon">
