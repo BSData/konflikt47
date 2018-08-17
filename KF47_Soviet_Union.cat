@@ -9,7 +9,7 @@
       <modifiers/>
       <description>When rolling for the &apos;Fire for Effect&apos; radius for an artillery barrage, roll two D6 and take the higher result before adding the 6&quot;.</description>
     </rule>
-    <rule id="6431-5d53-d47b-331a" name="Quantity Has a Quality All of its Own" book="Konflikt 47 Rules" page="180" hidden="false">
+    <rule id="6431-5d53-d47b-331a" name="Quantity Has a Quality All of Its Own" book="Konflikt 47 Rules" page="180" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9187,7 +9187,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5cbf-0c44-e8bc-f8a0" name="ZSU-37" book="Konflikt 47 Rules" page="196" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -9228,7 +9230,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="points" costTypeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
