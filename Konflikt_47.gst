@@ -83,6 +83,8 @@
     <categoryEntry id="ae27-9d73-1390-d87c" name="Assault Guns and Self-Propelled Artillery" hidden="false"/>
     <categoryEntry id="5c3c-21b9-e716-a67e" name="Armoured Cars and Anti-Aircraft Vehicles" hidden="false"/>
     <categoryEntry id="be7e-306b-30b5-03b8" name="Characters" hidden="false"/>
+    <categoryEntry id="ae2d-85fe-a828-0e1c" name="Allied Senior Mentor" publicationId="9a47-ac76-pubN65838" page="90" hidden="false"/>
+    <categoryEntry id="b3d9-2fbb-f78f-089c" name="German Technical Advisor" publicationId="9a47-ac76-pubN65838" page="94" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="4fcf-76d8-8f5b-ffa8" name="Reinforced Armoured Platoon" publicationId="9a47-ac76-pubN66291" page="35" hidden="false">
