@@ -307,12 +307,46 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c657-7fb6-c7ae-d39f" name="75/46 Dual-Purpose Gun" publicationId="9a47-ac76-pubN65838" page="85" hidden="false" collective="false" type="unit">
+      <infoLinks>
+        <infoLink id="bc83-5269-422f-37ae" name="Team 4" hidden="false" targetId="f05e-dc7f-d24f-7acb" type="profile"/>
+        <infoLink id="be26-b6fa-96aa-ac49" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
+        <infoLink id="bdb7-8db0-5707-8741" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="3a7a-9828-449c-2ade" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
         <categoryLink id="1e4e-e701-8c8b-a79b" name="Heavy and Super Heavy AT Guns, Medium and Heavy Artillery" hidden="false" targetId="2b0f-97b2-f74a-0007" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4f88-88d6-00dc-88f8" name="Experience" hidden="false" collective="false" defaultSelectionEntryId="9f04-bd4b-a5ff-e3a9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="376a-759d-bc65-ce87" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1ed-f900-0ea3-145f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9f04-bd4b-a5ff-e3a9" name="Inexperienced" hidden="false" collective="false" targetId="5344-848e-632f-9e09" type="selectionEntry"/>
+            <entryLink id="5b28-a814-634a-2e5f" name="Regular" hidden="false" collective="false" targetId="020b-0c80-419b-6391" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="22.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="8165-31fc-04d7-47af" name="Veteran" hidden="false" collective="false" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="44.0"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d736-0866-f84f-d508" name="Heavy AT Gun" hidden="false" collective="false" targetId="6097-5029-9ccd-f779" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ff9-add0-b8ba-0d17" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e998-0e79-ac78-05ab" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="88.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4b58-2b3f-1939-ec69" name="90/53 Dual-Purpose Gun" publicationId="9a47-ac76-pubN65838" page="85" hidden="false" collective="false" type="unit">
