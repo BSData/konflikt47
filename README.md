@@ -1,6 +1,8 @@
 Konflikt 47
 ===========
 
+*edit: archived by @amis92 on 2020-10-02 because of no dev activity in 10 months and no releases.
+
 ####Contents####
 
 * [Overview][]
