@@ -42,6 +42,11 @@
         <characteristicType id="dd97-f3c9-76bc-bd37" name="Morale"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="e45b-8ecb-4fa7-ae2c" name="Morale Bonus">
+		<characteristicTypes>
+			<characteristicType id="ed97-f3c9-76bc-bd37" name="Bonus"/>
+		</characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="fb1a-cb93-a427-51cf" name="Commander" hidden="false"/>
@@ -415,7 +420,7 @@
       <infoLinks>
         <infoLink id="12c7-f673-02be-53f6" name="Bazooka" hidden="false" targetId="99ed-8a1c-e4d3-e082" type="profile"/>
         <infoLink id="7058-8d94-9efc-0b8a" name="Shaped Charge" hidden="false" targetId="15c0-3a4d-d191-89df" type="rule"/>
-        <infoLink id="2b0a-e93c-4e10-7f5e" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="2b0a-e93c-4e10-7f5e" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -1413,7 +1418,7 @@ Troops that have the horror special rule are themselves immune to horror.</descr
     <rule id="35f5-8cdf-741d-0eb4" name="Fixed" publicationId="9a47-ac76-pubN65784" page="63" hidden="false">
       <description>Fixed weapons cannot be fired when a unit is given an Advance order. Teams armed with fixed weapons that make an advance action can only move - they cannot shoot as well. Fixed weapons can only target an enemy unit that lies at least partially within their front arc. Targets outside of this arc cannot be shot at.</description>
     </rule>
-    <rule id="156d-a590-a33a-e434" name="Team" publicationId="9a47-ac76-pubN65784" page="63" hidden="false">
+    <rule id="156d-a590-a33a-e434" name="Team Weapon" publicationId="9a47-ac76-pubN65784" page="63" hidden="false">
       <description>A team weapon requires two or more men to shoot at full effect. All the members of the unit are fully occupied whether carrying equipment, serving the weapon, or keeping watch. In the game, crews of team-based units never fire their weapons and are therefore not allocated personal armament in the army lists.
 
 A team weapon requires a minimum of two crew to fire at full effect. If only one man remains to serve a team weapon then the weapon can still be fired but suffers a -1 &apos;to hit&apos; penalty. A weapon team unit reduced to just one man also suffers a -1 penalty to its morale value.
@@ -1643,6 +1648,12 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
     <rule id="d9f9-c233-9cec-46e3" name="Schuerzen Armoured Skirts" publicationId="9a47-ac76-pubN65784" page="127" hidden="false">
       <description>If a tank has the Schuerzen upgrade, then anti-tank rifles and shaped charges like bazookas, PIATs, etc. never get the +1 penetration bonus for hitting it in the side.</description>
     </rule>
+    <rule id="672b-1d26-4663-83ee" name="Crew (2)" page="0" hidden="false"/>
+    <rule id="64ca-40ca-47f0-81e3" name="Crew (3)" page="0" hidden="false"/>
+    <rule id="defc-9a07-45d4-b67d" name="Crew (4)" page="0" hidden="false"/>
+    <rule id="8856-3d9d-4213-8008" name="Crew (5)" page="0" hidden="false"/>
+    <rule id="f50a-a193-4299-9cff" name="Crew (6)" page="0" hidden="false"/>
+    <rule id="9e08-1d4c-4aaf-9ce9" name="Crew (7)" page="0" hidden="false"/>
   </sharedRules>
   <sharedProfiles>
     <profile id="45fa-b48d-a682-3620" name="Rifle" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2539,5 +2550,25 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (D2)</characteristic>
       </characteristics>
     </profile>
+	<profile id="9daf-9e31-47ab-812b" name="Second Lieutenant" publicationId="9a47-ac76-pubN65784" page="76" hidden="false" typeId="e45b-8ecb-4fa7-ae2c" typeName="Morale Bonus">
+		<characteristics>
+			<characteristics name="Morale Bonus" typeId="ed97-f3c9-76bc-bd37">+1</characteristics>
+		</characteristics>
+	</profile>
+	<profile id="b135-cbf2-4684-b6dc" name="First Lieutenant" publicationId="9a47-ac76-pubN65784" page="76" hidden="false" typeId="e45b-8ecb-4fa7-ae2c" typeName="Morale Bonus">
+		<characteristics>
+			<characteristics name="Morale Bonus" typeId="ed97-f3c9-76bc-bd37">+2</characteristics>
+		</characteristics>
+	</profile>
+	<profile id="823f-83c4-4d7a-b6f7" name="Captain" publicationId="9a47-ac76-pubN65784" page="76" hidden="false" typeId="e45b-8ecb-4fa7-ae2c" typeName="Morale Bonus">
+		<characteristics>
+			<characteristics name="Morale Bonus" typeId="ed97-f3c9-76bc-bd37">+3</characteristics>
+		</characteristics>
+	</profile>
+	<profile id="8aec-c232-4d98-879a" name="Major" publicationId="9a47-ac76-pubN65784" page="76" hidden="false" typeId="e45b-8ecb-4fa7-ae2c" typeName="Morale Bonus">
+		<characteristics>
+			<characteristics name="Morale Bonus" typeId="ed97-f3c9-76bc-bd37">+4</characteristics>
+		</characteristics>
+	</profile>
   </sharedProfiles>
 </gameSystem>
