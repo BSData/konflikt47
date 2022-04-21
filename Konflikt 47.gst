@@ -58,7 +58,7 @@
     <categoryEntry id="60fd-ed23-32dc-eb94" name="Free Units" hidden="false"/>
     <categoryEntry id="a60d-df71-bfcc-66c4" name="Transports" hidden="false"/>
     <categoryEntry id="f3c7-5675-463e-b566" name="Tows" hidden="false"/>
-    <categoryEntry id="45ac-0cd1-0fd0-edd3" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false"/>
+    <categoryEntry id="45ac-0cd1-0fd0-edd3" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Medium Walkers, and Heavy Walkers" hidden="false"/>
     <categoryEntry id="b14d-60bd-51cb-1c49" name="Senior Officer" publicationId="9a47-ac76-pubN65784" page="126" hidden="false"/>
     <categoryEntry id="64b3-a04b-d6d0-add2" name="Medic" publicationId="9a47-ac76-pubN65784" page="126" hidden="false"/>
     <categoryEntry id="c048-dfb7-583d-2e79" name="Forward Observer" publicationId="9a47-ac76-pubN65784" page="126" hidden="false"/>
@@ -73,7 +73,7 @@
     <categoryEntry id="c5aa-dfef-70b7-726b" name="Flamethrower Team" hidden="false"/>
     <categoryEntry id="c04e-ff05-f7cb-ae9b" name="Anti-Tank Team" hidden="false"/>
     <categoryEntry id="9e4b-337b-7b0a-20f2" name="Light and Medium Mortar Team" hidden="false"/>
-    <categoryEntry id="b4ef-18ac-e4b0-39cf" name="Tank, Tank Destroyer, and Walker" hidden="false"/>
+    <categoryEntry id="b4ef-18ac-e4b0-39cf" name="Tank, Tank Destroyer, Medium Walkers, and Heavy Walkers" hidden="false"/>
     <categoryEntry id="4bd2-90aa-426c-2737" name="AA Vehicle and Self-Propelled Artillery" hidden="false"/>
     <categoryEntry id="2223-b0fe-f380-0b0d" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false"/>
     <categoryEntry id="c1e2-bbe0-922c-ff35" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false"/>
@@ -92,6 +92,10 @@
     <categoryEntry id="be7e-306b-30b5-03b8" name="Characters" hidden="false"/>
     <categoryEntry id="ae2d-85fe-a828-0e1c" name="Allied Senior Mentor" publicationId="9a47-ac76-pubN65838" page="90" hidden="false"/>
     <categoryEntry id="b3d9-2fbb-f78f-089c" name="German Technical Advisor" publicationId="9a47-ac76-pubN65838" page="94" hidden="false"/>
+    <categoryEntry id="520a-58ff-3d13-bd50" name="Airborne, Firefly, Paragon, and Paragon Support squads" hidden="false"/>
+    <categoryEntry id="09e3-3c20-1563-788c" name="Heavy Infantry, Paragon, and Paragon Support squads" hidden="false"/>
+    <categoryEntry id="2376-7b44-65bc-42ca" name="Marine, Paragon, Paragon Support squads only" hidden="false"/>
+    <categoryEntry id="ee23-0c13-8958-df3f" name="Light Artillery, Light &amp; Medium AT Guns, Medium &amp; Heavy Artillery" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="4fcf-76d8-8f5b-ffa8" name="Reinforced Armoured Platoon" publicationId="9a47-ac76-pubN66291" page="35" hidden="false">
