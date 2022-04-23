@@ -92,9 +92,6 @@
     <categoryEntry id="be7e-306b-30b5-03b8" name="Characters" hidden="false"/>
     <categoryEntry id="ae2d-85fe-a828-0e1c" name="Allied Senior Mentor" publicationId="9a47-ac76-pubN65838" page="90" hidden="false"/>
     <categoryEntry id="b3d9-2fbb-f78f-089c" name="German Technical Advisor" publicationId="9a47-ac76-pubN65838" page="94" hidden="false"/>
-    <categoryEntry id="520a-58ff-3d13-bd50" name="Airborne, Firefly, Paragon, and Paragon Support squads" hidden="false"/>
-    <categoryEntry id="09e3-3c20-1563-788c" name="Heavy Infantry, Paragon, and Paragon Support squads" hidden="false"/>
-    <categoryEntry id="2376-7b44-65bc-42ca" name="Marine, Paragon, Paragon Support squads only" hidden="false"/>
     <categoryEntry id="ee23-0c13-8958-df3f" name="Light Artillery, Light &amp; Medium AT Guns, Medium &amp; Heavy Artillery" hidden="false"/>
   </categoryEntries>
   <forceEntries>
@@ -331,14 +328,6 @@
     <selectionEntry id="10f5-c782-fafc-4786" name="No Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="36d1-98db-3842-910d" name="No Weapon" hidden="false" targetId="d1e1-7f47-e5ff-ad2e" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a0ad-28a0-04d0-20d6" name="LMG" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="eefc-ee6f-6bb3-29ac" name="LMG" hidden="false" targetId="2ba8-828f-bf14-c107" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -1494,6 +1483,34 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9dc3-ad5b-f45b-d3b6" name="HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bb04-2593-a5cd-ad02" name="HMG" hidden="false" targetId="5b08-f9aa-c205-ec2f" type="profile"/>
+        <infoLink id="197c-68f6-ae6e-ea75" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
+        <infoLink id="3ba1-9526-132b-1c3c" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6dc4-67a2-757e-5aa9" name="LMG" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fb60-7d88-917a-6890" name="LMG" hidden="false" targetId="2ba8-828f-bf14-c107" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd1a-0d40-a62b-af41" name="MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d649-2fc6-0dc3-b438" name="MMG" hidden="false" targetId="ab50-4650-872b-78e2" type="profile"/>
+        <infoLink id="4fc9-c67a-4bbe-ccc7" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
+        <infoLink id="cc8a-7190-b8a2-2a53" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d35f-b1c7-d0ff-2d11" name="Tough Fighters" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
@@ -1553,7 +1570,8 @@ Bikes are not allowed to make an assault action and if assaulted may make a free
 4: They may fire fixed weapons whilst moving, with the normal -1 to hit modifier.
 5: They are immune to horror.
 6: They cannot benefit from medics or the proximity of officers.
-7: They cannot benefit from national special rules.</description>
+7: They cannot benefit from national special rules.
+8: Automated Infantry may move and fire without suffering the -1 to hit penalty.</description>
     </rule>
     <rule id="a177-5aaa-1b45-b6e2" name="Tough" publicationId="9a47-ac76-pubN65784" page="82" hidden="false">
       <description>A unit with the tough special rule rolls a D6 every time an opponent rolls equal or over its Damage value; the damage is ignored on a roll of 5+. Weapons with a damage penetration modifier of +2 or greater negate this special rule.</description>
