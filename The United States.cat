@@ -543,9 +543,6 @@
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="-35.0"/>
-              </costs>
             </selectionEntry>
             <selectionEntry id="f001-640e-5407-2aff" name="Veteran MMG Team" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
@@ -570,9 +567,6 @@
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="-35.0"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2173,17 +2167,30 @@
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="a095-c0ab-f5ee-d806" name="Rifle Grenade" hidden="false" collective="false" import="true" targetId="4492-e0f5-5aa1-5c8a" type="selectionEntry">
+                <selectionEntryGroup id="137b-f542-9059-08d8" name="High Explosive Weapons" hidden="false" collective="false" import="true">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9694-84a4-d753-3fdd" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d241-0ce3-4dba-b591" type="max"/>
                   </constraints>
-                  <costs>
-                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="20.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
+                  <entryLinks>
+                    <entryLink id="e2b0-03d1-cfde-aff1" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="937b-3637-ac69-f44f" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edda-137a-43b0-c062" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="e2d3-4825-767b-b060" name="Rifle Grenade" hidden="false" collective="false" import="true" targetId="4492-e0f5-5aa1-5c8a" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d35e-8e03-d55f-006d" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="20.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
               </costs>
@@ -2328,17 +2335,30 @@
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="0d68-9ff5-cba7-ab99" name="Rifle Grenade" hidden="false" collective="false" import="true" targetId="4492-e0f5-5aa1-5c8a" type="selectionEntry">
+                <selectionEntryGroup id="0161-cffc-5386-5791" name="High Explosive Weapons" hidden="false" collective="false" import="true">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f64d-4e40-b6d3-eee2" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4d2-9da0-f03a-796f" type="max"/>
                   </constraints>
-                  <costs>
-                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="20.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
+                  <entryLinks>
+                    <entryLink id="6883-2a0e-7aaf-8415" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="937b-3637-ac69-f44f" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2087-9770-e1a1-50fa" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="3078-b9e9-3c1b-d307" name="Rifle Grenade" hidden="false" collective="false" import="true" targetId="4492-e0f5-5aa1-5c8a" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aad7-fdc5-109a-2f79" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="20.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
               </costs>
@@ -2483,17 +2503,30 @@
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="5865-7c0a-d9cc-ce6a" name="Rifle Grenade" hidden="false" collective="false" import="true" targetId="4492-e0f5-5aa1-5c8a" type="selectionEntry">
+                <selectionEntryGroup id="5167-2075-7ddf-d00d" name="High Explosive Weapons" hidden="false" collective="false" import="true">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34ce-d186-1d9a-e62e" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="036d-e6c2-b491-0dc5" type="max"/>
                   </constraints>
-                  <costs>
-                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="20.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
+                  <entryLinks>
+                    <entryLink id="c589-7f5d-6f53-d0a0" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="937b-3637-ac69-f44f" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe7c-4561-a1be-9a23" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="004b-b522-9a79-aaf0" name="Rifle Grenade" hidden="false" collective="false" import="true" targetId="4492-e0f5-5aa1-5c8a" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c4e-9c8f-136b-16fd" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="20.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
               </costs>
@@ -2579,7 +2612,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="ccc8-39d7-5347-fda7" name="Turret-Mounted Light AT Gun" hidden="false" collective="false" import="true" targetId="bc28-0208-2b44-a5ac" type="selectionEntry">
+        <entryLink id="ccc8-39d7-5347-fda7" name="Turret-Mounted Medium AT Gun" hidden="false" collective="false" import="true" targetId="96c5-5bfc-cecc-66e9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0954-2095-6fbb-dc52" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0da6-9a1f-8f9d-0b44" type="max"/>
@@ -2894,7 +2927,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecd1-d8e0-c580-34de" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="a5f6-a5d8-1e65-5495" name="Turret-Mounted Medium AT Gun" hidden="false" collective="false" import="true" targetId="96c5-5bfc-cecc-66e9" type="selectionEntry">
+                    <entryLink id="a5f6-a5d8-1e65-5495" name="Turret-Mounted Heavy AT Gun" hidden="false" collective="false" import="true" targetId="3296-6844-2b99-aa77" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78de-0c27-8a0d-9eeb" type="max"/>
                       </constraints>
@@ -2931,7 +2964,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37e1-4bde-fbe6-3b33" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="31ee-26c7-c163-fece" name="Turret-Mounted Medium AT Gun" hidden="false" collective="false" import="true" targetId="96c5-5bfc-cecc-66e9" type="selectionEntry">
+                    <entryLink id="31ee-26c7-c163-fece" name="Turret-Mounted Heavy AT Gun" hidden="false" collective="false" import="true" targetId="3296-6844-2b99-aa77" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c1d-74f1-af49-1640" type="max"/>
                       </constraints>
@@ -2968,7 +3001,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3128-e2b8-2c7c-3f8d" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="9f45-af4d-f10f-7374" name="Turret-Mounted Medium AT Gun" hidden="false" collective="false" import="true" targetId="96c5-5bfc-cecc-66e9" type="selectionEntry">
+                    <entryLink id="9f45-af4d-f10f-7374" name="Turret-Mounted Heavy AT Gun" hidden="false" collective="false" import="true" targetId="3296-6844-2b99-aa77" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b58-1aa6-6d31-b281" type="max"/>
                       </constraints>
@@ -4798,17 +4831,30 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="95ce-2561-12f1-73f3" name="Rifle Grenade" hidden="false" collective="false" import="true" targetId="4492-e0f5-5aa1-5c8a" type="selectionEntry">
+        <selectionEntryGroup id="d70b-8246-b94c-b49d" name="High Explosive Weapons" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a09e-0c10-4708-9244" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c8e-70ea-3b5e-709e" type="max"/>
           </constraints>
-          <costs>
-            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="20.0"/>
-          </costs>
-        </entryLink>
-      </entryLinks>
+          <entryLinks>
+            <entryLink id="235f-7226-f1dc-09bd" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="937b-3637-ac69-f44f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9b6-1bd2-2f17-df81" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ba0d-546e-c174-f8cd" name="Rifle Grenade" hidden="false" collective="false" import="true" targetId="4492-e0f5-5aa1-5c8a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b088-78e5-84a8-cd10" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="20.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
@@ -5453,6 +5499,14 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1fc-4601-8181-a11a" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d13-b98b-6385-95fd" type="max"/>
           </constraints>
+        </entryLink>
+        <entryLink id="568e-4547-dafc-fced" name="Left Arm-Mounted Flamethrower (Infantry)" hidden="false" collective="false" import="true" targetId="6f91-f2da-b621-a64d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13b4-b258-a1b8-20c1" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="20.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
