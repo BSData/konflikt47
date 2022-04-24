@@ -212,12 +212,33 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d08d-65dd-59b4-4fd3" name="Tesla AT Gun" publicationId="24a5-18e9-pubN65619" page="57" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="b238-a359-a6c4-3bd7" name="Tesla Towing" hidden="false">
+          <description>The Tesla AT Gun is towed as a Medium Gun</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="26cf-3e5d-2800-e2a7" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
+        <infoLink id="9ba1-bb47-f595-a0d8" name="Crew (3)" hidden="false" targetId="64ca-40ca-47f0-81e3" type="rule"/>
+        <infoLink id="4eec-bc11-5b75-a12f" name="Resilient" hidden="false" targetId="f45a-914c-bccf-5a1c" type="rule"/>
+        <infoLink id="f106-9476-d9f8-6c34" name="Tough" hidden="false" targetId="a177-5aaa-1b45-b6e2" type="rule"/>
+        <infoLink id="2823-f6c5-d5cc-438a" name="Infrared (IR) Vision" hidden="false" targetId="8f1c-b9eb-2fab-a987" type="rule"/>
+        <infoLink id="4043-d1a3-55e8-4ffa" name="Large Infantry" hidden="false" targetId="ae84-cf09-97d1-5204" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="a1e5-de99-2df0-51d3" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
         <categoryLink id="58c6-c09b-2195-93c6" name="New CategoryLink" hidden="false" targetId="1842-7654-2d60-c182" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="530a-497a-566a-5185" name="M17 Tesla Cannon" hidden="false" collective="false" import="true" targetId="5a0d-4460-5e5e-f5e7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2e1-5989-4cb5-b2b7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cf9-adfe-cc15-7ab2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b899-da57-04b0-af97" name="M22 Locust Light Tank" publicationId="24a5-18e9-pubN65619" page="57" hidden="false" collective="false" import="true" type="unit">
@@ -245,6 +266,14 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ac87-3bd9-681f-79a7" name="Churchill Meteor" publicationId="24a5-18e9-pubN65619" page="57" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="2f73-9176-898c-6dcf" name="Busy Turret" hidden="false">
+          <description>May not fire Meteor Launcher and AT gun in the same turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a67a-3c58-54f7-17b0" name="Heavy Tank" hidden="false" targetId="923d-ea2a-6016-ed02" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="33db-5b4c-b8d3-87c5" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
         <categoryLink id="2229-506e-23bb-03a1" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
@@ -252,6 +281,63 @@
         <categoryLink id="2b4b-88b4-16e1-f009" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="f642-b01c-1a05-1b66" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="029f-4392-5645-b2f2" name="Rating" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="163d-e821-d9db-1a07" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f3d-ad91-399d-60aa" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5752-f9d1-133c-bc53" name="Veteran Tank Team" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="fb2a-b1a4-e5d5-e7c7" name="Veteran (Vehicle)" hidden="false" targetId="87de-25e7-d35e-25a7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="410.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="951c-01ec-c6a1-d9f2" name="Regular Tank Team" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="34bf-bf7a-be80-d82b" name="Regular (Vehicle)" hidden="false" targetId="fc80-9bff-1ffc-abd5" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="340.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8882-7447-3373-04db" name="Turret-Mounted Medium AT Gun" hidden="false" collective="false" import="true" targetId="96c5-5bfc-cecc-66e9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f28f-b2d8-efb7-a9fe" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c8a-597e-cc7f-39c2" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="9b5f-f272-707d-74da" name="75mm HE" hidden="false">
+              <description>Instead of causing D2 HE hits an HE shell causes D6 hits.</description>
+            </rule>
+          </rules>
+        </entryLink>
+        <entryLink id="c1df-4c5d-b6f0-8497" name="Coaxial MMG" hidden="false" collective="false" import="true" targetId="cfd8-d421-3cd2-ab75" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c98c-5883-c79e-e2d1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac26-818d-57df-4779" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="83d4-6128-104c-8869" name="Meteor Launcher" hidden="false" collective="false" import="true" targetId="61ee-7e2c-428a-991e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a415-6e1b-b27b-07c7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b32-b634-bb3e-f3fe" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e268-2762-00cc-282d" name="Hull-Mounted Forward-Facing MMG" hidden="false" collective="false" import="true" targetId="f3d9-1a0f-0031-e8c7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1e5-bbe5-186f-6785" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77b1-745a-ff7b-b7bb" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
