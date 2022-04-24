@@ -92,9 +92,6 @@
     <categoryEntry id="be7e-306b-30b5-03b8" name="Characters" hidden="false"/>
     <categoryEntry id="ae2d-85fe-a828-0e1c" name="Allied Senior Mentor" publicationId="9a47-ac76-pubN65838" page="90" hidden="false"/>
     <categoryEntry id="b3d9-2fbb-f78f-089c" name="German Technical Advisor" publicationId="9a47-ac76-pubN65838" page="94" hidden="false"/>
-    <categoryEntry id="520a-58ff-3d13-bd50" name="Airborne, Firefly, Paragon, and Paragon Support squads" hidden="false"/>
-    <categoryEntry id="09e3-3c20-1563-788c" name="Heavy Infantry, Paragon, and Paragon Support squads" hidden="false"/>
-    <categoryEntry id="2376-7b44-65bc-42ca" name="Marine, Paragon, Paragon Support squads only" hidden="false"/>
     <categoryEntry id="ee23-0c13-8958-df3f" name="Light Artillery, Light &amp; Medium AT Guns, Medium &amp; Heavy Artillery" hidden="false"/>
   </categoryEntries>
   <forceEntries>
@@ -331,14 +328,6 @@
     <selectionEntry id="10f5-c782-fafc-4786" name="No Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="36d1-98db-3842-910d" name="No Weapon" hidden="false" targetId="d1e1-7f47-e5ff-ad2e" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a0ad-28a0-04d0-20d6" name="LMG" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="eefc-ee6f-6bb3-29ac" name="LMG" hidden="false" targetId="2ba8-828f-bf14-c107" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -1494,6 +1483,71 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9dc3-ad5b-f45b-d3b6" name="HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bb04-2593-a5cd-ad02" name="HMG" hidden="false" targetId="5b08-f9aa-c205-ec2f" type="profile"/>
+        <infoLink id="197c-68f6-ae6e-ea75" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
+        <infoLink id="3ba1-9526-132b-1c3c" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6dc4-67a2-757e-5aa9" name="LMG" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fb60-7d88-917a-6890" name="LMG" hidden="false" targetId="2ba8-828f-bf14-c107" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd1a-0d40-a62b-af41" name="MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d649-2fc6-0dc3-b438" name="MMG" hidden="false" targetId="ab50-4650-872b-78e2" type="profile"/>
+        <infoLink id="4fc9-c67a-4bbe-ccc7" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
+        <infoLink id="cc8a-7190-b8a2-2a53" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="72b9-8c6b-3caf-d93a" name="Turret-Mounted Heavy Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="39dd-ecba-cd34-cc89" name="Heavy Howitzer" hidden="false" targetId="8938-308e-dcba-ce0e" type="profile"/>
+        <infoLink id="d5a9-aa87-b8c2-859e" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule"/>
+        <infoLink id="87c5-f471-3d9a-c75b" name="High Explosive (3D6)" hidden="false" targetId="8cea-e2b2-88f5-4604" type="rule"/>
+        <infoLink id="ff6f-21a5-1152-59bc" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3330-f82b-8f6f-c9e1" name="Hull-Mounted Forward Facing Flamethrower (Vehicle)" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="dde5-5409-4fd7-4ccb" name="Flamethrower (Vehicle)" hidden="false" targetId="d9e9-7325-474b-e9d9" type="profile"/>
+        <infoLink id="2641-46ce-e6a9-5b7e" name="Flamethrower" hidden="false" targetId="33a1-c3d8-4ca6-7869" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb32-b08d-c5d5-633d" name="Rear-Facing Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="36e7-e3ad-d125-572f" name="Turret-Mounted Rear-Facing Super-Heavy AT Gun" hidden="false" targetId="7056-ef87-0e27-c00d" type="profile"/>
+        <infoLink id="801d-55af-4b79-4681" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b3f-e3da-ff0c-7351" name="Crew-Carried LMG" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2ce2-8517-8d39-4546" name="LMG" hidden="false" targetId="2ba8-828f-bf14-c107" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d35f-b1c7-d0ff-2d11" name="Tough Fighters" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
@@ -1553,7 +1607,8 @@ Bikes are not allowed to make an assault action and if assaulted may make a free
 4: They may fire fixed weapons whilst moving, with the normal -1 to hit modifier.
 5: They are immune to horror.
 6: They cannot benefit from medics or the proximity of officers.
-7: They cannot benefit from national special rules.</description>
+7: They cannot benefit from national special rules.
+8: Automated Infantry may move and fire without suffering the -1 to hit penalty.</description>
     </rule>
     <rule id="a177-5aaa-1b45-b6e2" name="Tough" publicationId="9a47-ac76-pubN65784" page="82" hidden="false">
       <description>A unit with the tough special rule rolls a D6 every time an opponent rolls equal or over its Damage value; the damage is ignored on a roll of 5+. Weapons with a damage penetration modifier of +2 or greater negate this special rule.</description>
@@ -1766,7 +1821,13 @@ Medics may not fire weapons or assault, but can defend themselves if assaulted u
     <rule id="67c4-b526-4222-9d1a" name="Stubborn" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
       <description>If forced to take a morale check, this unit ignores negative morale modifiers from pin markers.</description>
     </rule>
-    <rule id="ed5a-27d0-55a5-79bc" name="War Dogs" publicationId="9a47-ac76-pubN66291" page="30" hidden="false"/>
+    <rule id="ed5a-27d0-55a5-79bc" name="War Dogs" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
+      <description>War Dogs are classed as infantry and follow normal infantry rules for movement, roders, combat, etc. At the start of any activation that the unit is given a Run (or assault) order, the controlling player can choose to release the dogs. Remove any handler models remaining in the squad from the table (these may not return but do not count as casualties). 
+From this point, the unit is Immune to Horror and gains the Fast, Fanatics, and Tough Fighters special rules.
+As the order has already been declared, the dogs follow the order for the remainder of the turn, including direction of movement and target of the assault (if applicable). However, on subsequent turns, and at the start of any activation where there are no handlers in the unit, a unit of dogs without handlers will always Run towards the nearest infantry or artillery unit when activated. This may include friendly troops unfortunate enough to be in their range. If two units are equally close, enemy units are selected before friendly ones; if both are from the same side, roll a die for each unit, with the lowest roll deemed to be the closest. Units behind impassab;e terrain are ignored if the dog&apos;s movement cannot bring them into contact.
+If the Run move would bring the dogs into contact with the nearest unit, the Run order is changed to an assault and the war dogs conduct an assault instead.
+</description>
+    </rule>
     <rule id="989b-f1c2-debc-660a" name="ARV" publicationId="9a47-ac76-pubN66291" page="33" hidden="false"/>
     <rule id="0e48-4316-c02c-2605" name="Animated Corpse" publicationId="9a47-ac76-pubN65784" page="131" hidden="false">
       <description>Animated corpses ignore pin markers and morale checks. Additionally they are not affected by Medics.</description>
@@ -2866,6 +2927,14 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (2D6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7056-ef87-0e27-c00d" name="Rear-Facing Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">84&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+7</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D3)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
