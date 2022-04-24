@@ -8,17 +8,225 @@
   <categoryEntries>
     <categoryEntry id="f756-1786-928b-8611" name="Paratrooper and SAS Squad" hidden="false"/>
     <categoryEntry id="5b6f-c64b-7b3d-e18b" name="Galahad Armoured Officer, Galahad Heavy Infantry, Automated Infantry Squads" hidden="false"/>
+    <categoryEntry id="a510-a39a-795e-374b" name="Infantry and Automated Infantry Squads" hidden="false"/>
+    <categoryEntry id="fdb2-5025-166f-fd66" name="Automated Infantry Squads" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="d304-b7ae-fc35-71d3" name="British and Commonwealth Infantry Platoon" publicationId="24a5-18e9-pubN65619" page="25" hidden="false"/>
+    <forceEntry id="d304-b7ae-fc35-71d3" name="British and Commonwealth Infantry Platoon" publicationId="24a5-18e9-pubN65619" page="25" hidden="false">
+      <categoryLinks>
+        <categoryLink id="a9cc-dc25-5e10-82c9" name="Headquarters" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="false"/>
+        <categoryLink id="88f5-d7e6-b0bf-9ddb" name="Infantry Squads" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68d8-5396-bc8c-df8f" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5389-16f0-4476-5bf0" name="Tanks and Tank Destroyers" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
+        <categoryLink id="8369-fe72-db49-3d06" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false"/>
+        <categoryLink id="fb2a-605e-5c33-73b1" name="Artillery and Anti-tank Guns" hidden="false" targetId="5056-7005-6edc-4816" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7740-2a6d-cb73-2e3c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="665d-9804-d6d1-2e4c" name="Infantry Support Squads" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false"/>
+        <categoryLink id="65e4-7ecf-581e-7a36" name="Commander" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b4c-fe12-87f2-0d09" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be8e-789f-af34-825e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7186-01c2-df0d-9532" name="Infantry and Automated Infantry Squads" hidden="false" targetId="a510-a39a-795e-374b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7026-ecce-e101-334d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="20af-93f8-17fd-11c4" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f18-81b9-ce0f-ad46" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5388-d023-2768-6302" name="Medic" hidden="false" targetId="64b3-a04b-d6d0-add2" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3ce-ebe7-5fab-379f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="0984-1a23-d25f-dd48" name="Free Units" hidden="false" targetId="60fd-ed23-32dc-eb94" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1db-4a4a-0f1b-456a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="a371-3738-228b-9375" name="Machine Gun Team" hidden="false" targetId="1688-881c-5284-0be8" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7806-115e-bb11-8be9" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="e591-b5e1-caa2-28ea" name="Mortar Team" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c57-f46a-0f4d-5b21" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="81d1-5166-7ca3-561a" name="Sniper Team" hidden="false" targetId="6077-3929-61c8-5eb7" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa06-986d-f740-2a6f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="6498-c342-8b21-24e5" name="Flamethrower Team" hidden="false" targetId="c5aa-dfef-70b7-726b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2127-931a-43c5-1d2d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b217-c8dd-8474-ea77" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40d4-2038-c9ed-0437" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b5af-5f5f-4018-38fe" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c78c-5792-3423-e657" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="cfa5-4d4b-23da-2926" name="Tows" hidden="false" targetId="f3c7-5675-463e-b566" primary="false">
+          <modifiers>
+            <modifier type="increment" field="b764-2242-1eb2-96a6" value="0.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5056-7005-6edc-4816" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b764-2242-1eb2-96a6" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="339c-f781-6046-bf99" name="Transports" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="false">
+          <modifiers>
+            <modifier type="increment" field="c2cd-d051-f485-b05d" value="0.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="360a-867e-e501-63b2" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2cd-d051-f485-b05d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d0d9-a729-594c-3072" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Medium Walkers, and Heavy Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91d9-c91d-f49f-d3db" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
     <forceEntry id="6b29-b06d-3e79-a0d2" name="British Airborne Platoon" publicationId="24a5-18e9-pubN65619" page="25" hidden="false"/>
     <forceEntry id="d95e-da72-2fab-4c51" name="British Heavy Infantry Platoon" publicationId="24a5-18e9-pubN65619" page="25" hidden="false"/>
-    <forceEntry id="d94b-b4c4-0d8b-557a" name="Canadian Infantry Platoon" publicationId="24a5-18e9-pubN65619" page="25" hidden="false"/>
+    <forceEntry id="d94b-b4c4-0d8b-557a" name="Canadian Infantry Platoon" publicationId="24a5-18e9-pubN65619" page="25" hidden="false">
+      <categoryLinks>
+        <categoryLink id="1a66-9b43-b904-aa24" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b34-e75a-3358-9e8d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="74cf-caca-bec9-b9c1" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36f0-9bf2-5f64-5020" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7374-008d-2d4f-5877" name="Artillery and Anti-tank Guns" hidden="false" targetId="5056-7005-6edc-4816" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f5a-d055-5632-35fc" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="16e1-2ac9-c647-182e" name="Commander" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0313-39e0-c719-a272" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f040-138b-1a2f-863c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8a4c-f60a-1f40-4c82" name="Flamethrower Team" hidden="false" targetId="c5aa-dfef-70b7-726b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc97-359b-b1b9-fe00" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="a2e3-bf50-ad3e-39eb" name="Free Units" hidden="false" targetId="60fd-ed23-32dc-eb94" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8613-1ae6-9db8-a866" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f664-7eaa-82e9-6560" name="Headquarters" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="false"/>
+        <categoryLink id="d3ee-6325-d243-d9e2" name="Infantry Squads" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="511c-427f-e996-999f" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38a7-e7bc-ead0-e0ad" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="9f6a-d1e7-eae9-eeef" name="Transports" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="false">
+          <modifiers>
+            <modifier type="increment" field="a69d-b8d4-1b89-be1b" value="0.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="360a-867e-e501-63b2" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a69d-b8d4-1b89-be1b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="443b-b8f3-d66d-34e7" name="Tows" hidden="false" targetId="f3c7-5675-463e-b566" primary="false">
+          <modifiers>
+            <modifier type="increment" field="f549-f6de-dcbc-4dfc" value="0.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5056-7005-6edc-4816" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f549-f6de-dcbc-4dfc" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="692c-a02b-98d8-4dec" name="Automated Infantry Squads" hidden="false" targetId="fdb2-5025-166f-fd66" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5994-6393-69d6-8531" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="c0df-2d8f-a32b-d69c" name="Infantry Support Squads" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false"/>
+        <categoryLink id="5e75-89ed-4aaf-0d87" name="Machine Gun Team" hidden="false" targetId="1688-881c-5284-0be8" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd28-14c9-41a4-a3bc" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="34be-85bc-98c3-06d2" name="Medic" hidden="false" targetId="64b3-a04b-d6d0-add2" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2097-089e-d1b1-d409" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b945-e801-f9cd-daee" name="Mortar Team" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39df-448b-7b14-0d50" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b906-23c5-06c0-1c79" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5930-ef8d-22f7-d0a8" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f654-16df-073a-5c93" name="Sniper Team" hidden="false" targetId="6077-3929-61c8-5eb7" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="301a-cfb4-82e1-4376" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b289-9241-6b96-5946" name="Tanks and Tank Destroyers" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
+        <categoryLink id="42cf-3e93-606e-f223" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false"/>
+        <categoryLink id="f5b4-8ff3-b629-449a" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Medium Walkers, and Heavy Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20bc-8cc8-e3d5-196f" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <selectionEntries>
     <selectionEntry id="56e8-cd69-c2d1-36f0" name="Veteran Infantry Section" publicationId="24a5-18e9-pubN65619" page="54" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="aaad-11f1-bbea-f66f" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="07c2-c272-2667-1ebb" name="Infantry and Automated Infantry Squads" hidden="false" targetId="a510-a39a-795e-374b" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -27,6 +235,8 @@
     <selectionEntry id="b3d3-ed9e-82b5-e1f5" name="Commando, Royal Marine, or Airborne Infantry Section" publicationId="24a5-18e9-pubN65619" page="54" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="da39-e1b5-7910-5862" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="2bdf-3470-1b23-fdf2" name="Infantry and Automated Infantry Squads" hidden="false" targetId="a510-a39a-795e-374b" primary="false"/>
+        <categoryLink id="e5bb-c46b-e3f9-5bf0" name="Paratrooper and SAS Squad" hidden="false" targetId="f756-1786-928b-8611" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="31c7-80e1-ff03-d938" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -206,39 +416,20 @@
     <selectionEntry id="a116-641e-aea8-d2d6" name="SAS Section" publicationId="24a5-18e9-pubN65619" page="56" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="a974-24af-f403-8f95" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="9256-e229-95fb-b70f" name="Infantry and Automated Infantry Squads" hidden="false" targetId="a510-a39a-795e-374b" primary="false"/>
+        <categoryLink id="4da6-9717-43ca-d55b" name="Paratrooper and SAS Squad" hidden="false" targetId="f756-1786-928b-8611" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d08d-65dd-59b4-4fd3" name="Tesla AT Gun" publicationId="24a5-18e9-pubN65619" page="57" hidden="false" collective="false" import="true" type="unit">
-      <rules>
-        <rule id="b238-a359-a6c4-3bd7" name="Tesla Towing" hidden="false">
-          <description>The Tesla AT Gun is towed as a Medium Gun</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="26cf-3e5d-2800-e2a7" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
-        <infoLink id="9ba1-bb47-f595-a0d8" name="Crew (3)" hidden="false" targetId="64ca-40ca-47f0-81e3" type="rule"/>
-        <infoLink id="4eec-bc11-5b75-a12f" name="Resilient" hidden="false" targetId="f45a-914c-bccf-5a1c" type="rule"/>
-        <infoLink id="f106-9476-d9f8-6c34" name="Tough" hidden="false" targetId="a177-5aaa-1b45-b6e2" type="rule"/>
-        <infoLink id="2823-f6c5-d5cc-438a" name="Infrared (IR) Vision" hidden="false" targetId="8f1c-b9eb-2fab-a987" type="rule"/>
-        <infoLink id="4043-d1a3-55e8-4ffa" name="Large Infantry" hidden="false" targetId="ae84-cf09-97d1-5204" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="a1e5-de99-2df0-51d3" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
         <categoryLink id="58c6-c09b-2195-93c6" name="New CategoryLink" hidden="false" targetId="1842-7654-2d60-c182" primary="false"/>
       </categoryLinks>
-      <entryLinks>
-        <entryLink id="530a-497a-566a-5185" name="M17 Tesla Cannon" hidden="false" collective="false" import="true" targetId="5a0d-4460-5e5e-f5e7" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2e1-5989-4cb5-b2b7" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cf9-adfe-cc15-7ab2" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="120.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b899-da57-04b0-af97" name="M22 Locust Light Tank" publicationId="24a5-18e9-pubN65619" page="57" hidden="false" collective="false" import="true" type="unit">
@@ -266,14 +457,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ac87-3bd9-681f-79a7" name="Churchill Meteor" publicationId="24a5-18e9-pubN65619" page="57" hidden="false" collective="false" import="true" type="unit">
-      <rules>
-        <rule id="2f73-9176-898c-6dcf" name="Busy Turret" hidden="false">
-          <description>May not fire Meteor Launcher and AT gun in the same turn.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="a67a-3c58-54f7-17b0" name="Heavy Tank" hidden="false" targetId="923d-ea2a-6016-ed02" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="33db-5b4c-b8d3-87c5" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
         <categoryLink id="2229-506e-23bb-03a1" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
@@ -281,63 +464,6 @@
         <categoryLink id="2b4b-88b4-16e1-f009" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="f642-b01c-1a05-1b66" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="029f-4392-5645-b2f2" name="Rating" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="163d-e821-d9db-1a07" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f3d-ad91-399d-60aa" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="5752-f9d1-133c-bc53" name="Veteran Tank Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="fb2a-b1a4-e5d5-e7c7" name="Veteran (Vehicle)" hidden="false" targetId="87de-25e7-d35e-25a7" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="410.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="951c-01ec-c6a1-d9f2" name="Regular Tank Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="34bf-bf7a-be80-d82b" name="Regular (Vehicle)" hidden="false" targetId="fc80-9bff-1ffc-abd5" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="340.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="8882-7447-3373-04db" name="Turret-Mounted Medium AT Gun" hidden="false" collective="false" import="true" targetId="96c5-5bfc-cecc-66e9" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f28f-b2d8-efb7-a9fe" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c8a-597e-cc7f-39c2" type="min"/>
-          </constraints>
-          <rules>
-            <rule id="9b5f-f272-707d-74da" name="75mm HE" hidden="false">
-              <description>Instead of causing D2 HE hits an HE shell causes D6 hits.</description>
-            </rule>
-          </rules>
-        </entryLink>
-        <entryLink id="c1df-4c5d-b6f0-8497" name="Coaxial MMG" hidden="false" collective="false" import="true" targetId="cfd8-d421-3cd2-ab75" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c98c-5883-c79e-e2d1" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac26-818d-57df-4779" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="83d4-6128-104c-8869" name="Meteor Launcher" hidden="false" collective="false" import="true" targetId="61ee-7e2c-428a-991e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a415-6e1b-b27b-07c7" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b32-b634-bb3e-f3fe" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="e268-2762-00cc-282d" name="Hull-Mounted Forward-Facing MMG" hidden="false" collective="false" import="true" targetId="f3d9-1a0f-0031-e8c7" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1e5-bbe5-186f-6785" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77b1-745a-ff7b-b7bb" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
@@ -434,6 +560,7 @@
       <categoryLinks>
         <categoryLink id="0493-3d22-2589-cabe" name="Commander" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false"/>
         <categoryLink id="18e2-9954-77aa-4ca9" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true"/>
+        <categoryLink id="481a-e63f-7b43-365d" name="Galahad Armoured Officer, Galahad Heavy Infantry, Automated Infantry Squads" hidden="false" targetId="5b6f-c64b-7b3d-e18b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8349-6126-81c3-131c" name="Officer" hidden="false" collective="false" import="true" type="model">
@@ -528,6 +655,7 @@
       <categoryLinks>
         <categoryLink id="253f-4458-f434-6196" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true"/>
         <categoryLink id="6c1e-5027-0377-c0ab" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false"/>
+        <categoryLink id="840e-bc17-2181-2215" name="Galahad Armoured Officer, Galahad Heavy Infantry, Automated Infantry Squads" hidden="false" targetId="5b6f-c64b-7b3d-e18b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d6f3-143c-def2-827a" name="Officer" hidden="false" collective="false" import="true" type="model">
@@ -614,6 +742,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ca9e-ba6f-a23f-14d9" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="da66-c02e-1276-eee5" name="Infantry and Automated Infantry Squads" hidden="false" targetId="a510-a39a-795e-374b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a106-6d35-6ab9-855c" name="NCO" hidden="false" collective="false" import="true" type="model">
@@ -689,6 +818,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6155-aa4d-ff71-af0f" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="97a4-c656-014b-4ef8" name="Infantry and Automated Infantry Squads" hidden="false" targetId="a510-a39a-795e-374b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="db34-17ad-9378-6d82" name="Rating" hidden="false" collective="false" import="true">
@@ -699,33 +829,21 @@
           <selectionEntries>
             <selectionEntry id="6939-13ec-4475-f87c" name="Regular" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
-                <selectionEntry id="96da-22fd-6081-7267" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="21bd-84a6-db55-bf65" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="2.0">
+                      <repeats>
+                        <repeat field="selections" scope="40a2-4d99-4b69-a444" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6600-0de4-4ef8-527d" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb85-e9b4-a021-027b" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="388f-d32e-4516-40c3" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="2a96-6624-7fec-196b" name="Tank Hunters" hidden="false" targetId="c707-cf7b-113b-507b" type="rule"/>
+                    <infoLink id="919f-3cda-3f41-7ba3" name="Tank Hunters" hidden="false" targetId="c707-cf7b-113b-507b" type="rule"/>
                   </infoLinks>
-                  <selectionEntries>
-                    <selectionEntry id="284c-6974-26bd-d8ed" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
-                      <modifiers>
-                        <modifier type="increment" field="999f-4f04-2f3e-74f9" value="1.0">
-                          <repeats>
-                            <repeat field="selections" scope="40a2-4d99-4b69-a444" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                          </repeats>
-                        </modifier>
-                        <modifier type="increment" field="a71e-96c4-9dd2-9756" value="1.0">
-                          <repeats>
-                            <repeat field="selections" scope="40a2-4d99-4b69-a444" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                          </repeats>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="999f-4f04-2f3e-74f9" type="min"/>
-                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a71e-96c4-9dd2-9756" type="max"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
                   <costs>
                     <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
                   </costs>
@@ -860,36 +978,27 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a62a-a046-be3f-e575" name="Veteran" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
-                <selectionEntry id="4889-14df-cd9e-dacd" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="88ae-bb35-7f60-3d59" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="2.0">
+                      <repeats>
+                        <repeat field="selections" scope="40a2-4d99-4b69-a444" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eb6-aa1d-5ad7-aa3e" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="987d-e32b-6b27-3437" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f54d-567e-c9e6-bad2" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="d705-144a-b6a7-0dc1" name="Tank Hunters" hidden="false" targetId="c707-cf7b-113b-507b" type="rule"/>
+                    <infoLink id="e499-3b84-5b90-b0b8" name="Tank Hunters" hidden="false" targetId="c707-cf7b-113b-507b" type="rule"/>
                   </infoLinks>
-                  <selectionEntries>
-                    <selectionEntry id="2f99-70ed-0556-903e" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
-                      <modifiers>
-                        <modifier type="increment" field="eabd-3455-8e80-086a" value="1.0">
-                          <repeats>
-                            <repeat field="selections" scope="40a2-4d99-4b69-a444" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                          </repeats>
-                        </modifier>
-                        <modifier type="increment" field="2a36-bfef-f472-8352" value="1.0">
-                          <repeats>
-                            <repeat field="selections" scope="40a2-4d99-4b69-a444" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                          </repeats>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eabd-3455-8e80-086a" type="min"/>
-                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a36-bfef-f472-8352" type="max"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
                   <costs>
                     <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
                   </costs>
@@ -1024,6 +1133,9 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2142,6 +2254,7 @@
     <selectionEntry id="c4a2-bb28-7c53-a753" name="Infantry Section" publicationId="24a5-18e9-pubN65551" page="165" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="2eb6-87e3-4078-82eb" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="2460-9717-f13e-0ad9" name="Infantry and Automated Infantry Squads" hidden="false" targetId="a510-a39a-795e-374b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c3dc-cb62-f6a5-9f5d" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="6202-0c19-0ba2-cc24">
@@ -2496,6 +2609,7 @@
     <selectionEntry id="65f9-a759-4ea0-e851" name="Inexperienced Infantry Section" publicationId="24a5-18e9-pubN65551" page="166" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="bf60-f75f-9e6d-3ed2" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="137d-d9ef-3a0f-9e01" name="Infantry and Automated Infantry Squads" hidden="false" targetId="a510-a39a-795e-374b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="942a-9267-a06d-e61e" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -2647,6 +2761,8 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="34f8-cb59-0e03-70c9" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="f3ee-cc7e-d00d-9271" name="Galahad Armoured Officer, Galahad Heavy Infantry, Automated Infantry Squads" hidden="false" targetId="5b6f-c64b-7b3d-e18b" primary="false"/>
+        <categoryLink id="f41e-a17e-2c78-1952" name="Infantry and Automated Infantry Squads" hidden="false" targetId="a510-a39a-795e-374b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cd3a-f077-0784-5c5d" name="Squad Members" hidden="false" collective="false" import="true" defaultSelectionEntryId="a7a4-798d-4187-4ef1">
@@ -2718,6 +2834,9 @@
     <selectionEntry id="e73d-bbd3-199a-f532" name="Armoured Infantry Section" publicationId="24a5-18e9-pubN65551" page="166" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="da96-46de-7326-f284" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="e8ad-68f6-7fb9-edb4" name="Galahad Armoured Officer, Galahad Heavy Infantry, Automated Infantry Squads" hidden="false" targetId="5b6f-c64b-7b3d-e18b" primary="false"/>
+        <categoryLink id="94a0-1658-b7fd-8b23" name="Infantry and Automated Infantry Squads" hidden="false" targetId="a510-a39a-795e-374b" primary="false"/>
+        <categoryLink id="5aa5-06a1-03b5-f3fc" name="Automated Infantry Squads" hidden="false" targetId="fdb2-5025-166f-fd66" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9ae4-382c-727d-7031" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
