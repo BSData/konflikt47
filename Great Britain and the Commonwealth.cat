@@ -355,6 +355,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4931-6d65-4850-de05" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27ef-ad1a-dd82-c0eb" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="2216-b79a-8540-9c96" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
+          </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="8d60-e833-55f2-5d16" name="Rank" hidden="false" collective="false" import="true" defaultSelectionEntryId="52d3-5fe4-0f4a-47e1">
               <constraints>
@@ -363,11 +366,17 @@
               </constraints>
               <selectionEntries>
                 <selectionEntry id="52d3-5fe4-0f4a-47e1" name="Second Lieutenant" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="2cd3-02db-0c89-58f9" name="Second Lieutenant" hidden="false" targetId="9daf-9e31-47ab-812b" type="profile"/>
+                  </infoLinks>
                   <costs>
                     <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="85.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="af29-ab88-d5bc-b607" name="First Lieutenant" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="1948-7827-6601-0ab5" name="First Lieutenant" hidden="false" targetId="b135-cbf2-4684-b6dc" type="profile"/>
+                  </infoLinks>
                   <costs>
                     <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="110.0"/>
                   </costs>
@@ -397,6 +406,9 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="e6f5-047a-9ca0-391e" name="Veteran Soldier" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="b6eb-7781-7589-3d8e" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="d79a-d276-bb6f-0627" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="26cc-30e9-16e6-9099">
                   <constraints>
@@ -413,15 +425,6 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="d586-f2e8-3336-4cb5" name="Experience" hidden="false" collective="false" import="true" defaultSelectionEntryId="fd0a-3f13-70ab-832b">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d18-6979-e3b2-9005" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcad-3e56-0964-059e" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="fd0a-3f13-70ab-832b" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry"/>
-          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -532,6 +535,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4a9-dd76-1c59-2641" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c74b-0c33-7c1c-70ab" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="c8ff-c4fe-659f-bff4" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
+          </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="c850-41fa-b452-562a" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="badc-b5cc-7706-8ee7">
               <constraints>
@@ -564,7 +570,10 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c08-5d29-4cb3-1a18" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="50ff-2716-1ba5-0782" name="Regular Soldier" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="50ff-2716-1ba5-0782" name="Handler" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="fcc4-3f65-1af0-3dd5" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="dacc-f7f1-cbab-e426" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1f70-9296-c768-ccc1">
                   <constraints>
@@ -581,15 +590,6 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="afd1-1389-c39f-cf24" name="Experience" hidden="false" collective="false" import="true" defaultSelectionEntryId="5b87-0460-ec99-e1dc">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab2e-ec79-e872-bd86" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0ae-1481-28bd-31d0" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="5b87-0460-ec99-e1dc" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry"/>
-          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -987,8 +987,6 @@
         <infoLink id="9991-dfab-6f2f-5d39" name="Medium Walker" hidden="false" targetId="1dcf-e5c3-f99c-67f1" type="profile"/>
         <infoLink id="e736-d60f-10df-2add" name="Assault (Vehicle)" hidden="false" targetId="7e17-fe3a-569d-ccc5" type="rule"/>
         <infoLink id="9eb5-6516-1a28-6595" name="Walker" hidden="false" targetId="cc4e-54c3-faab-0936" type="rule"/>
-        <infoLink id="26ce-4419-175d-820a" name="Fist" hidden="false" targetId="952d-3a1b-a7be-28ac" type="rule"/>
-        <infoLink id="b9ee-79e0-7964-6b67" name="High Explosive (D6)" hidden="false" targetId="0a02-e32c-4873-ca4a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="992b-02ce-572a-0c0f" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
@@ -998,27 +996,36 @@
         <categoryLink id="4d2a-2831-0e88-2e38" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e913-80b2-e425-a4e5" name="Experience" hidden="false" collective="false" import="true" defaultSelectionEntryId="16c3-9c6b-fc3c-ebb9">
+        <selectionEntryGroup id="e913-80b2-e425-a4e5" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="16c3-9c6b-fc3c-ebb9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44e6-548e-a193-6bf1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e19-9969-edbb-69a2" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="16c3-9c6b-fc3c-ebb9" name="Regular (Vehicle)" hidden="false" collective="false" import="true" targetId="db47-30f7-6497-9700" type="selectionEntry"/>
+            <entryLink id="16c3-9c6b-fc3c-ebb9" name="Regular (Vehicle)" hidden="false" collective="false" import="true" targetId="db47-30f7-6497-9700" type="selectionEntry">
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="200.0"/>
+              </costs>
+            </entryLink>
             <entryLink id="49e5-b921-8e19-9890" name="Veteran (Vehicle)" hidden="false" collective="false" import="true" targetId="bf9f-ad2a-55c5-505e" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="45"/>
-              </modifiers>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="245.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8593-6e15-5e8c-6608" name="Hull-Mounted Forward-Facing Medium AT Gun" hidden="false" collective="false" import="true" targetId="ae45-ebe0-340d-1259" type="selectionEntry">
+        <entryLink id="8593-6e15-5e8c-6608" name="Casement-Mounted Forward-Facing Medium AT Gun" hidden="false" collective="false" import="true" targetId="e72a-1e34-fcfe-db78" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c500-9d14-6c94-6814" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8445-cfc4-1154-523d" type="max"/>
           </constraints>
+          <rules>
+            <rule id="e907-dcf0-d05a-32df" name="75mm HE" hidden="false">
+              <description>Instead of causing D2 HE hits an HE shell causes D6 hits.</description>
+            </rule>
+          </rules>
         </entryLink>
         <entryLink id="df1e-60d7-0eb1-8971" name="Fist" hidden="false" collective="false" import="true" targetId="8503-f9cf-c544-aa05" type="selectionEntry">
           <constraints>
@@ -4687,21 +4694,133 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1949-84d5-8647-187d" name="Guardian Light Walker" publicationId="24a5-18e9-pubN65551" page="174" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="46f5-bff4-71d1-3ca4" name="Light Walker" hidden="false" targetId="58fc-34d8-c1ba-1236" type="profile"/>
+        <infoLink id="ab34-431e-6c66-5fde" name="Agile" hidden="false" targetId="d970-8622-a65d-57a6" type="rule"/>
+        <infoLink id="ba2b-e530-baeb-9512" name="Assault (Vehicle)" hidden="false" targetId="7e17-fe3a-569d-ccc5" type="rule"/>
+        <infoLink id="11a2-407a-ac3c-b8a1" name="Single Crew" hidden="false" targetId="a82f-f01b-a5ab-ac28" type="rule"/>
+        <infoLink id="5641-73e8-eb09-06f6" name="Walker" hidden="false" targetId="cc4e-54c3-faab-0936" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="1246-36ec-5f1f-616e" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
         <categoryLink id="2f34-548c-1565-9a84" name="Scout and Light Walkers" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false"/>
         <categoryLink id="c399-2956-88d2-9d16" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1848-1d2c-bb41-43d8" name="Rating" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1034-aa72-81f3-3932" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="498e-c8f5-f780-0e81" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0e95-8d58-e4b4-08b6" name="Regular Pilot" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="4b45-c974-3301-c1a7" name="Regular (Vehicle)" hidden="false" targetId="fc80-9bff-1ffc-abd5" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="105.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9dc5-6529-1bb7-5b36" name="Veteran Pilot" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="049d-5312-4a50-3aeb" name="Veteran (Vehicle)" hidden="false" targetId="87de-25e7-d35e-25a7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="120.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e8bd-8fc2-e016-64fe" name="Fist" hidden="false" collective="true" import="true" targetId="8503-f9cf-c544-aa05" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="255d-678d-3202-ec74" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="595f-bf34-6fe7-7b53" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f9ef-8fc7-bfe2-9ad3" name="Left Arm-Mounted Flamethrower (Infantry)" hidden="false" collective="false" import="true" targetId="6f91-f2da-b621-a64d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fb6-90e3-d0da-4d69" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6f0-45c7-dd6f-d50d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="85f3-6325-31b3-e016" name="Right Arm-Mounted MMG" hidden="false" collective="false" import="true" targetId="c676-8ab1-132f-38e5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="213d-7f4a-885b-f395" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c882-0168-e3b9-bb42" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1c3f-e4ab-9105-cfca" name="Casement-Mounted Forward-Facing HMG" hidden="false" collective="false" import="true" targetId="44b5-3b8d-226f-adb1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cda9-a0c0-4ae1-7c47" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d83-7df6-f6fb-d9f1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="451c-10ea-379a-61ca" name="Coyote Light Walker" publicationId="24a5-18e9-pubN65551" page="175" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="85e4-1584-89cc-adc4" name="Light Walker" hidden="false" targetId="58fc-34d8-c1ba-1236" type="profile"/>
+        <infoLink id="321f-2495-367b-7d1a" name="Agile" hidden="false" targetId="d970-8622-a65d-57a6" type="rule"/>
+        <infoLink id="2f93-0a25-d07f-5c2e" name="Assault (Vehicle)" hidden="false" targetId="7e17-fe3a-569d-ccc5" type="rule"/>
+        <infoLink id="f1e5-a30b-f554-2a07" name="Single Crew" hidden="false" targetId="a82f-f01b-a5ab-ac28" type="rule"/>
+        <infoLink id="674b-88da-77a4-8682" name="Walker" hidden="false" targetId="cc4e-54c3-faab-0936" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="cb0f-9f8e-c236-70bd" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
         <categoryLink id="0d6a-41f1-a6c9-e119" name="Scout and Light Walkers" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false"/>
         <categoryLink id="5449-b1eb-d83a-f406" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f58d-6d1c-4a2e-0af7" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="a17b-e300-a3c5-a9d1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d3b-721d-1875-bef8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2aa-d3c1-df5b-3e8f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a17b-e300-a3c5-a9d1" name="Regular Pilot" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="b93e-6dc8-f591-d559" name="Regular (Vehicle)" hidden="false" targetId="fc80-9bff-1ffc-abd5" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="90.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b044-1141-ee83-79e8" name="Veteran Pilot" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="667f-6239-4eee-350e" name="Veteran (Vehicle)" hidden="false" targetId="87de-25e7-d35e-25a7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="110.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b3c7-82d9-1e4f-a8e4" name="Casement-Mounted Forward-Facing HMG" hidden="false" collective="false" import="true" targetId="44b5-3b8d-226f-adb1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9839-f33f-3cce-ef31" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e56c-4258-b68e-e1e0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="09e9-d214-8a40-3d62" name="Fist" hidden="false" collective="true" import="true" targetId="8503-f9cf-c544-aa05" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e5f-3da0-c470-cc56" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f311-765a-1824-f3fc" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="acf2-3c79-76c8-99a8" name="Right Arm-Mounted MMG" hidden="false" collective="false" import="true" targetId="c676-8ab1-132f-38e5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9251-d7ce-03fb-504a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37eb-8b09-4159-8cb4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
