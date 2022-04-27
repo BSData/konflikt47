@@ -1539,6 +1539,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39cb-806f-115f-dfb9" type="max"/>
           </constraints>
+          <costs>
+            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1704,7 +1707,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2dd-3a1e-205e-87d4" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8013-d750-cb98-914d" name="Artillery Forward Observer" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8013-d750-cb98-914d" name="Artillery Forward Observer" hidden="false" collective="false" import="true" type="model">
               <categoryLinks>
                 <categoryLink id="2e92-ab22-6b21-4723" name="Forward Artillery Observer" hidden="false" targetId="1f3d-c608-4cb7-2ec0" primary="false"/>
               </categoryLinks>
@@ -1743,10 +1746,7 @@
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e788-7571-706f-8298" name="Air Forward Observer" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="0b1b-2542-9835-01ec" name="Medic" hidden="false" targetId="5125-e49a-6442-19ef" type="rule"/>
-              </infoLinks>
+            <selectionEntry id="e788-7571-706f-8298" name="Air Forward Observer" hidden="false" collective="false" import="true" type="model">
               <categoryLinks>
                 <categoryLink id="b050-86c9-685a-6254" name="Forward Air Observer" hidden="false" targetId="1a15-5468-fc36-e232" primary="false"/>
               </categoryLinks>
@@ -1794,6 +1794,9 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="de01-c787-e99e-ceae" name="Regular Soldier" page="147" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="774b-6a19-66d4-98fc" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="2074-e786-3fd8-d8de" name="Weapon" hidden="false" collective="false" import="true">
                   <constraints>
@@ -1807,14 +1810,14 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="9ee4-f3b4-bb35-c3b8" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry"/>
-              </entryLinks>
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fcb8-3621-f386-1cd5" name="Veteran Soldier" page="147" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="de58-b24c-a275-0590" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="3384-aba3-588e-9a3f" name="Weapon" hidden="false" collective="false" import="true">
                   <constraints>
@@ -1828,9 +1831,6 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="85a1-dc4f-3a02-3ddd" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry"/>
-              </entryLinks>
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="13.0"/>
               </costs>
@@ -1924,6 +1924,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee8-7156-5ffa-aed6" type="max"/>
           </constraints>
+          <costs>
+            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2001,6 +2004,9 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20a2-aa2a-b659-4662" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
@@ -2172,6 +2178,9 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9f7-e2bf-a5e8-5d6f" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
@@ -2343,6 +2352,9 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="899e-c420-7c76-156b" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
@@ -3439,6 +3451,9 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b45-e469-0780-88b9" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
@@ -3645,6 +3660,9 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa8f-b1ec-b60f-da30" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
@@ -4683,6 +4701,9 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5996-3413-d3ae-8f43" type="max"/>
           </constraints>
+          <costs>
+            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
