@@ -32,11 +32,7 @@
         <characteristicType id="ab9c-2ff9-5b22-5874" name="Movement"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="4dde-1bbe-a285-8a61" name="Team Crew">
-      <characteristicTypes>
-        <characteristicType id="644f-2fac-829b-80b1" name="Crew"/>
-      </characteristicTypes>
-    </profileType>
+    <profileType id="4dde-1bbe-a285-8a61" name="Crew"/>
     <profileType id="5a0e-7392-d4e4-5f85" name="Vehicle Quality">
       <characteristicTypes>
         <characteristicType id="dd97-f3c9-76bc-bd37" name="Morale"/>
@@ -1548,6 +1544,36 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="53a5-6c10-b8ea-349e" name="Compression Rifle" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="990c-dcb2-6485-0563" name="Compression Rifle" hidden="false" targetId="0be9-ea48-dcc3-fcea" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e128-57af-2dc7-c91e" name="Grenade Launcher" publicationId="9a47-ac76-pubN65838" page="15" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d263-578d-ea40-161e" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="bbe9-7386-dc3e-ce2b" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="ea97-f8e9-adb9-7b16" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
+        <infoLink id="6a63-0f9c-4a88-a008" name="Shaped Charge" hidden="false" targetId="15c0-3a4d-d191-89df" type="rule"/>
+        <infoLink id="0d01-ea36-5862-b023" name="Grenade Launcher (Anti-Tank)" hidden="false" targetId="76b6-928d-55a2-5928" type="profile"/>
+        <infoLink id="1ba3-c587-1b3b-ca73" name="Grenade Launchder (HE)" hidden="false" targetId="eb5a-39fe-3d26-7afb" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e40d-5596-7d00-54df" name="Turret-Mounted Light Compression Cannon" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="13ba-14e5-c702-68d3" name="Turret-Mounted Light Compression Cannon" hidden="false" targetId="8a07-3883-176c-7ecf" type="profile"/>
+        <infoLink id="c68c-c015-4ac4-1dba" name="Compression Wave" hidden="false" targetId="eab3-f43d-e594-1f7e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d35f-b1c7-d0ff-2d11" name="Tough Fighters" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
@@ -2389,31 +2415,11 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Meteor Strike</characteristic>
       </characteristics>
     </profile>
-    <profile id="b6c1-c83f-a555-17ce" name="Team 2" hidden="false" typeId="4dde-1bbe-a285-8a61" typeName="Team Crew">
-      <characteristics>
-        <characteristic name="Crew" typeId="644f-2fac-829b-80b1">2</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="7368-80e0-15af-d330" name="Team 3" hidden="false" typeId="4dde-1bbe-a285-8a61" typeName="Team Crew">
-      <characteristics>
-        <characteristic name="Crew" typeId="644f-2fac-829b-80b1">3</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="f05e-dc7f-d24f-7acb" name="Team 4" hidden="false" typeId="4dde-1bbe-a285-8a61" typeName="Team Crew">
-      <characteristics>
-        <characteristic name="Crew" typeId="644f-2fac-829b-80b1">4</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="efe1-2d4f-9fad-6602" name="Team 5" hidden="false" typeId="4dde-1bbe-a285-8a61" typeName="Team Crew">
-      <characteristics>
-        <characteristic name="Crew" typeId="644f-2fac-829b-80b1">5</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="0105-1371-d4e3-ecc6" name="Team 6" hidden="false" typeId="4dde-1bbe-a285-8a61" typeName="Team Crew">
-      <characteristics>
-        <characteristic name="Crew" typeId="644f-2fac-829b-80b1">6</characteristic>
-      </characteristics>
-    </profile>
+    <profile id="b6c1-c83f-a555-17ce" name="2" publicationId="9a47-ac76-pubN65784" page="63" hidden="false" typeId="4dde-1bbe-a285-8a61" typeName="Crew"/>
+    <profile id="7368-80e0-15af-d330" name="3" publicationId="9a47-ac76-pubN65784" page="63" hidden="false" typeId="4dde-1bbe-a285-8a61" typeName="Crew"/>
+    <profile id="f05e-dc7f-d24f-7acb" name="4" publicationId="9a47-ac76-pubN65784" page="63" hidden="false" typeId="4dde-1bbe-a285-8a61" typeName="Crew"/>
+    <profile id="efe1-2d4f-9fad-6602" name="5" publicationId="9a47-ac76-pubN65784" page="63" hidden="false" typeId="4dde-1bbe-a285-8a61" typeName="Crew"/>
+    <profile id="0105-1371-d4e3-ecc6" name="6" publicationId="9a47-ac76-pubN65784" page="63" hidden="false" typeId="4dde-1bbe-a285-8a61" typeName="Crew"/>
     <profile id="f899-8972-8556-faeb" name="Inexperienced (Vehicle)" publicationId="9a47-ac76-pubN65784" page="42" hidden="false" typeId="5a0e-7392-d4e4-5f85" typeName="Vehicle Quality">
       <characteristics>
         <characteristic name="Morale" typeId="dd97-f3c9-76bc-bd37">8</characteristic>
@@ -2935,6 +2941,16 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+7</characteristic>
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cbf5-6343-3629-917a" name="7" publicationId="9a47-ac76-pubN65784" page="63" hidden="false" typeId="4dde-1bbe-a285-8a61" typeName="Crew"/>
+    <profile id="a009-75c1-ed89-84c5" name="8" publicationId="9a47-ac76-pubN65784" page="63" hidden="false" typeId="4dde-1bbe-a285-8a61" typeName="Crew"/>
+    <profile id="8a07-3883-176c-7ecf" name="Turret-Mounted Light Compression Cannon" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">36&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">3</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+3</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Compression Wave</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
