@@ -3889,12 +3889,15 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="30.0"/>
+            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="d0f8-8df6-d492-9505" name="Additional Men" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70ad-f64f-a437-79fd" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="21a6-ac11-5adc-c86f" name="Junior Medical Staff" hidden="false" collective="true" import="true" type="model">
               <infoLinks>
@@ -3936,6 +3939,7 @@
             <selectionEntry id="2fea-189f-9239-2667" name="Second Lieutenant" page="147" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="af0a-b5e2-e91a-d2b4" name="Second Lieutenant" publicationId="2367-9a00-pubN65551" page="76" hidden="false" targetId="9daf-9e31-47ab-812b" type="profile"/>
+                <infoLink id="717f-c331-fcec-af4b" name="Snap to Action" hidden="false" targetId="6603-dad5-d74f-da0d" type="rule"/>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="993e-dcf4-bf2e-255a" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="c655-fc54-ac4a-3d17">
@@ -3945,25 +3949,16 @@
                   </constraints>
                   <entryLinks>
                     <entryLink id="c655-fc54-ac4a-3d17" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="0"/>
-                      </modifiers>
                       <costs>
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="35.0"/>
                       </costs>
                     </entryLink>
                     <entryLink id="a342-52fd-7e92-cced" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="15"/>
-                      </modifiers>
                       <costs>
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
                       </costs>
                     </entryLink>
                     <entryLink id="b6c8-cccd-4b87-98ac" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="30"/>
-                      </modifiers>
                       <costs>
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="65.0"/>
                       </costs>
@@ -3992,6 +3987,7 @@
             <selectionEntry id="5d80-513f-07f4-2369" name="First Lieutenant" page="147" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="d9b9-7ee1-7e03-5d55" name="First Lieutenant" publicationId="9a47-ac76-pubN65784" page="76" hidden="false" targetId="b135-cbf2-4684-b6dc" type="profile"/>
+                <infoLink id="f4db-4bdb-1348-8837" name="Snap to Action" hidden="false" targetId="6603-dad5-d74f-da0d" type="rule"/>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="50fd-b75f-cc4e-0735" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f90-5db4-3eac-df99">
@@ -4001,25 +3997,16 @@
                   </constraints>
                   <entryLinks>
                     <entryLink id="5f90-5db4-3eac-df99" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="0"/>
-                      </modifiers>
                       <costs>
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="60.0"/>
                       </costs>
                     </entryLink>
                     <entryLink id="d618-e97b-8cef-599f" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="15"/>
-                      </modifiers>
                       <costs>
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="75.0"/>
                       </costs>
                     </entryLink>
                     <entryLink id="d297-c7fb-fd11-a882" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="30"/>
-                      </modifiers>
                       <costs>
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="90.0"/>
                       </costs>
@@ -5074,6 +5061,7 @@
             <selectionEntry id="1e7d-e4c9-a162-8a85" name="Major" page="147" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="b43b-1865-1ed5-d65c" name="Major" publicationId="2367-9a00-pubN65551" page="76" hidden="false" targetId="8aec-c232-4d98-879a" type="profile"/>
+                <infoLink id="f971-0b75-b9fc-4621" name="Snap to Action" hidden="false" targetId="6603-dad5-d74f-da0d" type="rule"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="abda-077a-9b36-7872" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false"/>
@@ -5124,6 +5112,7 @@
             <selectionEntry id="b622-8770-e652-9994" name="Captain" page="147" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="dbca-df73-3040-b09e" name="Captain" publicationId="9a47-ac76-pubN65784" page="76" hidden="false" targetId="823f-83c4-4d7a-b6f7" type="profile"/>
+                <infoLink id="8b5c-b253-e81c-3b79" name="Snap to Action" hidden="false" targetId="6603-dad5-d74f-da0d" type="rule"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="fcc7-8897-659f-29b1" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false"/>

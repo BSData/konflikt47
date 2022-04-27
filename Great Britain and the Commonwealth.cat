@@ -1865,25 +1865,16 @@
                   </constraints>
                   <entryLinks>
                     <entryLink id="41f5-adc3-35d7-b9e1" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="0"/>
-                      </modifiers>
                       <costs>
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="35.0"/>
                       </costs>
                     </entryLink>
                     <entryLink id="4299-acff-af83-38c7" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="15"/>
-                      </modifiers>
                       <costs>
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
                       </costs>
                     </entryLink>
                     <entryLink id="bd8f-fd76-820f-2198" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="30"/>
-                      </modifiers>
                       <costs>
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="65.0"/>
                       </costs>
@@ -1921,25 +1912,16 @@
                   </constraints>
                   <entryLinks>
                     <entryLink id="a565-9ada-42a3-a87c" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="0"/>
-                      </modifiers>
                       <costs>
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="60.0"/>
                       </costs>
                     </entryLink>
                     <entryLink id="a5da-e43d-3c01-8b04" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="15"/>
-                      </modifiers>
                       <costs>
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="75.0"/>
                       </costs>
                     </entryLink>
                     <entryLink id="d8b1-741d-19ed-6afc" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="30"/>
-                      </modifiers>
                       <costs>
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="90.0"/>
                       </costs>
@@ -2279,6 +2261,9 @@
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="5fe6-ba19-ddd5-9444" name="Additional Men" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a134-1243-7b58-e991" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="6da7-c5dd-a5ba-7fe0" name="Junior Medical Staff" hidden="false" collective="true" import="true" type="model">
               <selectionEntryGroups>
