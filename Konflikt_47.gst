@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9a47-ac76-5252-54d0" name="Konflikt 47" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9a47-ac76-5252-54d0" name="Konflikt_47" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="9a47-ac76-pubN65784" name="Konflikt 47: Rules"/>
     <publication id="9a47-ac76-pubN65838" name="Konflikt 47: Defiance"/>
@@ -89,6 +89,8 @@
     <categoryEntry id="ae2d-85fe-a828-0e1c" name="Allied Senior Mentor" publicationId="9a47-ac76-pubN65838" page="90" hidden="false"/>
     <categoryEntry id="b3d9-2fbb-f78f-089c" name="German Technical Advisor" publicationId="9a47-ac76-pubN65838" page="94" hidden="false"/>
     <categoryEntry id="ee23-0c13-8958-df3f" name="Light Artillery, Light &amp; Medium AT Guns, Medium &amp; Heavy Artillery" hidden="false"/>
+    <categoryEntry id="31fe-b631-5c13-5493" name="US Armored Officer" hidden="false"/>
+    <categoryEntry id="9cf3-0bc0-7974-b411" name="Heavy Infantry, Paragon, and Paragon Support squads" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="4fcf-76d8-8f5b-ffa8" name="Reinforced Armoured Platoon" publicationId="9a47-ac76-pubN66291" page="35" hidden="false">
@@ -169,6 +171,18 @@
         <categoryLink id="d7bb-3f7c-b186-5b27" name="Armoured Cars and Anti-Aircraft Vehicles" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
         <categoryLink id="00d9-da59-b208-e190" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false"/>
         <categoryLink id="1e1d-fb17-6a0f-4f99" name="Characters" hidden="false" targetId="be7e-306b-30b5-03b8" primary="false"/>
+        <categoryLink id="40c7-79ae-01b1-cbc4" name="US Armored Officer" hidden="false" targetId="31fe-b631-5c13-5493" primary="false">
+          <modifiers>
+            <modifier type="set" field="289e-dfac-6e98-45c7" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cf3-0bc0-7974-b411" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="289e-dfac-6e98-45c7" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="1976-5c63-c819-3b4d" name="Reinforced Platoon" publicationId="9a47-ac76-pubN65784" page="126" hidden="false">
@@ -249,6 +263,18 @@
         <categoryLink id="b06c-7052-df09-7533" name="Armoured Cars and Anti-Aircraft Vehicles" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
         <categoryLink id="138a-75b0-bedf-a488" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false"/>
         <categoryLink id="de84-4edf-2da8-d572" name="Characters" hidden="false" targetId="be7e-306b-30b5-03b8" primary="false"/>
+        <categoryLink id="e66f-403d-ab8b-5656" name="US Armored Officer" hidden="false" targetId="31fe-b631-5c13-5493" primary="false">
+          <modifiers>
+            <modifier type="set" field="9559-526e-f978-84aa" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9cf3-0bc0-7974-b411" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9559-526e-f978-84aa" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="01ac-2012-0c86-e5e2" name="Fortified Emplacement" hidden="false">
