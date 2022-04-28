@@ -235,7 +235,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0481-faf2-c2df-aa27" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="90ac-683c-2d82-fa79" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+        <categoryLink id="90ac-683c-2d82-fa79" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Medium Walkers, and Heavy Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2da-7878-2d5f-7a48" type="max"/>
           </constraints>
@@ -1569,6 +1569,38 @@
       <infoLinks>
         <infoLink id="13ba-14e5-c702-68d3" name="Turret-Mounted Light Compression Cannon" hidden="false" targetId="8a07-3883-176c-7ecf" type="profile"/>
         <infoLink id="c68c-c015-4ac4-1dba" name="Compression Wave" hidden="false" targetId="eab3-f43d-e594-1f7e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1f99-c9be-c7cc-7591" name="Hull-Mounted Forward-Facing Medium Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1e4c-a6d4-d16f-04b2" name="Hull-Mounted Forward-Facing Medium Howitzer" hidden="false" targetId="e307-d4c8-f790-6715" type="profile"/>
+        <infoLink id="478c-f929-bdaf-1253" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule"/>
+        <infoLink id="7e22-7b07-d72b-e115" name="High Explosive (2D6)" hidden="false" targetId="1d4e-1c5d-8cda-0711" type="rule"/>
+        <infoLink id="118f-9ec6-85b9-0b51" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b631-611b-1d02-5991" name="Hull-Mounted Forward-Facing Heavy Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4397-29fe-df00-7b33" name="Hull-Mounted Forward-Facing Heavy Howitzer" hidden="false" targetId="f25c-c37b-2fb0-0252" type="profile"/>
+        <infoLink id="774e-46a2-7063-614b" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule"/>
+        <infoLink id="adef-bfd2-f830-039d" name="High Explosive (3D6)" hidden="false" targetId="8cea-e2b2-88f5-4604" type="rule"/>
+        <infoLink id="f3d0-0b13-a3f7-4d43" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8aad-9827-72d2-822f" name="Hull-Mounted Forward-Facing Medium Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d9c2-64d9-612f-c238" name="Hull-Mounted Forward-Facing Medium Mortar" hidden="false" targetId="93a0-9215-68dd-b0aa" type="profile"/>
+        <infoLink id="ec9e-b783-0a98-837b" name="High Explosive (D6)" hidden="false" targetId="0a02-e32c-4873-ca4a" type="rule"/>
+        <infoLink id="f870-a3f5-4503-538d" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -2951,6 +2983,30 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">3</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+3</characteristic>
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Compression Wave</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e307-d4c8-f790-6715" name="Hull-Mounted Forward-Facing Medium Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">0/24-60&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (D6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f25c-c37b-2fb0-0252" name="Hull-Mounted Forward-Facing Heavy Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">0/24-72&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (3D6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="93a0-9215-68dd-b0aa" name="Hull-Mounted Forward-Facing Medium Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">18-60&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (3D6)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
