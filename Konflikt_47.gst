@@ -1632,6 +1632,40 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8da9-83cc-0219-d21c" name="Pintle-Mounted Forward-Facing LMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9e6f-b737-94d8-6921" name="Pintle-Mounted Forward-Facing LMG" hidden="false" targetId="cd2a-e87b-3970-9945" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b9d-e58c-0458-5a43" name="Turret-Mounted Heavy Automatic Cannon" publicationId="9a47-ac76-pubN65838" page="15" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6315-8a30-14a0-0646" name="Turret-Mounted Heavy Automatic Cannon" hidden="false" targetId="6557-847b-7aa8-fad8" type="profile"/>
+        <infoLink id="3034-db71-654a-1342" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="605b-6c20-fa9b-bc4c" name="Turret-Mounted Light Automatic Cannon" publicationId="9a47-ac76-pubN65838" page="15" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8e81-9b19-6a4d-f632" name="Turret-Mounted Light Automatic Cannon" hidden="false" targetId="f2af-80f9-b4a2-8960" type="profile"/>
+        <infoLink id="ace6-efa6-ac8b-1446" name="High Explosive (D2)" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dbb2-e859-8e65-5696" name="Hull-Mounted Rear-Facing MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9c03-f9d5-3087-1aac" name="Hull-Mounted Rear-Facing MMG" hidden="false" targetId="e34f-3087-17ee-5527" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d35f-b1c7-d0ff-2d11" name="Tough Fighters" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
@@ -3033,6 +3067,38 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (3D6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cd2a-e87b-3970-9945" name="Pintle-Mounted Forward-Facing LMG" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">30&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">4</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">-</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede"/>
+      </characteristics>
+    </profile>
+    <profile id="6557-847b-7aa8-fad8" name="Turret-Mounted Heavy Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">72&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+3</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f2af-80f9-b4a2-8960" name="Turret-Mounted Light Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e34f-3087-17ee-5527" name="Hull-Mounted Rear-Facing MMG" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">36&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">5</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">-</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede"/>
       </characteristics>
     </profile>
   </sharedProfiles>
