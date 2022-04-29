@@ -512,7 +512,7 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b70-8d95-410b-7f55" type="min"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="caa2-c458-95df-502d" name="US Armored Officer" hidden="false" targetId="31fe-b631-5c13-5493" primary="false">
+        <categoryLink id="caa2-c458-95df-502d" name="Armored Officer" hidden="false" targetId="31fe-b631-5c13-5493" primary="false">
           <modifiers>
             <modifier type="set" field="7a1f-4d54-bbab-f6dc" value="1.0">
               <conditions>
@@ -4995,8 +4995,8 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="8393-c6be-c88e-9395" name="Crew (3)" hidden="false" targetId="64ca-40ca-47f0-81e3" type="rule"/>
         <infoLink id="ffc4-709f-ea68-63f7" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
+        <infoLink id="a304-4d01-72dd-4f15" name="3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="541d-3569-2356-3a08" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
