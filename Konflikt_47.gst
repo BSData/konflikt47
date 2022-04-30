@@ -183,6 +183,7 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="289e-dfac-6e98-45c7" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="a492-3c75-767d-7174" name="Free Units" hidden="false" targetId="60fd-ed23-32dc-eb94" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="1976-5c63-c819-3b4d" name="Reinforced Platoon" publicationId="9a47-ac76-pubN65784" page="126" hidden="false">
@@ -275,11 +276,12 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9559-526e-f978-84aa" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="2616-5762-cc5b-22aa" name="Free Units" hidden="false" targetId="60fd-ed23-32dc-eb94" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="01ac-2012-0c86-e5e2" name="Fortified Emplacement" hidden="false">
       <categoryLinks>
-        <categoryLink id="cb55-8a62-db5e-01bb" name="Fortification" hidden="false" targetId="c000-16a2-fa3b-c139" primary="false">
+        <categoryLink id="cb55-8a62-db5e-01bb" name="Fortifications" hidden="false" targetId="c000-16a2-fa3b-c139" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dfe-1d5c-0670-a764" type="min"/>
           </constraints>
