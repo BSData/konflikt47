@@ -3966,7 +3966,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="30.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4007,7 +4007,7 @@
         <categoryLink id="b837-7dd9-8186-a52b" name="Commander" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ffa8-abc8-0d18-b30c" name="Rank" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ffa8-abc8-0d18-b30c" name="Rank" hidden="false" collective="false" import="true" defaultSelectionEntryId="2fea-189f-9239-2667">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cc5-4ce4-132a-d4c9" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d57-e10f-58b7-bdb5" type="max"/>
@@ -5125,7 +5125,11 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="d553-c134-205f-cc51" name="Rank" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d553-c134-205f-cc51" name="Rank" hidden="false" collective="false" import="true" defaultSelectionEntryId="b622-8770-e652-9994">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d84-d04c-1649-cb1e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f4f-4b7e-fc52-56ec" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="1e7d-e4c9-a162-8a85" name="Major" page="147" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
@@ -5136,7 +5140,7 @@
                 <categoryLink id="abda-077a-9b36-7872" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false"/>
               </categoryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="6555-9cc3-584f-33ed" name="Rating" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="6555-9cc3-584f-33ed" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="3d55-b93a-492d-0b00">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f93-67ca-4905-9139" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d796-4876-2c9d-ebfa" type="max"/>
@@ -6052,7 +6056,7 @@
         <categoryLink id="4d42-07ea-47bc-53b4" name="AA Vehicle and Self-Propelled Artillery" hidden="false" targetId="4bd2-90aa-426c-2737" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fbcc-70f1-5d32-2a58" name="Rating" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fbcc-70f1-5d32-2a58" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b38-6481-d6cb-a5e5">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f52-4ac9-4f70-5525" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db15-358c-69a1-d587" type="max"/>
@@ -6301,9 +6305,9 @@
         <infoLink id="ccfc-4273-0349-ccd0" name="Recce" hidden="false" targetId="fa0e-9e9d-0e65-1e3b" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a341-d9f0-1b75-2f44" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="true"/>
+        <categoryLink id="a341-d9f0-1b75-2f44" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
         <categoryLink id="c6c2-94df-900e-c2d0" name="Armoured Cars" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false"/>
-        <categoryLink id="4d3e-f91d-9af1-d90e" name="Armoured Cars and Anti-Aircraft Vehicles" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
+        <categoryLink id="4d3e-f91d-9af1-d90e" name="Armoured Cars and Anti-Aircraft Vehicles" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true"/>
         <categoryLink id="3836-fbd6-be29-a154" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="3a59-67fc-2be5-48ca" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
       </categoryLinks>
@@ -6368,6 +6372,13 @@
         <infoLink id="7bdb-23d8-bcfc-fd01" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
         <infoLink id="b520-2ef8-6bd7-7509" name="Recce" hidden="false" targetId="fa0e-9e9d-0e65-1e3b" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3f07-2ef1-a5df-f421" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
+        <categoryLink id="529f-3064-4595-eba4" name="Armoured Cars" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false"/>
+        <categoryLink id="2f46-fdf0-9ec8-f04a" name="Armoured Cars and Anti-Aircraft Vehicles" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true"/>
+        <categoryLink id="dbf5-876c-868a-a0c4" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
+        <categoryLink id="3b70-3245-4e0a-7dfb" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0c39-baf3-5f68-819b" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="cd5d-8101-6b33-4a19">
           <constraints>
@@ -6629,7 +6640,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0191-a98a-96e9-b0f5" name="Rating" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0191-a98a-96e9-b0f5" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="06d0-499e-4d13-0713">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0994-4323-4711-d655" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4842-afd4-95f6-e42e" type="max"/>
@@ -6868,7 +6879,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8553-71d8-a7ec-6cab" name="Rank" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8553-71d8-a7ec-6cab" name="Rank" hidden="false" collective="false" import="true" defaultSelectionEntryId="1942-bce1-d0e2-22e2">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4597-7024-88aa-50e2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4609-65b8-9e98-74ae" type="max"/>
@@ -6981,6 +6992,7 @@
         <categoryLink id="48a2-16ae-1dcd-22fa" name="Airborne, Firefly, Paragon, and Paragon Support squads" hidden="false" targetId="3d5f-584d-0742-f29d" primary="false"/>
         <categoryLink id="3837-39ce-9468-52d0" name="Heavy Infantry, Paragon, and Paragon Support squads" hidden="false" targetId="9cf3-0bc0-7974-b411" primary="false"/>
         <categoryLink id="155a-a5c9-feb3-c4ec" name="Marine, Paragon, Paragon Support squads only" hidden="false" targetId="2fa0-e678-ad52-d310" primary="false"/>
+        <categoryLink id="5bdf-14c0-dff8-ae72" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0ebe-0789-8f4b-84cc" name="Squad Members" hidden="false" collective="false" import="true">
@@ -7170,8 +7182,15 @@
         <infoLink id="6d3b-ce58-2ef4-6937" name="Assault (Vehicle)" hidden="false" targetId="7e17-fe3a-569d-ccc5" type="rule"/>
         <infoLink id="8a8d-6137-9e60-dd51" name="ARV" hidden="false" targetId="989b-f1c2-debc-660a" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2a63-17f1-059e-0152" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
+        <categoryLink id="fa06-f962-8852-cc49" name="Tank, Tank Destroyer, Medium Walkers, and Heavy Walkers" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
+        <categoryLink id="46e6-1a56-c949-41a8" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
+        <categoryLink id="4fa8-296a-e9ad-1951" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
+        <categoryLink id="0263-4723-9b4a-a65b" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Medium Walkers, and Heavy Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6fa2-7cd6-fab5-ed93" name="Rating" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6fa2-7cd6-fab5-ed93" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="c79d-5c2c-3f2c-7bf9">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47ad-248d-111d-4277" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ca-f3b1-89bc-a294" type="max"/>
@@ -7219,6 +7238,13 @@
         <infoLink id="c10e-cf1c-a629-4d54" name="Armored Car" hidden="false" targetId="efd3-31c5-154c-f4dc" type="profile"/>
         <infoLink id="db97-4140-e809-23e3" name="Recce" hidden="false" targetId="fa0e-9e9d-0e65-1e3b" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e5fb-47fa-8a6c-9f80" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
+        <categoryLink id="427c-e0d0-5172-acfc" name="Armoured Cars" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false"/>
+        <categoryLink id="858f-558c-a7e0-d895" name="Armoured Cars and Anti-Aircraft Vehicles" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true"/>
+        <categoryLink id="05fb-400f-c806-18c2" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
+        <categoryLink id="89aa-ea91-d8ff-0c94" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5b88-a717-7823-bf57" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="8aaa-2475-7530-890f">
           <constraints>
@@ -7264,11 +7290,17 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b65a-7867-c905-626e" name="M32 ARV" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="55ca-5f5d-3225-5f62" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b730-6635-cc1f-914e" name="Tank Recovery Tractor" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0713-3438-ee9b-4f00" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
