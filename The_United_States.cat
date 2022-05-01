@@ -855,6 +855,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d213-a02e-ca30-c824" name="3-Inch Anti-Tank Gun" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="0f6e-4b31-b702-5e99" name="5" hidden="false" targetId="efe1-2d4f-9fad-6602" type="profile"/>
         <infoLink id="fde3-11a8-10f2-526d" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
@@ -1292,6 +1304,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c36f-7ecc-97a3-cd7f" name="Firefly Jump Infantry Squad" page="148" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ae37-8809-fabb-7d90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="56f7-bd31-9aa0-11cd" name="Flight" hidden="false" targetId="e8fc-b495-4724-e2fd" type="rule"/>
       </infoLinks>
@@ -4529,6 +4553,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2395-7beb-fcf2-3280" name="M12 Gun Motor Carriage" page="159" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="24a4-973b-4ca2-612a" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
         <infoLink id="3dd0-bdcc-17c9-6632" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
@@ -5793,7 +5824,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c3c3-1798-a023-37e5" name="Quality" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c3c3-1798-a023-37e5" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="55cb-f165-3ee7-dedd">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3b8-c7fe-b933-1610" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="882c-6ddb-3463-aa8e" type="max"/>
