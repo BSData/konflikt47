@@ -529,100 +529,54 @@
   </forceEntries>
   <selectionEntries>
     <selectionEntry id="8397-afb0-a3a0-1284" name=".30 Cal Medium Machine Gun Team" page="150" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="91c6-8820-bfab-86e6" name="Crew (3)" hidden="false" targetId="64ca-40ca-47f0-81e3" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="6384-1f62-6d73-26b3" name="Infantry Support Squads" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
         <categoryLink id="67b6-e9a4-70d1-108c" name="Machine Gun Team" hidden="false" targetId="1688-881c-5284-0be8" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0806-9a77-407d-093b" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="e4ca-ffb5-c3b3-8562">
+        <selectionEntryGroup id="9ecd-3ec3-f69f-69e4" name="MMG Teams" hidden="false" collective="false" import="true" defaultSelectionEntryId="a83c-f6f0-8555-2942">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8513-ff1c-5f86-19ac" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5790-80c0-cce6-3cb2" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1905-7f09-cefd-7ced" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf06-f52a-f341-a58d" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e4ca-ffb5-c3b3-8562" name="Inexperienced MMG Team" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="a83c-f6f0-8555-2942" name="MMG Team" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="19f0-13c7-feb7-9524" name="Inexperienced" hidden="false" targetId="d484-27e5-6b70-dc42" type="profile"/>
+                <infoLink id="eb78-54f1-6964-8fd5" name="3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
               </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="33ff-09e8-a0fd-7a61" name="MMG Team" hidden="false" collective="false" import="true" type="model">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="689f-3808-5be9-c40f" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="e703-3c47-bdf4-a511">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b82-a8e0-47df-273b" type="min"/>
-                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8ba-1dd5-be3c-59d5" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c383-a4d3-9d2f-cbee" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e7e-dae1-ecce-4d4a" type="min"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="0def-5640-0070-7a4e" name="MMG" hidden="false" collective="false" import="true" targetId="ff34-acf0-0405-2cfb" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1c5-5b60-68bb-345d" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="360c-ebd4-5211-0ced" type="max"/>
-                      </constraints>
+                    <entryLink id="e703-3c47-bdf4-a511" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
+                      <costs>
+                        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="35.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="28a7-4c36-b453-2dac" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
+                      <costs>
+                        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="65.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="c0c4-3c22-faaf-d518" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
+                      <costs>
+                        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
+                      </costs>
                     </entryLink>
                   </entryLinks>
-                  <costs>
-                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="35.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2948-34b2-4685-5c79" name="Regular MMG Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="fe26-c47d-cc68-760e" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="2c88-6a76-243a-36c3" name="MMG Team" hidden="false" collective="false" import="true" type="model">
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="9f1d-0f17-aac3-5618" name="MMG" hidden="false" collective="false" import="true" targetId="ff34-acf0-0405-2cfb" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7832-eb3a-383c-3282" type="min"/>
-                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6949-3c04-ae57-7735" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f812-eb8f-4162-aee2" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d41f-1c2a-6505-ed0f" type="max"/>
                   </constraints>
-                  <entryLinks>
-                    <entryLink id="9780-370a-754a-c786" name="MMG" hidden="false" collective="false" import="true" targetId="ff34-acf0-0405-2cfb" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31be-90d9-600e-e7e3" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae01-cf88-ed11-6481" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f001-640e-5407-2aff" name="Veteran MMG Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="0533-03a0-6b1d-975a" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
-              </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="e27b-65c1-0dc0-a703" name="MMG Team" hidden="false" collective="false" import="true" type="model">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f38-7ac6-f98a-f7f6" type="min"/>
-                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2b6-9981-c45f-f151" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="08ca-909c-b6cb-e8b1" name="MMG" hidden="false" collective="false" import="true" targetId="ff34-acf0-0405-2cfb" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3887-b43e-3210-98be" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08f0-19fa-77e9-ab03" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="65.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-              </costs>
+                </entryLink>
+              </entryLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -633,80 +587,53 @@
     </selectionEntry>
     <selectionEntry id="b533-d1ee-dc8e-8afb" name=".50 Cal Heavy Machine Gun Team" page="150" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="d94e-2a48-0a5a-023e" name="Crew (4)" hidden="false" targetId="defc-9a07-45d4-b67d" type="rule"/>
+        <infoLink id="3382-0df6-76bb-8100" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule"/>
+        <infoLink id="8952-317a-38bf-e3c7" name="4" hidden="false" targetId="f05e-dc7f-d24f-7acb" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fcc5-d991-c933-d69a" name="Machine Gun Team" hidden="false" targetId="1688-881c-5284-0be8" primary="false"/>
         <categoryLink id="de76-1a48-a680-8960" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6e73-a3e0-e350-eb59" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="3636-46c9-fe38-ffe5">
+        <selectionEntryGroup id="7162-53f7-05d7-3ce8" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="520a-482a-0fb3-3649">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1759-0a7c-8418-f06d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92f3-5b2f-89a5-fd75" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa5c-8f43-83a6-f824" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5822-6356-9e23-7453" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="3636-46c9-fe38-ffe5" name="Inexperienced HMG Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="add6-751d-f795-a6d3" name="Inexperienced" hidden="false" targetId="d484-27e5-6b70-dc42" type="profile"/>
-                <infoLink id="d0a1-d51c-0de5-715e" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="d2bf-99bf-5002-9bd1" name="HMG" hidden="false" collective="false" import="true" targetId="26df-ebe9-f37a-4485" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6802-5410-0cf8-51eb" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6eee-bae7-24ec-1bd8" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+          <entryLinks>
+            <entryLink id="520a-482a-0fb3-3649" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="49.0"/>
               </costs>
-            </selectionEntry>
-            <selectionEntry id="f422-e7ee-ebfc-fc3d" name="Regular HMG Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="9e32-1ad7-7a60-b655" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-                <infoLink id="813f-de67-6bba-53d0" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="9fc7-da70-0f6a-3918" name="HMG" hidden="false" collective="false" import="true" targetId="26df-ebe9-f37a-4485" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7ad-c946-49df-ec64" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b772-39b7-6ebb-8628" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="70.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1c6c-bfc0-1a75-8153" name="Veteran HMG Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="3f69-68ee-1ad4-1432" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
-                <infoLink id="5679-1d09-3e2e-39a5" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="efde-a39e-03e6-4a2a" name="HMG" hidden="false" collective="false" import="true" targetId="26df-ebe9-f37a-4485" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48bb-625a-a3d1-36f9" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="693f-5238-57c3-bbb0" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+            </entryLink>
+            <entryLink id="c23d-ec07-a1b5-b68a" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="91.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="0400-9df6-3394-3c77" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="70.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d822-1df5-a0c4-e507" name="HMG" hidden="false" collective="false" import="true" targetId="26df-ebe9-f37a-4485" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6943-1daa-5a5d-58d7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63a9-f7d2-c065-1c3b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6edd-3518-bea0-dd64" name="105mm M2A1 Medium Howitzer" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="54c8-1851-48b1-cd1f" name="Crew (4)" hidden="false" targetId="defc-9a07-45d4-b67d" type="rule"/>
+        <infoLink id="54c8-1851-48b1-cd1f" name="4" hidden="false" targetId="f05e-dc7f-d24f-7acb" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="50eb-03e6-b593-523a" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
@@ -735,70 +662,45 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="235c-46fe-851b-3bd1" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="919e-ebcf-cb66-00f2">
+        <selectionEntryGroup id="059e-1ec5-0642-3403" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="2059-6569-d372-7189">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b796-3bc0-1d0f-f387" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f64-c5d5-574e-f81f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d63d-9f9d-9e1b-bf3a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f9d-c486-4b70-bc95" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="919e-ebcf-cb66-00f2" name="Inexperienced Artillery Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="9e7f-4b39-7f9d-4db2" name="Inexperienced" hidden="false" targetId="d484-27e5-6b70-dc42" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="7a39-9799-436a-d2cd" name="Medium Howitzer" hidden="false" collective="false" import="true" targetId="b249-641b-1c00-2f92" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6cf-dd75-4330-5bb5" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9589-cd85-95ce-4959" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+          <entryLinks>
+            <entryLink id="2059-6569-d372-7189" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="56.0"/>
               </costs>
-            </selectionEntry>
-            <selectionEntry id="54b1-02a6-8a3f-f3fd" name="Regular Artillery Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="1873-8810-bf1e-1472" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="cddc-3013-80c4-95fb" name="Medium Howitzer" hidden="false" collective="false" import="true" targetId="b249-641b-1c00-2f92" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2968-d503-63b3-89d0" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3772-e1f1-89ec-b3ff" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="70.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="80a3-6e08-d964-f0dd" name="Veteran Artillery Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="3f1c-6f37-a1b9-f790" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="d721-a6e6-ae5d-4a70" name="Medium Howitzer" hidden="false" collective="false" import="true" targetId="b249-641b-1c00-2f92" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="778e-b878-926a-56d4" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27a4-94de-8af0-4c09" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+            </entryLink>
+            <entryLink id="67dc-c3b5-6f05-bc1c" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="84.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="f8d1-1d3b-b74c-3252" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="70.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="88a0-2356-f29b-b8df" name="Medium Howitzer" hidden="false" collective="false" import="true" targetId="b249-641b-1c00-2f92" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a72a-df3a-b819-b049" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08b7-a014-5f48-aa50" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35f1-b3e5-5309-9ee4" name="107mm Heavy Mortar" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="b1b4-4eab-a4e6-f8ac" name="Crew (4)" hidden="false" targetId="defc-9a07-45d4-b67d" type="rule"/>
+        <infoLink id="b1b4-4eab-a4e6-f8ac" name="4" hidden="false" targetId="f05e-dc7f-d24f-7acb" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c882-ffa8-f52a-fed6" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
@@ -816,70 +718,45 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3c2b-ca44-5ac3-8ae7" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="d889-858b-d993-aad5">
+        <selectionEntryGroup id="ca69-72ef-249b-b394" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="fc17-56fc-2407-d6ff">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db5a-ea42-6375-4e31" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7032-85cd-fac9-239e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7470-62b2-2555-db97" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75c5-fa82-0e07-7ae9" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="d889-858b-d993-aad5" name="Inexperienced Mortar Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="35ca-0f8d-d4b7-b38c" name="Inexperienced" hidden="false" targetId="d484-27e5-6b70-dc42" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="ab51-57d8-1b14-6e84" name="Heavy Mortar" hidden="false" collective="false" import="true" targetId="489b-4134-1a49-c442" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a9-105d-eb53-a0cb" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a94f-7f1e-5322-7e4d" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+          <entryLinks>
+            <entryLink id="fc17-56fc-2407-d6ff" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="46.0"/>
               </costs>
-            </selectionEntry>
-            <selectionEntry id="236f-bb9a-9e04-90a6" name="Regular Mortar Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="367b-9166-f167-d8b0" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="2015-385d-8121-b19c" name="Heavy Mortar" hidden="false" collective="false" import="true" targetId="489b-4134-1a49-c442" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a992-a24b-00d9-7cb9" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00a5-e59a-d619-b2f9" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="65.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7ece-1bbd-d2c0-255b" name="Veteran Mortar Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="385e-63c3-49e4-4db4" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="eb1c-156c-6891-fe74" name="Heavy Mortar" hidden="false" collective="false" import="true" targetId="489b-4134-1a49-c442" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d585-39f3-4a54-3f95" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3653-354d-154f-0a05" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+            </entryLink>
+            <entryLink id="271b-0993-a097-3fe7" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="84.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="effc-4b4f-875c-ecdd" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="65.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5a85-1c74-21dd-98bb" name="Heavy Mortar" hidden="false" collective="false" import="true" targetId="489b-4134-1a49-c442" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb5d-e627-7073-51e4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e392-3139-2568-340c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f1d-87a5-7aec-002d" name="155mm  Heavy Howitzer" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="39b4-2b3b-aafb-6b01" name="Crew (5)" hidden="false" targetId="8856-3d9d-4213-8008" type="rule"/>
+        <infoLink id="39b4-2b3b-aafb-6b01" name="5" hidden="false" targetId="efe1-2d4f-9fad-6602" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3736-07be-7fc8-8ec3" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
@@ -897,70 +774,45 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8149-709e-8288-2d3f" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="aea7-f3a5-feb1-e4d0">
+        <selectionEntryGroup id="76f5-653e-a65d-b6a5" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="e096-f129-ff2a-39ac">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecca-41a5-8862-d899" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6542-a7d5-83cb-a252" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d028-0008-b98a-2ca8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29eb-55f8-012e-3918" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="aea7-f3a5-feb1-e4d0" name="Inexperienced Artillery Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="b003-3843-3a48-6857" name="Inexperienced" hidden="false" targetId="d484-27e5-6b70-dc42" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="41e9-e7e5-82cd-59ae" name="Heavy Howitzer" hidden="false" collective="false" import="true" targetId="5007-330d-54cc-bf7c" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48f8-2596-bb9a-8d0d" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d8b-a125-8a3a-9cf0" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+          <entryLinks>
+            <entryLink id="e096-f129-ff2a-39ac" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="88.0"/>
               </costs>
-            </selectionEntry>
-            <selectionEntry id="568d-c86a-033c-7adc" name="Regular Artillery Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="2473-839b-335e-8b50" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="1e52-97a1-e939-df5e" name="Heavy Howitzer" hidden="false" collective="false" import="true" targetId="5007-330d-54cc-bf7c" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56fe-6506-797b-5b0f" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a64a-bafe-f7bd-f8ed" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="110.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b43b-3fcb-4b15-15f8" name="Veteran Artillery Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="ac8e-d95d-4502-0f86" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="013e-15ff-3e43-1ae7" name="Heavy Howitzer" hidden="false" collective="false" import="true" targetId="5007-330d-54cc-bf7c" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ecc-d3ff-e56d-4e9f" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e504-048e-b0e8-5c05" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+            </entryLink>
+            <entryLink id="18e5-9f3b-2f8b-1a05" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="132.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="20bd-d5f3-b6be-be40" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="110.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5f26-249b-e94d-80a4" name="Heavy Howitzer" hidden="false" collective="false" import="true" targetId="5007-330d-54cc-bf7c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3785-d18d-4871-a370" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a606-0faf-dcac-f65c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d213-a02e-ca30-c824" name="3-Inch Anti-Tank Gun" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="0f6e-4b31-b702-5e99" name="Crew (5)" hidden="false" targetId="8856-3d9d-4213-8008" type="rule"/>
+        <infoLink id="0f6e-4b31-b702-5e99" name="5" hidden="false" targetId="efe1-2d4f-9fad-6602" type="profile"/>
         <infoLink id="fde3-11a8-10f2-526d" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -968,70 +820,45 @@
         <categoryLink id="e403-5c0f-ccb0-bf83" name="Heavy and Super Heavy AT Guns, Medium and Heavy Artillery" hidden="false" targetId="2b0f-97b2-f74a-0007" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9cde-d4a7-b225-46d5" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="4356-229b-db91-6f6d">
+        <selectionEntryGroup id="2fe7-7323-4dd0-1344" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="d6bf-c686-2984-da66">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dda7-77b0-a230-d4c6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="562e-8df2-3aaf-f45f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6046-8b4c-265f-89b8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e94-8b4e-c87f-6820" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="4356-229b-db91-6f6d" name="Inexperienced Anti-Tank Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="f5ff-0463-565d-3d61" name="Inexperienced" hidden="false" targetId="d484-27e5-6b70-dc42" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="d52b-ff3b-37a8-e254" name="Heavy AT Gun" hidden="false" collective="false" import="true" targetId="6097-5029-9ccd-f779" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba22-713e-770e-d867" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="458d-e87d-4679-1e25" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+          <entryLinks>
+            <entryLink id="d6bf-c686-2984-da66" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="88.0"/>
               </costs>
-            </selectionEntry>
-            <selectionEntry id="9f0a-e99a-cbb1-826f" name="Regular Anti-Tank Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="d712-8a3e-792e-88e5" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="5e37-4a0d-973f-7500" name="Heavy AT Gun" hidden="false" collective="false" import="true" targetId="6097-5029-9ccd-f779" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f883-175f-db50-704c" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88b6-f6dc-ca22-edfd" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="110.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="910c-8c64-19ef-8d2a" name="Veteran Anti-Tank Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="670c-348f-84b9-4826" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="a91a-572c-078c-cc79" name="Heavy AT Gun" hidden="false" collective="false" import="true" targetId="6097-5029-9ccd-f779" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="600c-b017-9bca-488b" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="788f-0382-21c1-cbf0" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+            </entryLink>
+            <entryLink id="c118-9e15-e4ed-d0ef" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="132.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="3f12-99ac-6b53-f6e2" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="110.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f876-6837-b6cb-5668" name="Heavy AT Gun" hidden="false" collective="false" import="true" targetId="6097-5029-9ccd-f779" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ce9-6420-f9a6-6576" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c12-1011-ca64-efa4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5bb-52f4-fc2b-281e" name="37mm Anti-Tank Gun" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="78e9-82be-d84d-4bf9" name="Crew (2)" hidden="false" targetId="672b-1d26-4663-83ee" type="rule"/>
+        <infoLink id="78e9-82be-d84d-4bf9" name="2" hidden="false" targetId="b6c1-c83f-a555-17ce" type="profile"/>
         <infoLink id="5d20-d09e-4ef4-3d56" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1040,70 +867,45 @@
         <categoryLink id="2b39-f23f-34bc-5c86" name="Light Artillery, Light and Medium AT Guns" hidden="false" targetId="1842-7654-2d60-c182" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="521f-cfc2-a791-04cc" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="8013-00e2-06f6-c691">
+        <selectionEntryGroup id="6dd8-df2b-3396-0cfb" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="ca03-2ea2-fbdc-1ab2">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83b5-9a30-a966-6364" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fcd-93ed-1c6b-b326" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7477-0c93-6584-c131" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11f1-7b95-ac91-7f02" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="8013-00e2-06f6-c691" name="Inexperienced Anti-Tank Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="af55-4a81-7fe0-c71d" name="Inexperienced" hidden="false" targetId="d484-27e5-6b70-dc42" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="7a05-40e5-e84d-c7e1" name="Light AT Gun" hidden="false" collective="false" import="true" targetId="169b-30ba-4907-7e96" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="916a-641b-7891-9bf1" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a325-001d-ab30-3c61" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+          <entryLinks>
+            <entryLink id="ca03-2ea2-fbdc-1ab2" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="40.0"/>
               </costs>
-            </selectionEntry>
-            <selectionEntry id="f627-c075-05cd-fa09" name="Regular Anti-Tank Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="3bf5-2ac4-7c61-0036" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="4d06-f055-8577-884a" name="Light AT Gun" hidden="false" collective="false" import="true" targetId="169b-30ba-4907-7e96" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1958-3a4e-68b7-18e2" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77bd-68be-39fa-65dc" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5671-564b-d4b0-d77b" name="Veteran Anti-Tank Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="0b1a-2798-6bd1-6eb3" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="8f47-4a25-6c3f-08d0" name="Light AT Gun" hidden="false" collective="false" import="true" targetId="169b-30ba-4907-7e96" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d65-496e-7064-de7c" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78ae-fde7-6e98-46b0" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+            </entryLink>
+            <entryLink id="c7ae-33e4-7389-1df3" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="60.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="d611-2553-5156-e9fe" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5312-0fcf-08e4-8f1a" name="Light AT Gun" hidden="false" collective="false" import="true" targetId="169b-30ba-4907-7e96" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3034-0ad4-7e8e-6cdf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6461-35fb-b5f4-7338" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f5d2-60af-34bc-8e6f" name="57mm Anti-Tank Gun" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="7819-8d0f-af6e-f939" name="Crew (3)" hidden="false" targetId="64ca-40ca-47f0-81e3" type="rule"/>
+        <infoLink id="7819-8d0f-af6e-f939" name="3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
         <infoLink id="fdd8-7523-e42f-f9ef" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1112,124 +914,85 @@
         <categoryLink id="8fc0-6459-15f2-20b7" name="Light Artillery, Light and Medium AT Guns" hidden="false" targetId="1842-7654-2d60-c182" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="87a7-2c5a-1238-9489" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="e9b8-a1a8-ef4d-bdb1">
+        <selectionEntryGroup id="6d95-4e57-654d-0bf2" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="a0c0-2456-281f-f629">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a68-9f96-305e-4cb0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6884-4e50-b60b-3577" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ef1-889b-fd73-6684" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cafc-465f-c8c1-8454" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="e9b8-a1a8-ef4d-bdb1" name="Inexperienced Anti-Tank Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="53b8-1140-1cf1-e9cf" name="Inexperienced" hidden="false" targetId="d484-27e5-6b70-dc42" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="9583-8bb6-c2f0-5a60" name="Medium AT Gun" hidden="false" collective="false" import="true" targetId="18d0-3b64-50f8-83e6" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="619f-f74f-e538-5673" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c550-6e08-3395-5bfd" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+          <entryLinks>
+            <entryLink id="a0c0-2456-281f-f629" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="60.0"/>
               </costs>
-            </selectionEntry>
-            <selectionEntry id="73f0-a21c-135a-1408" name="Regular Anti-Tank Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="52cb-9c5b-3ea6-2544" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="caaf-77bf-2803-4399" name="Medium AT Gun" hidden="false" collective="false" import="true" targetId="18d0-3b64-50f8-83e6" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fde0-848d-2be0-1f0c" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7acd-348d-b25e-e5af" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="75.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6284-a881-f925-ec1c" name="Veteran Anti-Tank Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="4588-b049-30f6-938d" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="7e64-827b-b37e-9578" name="Medium AT Gun" hidden="false" collective="false" import="true" targetId="18d0-3b64-50f8-83e6" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fe6-88aa-3de8-b795" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8e9-fa7c-a20e-61ca" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+            </entryLink>
+            <entryLink id="12f4-69c2-098d-7eae" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="90.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="822f-3463-5c3e-fbfd" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="75.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3da5-ce0b-a91d-e508" name="Medium AT Gun" hidden="false" collective="false" import="true" targetId="18d0-3b64-50f8-83e6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ce-8710-59ff-3761" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4000-88eb-bfdd-6b2a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b4ae-cd36-be4a-4cb1" name="57mm M18" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="d282-de55-902f-ac4e" name="Crew (3)" hidden="false" targetId="64ca-40ca-47f0-81e3" type="rule"/>
+        <infoLink id="d282-de55-902f-ac4e" name="3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7f87-2e81-04e8-08db" name="Light Artillery, Light and Medium AT Guns" hidden="false" targetId="1842-7654-2d60-c182" primary="false"/>
         <categoryLink id="3d79-c312-a9e1-55d4" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0185-8a43-e469-48ec" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="368b-bfd7-f650-5c9c">
+        <selectionEntryGroup id="1033-62b5-4750-dd06" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="befa-62cf-c3b2-f628">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25a4-d41e-b5b5-57d7" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cefa-6050-b312-8985" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d40b-8847-ee49-f378" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9746-0892-381d-45b6" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="368b-bfd7-f650-5c9c" name="Regular Artillery Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="57c1-6363-9ecf-2025" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="9a0b-9dc9-1379-dca1" name="Light Howitzer (D3 HE)" hidden="false" collective="false" import="true" targetId="e3c3-7005-fe07-fa3d" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e24b-518e-5c3e-0c14" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9053-2d57-30ae-3c3a" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="30.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2acb-f97a-29cf-80f4" name="Veteran Artillery Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="d6c0-a591-fe14-2904" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="40dc-ea92-fad4-f16f" name="Light Howitzer (D3 HE)" hidden="false" collective="false" import="true" targetId="e3c3-7005-fe07-fa3d" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a1-542b-9c12-0dbc" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2265-ee09-64c5-aa12" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+          <entryLinks>
+            <entryLink id="73f6-4776-f283-87db" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="36.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="befa-62cf-c3b2-f628" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="30.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a641-95b0-4295-5f04" name="Light Howitzer (D3 HE)" hidden="false" collective="false" import="true" targetId="e3c3-7005-fe07-fa3d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="730d-28a6-02d2-2557" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de0-0275-1574-bda8" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c827-cbd6-a78e-9d12" name="60mm Light Mortar" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="ab62-bc05-be83-bafd" name="Crew (2)" hidden="false" targetId="672b-1d26-4663-83ee" type="rule"/>
+        <infoLink id="ab62-bc05-be83-bafd" name="2" hidden="false" targetId="b6c1-c83f-a555-17ce" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ab7f-7f90-32a6-1d70" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
@@ -1237,63 +1000,38 @@
         <categoryLink id="4ccd-b040-3665-9046" name="Mortar Team" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="acf5-56f8-454d-5bfe" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="f97d-d26b-6ccb-7055">
+        <selectionEntryGroup id="1a87-72bb-e7a2-e4ae" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="6348-2931-7774-1d73">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="670d-2552-b0d8-5c65" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bec-c4e9-11e3-bca7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cff7-2cbc-0985-ac8e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6941-c3ac-091a-ae99" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="f97d-d26b-6ccb-7055" name="Inexperienced Mortar Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="293b-0549-8c2a-28b3" name="Inexperienced" hidden="false" targetId="d484-27e5-6b70-dc42" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="1707-c815-7058-cb6b" name="Light Mortar" hidden="false" collective="false" import="true" targetId="a995-196d-d370-750c" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74c0-f097-8386-0c57" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7079-bec7-a6a0-f351" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+          <entryLinks>
+            <entryLink id="6348-2931-7774-1d73" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="24.0"/>
               </costs>
-            </selectionEntry>
-            <selectionEntry id="c484-6f85-44a5-5e6a" name="Regular Mortar Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="8b70-22fd-4a57-8a35" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="bab5-b5fc-f645-a735" name="Light Mortar" hidden="false" collective="false" import="true" targetId="a995-196d-d370-750c" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd7b-4cb4-6287-a940" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9c5-7380-c508-05cf" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="35.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="05d1-e268-26ab-8d86" name="Veteran Mortar Team" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="2d9c-8a1b-9b9d-152d" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
-              </infoLinks>
-              <entryLinks>
-                <entryLink id="a9b6-bf4f-59a1-3026" name="Light Mortar" hidden="false" collective="false" import="true" targetId="a995-196d-d370-750c" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd22-3404-cab9-db34" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7db-3fb5-74fe-ff9a" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+            </entryLink>
+            <entryLink id="79e7-c6cd-3c3c-062c" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="46.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="6e9f-3b2a-9e76-27dc" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="35.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5197-c83b-d812-32a0" name="Light Mortar" hidden="false" collective="false" import="true" targetId="a995-196d-d370-750c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db1a-1c09-95d7-12ea" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf43-e961-d0a4-2b82" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
@@ -6436,7 +6174,7 @@
         <categoryLink id="c28e-2d58-30eb-b051" name="Transports" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="300b-6a55-7244-e217" name="Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="632f-9100-10b8-146e">
+        <selectionEntryGroup id="300b-6a55-7244-e217" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="632f-9100-10b8-146e">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8532-69cd-b61c-fced" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25a5-65d9-a8ca-6a94" type="max"/>
