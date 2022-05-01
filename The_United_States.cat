@@ -855,6 +855,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d213-a02e-ca30-c824" name="3-Inch Anti-Tank Gun" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="0f6e-4b31-b702-5e99" name="5" hidden="false" targetId="efe1-2d4f-9fad-6602" type="profile"/>
         <infoLink id="fde3-11a8-10f2-526d" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
@@ -1228,6 +1240,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4df5-96c2-0f63-6bcd" name="Bazooka Team" page="150" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ae37-8809-fabb-7d90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ccb9-514e-d288-da5d" type="max"/>
       </constraints>
@@ -1285,6 +1304,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c36f-7ecc-97a3-cd7f" name="Firefly Jump Infantry Squad" page="148" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ae37-8809-fabb-7d90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="56f7-bd31-9aa0-11cd" name="Flight" hidden="false" targetId="e8fc-b495-4724-e2fd" type="rule"/>
       </infoLinks>
@@ -1438,6 +1469,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1fa7-eca5-8501-4463" name="Heavy Bazooka Team" page="150" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="fda8-bddf-7cdb-787d" name="Large Infantry" hidden="false" targetId="ae84-cf09-97d1-5204" type="rule"/>
         <infoLink id="49ae-263a-d38c-ff6f" name="Resilient" hidden="false" targetId="f45a-914c-bccf-5a1c" type="rule"/>
@@ -1490,6 +1533,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c001-5fc1-cc5c-0bff" name="Heavy Infantry Squad" page="148" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="9022-9400-8de2-69d9" name="Large Infantry" hidden="false" targetId="ae84-cf09-97d1-5204" type="rule"/>
         <infoLink id="82b0-1309-4125-8142" name="Infrared (IR) Vision" hidden="false" targetId="8f1c-b9eb-2fab-a987" type="rule"/>
@@ -1574,6 +1629,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2ce0-4c13-f637-93b3" name="Infantry Squad" page="148" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="249a-b6d0-47bd-85c6" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
       </categoryLinks>
@@ -1939,6 +2006,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7521-5039-e2c3-3f4b" name="M26 Pershing" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="3a37-327d-5a2c-a3fd" name="Heavy Tank" hidden="false" targetId="923d-ea2a-6016-ed02" type="profile"/>
       </infoLinks>
@@ -2247,6 +2326,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5c1c-5bb2-9835-beb5" name="M4A3E2 Sherman Jumbo Heavy Assault Tank" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="529b-1530-3697-d3c6" name="Heavy Tank" hidden="false" targetId="923d-ea2a-6016-ed02" type="profile"/>
         <infoLink id="5620-e915-6cee-afbf" name="Slow (Vehicle)" hidden="false" targetId="9e10-9ea1-508b-ae43" type="rule"/>
@@ -2492,6 +2583,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7314-2de7-130e-a9d9" name="Marine Squad" publicationId="9a47-ac76-pubN65838" page="50" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="7bca-ec21-b04f-9e1c" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
         <categoryLink id="dd14-f98d-facb-8108" name="Marine, Paragon, Paragon Support squads only" hidden="false" targetId="2fa0-e678-ad52-d310" primary="false"/>
@@ -2852,6 +2950,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6341-21ac-4160-613f" name="Officer" page="147" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ae37-8809-fabb-7d90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="761c-4fae-e82f-85fd" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true"/>
         <categoryLink id="b837-7dd9-8186-a52b" name="Commander" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false"/>
@@ -2868,7 +2973,7 @@
                   <modifiers>
                     <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="10.0">
                       <conditions>
-                        <condition field="selections" scope="6341-21ac-4160-613f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                        <condition field="selections" scope="6341-21ac-4160-613f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
                       </conditions>
                     </modifier>
                     <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="7.0">
@@ -2878,7 +2983,7 @@
                     </modifier>
                     <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="13.0">
                       <conditions>
-                        <condition field="selections" scope="6341-21ac-4160-613f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                        <condition field="selections" scope="6341-21ac-4160-613f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -2923,7 +3028,7 @@
                   <modifiers>
                     <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="50.0">
                       <conditions>
-                        <condition field="selections" scope="6341-21ac-4160-613f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                        <condition field="selections" scope="6341-21ac-4160-613f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
                       </conditions>
                     </modifier>
                     <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="35.0">
@@ -2933,7 +3038,7 @@
                     </modifier>
                     <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="65.0">
                       <conditions>
-                        <condition field="selections" scope="6341-21ac-4160-613f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                        <condition field="selections" scope="6341-21ac-4160-613f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -2963,7 +3068,7 @@
                   <modifiers>
                     <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="75.0">
                       <conditions>
-                        <condition field="selections" scope="6341-21ac-4160-613f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                        <condition field="selections" scope="6341-21ac-4160-613f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
                       </conditions>
                     </modifier>
                     <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="60.0">
@@ -2973,7 +3078,7 @@
                     </modifier>
                     <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="90.0">
                       <conditions>
-                        <condition field="selections" scope="6341-21ac-4160-613f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                        <condition field="selections" scope="6341-21ac-4160-613f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8d5c-9b28-a486-2d1a" type="greaterThan"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -3270,6 +3375,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="62a5-9ebe-ce69-0d02" name="Airborne Infantry Squad" page="148" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="4137-d6f5-b87b-e96e" name="Stubborn" hidden="false" targetId="67c4-b526-4222-9d1a" type="rule"/>
       </infoLinks>
@@ -3539,6 +3651,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="bcda-3dae-042f-841d" name="Senior Officer" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ae37-8809-fabb-7d90" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="a73b-2dfe-58e8-3cc6" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true"/>
         <categoryLink id="822a-49a5-5aa4-3025" name="Senior Officer" hidden="false" targetId="b14d-60bd-51cb-1c49" primary="false"/>
@@ -4373,6 +4492,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="20c5-c704-c645-e827" name="M7 Priest" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="3fc6-cb7d-e30d-6d93" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
         <infoLink id="ba3f-4bd9-ee32-371f" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
@@ -4427,6 +4553,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2395-7beb-fcf2-3280" name="M12 Gun Motor Carriage" page="159" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="24a4-973b-4ca2-612a" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
         <infoLink id="3dd0-bdcc-17c9-6632" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
@@ -4481,6 +4614,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2e33-eaca-31aa-2e75" name="M21 Mortar Carriage" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="adc7-f0d5-961b-3381" name="Armored Carrier" hidden="false" targetId="52b0-f9c6-b4c6-9da1" type="profile"/>
         <infoLink id="e1ac-8a5c-ba4e-48da" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
@@ -4535,6 +4675,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3cf3-d80e-1023-1a32" name="M16 Anti-Aircraft Carriage" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="fc09-d597-9d02-808f" name="Armored Carrier" hidden="false" targetId="52b0-f9c6-b4c6-9da1" type="profile"/>
         <infoLink id="fbd5-ab0b-b806-c9a5" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
@@ -4812,6 +4959,16 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <categoryLinks>
         <categoryLink id="4e6d-a634-602a-c560" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true"/>
@@ -4902,6 +5059,16 @@
     </selectionEntry>
     <selectionEntry id="1c2f-b0cc-8aba-0200" name="Armored Senior Officer" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
             <conditionGroup type="or">
@@ -5657,7 +5824,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c3c3-1798-a023-37e5" name="Quality" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c3c3-1798-a023-37e5" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="55cb-f165-3ee7-dedd">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3b8-c7fe-b933-1610" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="882c-6ddb-3463-aa8e" type="max"/>
@@ -5681,6 +5848,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c910-0584-887e-c4cc" name="Rangers Squad" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="d009-b54f-a9c0-dea3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="f2fe-1cca-41ad-863f" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
       </categoryLinks>
