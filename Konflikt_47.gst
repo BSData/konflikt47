@@ -2029,6 +2029,9 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
 
 When a fanatic unit wins in close quarter combat, the fanatic unit must always opt for a follow-on round of combat.</description>
     </rule>
+    <rule id="0315-8062-b1dd-4c5d" name="75mm HE" hidden="false">
+      <description>Instead of normal HE Hits, a 75mm HE causes D6 hits.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="45fa-b48d-a682-3620" name="Rifle" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
