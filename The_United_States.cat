@@ -3002,6 +3002,9 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3061,6 +3064,9 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a380-9500-fcab-587c" name="First Lieutenant" hidden="false" collective="false" import="true" type="model">
               <modifierGroups>
@@ -3101,6 +3107,9 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3133,6 +3142,9 @@
           <infoLinks>
             <infoLink id="b790-c698-5cee-9dff" name="Elite" hidden="false" targetId="5ee9-9b1c-5ea8-b5a4" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3703,6 +3715,9 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3751,6 +3766,9 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a802-bf5a-6134-1bac" name="Captain" hidden="false" collective="false" import="true" type="model">
               <modifierGroups>
@@ -3791,6 +3809,9 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -5620,13 +5641,29 @@
         <categoryLink id="d357-cef2-bc12-0100" name="Forward Observer" hidden="false" targetId="c048-dfb7-583d-2e79" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="16f8-30c7-1880-ce6c" name="Artillery Observer" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="16f8-30c7-1880-ce6c" name="Artillery Observer" hidden="false" collective="false" import="true" type="model">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="100.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="115.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5654-e7e2-01e5-1942" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a32a-a15c-4458-9092" type="max"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="f885-a6ed-76c6-86d2" name="Weapon" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="f885-a6ed-76c6-86d2" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a9b-370b-25ff-dc43">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae79-4e68-df5a-3195" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97f7-d297-fdc3-2815" type="max"/>
@@ -5661,7 +5698,7 @@
                 <infoLink id="77d5-5981-df11-fea3" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="6aca-1d69-4f92-b016" name="Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="6aca-1d69-4f92-b016" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="38c5-547f-8bfc-1603">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f58e-9f8c-0080-2d26" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ec7-bd62-b1f8-5309" type="max"/>
@@ -5689,7 +5726,7 @@
                 <infoLink id="a3e1-a88c-166d-e5ad" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="6944-28b8-5426-70b1" name="Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="6944-28b8-5426-70b1" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="a0aa-98b5-efef-4e1e">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f421-1a43-279d-989d" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2338-2a61-e33d-a5d5" type="max"/>
@@ -5713,16 +5750,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e1e-615e-6cfa-1b5c" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="f6d2-7f62-6935-9cc1" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="115.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="884a-42c8-30f5-5b8e" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="100.0"/>
-              </costs>
-            </entryLink>
+            <entryLink id="f6d2-7f62-6935-9cc1" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry"/>
+            <entryLink id="884a-42c8-30f5-5b8e" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5737,13 +5766,29 @@
         <categoryLink id="bd1c-c815-11f0-ab61" name="Forward Observer" hidden="false" targetId="c048-dfb7-583d-2e79" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f6d0-62c4-abab-09e8" name="Artillery Observer" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f6d0-62c4-abab-09e8" name="Air Observer" hidden="false" collective="false" import="true" type="model">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="75.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="90.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c88-8492-8450-13da" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a066-b2e8-ca66-4858" type="max"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup id="d135-a3af-8952-ec50" name="Weapon" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="d135-a3af-8952-ec50" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="bc58-ea05-7155-c760">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b144-5114-ea3e-cf1b" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d918-8df7-898b-a3d9" type="max"/>
@@ -5778,7 +5823,7 @@
                 <infoLink id="e7a3-2dd9-1d56-f551" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="329e-06ab-f9f8-296c" name="Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="329e-06ab-f9f8-296c" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f5d2-87db-a535-9055">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e20e-1b5f-09e3-7ccd" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e929-a956-3714-0569" type="max"/>
@@ -5806,7 +5851,7 @@
                 <infoLink id="515b-54e2-5840-9c37" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="c163-4ebd-e03d-9eb8" name="Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="c163-4ebd-e03d-9eb8" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d58b-101f-06c5-2354">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3caa-eb5b-c1fe-73ff" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c2c-f884-cc77-72e9" type="max"/>
@@ -5830,16 +5875,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="882c-6ddb-3463-aa8e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="bf20-ccd2-ad7d-c722" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="90.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="55cb-f165-3ee7-dedd" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="75.0"/>
-              </costs>
-            </entryLink>
+            <entryLink id="bf20-ccd2-ad7d-c722" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry"/>
+            <entryLink id="55cb-f165-3ee7-dedd" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6051,6 +6088,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
