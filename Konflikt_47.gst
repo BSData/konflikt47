@@ -1703,6 +1703,33 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="dc87-fb98-5307-06f7" name="Casement-Mounted Forward-Facing Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="36bf-fc56-019e-367e" name="Casement-Mounted Forward-Facing Super-Heavy AT Gun" hidden="false" targetId="0e34-abf1-3b90-b05e" type="profile"/>
+        <infoLink id="f0d3-19e8-1028-8f8b" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d954-61fe-95ee-5049" name="Turret-Mounted Light Rail Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="261d-5589-8517-0f07" name="Turret-Mounted Light Rail Gun" hidden="false" targetId="0c20-9874-9cfe-b9fd" type="profile"/>
+        <infoLink id="52c5-6403-cb3c-376c" name="Rail Gun" hidden="false" targetId="f9e5-c861-f1df-74d5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7c6f-f2ae-8052-3310" name="Turret-Mounted Heavy Rail Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b115-0e6a-b889-2d19" name="Turret-Mounted Heavy Rail Gun" hidden="false" targetId="c334-c0c0-0d4f-06c1" type="profile"/>
+        <infoLink id="8f5a-2513-c289-c842" name="Rail Gun" hidden="false" targetId="f9e5-c861-f1df-74d5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d35f-b1c7-d0ff-2d11" name="Tough Fighters" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
@@ -1889,7 +1916,7 @@ Weapons cannot be fired indirect when given an Ambush order. Howitzers and morta
 When targeting infantry and artillery the weapon arcs to nearby targets. After a successful hit is rolled, roll a D6, and this number of additional hits is inflicted on the unit. If the number of hits exceeds the number of models in the unit, any excess hits are lost.</description>
     </rule>
     <rule id="5b0b-40c4-bd14-81be" name="Gravity Pulse" publicationId="9a47-ac76-pubN65784" page="66" hidden="false">
-      <description>Gravity pulse weapons ahve a penetration value listed but add +1 to that value when shooting at targets with a Damage value of 8 or 9 and a +2 when firing at targets with a Damage value of 10+. In addition, a unit that takes damage from a gravity pulse weapon cannot be given a Run order in its following activation.</description>
+      <description>Gravity pulse weapons have a penetration value listed but add +1 to that value when shooting at targets with a Damage value of 8 or 9 and a +2 when firing at targets with a Damage value of 10+. In addition, a unit that takes damage from a gravity pulse weapon cannot be given a Run order in its following activation.</description>
     </rule>
     <rule id="48cd-7351-3021-3a75" name="Shockwave" publicationId="9a47-ac76-pubN65784" page="66" hidden="false">
       <description>When firing a shockwave weapon, draw a line from the barrel of the weapon in a staight line out to the weapon&apos;s maximum range. Any unit with a model under the line is hit on a 4+ and suffers D3 pin markers. Infantry and artillery units that are hit also suffer D3 hits with a Pen value of +1. Vehicle models hit by the shockwave suffer a &apos;crew stunned&apos; damage result from the damage results table.</description>
@@ -2066,6 +2093,12 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
     </rule>
     <rule id="0315-8062-b1dd-4c5d" name="75mm HE" hidden="false">
       <description>Instead of normal HE Hits, a 75mm HE causes D6 hits.</description>
+    </rule>
+    <rule id="a3a1-60b6-d85b-a69a" name="Mine Clearing Equipment" hidden="false">
+      <description>Provides a +2 modifier to Mine Clearing.</description>
+    </rule>
+    <rule id="fa8b-d569-a354-0cf7" name="Engineers" hidden="false">
+      <description>Engineers may force their opponent to re-roll a successful hit from minefields when they are following an Advance order only.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -2353,7 +2386,7 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
       <characteristics>
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
-        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+4</characteristic>
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Gravity Pulse</characteristic>
       </characteristics>
     </profile>
@@ -2617,9 +2650,9 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
     </profile>
     <profile id="406d-5c3b-1e7f-6b5c" name="Turret-Mounted Schwerefeld Projektor" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48</characteristic>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
-        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+4</characteristic>
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Gravity Pulse</characteristic>
       </characteristics>
     </profile>
@@ -3147,6 +3180,30 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+6</characteristic>
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0e34-abf1-3b90-b05e" name="Casement-Mounted Forward-Facing Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">84&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+7</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0c20-9874-9cfe-b9fd" name="Turret-Mounted Light Rail Gun" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">72&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+7</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Rail Gun</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c334-c0c0-0d4f-06c1" name="Turret-Mounted Heavy Rail Gun" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">84&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+8</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Rail Gun</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
