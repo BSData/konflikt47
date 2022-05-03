@@ -1668,6 +1668,41 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3847-0dd6-f3ba-5120" name="Tow" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d28-ace1-ac58-341a" name="Transport" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48ec-62d5-f3e8-c7e2" name="Crew-Carried MMG" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="66e5-3d60-1c2d-f181" name="MMG" hidden="false" targetId="ab50-4650-872b-78e2" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4292-8803-1ece-6ed5" name="Pintle-Mounted Turret-Based MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="42d9-3653-dea7-699c" name="Pintle-Mounted Turret-Based MMG" hidden="false" targetId="7aa6-3c08-f83f-669f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="305b-6bf3-dfac-871c" name="Hull-Mounted Forward-Facing Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9cd2-1178-ffd6-ceb8" name="Hull-Mounted Forward-Facing Heavy AT Gun" hidden="false" targetId="e308-bddf-d5f8-d8e2" type="profile"/>
+        <infoLink id="a562-37f5-3513-9daa" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d35f-b1c7-d0ff-2d11" name="Tough Fighters" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
@@ -2138,7 +2173,7 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (D2)</characteristic>
       </characteristics>
     </profile>
-    <profile id="d599-cf88-1c5a-fc05" name="Anti-tank Rifle" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+    <profile id="d599-cf88-1c5a-fc05" name="Anti-tank Rifle" publicationId="9a47-ac76-pubN65784" page="58" hidden="true" typeId="6f79-864b-5586-5191" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">36&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
@@ -3104,6 +3139,14 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">5</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">-</characteristic>
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede"/>
+      </characteristics>
+    </profile>
+    <profile id="e308-bddf-d5f8-d8e2" name="Hull-Mounted Forward-Facing Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">72&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+6</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D3)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
