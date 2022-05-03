@@ -535,61 +535,46 @@
   </forceEntries>
   <selectionEntries>
     <selectionEntry id="8397-afb0-a3a0-1284" name=".30 Cal Medium Machine Gun Team" page="150" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="4924-42ad-f743-79be" name="3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="6384-1f62-6d73-26b3" name="Infantry Support Squads" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
         <categoryLink id="67b6-e9a4-70d1-108c" name="Machine Gun Team" hidden="false" targetId="1688-881c-5284-0be8" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9ecd-3ec3-f69f-69e4" name="MMG Teams" hidden="false" collective="false" import="true" defaultSelectionEntryId="a83c-f6f0-8555-2942">
+        <selectionEntryGroup id="b384-1a54-a165-5286" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="8930-58f3-822f-44bd">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1905-7f09-cefd-7ced" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf06-f52a-f341-a58d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fb6-6a0d-940e-f439" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abd0-604d-f60f-3f1a" type="min"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="a83c-f6f0-8555-2942" name="MMG Team" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="eb78-54f1-6964-8fd5" name="3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="689f-3808-5be9-c40f" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="e703-3c47-bdf4-a511">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c383-a4d3-9d2f-cbee" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e7e-dae1-ecce-4d4a" type="min"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="e703-3c47-bdf4-a511" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
-                      <costs>
-                        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="35.0"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="28a7-4c36-b453-2dac" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
-                      <costs>
-                        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="65.0"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="c0c4-3c22-faaf-d518" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
-                      <costs>
-                        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="9f1d-0f17-aac3-5618" name="MMG" hidden="false" collective="false" import="true" targetId="ff34-acf0-0405-2cfb" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f812-eb8f-4162-aee2" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d41f-1c2a-6505-ed0f" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
+          <entryLinks>
+            <entryLink id="8930-58f3-822f-44bd" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
               <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="35.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="1218-9e6e-e271-5321" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="65.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2a87-7fe3-72b0-a8e4" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9f14-38ae-062e-5fc9" name="MMG" hidden="false" collective="false" import="true" targetId="ff34-acf0-0405-2cfb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94bf-4706-a9f5-bf19" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f25a-d7b3-80ab-465a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
