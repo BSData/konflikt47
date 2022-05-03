@@ -421,6 +421,9 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a2-3804-cb11-00c0" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b03-dd31-8a6c-3d7d" type="min"/>
       </constraints>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -888,7 +891,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e6f1-e969-2e44-1ff3" name="Dual Weapon Pack" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e6f1-e969-2e44-1ff3" name="Dual Weapon Pack" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="73cd-509f-8d51-53ab" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
         <infoLink id="e12b-7166-def1-182e" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="9e80-a4e5-d66a-f03a" type="profile"/>
@@ -1181,7 +1184,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1e5e-01a4-011f-33ee" name="Twin Dual Weapon Pack" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1e5e-01a4-011f-33ee" name="Twin Dual Weapon Pack" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="01c7-1fd4-1769-9688" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
         <infoLink id="33b4-c8ac-e8e9-b06a" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="9e80-a4e5-d66a-f03a" type="profile"/>
@@ -1859,6 +1862,28 @@
       <infoLinks>
         <infoLink id="b115-0e6a-b889-2d19" name="Turret-Mounted Heavy Rail Gun" hidden="false" targetId="c334-c0c0-0d4f-06c1" type="profile"/>
         <infoLink id="8f5a-2513-c289-c842" name="Rail Gun" hidden="false" targetId="f9e5-c861-f1df-74d5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6363-7bfa-864b-8e77" name="Dual Weapon Pack" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="685d-7172-ddd6-278a" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
+        <infoLink id="5821-0883-0e8c-4024" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="9e80-a4e5-d66a-f03a" type="profile"/>
+        <infoLink id="af71-7783-af93-2841" name="Dual Weapon Pack (Small Arm)" hidden="false" targetId="0168-39ad-f815-1ecb" type="profile"/>
+        <infoLink id="e42f-a5a0-79c6-58cc" name="Dual Weapon System" hidden="false" targetId="9326-1cf8-d9e2-3d4f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e648-2372-84cf-39b4" name="Twin Dual Weapon Pack" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="23e9-ff6d-ebad-e84d" name="Assault" hidden="false" targetId="6e10-af4a-a9b8-013d" type="rule"/>
+        <infoLink id="da80-a2df-3e65-c14c" name="Dual Weapon Pack (Heavy Weapon)" hidden="false" targetId="9e80-a4e5-d66a-f03a" type="profile"/>
+        <infoLink id="b2f9-794f-5223-fda9" name="Dual Weapon Pack (Small Arm)" hidden="false" targetId="0168-39ad-f815-1ecb" type="profile"/>
+        <infoLink id="9640-202d-3a8e-ffaf" name="Dual Weapon System" hidden="false" targetId="9326-1cf8-d9e2-3d4f" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
