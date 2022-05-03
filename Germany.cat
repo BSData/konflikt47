@@ -3320,7 +3320,7 @@
         <categoryLink id="5f66-8bc6-9f1b-a61d" name="Sniper Team" hidden="false" targetId="6077-3929-61c8-5eb7" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d861-33ec-cd24-cc53" name="Quality" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d861-33ec-cd24-cc53" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="d41e-b96d-fdf6-9c53">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c33e-a8e4-a26e-9b1b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5357-9bfc-72ec-32b3" type="max"/>
@@ -3462,7 +3462,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e6d3-8e06-d5ba-c558" name="Quality" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e6d3-8e06-d5ba-c558" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="5c49-1012-9dfa-e2b3">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc73-b8e8-6fe7-15d6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b072-a2a1-f6f7-b6a2" type="max"/>
