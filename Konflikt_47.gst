@@ -1889,6 +1889,15 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7e53-9f42-2853-cf29" name="Turret-Mounted Zvukovoy Proyektor" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0581-69fd-3cf2-25a6" name="Turret-Mounted Zvukovoy Proyektor" hidden="false" targetId="ce88-b176-7301-3cc5" type="profile"/>
+        <infoLink id="bb85-193e-75fe-576d" name="Shockwave" hidden="false" targetId="48cd-7351-3021-3a75" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d35f-b1c7-d0ff-2d11" name="Tough Fighters" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
@@ -3363,6 +3372,14 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+8</characteristic>
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Rail Gun</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ce88-b176-7301-3cc5" name="Turret-Mounted Zvukovoy Proyektor" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">24</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">Special</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">Special</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Shockwave</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
