@@ -524,6 +524,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="104c-810c-d970-8f8c" name="Dual MMGs" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
@@ -560,6 +563,9 @@
                   </rules>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1933,6 +1939,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0577-b88d-b976-74e0" type="max"/>
               </constraints>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="20.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1960,43 +1969,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="03b2-ec9f-225d-8132" name="Heavy Armour Towed Schwerefeld Projektor" publicationId="23af-76b6-pubN65570" page="41" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="1368-b520-7439-1a33" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <infoLinks>
-        <infoLink id="bb60-64ed-16ef-e9a0" name="Team 3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
-        <infoLink id="2053-ca9b-2ec9-9d46" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
-        <infoLink id="b71c-71b3-38dc-8d0c" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="0da7-f08c-8fa2-8f68" name="Resilient" hidden="false" targetId="f45a-914c-bccf-5a1c" type="rule"/>
-        <infoLink id="9b07-3838-b532-bd26" name="Large Infantry" hidden="false" targetId="ae84-cf09-97d1-5204" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="07be-8322-8e21-8258" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
-        <categoryLink id="9dd0-78b9-9715-88f7" name="Light Artillery, Light and Medium AT Guns" hidden="false" targetId="1842-7654-2d60-c182" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="af7c-560f-2fde-17d3" name="Experience" hidden="false" collective="false" import="true" defaultSelectionEntryId="4d15-07a8-3aa7-055a">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbb2-c8c0-cfcb-71ea" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c36-fc69-e5e2-7bb0" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="4d15-07a8-3aa7-055a" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="b5f0-2758-d79f-da93" name="Schwerefeld Projektor" hidden="false" collective="false" import="true" targetId="74f5-cc38-0b89-9ccc" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
@@ -2569,7 +2541,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="30.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b66-ff0c-bdcf-d689" name="Specialist Medic" publicationId="23af-76b6-pubN65551" page="128" hidden="false" collective="false" import="true" type="unit">
