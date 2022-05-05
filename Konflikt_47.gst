@@ -557,7 +557,7 @@
     <selectionEntry id="bf80-1393-76d8-5b2f" name="Anti-tank Rifle" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="fba3-5bac-25a9-3a4a" name="Anti-tank Rifle" hidden="false" targetId="d599-cf88-1c5a-fc05" type="profile"/>
-        <infoLink id="4d9e-25ae-ebea-4bda" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="4d9e-25ae-ebea-4bda" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -2375,7 +2375,7 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (D2)</characteristic>
       </characteristics>
     </profile>
-    <profile id="d599-cf88-1c5a-fc05" name="Anti-tank Rifle" publicationId="9a47-ac76-pubN65784" page="58" hidden="true" typeId="6f79-864b-5586-5191" typeName="Weapon">
+    <profile id="d599-cf88-1c5a-fc05" name="Anti-tank Rifle" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">36&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
