@@ -4,6 +4,7 @@
     <publication id="9a47-ac76-pubN65784" name="Konflikt 47: Rules"/>
     <publication id="9a47-ac76-pubN65838" name="Konflikt 47: Defiance"/>
     <publication id="9a47-ac76-pubN66291" name="Konflikt 47: Resurgence"/>
+    <publication id="477d-bce6-7997-8bc1" name="Konflikt 47: Errata"/>
   </publications>
   <costTypes>
     <costType id="d66a-aa5a-74b9-e93a" name="points" defaultCostLimit="-1.0" hidden="false"/>
