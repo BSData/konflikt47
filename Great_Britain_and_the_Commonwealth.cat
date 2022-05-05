@@ -985,7 +985,7 @@
                 <infoLink id="efc8-9d56-e1bc-b4b3" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="06dc-74f3-0445-0f09" name="LMG" hidden="false" collective="false" import="true" targetId="88e4-a270-7100-1505" type="selectionEntry">
+                <entryLink id="06dc-74f3-0445-0f09" name="LMG" hidden="false" collective="false" import="true" targetId="6dc4-67a2-757e-5aa9" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b6c-aab0-0b85-0a31" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43d6-fe85-feee-c5aa" type="max"/>
@@ -2774,12 +2774,13 @@
         <selectionEntry id="3c36-f234-0dd2-4420" name="Free Artillery Forward Observer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="061e-559a-d671-f036" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f57f-ed39-a482-b0c9" type="max"/>
           </constraints>
           <categoryLinks>
             <categoryLink id="6ae6-ad45-47f2-04f6" name="Forward Artillery Observer" hidden="false" targetId="1f3d-c608-4cb7-2ec0" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="e167-c43d-4ab1-204c" name="Weapon" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="e167-c43d-4ab1-204c" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2ac8-8bb4-1864-87ad">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c194-b571-7ce5-6323" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1cf-d70b-b9c8-6329" type="max"/>
@@ -2817,7 +2818,7 @@
                     <entryLink id="38d2-abf4-1aac-e6b5" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="fc10-5bc9-6cf2-98b6" name="Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="fc10-5bc9-6cf2-98b6" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6ec8-933a-57b6-25bc">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9d4-fe3f-5cbe-5d17" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f78-78e2-2ce8-0934" type="max"/>
@@ -2844,7 +2845,7 @@
                     <entryLink id="132f-95aa-4b31-d563" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup id="7ef3-c4d6-3d8b-ab7d" name="Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="7ef3-c4d6-3d8b-ab7d" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="a1b0-e0e1-31e9-19f7">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="065a-275e-adaa-5d1c" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="220c-4b4d-34c0-a5c7" type="max"/>
