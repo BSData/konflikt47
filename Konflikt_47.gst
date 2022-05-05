@@ -297,122 +297,122 @@
           <modifiers>
             <modifier type="append" field="name" value="10">
               <conditions>
-                <condition field="selections" scope="force" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="3">
               <conditions>
-                <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="2">
               <conditions>
-                <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="9">
               <conditions>
-                <condition field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="8">
               <conditions>
-                <condition field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="7">
               <conditions>
-                <condition field="selections" scope="force" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="1">
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="6">
               <conditions>
-                <condition field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="5">
               <conditions>
-                <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="4">
               <conditions>
-                <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="16">
               <conditions>
-                <condition field="selections" scope="force" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="16.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="22">
               <conditions>
-                <condition field="selections" scope="force" value="22.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="22.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="13">
               <conditions>
-                <condition field="selections" scope="force" value="13.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="13.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="20">
               <conditions>
-                <condition field="selections" scope="force" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="11">
               <conditions>
-                <condition field="selections" scope="force" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="11.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="12">
               <conditions>
-                <condition field="selections" scope="force" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="12.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="15">
               <conditions>
-                <condition field="selections" scope="force" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="17">
               <conditions>
-                <condition field="selections" scope="force" value="17.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="17.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="21">
               <conditions>
-                <condition field="selections" scope="force" value="21.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="21.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="23">
               <conditions>
-                <condition field="selections" scope="force" value="23.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="23.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="19">
               <conditions>
-                <condition field="selections" scope="force" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="19.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="24">
               <conditions>
-                <condition field="selections" scope="force" value="24.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="24.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="14">
               <conditions>
-                <condition field="selections" scope="force" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="14.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="18">
               <conditions>
-                <condition field="selections" scope="force" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="18.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>

@@ -2379,7 +2379,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dd8-d03c-a3f7-4fc1" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="1efa-204e-ef57-2df2" name="Hunter" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="1efa-204e-ef57-2df2" name="Hunter" hidden="false" collective="false" import="true" type="unit">
               <entryLinks>
                 <entryLink id="8ebc-ce7f-d300-8c3f" name="Fist" hidden="false" collective="false" import="true" targetId="8503-f9cf-c544-aa05" type="selectionEntry">
                   <constraints>
@@ -2398,7 +2398,7 @@
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="95.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3789-60c4-2d97-3f57" name="Bombadier" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="3789-60c4-2d97-3f57" name="Bombadier" hidden="false" collective="false" import="true" type="unit">
               <entryLinks>
                 <entryLink id="0edd-27b1-1b71-0f09" name="Fist" hidden="false" collective="false" import="true" targetId="8503-f9cf-c544-aa05" type="selectionEntry">
                   <constraints>
@@ -2417,7 +2417,7 @@
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="80.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="307f-c99f-70c6-50eb" name="Lancer" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="307f-c99f-70c6-50eb" name="Lancer" hidden="false" collective="false" import="true" type="unit">
               <infoLinks>
                 <infoLink id="b43d-3179-d1e9-0193" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule"/>
               </infoLinks>
@@ -5824,6 +5824,9 @@
                   </constraints>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e42b-4527-200e-a498" name="Dual Light Automatic Cannons in Closed Turret" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -6075,6 +6078,9 @@
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
