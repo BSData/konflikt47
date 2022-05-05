@@ -426,6 +426,112 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3b98-9c2c-e4b9-f8af" name="Minefields" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="8e81-fa95-180b-268f" name="Minefields" hidden="false">
+          <description>Minefield sectionsare represented by a 6x6 inch area.
+
+When a unit moves into the minefield, you must resolve an attack against the unit. If the target unit is following an Advance order, it stops at the point of the minefield’s attack. The opponent rolls a D6 to see if a mine has detonated against the target. If the target unit is following a Run order, then 3D6 are rolled for the attack. A minefield section needs a 3+ to hit an Inexperienced unit, a 4+ to hit a Regular unit and a 5+ to hit a Veteran unit. Units of combat engineers (engineers, pioneers, or similar) are trained to deal with these sorts of obstacles so may force their opponent to re-roll a successful hit when they are following an Advance order only. If the minefield fails to score a hit then the target unit can complete its movement normally. 
+A unit that suffers a hit also takes D3 Pin markers rather than the normal one.  If the target unit is not destroyed or broken by a resultant morale check then it can finish its movement as normal.
+A single minefield can only attack a unit once per move, but can attack multiple units that make contact with it.</description>
+        </rule>
+      </rules>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4ff1-2d69-1863-d71d" name="Sections" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="ba4f-c71e-4ec6-74ee" value="25.0">
+              <repeats>
+                <repeat field="d66a-aa5a-74b9-e93a" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="d66a-aa5a-74b9-e93a" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba4f-c71e-4ec6-74ee" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="213a-6cf9-9650-8639" name="Anti-Infantry Minefield" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="9ce4-27b7-bbdb-2128" name="Anti-Infantry Minefield" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="e5a6-c007-53d3-2748">-</characteristic>
+                    <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">D6 (Advance) / 3D6 (Run)</characteristic>
+                    <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2 (Infantry) / +3 (Vehicles)</characteristic>
+                    <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Minefield</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6b84-3190-3e21-9a34" name="Anti-Tank Minefield" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="84e2-8a30-1bdc-a0c6" name="Anti-Tank Minefield" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="e5a6-c007-53d3-2748">-</characteristic>
+                    <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">D6 (Advance) / 3D6 (Run)</characteristic>
+                    <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+5 (Vehicles)</characteristic>
+                    <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Minefield</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6e6e-1386-b87a-48fb" name="Mixed Minefield" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="82c0-b10f-fad4-4ce8" name="Mixed Minefield" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="e5a6-c007-53d3-2748">-</characteristic>
+                    <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">D6 (Advance) / 3D6 (Run)</characteristic>
+                    <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2 (Infantry) / +5 (Vehicles)</characteristic>
+                    <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Minefield</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f8ec-c1a0-05ff-fb81" name="Flamethrower Minefield" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="fedc-df5c-3d25-618c" name="Flamethrower Minefield" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="e5a6-c007-53d3-2748">-</characteristic>
+                    <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">D6 (Advance) / 3D6 (Run)</characteristic>
+                    <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2 (Infantry) / +3 (Vehicles)</characteristic>
+                    <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Flamethrower, Minefield</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="369b-bd0c-cfea-107d" name="Flamethrower Minefield" hidden="false">
+                  <description>A flamethrower minefield section forces its target to take a morale test if the target suffers a hit or took casualties. Vehicles hit by a flamethrower minefield section roll a D6 in addition to any damage they may or may not take. On a 6 they are on fire as per the On Fire entry on the vehicle damage table.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="b329-7d55-2b2f-5573" name="Flamethrower" hidden="false" targetId="33a1-c3d8-4ca6-7869" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fe5f-8b74-9b81-d0c5" name="Dummy Minefields" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="4b09-b79b-e4e3-4377" name="Dummy Minefields" hidden="false">
+                  <description>During the scenario set up you may choose to replace any minefield section that you are about to place with two dummy minefield sections.
+When a unit enters a dummy minefield, make an attack by the minefield as normal. However, if it scores a hit, it causes no damage or pin markers and must be revealed as a dummy minefield. For the remainder of the game it is treated as a cleared minefield (see below) as some mines were often placed in dummy minefields to reinforce the effect of the ruse.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="d7b1-e557-88f6-1ac4" name="Pistol" hidden="false" collective="false" import="true" type="upgrade">
