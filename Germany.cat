@@ -768,42 +768,6 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1f73-5619-a98f-250e" name="Wehrmacht Target Designator" publicationId="23af-76b6-pubN65619" page="46" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="feb6-37cb-8770-ed6a" name="2" hidden="false" targetId="b6c1-c83f-a555-17ce" type="profile"/>
-        <infoLink id="680d-2440-f0be-2d52" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="abb8-a008-c419-a672" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="de20-8e29-bf02-f441" name="Target Designator" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c30-187d-a825-6b23" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5e4-a87a-a0b2-aec1" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="4475-f72c-4d09-66a3" name="Target Designator" hidden="false" targetId="0426-bbeb-d6c4-25a0" type="rule"/>
-            <infoLink id="4d14-cc8e-e330-1e22" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
-            <infoLink id="7aa7-1b5f-3575-a4b1" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="a2f9-9d1d-e593-0632" name="SMG" hidden="false" collective="false" import="true" targetId="da2f-423c-1523-5126" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e94f-bbf8-015e-2382" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="811d-0ec1-b649-e65d" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="30.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="5ec5-06ea-d4f9-5d60" name="Nachtalben Squad" publicationId="23af-76b6-pubN65619" page="45" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -6215,6 +6179,26 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9821-bd16-03a7-e08a" name="Wehrmacht Target Designator (Anti-Tank)" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="8f11-31c6-95f1-ced5" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7edb-7e4d-074b-9d17" name="Wehrmacht Target Designator" hidden="false" collective="false" import="true" targetId="6314-6f75-5bb2-bd8f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="2cae-9abb-59f9-06ae" name="Wehrmacht Target Designator (Sniper)" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="d39c-c06e-8554-c332" name="Sniper Team" hidden="false" targetId="6077-3929-61c8-5eb7" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e420-b8de-ed58-6f72" name="Wehrmacht Target Designator" hidden="false" collective="false" import="true" targetId="6314-6f75-5bb2-bd8f" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="86cc-3e18-422d-2c9b" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="867c-7fa1-bdfb-e528" name="Truck" hidden="false" collective="false" import="true" targetId="3c9c-5de4-15a8-4bf2" type="selectionEntry">
@@ -6725,6 +6709,42 @@
       </selectionEntryGroups>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6314-6f75-5bb2-bd8f" name="Wehrmacht Target Designator" publicationId="23af-76b6-pubN65619" page="46" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="c80e-fef1-1ea5-57ec" name="2" hidden="false" targetId="b6c1-c83f-a555-17ce" type="profile"/>
+        <infoLink id="9296-1886-5da9-a5b3" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7ebe-a353-73a3-c162" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1500-86e2-bb93-6102" name="Target Designator" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b16a-1fbe-3d87-d662" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69eb-eb69-c256-ee5b" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2272-6c9c-2bfb-f1ec" name="Target Designator" hidden="false" targetId="0426-bbeb-d6c4-25a0" type="rule"/>
+            <infoLink id="e3fb-3a0c-b0fb-3b74" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+            <infoLink id="4a7a-e8aa-d56b-99b3" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="54e8-68b9-0e95-06e9" name="SMG" hidden="false" collective="false" import="true" targetId="da2f-423c-1523-5126" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96cb-4b70-a529-8dd6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43a0-bf90-0721-e560" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="30.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
