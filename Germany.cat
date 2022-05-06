@@ -807,9 +807,15 @@
     <selectionEntry id="5ec5-06ea-d4f9-5d60" name="Nachtalben Squad" publicationId="23af-76b6-pubN65619" page="45" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="98cc-9018-2112-97ec" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="98cc-9018-2112-97ec" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="43e7-fe2e-dc98-4c4a" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="1368-b520-7439-1a33" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <infoLinks>
@@ -1218,6 +1224,9 @@
               </repeats>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eea-8554-b5ce-9db6" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="01f8-1e5b-80b9-2b68" name="Stubborn" hidden="false" targetId="67c4-b526-4222-9d1a" type="rule"/>
           </infoLinks>
@@ -3566,6 +3575,7 @@
               <conditions>
                 <condition field="selections" scope="98cc-9018-2112-97ec" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
                 <condition field="selections" scope="43e7-fe2e-dc98-4c4a" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+                <condition field="selections" scope="1368-b520-7439-1a33" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
