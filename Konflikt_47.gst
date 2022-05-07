@@ -531,6 +531,9 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -2000,6 +2003,22 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="0581-69fd-3cf2-25a6" name="Turret-Mounted Zvukovoy Proyektor" hidden="false" targetId="ce88-b176-7301-3cc5" type="profile"/>
         <infoLink id="bb85-193e-75fe-576d" name="Shockwave" hidden="false" targetId="48cd-7351-3021-3a75" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6ce-3bee-ad91-11e5" name="Pintle-Mounted Rear-Facing MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c582-7c77-87d1-883a" name="Pintle-Mounted Rear-Facing MMG" hidden="false" targetId="add3-febd-f004-5e4a" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8fa7-f0aa-0ac8-0ce2" name="Pintle-Mounted Rear-Facing HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="52ac-82f6-f60f-9790" name="Pintle-Mounted Rear-Facing HMG" hidden="false" targetId="3d95-2ecf-8208-56c1" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -3487,6 +3506,22 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">Special</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">Special</characteristic>
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Shockwave</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="add3-febd-f004-5e4a" name="Pintle-Mounted Rear-Facing MMG" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">36&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">5</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">-</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede"/>
+      </characteristics>
+    </profile>
+    <profile id="3d95-2ecf-8208-56c1" name="Pintle-Mounted Rear-Facing HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">36&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">3</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+1</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede"/>
       </characteristics>
     </profile>
   </sharedProfiles>
