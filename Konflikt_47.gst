@@ -2024,6 +2024,17 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2b65-061d-c687-cc9e" name="Light Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1559-62f6-fb5e-031c" name="Light Mortar" hidden="false" targetId="1f43-5d55-b748-53e3" type="profile"/>
+        <infoLink id="a9f5-8308-9fee-c3a2" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
+        <infoLink id="d759-2414-15df-afb8" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+        <infoLink id="b68e-5ece-3444-407a" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d35f-b1c7-d0ff-2d11" name="Tough Fighters" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
