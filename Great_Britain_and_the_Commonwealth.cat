@@ -1125,6 +1125,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b899-da57-04b0-af97" name="M22 Locust Light Tank" publicationId="24a5-18e9-pubN65619" page="57" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -3801,7 +3804,6 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="cf76-c266-1b9e-d0cb" name="Additional Men" hidden="false" collective="false" import="true"/>
         <selectionEntryGroup id="89ad-7481-e635-cb39" name="Squad Members" hidden="false" collective="false" import="true" defaultSelectionEntryId="6761-c5a7-aa09-d4b0">
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1950-345b-1670-afa8" type="min"/>
@@ -6889,14 +6891,14 @@
     </entryLink>
   </entryLinks>
   <rules>
-    <rule id="0a1e-6c5d-7e11-2730" name="Keep Calm and Carry On" publicationId="24a5-18e9-pubN65551" page="163" hidden="false">
+    <rule id="0a1e-6c5d-7e11-2730" name="Keep Calm and Carry On" publicationId="9a47-ac76-pubN65784" page="163" hidden="false">
       <description>British infantry given a Down order (not reaction) may remove 1 pin marker as if they had passed an order test.</description>
     </rule>
-    <rule id="555a-7223-c192-79bb" name="Bombardment" publicationId="24a5-18e9-pubN65551" page="163" hidden="false">
+    <rule id="555a-7223-c192-79bb" name="Bombardment" publicationId="9a47-ac76-pubN65784" page="163" hidden="false">
       <description>When rolling for the effects of a preparatory bombardment, instead of rolling one die on the results chart for each enemy unit roll two dice and choose the best result.</description>
     </rule>
-    <rule id="b76b-0f93-57eb-cb4d" name="A National Characteristic" publicationId="24a5-18e9-pubN65551" page="163" hidden="false">
-      <description>You way select on eof the following options as a special rule for your force.
+    <rule id="b76b-0f93-57eb-cb4d" name="A National Characteristic" publicationId="9a47-ac76-pubN65784" page="163" hidden="false">
+      <description>You way select one of the following options as a special rule for your force.
 
 * Up And At &apos;Em - A force with this rule automatically passes any order test required to launch an assault. This rule does not apply to inexperienced units or units with the Green special rule.
 
@@ -6908,7 +6910,7 @@
 
 * Vengeance - If the army has this special rule, any regular or veteran unit given an order, which is within 12&quot; of an enemy unit, may try to remove one pin marker before attempting an order test. Roll a die and on a 4+ remove one pin marker before attempting the test. If the unit has only a single pin marker and it is removed, then there is no test required.</description>
     </rule>
-    <rule id="5542-8623-6653-5c1e" name="Artillery Support" hidden="false">
+    <rule id="5542-8623-6653-5c1e" name="Artillery Support" publicationId="9a47-ac76-pubN65784" hidden="false">
       <description>British forces were supported by well-coordinated gun batteries and were able to call down fire to support an attack or discourage the enemy’s advance. British armies can include one regular artillery forward observer for free.</description>
     </rule>
   </rules>

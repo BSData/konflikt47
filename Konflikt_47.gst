@@ -2280,7 +2280,7 @@ When attacking, if a target of a recce vehicle is successful in making a Firefig
       <description>Roll 1D6 to determine the number of shots on target. Then roll to hit for each shot as normal. For infantry and artillery, this is the number of hits; roll to damage using the base PEN value of the weapon. For vehicles, the PEN value of the weapon is equal to it&apos;s base value, +1 for each successful hit. Roll a single damage roll at this modified PEN value.</description>
     </rule>
     <rule id="12a2-4a18-eb50-2652" name="Gun Shield" publicationId="9a47-ac76-pubN65784" page="88" hidden="false">
-      <description>If a gun is equipped with a gun shield, the die roll an enemy requires to score damage from the front arc of the gun as described above is increased to 6+ regardless of the quality of the crew. Thsi die roll is modified by the penetration value of the weapon in the usual way.</description>
+      <description>If a gun is equipped with a gun shield, the die roll an enemy requires to score damage from the front arc of the gun as described above is increased to 6+ regardless of the quality of the crew. This die roll is modified by the penetration value of the weapon in the usual way.</description>
     </rule>
     <rule id="2257-21e2-e6a0-367d" name="Flak" publicationId="9a47-ac76-pubN65784" page="79" hidden="false">
       <description>A unit with flak that is not currently Down  automatically fires at any attacking aircraft if the token or model lies within their firing arc and range. Flak units fire regardless of whether they have already taken an action or not that turn. Flak fire does not require an action and takes place outside of the normal turn sequence. The usual line of sight rules are ignored when firing at aircraft between the target is plainly visible in the sky. Measure the range between the shooter and target ignoring everything in between. Rolls to hit aircraft are always at a -2 penalty because they are fast moving targets and inherently difficult to hit.
@@ -2939,10 +2939,10 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
     </profile>
     <profile id="f08d-ea25-9525-68a6" name="Coaxial MMG" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
-        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
-        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">36&quot;</characteristic>
+        <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">5</characteristic>
+        <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">-</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede"></characteristic>
       </characteristics>
     </profile>
     <profile id="4836-b695-e9a2-828d" name="Turret-Mounted Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
