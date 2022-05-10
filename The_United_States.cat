@@ -4204,7 +4204,7 @@
     <selectionEntry id="1aaf-09b1-230f-3dea" name="M8A4 Bruin Support Walker" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="9956-2387-a398-1083" name="No HE" hidden="false">
-          <description>No HE for the Bruin&apos;s HE Gun.</description>
+          <description>No HE for the Bruin&apos;s AT Gun.</description>
         </rule>
         <rule id="508f-7ba9-72d5-db30" name="Bruin Howitzer" hidden="false">
           <description>No Indirect Fire for the Bruin&apos;s Howitzer. However, it can fire in the left, right, and forward arcs.</description>
@@ -4254,7 +4254,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b741-78be-f65a-ecb1" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="6930-a132-e8dd-53cf" name="Gyro-Stabilisers" hidden="false" targetId="fcab-ee24-e29e-5026" type="rule"/>
+            <infoLink id="6930-a132-e8dd-53cf" name="Gyro-Stabilised" hidden="false" targetId="17c2-1379-b790-b8be" type="rule"/>
           </infoLinks>
         </entryLink>
         <entryLink id="3de4-6f70-c97d-920b" name="Pintle-Mounted Forward-Facing HMG" hidden="false" collective="false" import="true" targetId="0fde-b247-5ea6-a771" type="selectionEntry">
