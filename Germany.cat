@@ -358,22 +358,12 @@
     <selectionEntry id="6a48-d64c-34a1-957b" name="Pantherturm Turret Emplacement" publicationId="23af-76b6-pubN65619" page="48" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="0144-68cb-975f-5138" name="Heavy Tank" hidden="false" targetId="923d-ea2a-6016-ed02" type="profile"/>
-        <infoLink id="2217-a5f2-6763-930d" name="Turrret Emplacement" hidden="false" targetId="8ba6-531c-b977-f1c4" type="rule"/>
+        <infoLink id="2217-a5f2-6763-930d" name="Turret Emplacement" hidden="false" targetId="8ba6-531c-b977-f1c4" type="rule"/>
+        <infoLink id="6de3-afd5-79a0-f6c5" name="Inexperienced (Vehicle)" hidden="false" targetId="f899-8972-8556-faeb" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8123-9d7c-6f54-33c8" name="New CategoryLink" hidden="false" targetId="c000-16a2-fa3b-c139" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="49e9-3690-744f-e40e" name="Experience" hidden="false" collective="false" import="true" defaultSelectionEntryId="82f3-25c7-ac39-aa19">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7509-1dd4-85e6-b463" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f3-03db-9b3d-6310" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="82f3-25c7-ac39-aa19" name="Inexperienced (Vehicle)" hidden="false" collective="false" import="true" targetId="0eb8-ef2c-f337-579d" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="b53f-02e5-20f8-afc8" name="Turret Mounted Super-Heavy AT Gun" hidden="false" collective="false" import="true" targetId="359d-ffaf-84b8-7008" type="selectionEntry">
           <constraints>
@@ -389,30 +379,20 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="282.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="120d-08b6-9599-97ce" name="Schwerefeld Projektor Turret Emplacement" publicationId="23af-76b6-pubN65619" page="48" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="10b7-9e65-c217-7d35" name="Medium Tank" hidden="false" targetId="f945-ed13-872d-e38b" type="profile"/>
-        <infoLink id="d817-5093-2212-ec77" name="Turrret Emplacement" hidden="false" targetId="8ba6-531c-b977-f1c4" type="rule"/>
+        <infoLink id="d817-5093-2212-ec77" name="Turret Emplacement" hidden="false" targetId="8ba6-531c-b977-f1c4" type="rule"/>
+        <infoLink id="466c-658e-b0d1-273b" name="Inexperienced (Vehicle)" hidden="false" targetId="f899-8972-8556-faeb" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fa1c-78b7-e5a1-8526" name="New CategoryLink" hidden="false" targetId="c000-16a2-fa3b-c139" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="890b-c9f6-1aaa-5156" name="Experience" hidden="false" collective="false" import="true" defaultSelectionEntryId="0c57-3070-bfb0-8d22">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8366-304c-183b-22f6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85c1-2fa6-5db0-dde3" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="0c57-3070-bfb0-8d22" name="Inexperienced (Vehicle)" hidden="false" collective="false" import="true" targetId="0eb8-ef2c-f337-579d" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4df2-e000-437a-be76" name="Turret Mounted Schwerefeld Projektor" hidden="false" collective="false" import="true" targetId="8f61-03a6-aa4d-d303" type="selectionEntry">
+        <entryLink id="4df2-e000-437a-be76" name="Turret-Mounted Schwerefeld Projektor" hidden="false" collective="false" import="true" targetId="8f61-03a6-aa4d-d303" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb22-4e1f-abd2-64a8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9d5-c410-ae26-120b" type="max"/>
@@ -420,7 +400,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="185.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7c14-f267-655e-b821" name="Zeus-X" hidden="false" collective="false" import="true" type="unit">
@@ -509,7 +489,7 @@
         <categoryLink id="3252-669f-ca3d-1408" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0460-2d22-b075-d41c" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="26c3-feec-6fcf-0562">
+        <selectionEntryGroup id="0460-2d22-b075-d41c" name="Secondary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="26c3-feec-6fcf-0562">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e17-a602-520d-a74d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0493-38a8-d70f-8f13" type="max"/>
@@ -543,31 +523,11 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="aeac-faf9-8a89-3b88" name="Secondary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="0c24-1292-85a7-9780">
+        <selectionEntryGroup id="aeac-faf9-8a89-3b88" name="Main Weapon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36df-a2c0-2aa0-3256" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa7-b55f-31eb-bde6" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="0c24-1292-85a7-9780" name="Light Rocket System" hidden="false" collective="false" import="true" type="upgrade">
-              <entryLinks>
-                <entryLink id="13e5-477c-1a17-c379" name="Hull-Mounted Forward-Facing Light Howitzer" hidden="false" collective="false" import="true" targetId="f9ca-5612-d169-2369" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b321-af99-2e77-16b5" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="315e-4272-7f7e-a91c" type="min"/>
-                  </constraints>
-                  <rules>
-                    <rule id="fad7-af3b-9f3c-4015" name="Light Rocket System" hidden="false">
-                      <description>Counts as light howitzer, may not fire indirectly.</description>
-                    </rule>
-                  </rules>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <entryLinks>
             <entryLink id="8678-78cc-fdd4-ec15" name="Hull-Mounted Forward-Facing Medium AT Gun" hidden="false" collective="false" import="true" targetId="ae45-ebe0-340d-1259" type="selectionEntry">
               <constraints>
@@ -576,6 +536,14 @@
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="20.0"/>
               </costs>
+            </entryLink>
+            <entryLink id="e338-bb13-ee56-dae8" name="Hull-Mounted Forward-Facing Light Howitzer" hidden="false" collective="false" import="true" targetId="f9ca-5612-d169-2369" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d00b-c098-08fb-496d" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f2e3-5fcd-a711-337e" name="Rocket System" hidden="false" targetId="a26c-b588-3c65-4ac8" type="rule"/>
+              </infoLinks>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -5024,6 +4992,12 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5b89-ed9e-018d-4d0d" name="Spinne Light Panzermech" publicationId="23af-76b6-pubN65551" page="140" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="3ca9-f7c7-a000-3297" name="Light Walker" hidden="false" targetId="58fc-34d8-c1ba-1236" type="profile"/>
+        <infoLink id="f318-67e4-cd4d-8af7" name="Dual Direction Drive" hidden="false" targetId="bd0d-4f78-c49f-5000" type="rule"/>
+        <infoLink id="c56c-5104-9c14-51a7" name="Walker" hidden="false" targetId="cc4e-54c3-faab-0936" type="rule"/>
+        <infoLink id="5b7b-5e8e-6820-965e" name="Agile" hidden="false" targetId="d970-8622-a65d-57a6" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="fe5c-c174-a2b1-71e4" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
         <categoryLink id="491f-ad5f-d653-6819" name="Scout and Light Walkers" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false"/>
