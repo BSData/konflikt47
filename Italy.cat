@@ -4598,7 +4598,7 @@ These abilities are applied before any subsequent shooting or close quarters ass
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3917-ea13-5b80-8584" name="Panzerfausts" hidden="true" collective="false" import="true">
+        <selectionEntryGroup id="3917-ea13-5b80-8584" name="Panzerfausts" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="195e-eb5e-fc01-8294" type="max"/>
           </constraints>
@@ -4632,7 +4632,7 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <categoryLink id="1994-8018-76cc-9889" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a234-1d92-77a0-256d" name="Elite" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a234-1d92-77a0-256d" name="Elite" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="11.0">
               <repeats>
@@ -4804,7 +4804,7 @@ These abilities are applied before any subsequent shooting or close quarters ass
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7840-0f29-d49f-486b" name="Panzerfausts" hidden="true" collective="false" import="true">
+        <selectionEntryGroup id="7840-0f29-d49f-486b" name="Panzerfausts" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f74-b25b-8837-af61" type="max"/>
           </constraints>
