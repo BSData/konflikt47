@@ -10237,11 +10237,13 @@ These abilities are applied before any subsequent shooting or close quarters ass
     <selectionEntry id="f31a-72e3-3ed9-9d92" name="(British) 2&quot; Light Mortar Team" publicationId="9a47-ac76-pubN65784" page="168" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="33cf-93c7-aa59-d6d0" name="2" hidden="false" targetId="b6c1-c83f-a555-17ce" type="profile"/>
+        <infoLink id="f5c0-f1f9-4be0-b535" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2ef6-b867-03ca-58ca" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
+        <categoryLink id="2ef6-b867-03ca-58ca" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false"/>
         <categoryLink id="0b78-c524-c08f-9b0f" name="Light and Medium Mortar Team" hidden="false" targetId="9e4b-337b-7b0a-20f2" primary="false"/>
         <categoryLink id="5a3d-557d-4bc0-7eeb" name="Mortar Team" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false"/>
+        <categoryLink id="da15-b307-cfbc-02ba" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="20da-2ae1-8f62-20cb" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="3158-df9e-378b-233c">
@@ -10283,11 +10285,13 @@ These abilities are applied before any subsequent shooting or close quarters ass
     <selectionEntry id="a523-d77a-5d03-f68c" name="(British) 3&quot; Medium Mortar Team" publicationId="9a47-ac76-pubN65784" page="168" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="b339-daee-d621-2ac3" name="3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
+        <infoLink id="8ae3-9b92-309b-9c4a" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7c64-473c-2009-d45a" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
+        <categoryLink id="7c64-473c-2009-d45a" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false"/>
         <categoryLink id="0d56-d791-1448-3a1b" name="Mortar Team" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false"/>
         <categoryLink id="61f3-9b0b-2b7b-750e" name="Light and Medium Mortar Team" hidden="false" targetId="9e4b-337b-7b0a-20f2" primary="false"/>
+        <categoryLink id="09da-5318-3854-a520" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c46e-368f-89e6-209b" name="Spotter" hidden="false" collective="false" import="true" type="model">
@@ -10337,10 +10341,14 @@ These abilities are applied before any subsequent shooting or close quarters ass
       </costs>
     </selectionEntry>
     <selectionEntry id="e7dd-378a-b8cb-f1e5" name="(British) 4.2&quot; Heavy Mortar Team" publicationId="9a47-ac76-pubN65784" page="168" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="b742-64a3-22e6-9439" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="d9df-3caf-27c5-56c7" name="Heavy Mortar Team" hidden="false" targetId="4195-7b78-7f05-2c68" primary="false"/>
-        <categoryLink id="baa2-7398-43cc-c37a" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
+        <categoryLink id="baa2-7398-43cc-c37a" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false"/>
         <categoryLink id="54e6-bc72-e872-8124" name="Mortar Team" hidden="false" targetId="d9b6-6214-f7d0-e6f4" primary="false"/>
+        <categoryLink id="f3d3-d3dc-30a7-e1b8" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b35e-3b35-1c95-2096" name="Spotter" hidden="false" collective="false" import="true" type="model">
@@ -10393,13 +10401,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="e4f3-b5c2-7a30-c714" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
         <infoLink id="325a-5326-8197-67c3" name="Recce" hidden="false" targetId="fa0e-9e9d-0e65-1e3b" type="rule"/>
+        <infoLink id="5ef0-4067-da13-985f" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="661a-6117-7338-f00c" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true"/>
+        <categoryLink id="661a-6117-7338-f00c" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
         <categoryLink id="9b96-b14b-7640-7fe9" name="Armoured Cars" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false"/>
         <categoryLink id="7a3e-e42b-3bf5-1bcb" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
         <categoryLink id="0937-62fa-3419-5451" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="1961-a923-4a32-85ef" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
+        <categoryLink id="e1e9-2256-37f1-a6ff" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="967d-bd66-a79f-316e" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="5d03-7a0b-a0c7-184f">
@@ -10486,9 +10496,11 @@ These abilities are applied before any subsequent shooting or close quarters ass
     <selectionEntry id="010f-376b-f38a-9fcb" name="(British) Airborne Infantry Section" publicationId="9a47-ac76-pubN65838" page="54" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="1e12-c2a6-2f0f-eedd" name="Stubborn" hidden="false" targetId="67c4-b526-4222-9d1a" type="rule"/>
+        <infoLink id="be6c-0d9a-789d-b994" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4f8f-9696-ed04-0358" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="4f8f-9696-ed04-0358" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="false"/>
+        <categoryLink id="8661-aad1-f838-6e05" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6cf1-75b5-b813-d68c" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -10668,13 +10680,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="e784-2f65-b815-92e7" name="Veteran (Vehicle)" hidden="false" targetId="87de-25e7-d35e-25a7" type="profile"/>
         <infoLink id="77c5-81c2-faf2-4016" name="Recce" hidden="false" targetId="fa0e-9e9d-0e65-1e3b" type="rule"/>
         <infoLink id="9e13-ed20-cd0c-3e41" name="Soft-Skinned Vehicle" hidden="false" targetId="db73-1b48-cf5a-7aff" type="profile"/>
+        <infoLink id="c732-ec0e-88b2-dbdd" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3c00-8d07-10c7-254e" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
         <categoryLink id="b00f-28d4-0305-af3a" name="Armoured Cars" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false"/>
-        <categoryLink id="b7bb-f3af-fd00-f73c" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true"/>
+        <categoryLink id="b7bb-f3af-fd00-f73c" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
         <categoryLink id="63c6-c1c8-fd33-5caf" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="0dc8-87e2-b9c0-6e79" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
+        <categoryLink id="1a33-4495-4f1a-3668" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3c40-74ab-c540-829c" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="3880-3335-eb40-f562">
@@ -10754,10 +10768,12 @@ These abilities are applied before any subsequent shooting or close quarters ass
     <selectionEntry id="ab74-0bb4-c7e4-2a90" name="(British) Anti-Tank Team" publicationId="9a47-ac76-pubN65784" page="169" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="ad10-ad26-1cc1-a2c9" name="2" hidden="false" targetId="b6c1-c83f-a555-17ce" type="profile"/>
+        <infoLink id="9c9c-19f5-9ecd-00b0" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a334-27f9-86a3-ddb6" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false"/>
-        <categoryLink id="c579-8f6e-fba7-f83d" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
+        <categoryLink id="c579-8f6e-fba7-f83d" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false"/>
+        <categoryLink id="9ea7-9f74-e79a-fad2" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e8fa-069b-3694-c4ab" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="74b3-3e4b-27bc-fd1f">
@@ -10835,13 +10851,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
       </rules>
       <infoLinks>
         <infoLink id="3fff-5af0-6583-5c06" name="Medium Tank" hidden="false" targetId="f945-ed13-872d-e38b" type="profile"/>
+        <infoLink id="0550-89fb-277b-8249" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6b4a-c065-8d2e-9e43" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="6b4a-c065-8d2e-9e43" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="1358-d733-2e7c-f6c8" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="2f5b-d770-3e84-895b" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="1b83-7e95-38d5-bcaa" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="1066-5c08-3be1-5874" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="947a-3efd-e581-0542" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="74e6-b641-b5c7-3e47" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="3b20-96c9-844e-18cd">
@@ -10887,9 +10905,11 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="be2e-cbaa-1a67-bd93" name="Resilient" hidden="false" targetId="f45a-914c-bccf-5a1c" type="rule"/>
         <infoLink id="1ad2-f899-14a0-4bd4" name="Slow" hidden="false" targetId="a5b5-a51e-5ff3-1f4e" type="rule"/>
         <infoLink id="542d-3177-0218-ecb4" name="Tough" hidden="false" targetId="a177-5aaa-1b45-b6e2" type="rule"/>
+        <infoLink id="024a-364f-dd31-74e3" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c506-d72f-05cc-6988" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="c506-d72f-05cc-6988" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="false"/>
+        <categoryLink id="edaa-724d-0355-f3de" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ce34-4254-21c9-f05e" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -10978,10 +10998,12 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="8f39-3322-d277-2ddb" name="Resilient" hidden="false" targetId="f45a-914c-bccf-5a1c" type="rule"/>
         <infoLink id="bb5f-06fa-380c-998a" name="Infrared (IR) Vision" hidden="false" targetId="8f1c-b9eb-2fab-a987" type="rule"/>
         <infoLink id="8c8e-9a66-2b25-c3d1" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
+        <infoLink id="4d13-c0a0-b67e-5c54" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="bf03-a957-cbaa-9d78" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
+        <categoryLink id="bf03-a957-cbaa-9d78" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="false"/>
         <categoryLink id="d82b-ac15-bc85-4c7a" name="Light Artillery, Light and Medium AT Guns" hidden="false" targetId="1842-7654-2d60-c182" primary="false"/>
+        <categoryLink id="d79a-86c8-c9d6-ac5b" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c035-445a-26e6-d25f" name="M17 Tesla Cannon" hidden="false" collective="false" import="true" targetId="5a0d-4460-5e5e-f5e7" type="selectionEntry"/>
@@ -11001,13 +11023,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="471c-019b-fbe6-fcb7" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule"/>
         <infoLink id="4cf6-5b5e-8a29-c35d" name="Armored Carrier" hidden="false" targetId="52b0-f9c6-b4c6-9da1" type="profile"/>
         <infoLink id="973c-6483-6750-5d96" name="Regular (Vehicle)" hidden="false" targetId="fc80-9bff-1ffc-abd5" type="profile"/>
+        <infoLink id="c66c-0230-8a4a-090a" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="30b5-9eeb-b710-699b" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
         <categoryLink id="8279-850b-229b-5ed2" name="Armoured Cars" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false"/>
-        <categoryLink id="c6e8-68aa-d9c6-26c8" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true"/>
+        <categoryLink id="c6e8-68aa-d9c6-26c8" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
         <categoryLink id="cf17-e05d-fba2-e0f7" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="fd00-914e-1071-480f" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
+        <categoryLink id="5208-832c-a561-11c6" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ef37-d8bf-8f6a-c963" name="Turret-Mounted Linked Light Automatic Cannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -11042,9 +11066,11 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="935a-3a25-9195-8d38" name="Large Infantry" hidden="false" targetId="ae84-cf09-97d1-5204" type="rule"/>
         <infoLink id="bf6a-eafa-e7eb-e55b" name="Resilient" hidden="false" targetId="f45a-914c-bccf-5a1c" type="rule"/>
         <infoLink id="8cd4-b43c-ba14-5a48" name="Slow" hidden="false" targetId="a5b5-a51e-5ff3-1f4e" type="rule"/>
+        <infoLink id="9e3d-2607-88fe-abb7" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="392c-e5d9-1ca5-fa88" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="392c-e5d9-1ca5-fa88" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="false"/>
+        <categoryLink id="b80f-ce8f-e906-48aa" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7253-4794-ae01-9575" name="Squad Members" hidden="false" collective="false" import="true" defaultSelectionEntryId="b2c5-84b3-a8ca-a527">
@@ -11115,11 +11141,13 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="4ef3-5bb3-d45f-17b1" name="Regular (Vehicle)" hidden="false" targetId="fc80-9bff-1ffc-abd5" type="profile"/>
         <infoLink id="6890-4135-2f2e-d5c0" name="Agile" hidden="false" targetId="d970-8622-a65d-57a6" type="rule"/>
         <infoLink id="413c-d0db-68d1-0a6e" name="Tough (Vehicle)" hidden="false" targetId="70c6-fb82-b363-7792" type="rule"/>
+        <infoLink id="7126-e7cc-356f-9c62" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7d2b-f8de-8fd6-7d19" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
+        <categoryLink id="7d2b-f8de-8fd6-7d19" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false"/>
         <categoryLink id="570f-ad1d-d0e0-8803" name="Scout and Light Walkers" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false"/>
         <categoryLink id="aa81-6d0e-9912-ad17" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
+        <categoryLink id="4c15-3f16-c2b3-3cdc" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c3e0-4edf-81ea-1871" name="Platform Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f37-8298-7faf-b62c">
@@ -11198,13 +11226,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
     <selectionEntry id="6739-223e-e697-57df" name="(British) Centurion Mk II" publicationId="9a47-ac76-pubN65784" page="173" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="1a6f-14bb-19f7-0bec" name="Heavy Tank" hidden="false" targetId="923d-ea2a-6016-ed02" type="profile"/>
+        <infoLink id="b7bc-d054-1082-75ac" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ced1-8f2a-a976-1d70" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="ced1-8f2a-a976-1d70" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="937e-f372-0f67-75c5" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="9952-84da-af57-bacb" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="1381-352c-b7d5-35b7" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="93e0-4b09-9b67-79f2" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="2187-960d-9dba-1435" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5980-f56f-4177-fa3d" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="c098-6b03-d7ab-7bc6">
@@ -11263,13 +11293,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
     <selectionEntry id="0702-354d-8b76-cff7" name="(British) Challenger" publicationId="9a47-ac76-pubN65784" page="172" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="ed3f-f3ab-ba86-103c" name="Medium Tank" hidden="false" targetId="f945-ed13-872d-e38b" type="profile"/>
+        <infoLink id="a3de-4411-5dea-b091" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="082d-e12f-3cbb-124e" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="082d-e12f-3cbb-124e" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="734a-6468-fd4c-c5b1" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="20da-7dce-5e63-972f" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="7222-307e-1ea7-3fc1" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="10c0-5901-1e54-1282" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="109c-8d55-f381-3724" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="bc69-7682-0585-3d29" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="8b18-6651-24c1-2e02">
@@ -11318,13 +11350,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="8d90-37ca-e910-4277" name="Super-Heavy Tank" hidden="false" targetId="9c52-9f97-c5e1-23d0" type="profile"/>
         <infoLink id="4257-b52b-b7de-1970" name="Slow (Vehicle)" hidden="false" targetId="9e10-9ea1-508b-ae43" type="rule"/>
+        <infoLink id="1950-fabc-9097-fd73" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="55b6-4974-c18e-e726" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="55b6-4974-c18e-e726" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="bb20-a327-d618-7d68" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="0788-5fba-e2f9-b930" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="7561-77c2-1f8e-650c" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="5655-e763-5931-90ab" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="a4cb-64a9-7bb7-a50f" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ccf0-65a2-16de-0322" name="Turret" hidden="false" collective="false" import="true" defaultSelectionEntryId="d365-37fd-70a0-1774">
@@ -11396,9 +11430,11 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="421b-1c62-c145-57d1" name="Heavy Tank" hidden="false" targetId="923d-ea2a-6016-ed02" type="profile"/>
         <infoLink id="a35e-0dd2-7f0c-649b" name="ARV" hidden="false" targetId="989b-f1c2-debc-660a" type="rule"/>
         <infoLink id="bf27-3eba-6dc4-e835" name="Slow (Vehicle)" hidden="false" targetId="9e10-9ea1-508b-ae43" type="rule"/>
+        <infoLink id="7cfb-da1e-3114-f605" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0ee2-3116-80dd-424a" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="true"/>
+        <categoryLink id="0ee2-3116-80dd-424a" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="false"/>
+        <categoryLink id="9ea0-9eb9-97fa-c381" name="New CategoryLink" hidden="false" targetId="ae2d-85fe-a828-0e1c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e78a-3936-fd4b-a8a5" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="a85b-73a2-8161-7624">
@@ -11446,13 +11482,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="4ee1-ed4f-b4ea-2e8e" name="Slow (Vehicle)" hidden="false" targetId="9e10-9ea1-508b-ae43" type="rule"/>
         <infoLink id="0191-8003-66e6-d3d5" name="Heavy Tank" hidden="false" targetId="923d-ea2a-6016-ed02" type="profile"/>
+        <infoLink id="0926-12d0-b17d-25b6" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8ff7-f73b-685c-31b9" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="8ff7-f73b-685c-31b9" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="be17-bfae-0302-3860" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="323a-61ef-458b-ec58" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="c1f1-545f-0de6-af81" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="be40-dc4b-0aaa-dcb8" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="e15e-1648-a8c6-ade6" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ef7a-506d-c92b-25dd" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="1e07-8b44-e357-6dee">
@@ -11507,13 +11545,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="fb40-54c0-4f1b-7f16" name="Slow (Vehicle)" hidden="false" targetId="9e10-9ea1-508b-ae43" type="rule"/>
         <infoLink id="80b4-0c4f-7604-cce4" name="Super-Heavy Tank" hidden="false" targetId="9c52-9f97-c5e1-23d0" type="profile"/>
+        <infoLink id="91e1-f4c4-3fba-ad01" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8c48-6a6f-5d8e-a67c" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="8c48-6a6f-5d8e-a67c" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="e2e2-f41e-2904-d4a7" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="b854-e39c-5e8c-904b" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="95ee-1036-b2d7-c503" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="cea6-8233-8a96-e4ba" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="b4ad-3515-454f-054d" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2d80-3298-06c8-8c71" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="597c-c981-5392-8b81">
@@ -11574,13 +11614,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="432d-2f6c-4be9-2097" name="Super-Heavy Tank" hidden="false" targetId="9c52-9f97-c5e1-23d0" type="profile"/>
         <infoLink id="7d4a-3989-dc76-5a96" name="Slow (Vehicle)" hidden="false" targetId="9e10-9ea1-508b-ae43" type="rule"/>
+        <infoLink id="cb0d-f52c-79ff-3cd4" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="50f5-2ae2-3eb1-d37d" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="50f5-2ae2-3eb1-d37d" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="b7eb-b3ce-87d3-4936" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="5048-351a-1fa7-4ab0" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="422b-7e35-009f-8f1e" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="67fd-ac37-b98e-dcca" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="9e91-493b-8b3e-3519" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9776-227f-f1ad-9f12" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="9768-f957-604a-4d4d">
@@ -11648,13 +11690,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
       </rules>
       <infoLinks>
         <infoLink id="6c56-2005-b351-11be" name="Medium Tank" hidden="false" targetId="f945-ed13-872d-e38b" type="profile"/>
+        <infoLink id="4dfb-579a-093a-cb0b" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="34ed-6322-6740-5e72" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="34ed-6322-6740-5e72" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="1011-2d74-6fa1-3aab" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="6505-3b5f-8104-a56c" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="51eb-141e-496f-8bcb" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="09ef-e7b3-9ec5-d0ad" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="c289-5478-8124-40cb" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ef21-5f92-5fea-a425" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="55de-ed85-5e9b-fa0c">
@@ -11708,9 +11752,11 @@ These abilities are applied before any subsequent shooting or close quarters ass
       </rules>
       <infoLinks>
         <infoLink id="7bb2-e747-e77c-7703" name="Tough Fighters" hidden="false" targetId="d35f-b1c7-d0ff-2d11" type="rule"/>
+        <infoLink id="a72e-6be1-c32b-154d" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f295-d543-859a-adfb" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="f295-d543-859a-adfb" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="false"/>
+        <categoryLink id="6bf6-4b49-d45c-385b" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f5cd-ff32-90d7-470f" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -11913,11 +11959,13 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="52eb-798a-1bad-13fa" name="Assault (Vehicle)" hidden="false" targetId="7e17-fe3a-569d-ccc5" type="rule"/>
         <infoLink id="9897-556e-3e42-673d" name="Single Crew" hidden="false" targetId="a82f-f01b-a5ab-ac28" type="rule"/>
         <infoLink id="9378-ec76-c998-ca88" name="Walker" hidden="false" targetId="cc4e-54c3-faab-0936" type="rule"/>
+        <infoLink id="71d4-38c4-a12c-dda2" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="808a-4956-214d-433e" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
+        <categoryLink id="808a-4956-214d-433e" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false"/>
         <categoryLink id="62e1-b1b2-6cc0-aefd" name="Scout and Light Walkers" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false"/>
         <categoryLink id="d0dd-05cb-167e-60e6" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
+        <categoryLink id="fc56-52c1-b3d9-fa37" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d120-063d-cb44-bb8e" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="b96c-6c97-e490-c05d">
@@ -11966,13 +12014,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
     <selectionEntry id="1708-e22f-b500-2dbe" name="(British) Cromwell" publicationId="9a47-ac76-pubN65784" page="172" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="9ffe-f316-27f6-5404" name="Medium Tank" hidden="false" targetId="f945-ed13-872d-e38b" type="profile"/>
+        <infoLink id="0688-2433-babc-40e2" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3abc-f040-9ec4-3665" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="3abc-f040-9ec4-3665" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="c0f4-df39-53da-74a4" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="631b-8b51-2c88-621a" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="e073-cc3f-06fe-0655" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="01ce-de19-93a7-5078" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="ed67-db26-b300-9c4c" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e6f5-bf7e-c74f-3155" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="e09b-e600-ca18-c7ee">
@@ -12031,9 +12081,11 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="0814-3398-fa31-57a9" name="Medium Tank" hidden="false" targetId="f945-ed13-872d-e38b" type="profile"/>
         <infoLink id="ceda-5edd-99d7-55a2" name="ARV" hidden="false" targetId="989b-f1c2-debc-660a" type="rule"/>
+        <infoLink id="11a2-eb7d-9277-c454" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6e7d-ae17-47da-ce12" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="true"/>
+        <categoryLink id="6e7d-ae17-47da-ce12" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="false"/>
+        <categoryLink id="847d-657a-2442-ae68" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="10a6-d8a6-f036-e024" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="d3aa-d573-ee36-4ef9">
@@ -12075,13 +12127,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
     <selectionEntry id="a6c0-0257-19df-b93a" name="(British) Cromwell-T" publicationId="9a47-ac76-pubN65784" page="173" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="6bb5-b5c6-6e85-beff" name="Medium Tank" hidden="false" targetId="f945-ed13-872d-e38b" type="profile"/>
+        <infoLink id="cb81-4c80-835c-d225" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="54af-9bd6-6a33-43ba" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="54af-9bd6-6a33-43ba" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="073d-04f3-a75b-e77f" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="5e00-44c0-d6e3-8642" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="5167-6fa3-6745-431f" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="d646-e892-6ed3-00ce" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="8b1a-b2e2-497c-1895" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9248-fda5-b92e-3c49" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="104d-be20-d0cd-b449">
@@ -12125,12 +12179,14 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="7bc2-b22f-9c0a-1f78" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
         <infoLink id="7838-7b10-edbd-0bb4" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule"/>
+        <infoLink id="ceb8-aaf8-792f-95af" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9fba-1cfa-2850-17df" name="AA Vehicle and Self-Propelled Artillery" hidden="false" targetId="4bd2-90aa-426c-2737" primary="false"/>
-        <categoryLink id="c45f-504f-7525-adf0" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true"/>
+        <categoryLink id="c45f-504f-7525-adf0" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
         <categoryLink id="a321-c68e-dd3e-fbbb" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
         <categoryLink id="aca0-734a-ae69-7867" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
+        <categoryLink id="39ee-2129-c1b3-0543" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="1f94-ec33-db56-6caf" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="b725-a10b-9e29-fd81">
@@ -12207,10 +12263,12 @@ These abilities are applied before any subsequent shooting or close quarters ass
     <selectionEntry id="16d1-3706-472a-b7a7" name="(British) Flamethrower Team" publicationId="9a47-ac76-pubN65784" page="168" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="3605-3bfe-37aa-3640" name="2" hidden="false" targetId="b6c1-c83f-a555-17ce" type="profile"/>
+        <infoLink id="2556-de5c-7410-2d88" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c9a2-7ff2-ffb3-6ca6" name="Flamethrower Team" hidden="false" targetId="c5aa-dfef-70b7-726b" primary="false"/>
-        <categoryLink id="8746-38da-c07f-e21f" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
+        <categoryLink id="8746-38da-c07f-e21f" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false"/>
+        <categoryLink id="1a60-170e-578b-8a6d" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a272-7c46-4e7b-b1da" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="a0b4-9873-c10a-6073">
@@ -12248,9 +12306,11 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="175a-7480-ab5e-b6d3" name="Infrared (IR) Vision" hidden="false" targetId="8f1c-b9eb-2fab-a987" type="rule"/>
         <infoLink id="c76c-235e-fdce-ad3f" name="Stubborn" hidden="false" targetId="67c4-b526-4222-9d1a" type="rule"/>
+        <infoLink id="1bc7-143e-9aa1-539a" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a2f6-f36f-9c5e-fa4e" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="a2f6-f36f-9c5e-fa4e" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="false"/>
+        <categoryLink id="188b-d875-7b8f-6b72" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e03b-a46e-452e-3c93" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -12508,13 +12568,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="9260-1f06-f89d-a2a0" name="Medium Walker" hidden="false" targetId="1dcf-e5c3-f99c-67f1" type="profile"/>
         <infoLink id="f760-8e85-5319-cdba" name="Assault (Vehicle)" hidden="false" targetId="7e17-fe3a-569d-ccc5" type="rule"/>
         <infoLink id="0a48-9e07-1daf-cb84" name="Walker" hidden="false" targetId="cc4e-54c3-faab-0936" type="rule"/>
+        <infoLink id="6d48-444e-e27c-3028" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5866-9ddd-c199-56d5" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
+        <categoryLink id="5866-9ddd-c199-56d5" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false"/>
         <categoryLink id="daf4-0d14-f8af-fef1" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="a157-22c8-484c-cca0" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="800d-9e06-b62e-4bd5" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="1ac6-ce72-1395-9620" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="381b-95b5-67a1-b896" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b0ad-23b8-3847-0992" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="9ea7-da6e-db41-5e44">
@@ -12570,11 +12632,13 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="98d5-d25c-e227-fe9d" name="Assault (Vehicle)" hidden="false" targetId="7e17-fe3a-569d-ccc5" type="rule"/>
         <infoLink id="c7d2-9db6-c4b8-a5b6" name="Single Crew" hidden="false" targetId="a82f-f01b-a5ab-ac28" type="rule"/>
         <infoLink id="b59c-316f-2c63-ddec" name="Walker" hidden="false" targetId="cc4e-54c3-faab-0936" type="rule"/>
+        <infoLink id="27e6-54ff-095e-7d15" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4dba-6d62-2966-cc3b" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
+        <categoryLink id="4dba-6d62-2966-cc3b" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false"/>
         <categoryLink id="50a2-9261-c1b4-2cbf" name="Scout and Light Walkers" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false"/>
         <categoryLink id="5f2b-6088-c1f1-fbc5" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
+        <categoryLink id="41c7-6cda-e7a0-7624" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c670-46d0-b393-7413" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac15-6809-6e49-433e">
@@ -12635,9 +12699,11 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="33ca-c44c-bfd5-abc7" name="Tough Fighters" hidden="false" targetId="d35f-b1c7-d0ff-2d11" type="rule"/>
         <infoLink id="1461-7137-4d84-158a" name="Horror" hidden="false" targetId="ae1e-0596-fe6a-460a" type="rule"/>
+        <infoLink id="24b8-8dad-c5ce-47e2" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="beea-944f-eb06-435e" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="beea-944f-eb06-435e" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="false"/>
+        <categoryLink id="7a08-b75f-b524-1d38" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="db7e-ff4f-6a66-e957" name="Squad Members" hidden="false" collective="false" import="true" defaultSelectionEntryId="c7e1-c946-ff09-3966">
@@ -12796,11 +12862,13 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="202c-6729-5cfb-b5ce" name="5" hidden="false" targetId="efe1-2d4f-9fad-6602" type="profile"/>
         <infoLink id="6584-f139-4ce8-9312" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
+        <infoLink id="90ba-e497-a132-0c74" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1693-ff98-56be-f387" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
+        <categoryLink id="1693-ff98-56be-f387" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="false"/>
         <categoryLink id="af36-1330-efe0-52d2" name="Heavy and Super Heavy AT Guns, Medium and Heavy Artillery" hidden="false" targetId="2b0f-97b2-f74a-0007" primary="false"/>
         <categoryLink id="a567-7d03-cbd8-dfb7" name="Light Artillery, Light &amp; Medium AT Guns, Medium &amp; Heavy Artillery" hidden="false" targetId="ee23-0c13-8958-df3f" primary="false"/>
+        <categoryLink id="b3dc-edc6-02f9-50c1" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="066e-5214-c5ae-40b2" name="Spotter" hidden="false" collective="false" import="true" type="model">
@@ -12855,13 +12923,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="5819-53ba-a7b6-d3f8" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule"/>
         <infoLink id="5ba2-78b5-1bdb-d15b" name="Assault (Vehicle)" hidden="false" targetId="7e17-fe3a-569d-ccc5" type="rule"/>
         <infoLink id="b1ab-ce35-eea4-a347" name="Walker" hidden="false" targetId="cc4e-54c3-faab-0936" type="rule"/>
+        <infoLink id="eb9e-be80-da7a-056e" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5133-74d2-cfcb-7496" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
+        <categoryLink id="5133-74d2-cfcb-7496" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false"/>
         <categoryLink id="60bd-b7b1-4056-8803" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="0ef8-c2ea-999a-581e" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="8c35-06e7-1f2a-91fe" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="646f-d853-2021-a999" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="505c-a3b5-6f44-bb23" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="530a-31c7-005c-c5f1" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="1dd1-2fd0-1a37-46d3">
@@ -12916,8 +12986,12 @@ These abilities are applied before any subsequent shooting or close quarters ass
       </costs>
     </selectionEntry>
     <selectionEntry id="7d9f-9b70-8016-e96d" name="(British) Inexperienced Infantry Section" publicationId="9a47-ac76-pubN65784" page="166" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="384d-c3b0-5d58-0a83" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="99ea-2042-947a-cb80" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="99ea-2042-947a-cb80" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="false"/>
+        <categoryLink id="6e1a-5653-eb2a-b9dd" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9d16-9db4-de19-bbcf" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -13045,8 +13119,12 @@ These abilities are applied before any subsequent shooting or close quarters ass
       </costs>
     </selectionEntry>
     <selectionEntry id="8d36-8da7-9e03-29ea" name="(British) Infantry Section" publicationId="9a47-ac76-pubN65784" page="165" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="3f0f-fc72-4117-3698" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="b055-b63d-f5a5-c17e" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="b055-b63d-f5a5-c17e" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="false"/>
+        <categoryLink id="6d5a-a28a-f27d-5d6a" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="496a-de8a-5cbc-52b3" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -13307,13 +13385,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="2372-3891-d635-af65" name="Armored Car" hidden="false" targetId="efd3-31c5-154c-f4dc" type="profile"/>
         <infoLink id="3067-c1ed-5968-242a" name="Recce" hidden="false" targetId="fa0e-9e9d-0e65-1e3b" type="rule"/>
+        <infoLink id="8f5b-be40-3953-9036" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="af13-a7d2-6871-7d9a" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
         <categoryLink id="513a-30b0-4622-c013" name="Armoured Cars" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false"/>
-        <categoryLink id="6eac-3ff2-a432-679e" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true"/>
+        <categoryLink id="6eac-3ff2-a432-679e" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
         <categoryLink id="7c62-0628-5521-3556" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="0cda-3c8a-9625-c85b" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
+        <categoryLink id="412a-d505-8800-c1d6" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0a8e-d9fd-7109-fd69" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="edb1-1ac4-b213-6e86">
@@ -13362,11 +13442,13 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="f103-603c-7f30-a471" name="3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
         <infoLink id="9d87-e3a0-6780-d420" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
+        <infoLink id="ffbd-653a-dd10-b3c3" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ac46-9e10-b73a-5511" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
+        <categoryLink id="ac46-9e10-b73a-5511" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="false"/>
         <categoryLink id="3ed8-66a7-b176-7f41" name="Light Artillery, Light and Medium AT Guns" hidden="false" targetId="1842-7654-2d60-c182" primary="false"/>
         <categoryLink id="e98d-a0e1-824a-2dda" name="Light Artillery, Light &amp; Medium AT Guns, Medium &amp; Heavy Artillery" hidden="false" targetId="ee23-0c13-8958-df3f" primary="false"/>
+        <categoryLink id="cce6-f159-1102-e157" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4335-f067-17fd-e808" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="fb03-3491-9d24-411d">
@@ -13404,13 +13486,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="8109-2dd5-57ec-f66f" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
         <infoLink id="dc27-b00d-9717-013c" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
+        <infoLink id="512b-02d4-f340-d9cf" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1e1d-6650-db5a-f174" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="1e1d-6650-db5a-f174" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="e48f-50d8-f43e-3381" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="1888-fe12-bed0-9b6c" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="4ad8-4997-3da0-0d9c" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="1f28-01f8-d7df-2de2" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="d24f-4c30-4018-92d8" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6232-1c4f-444d-a2bf" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="5946-3c38-9c11-fce4">
@@ -13458,13 +13542,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="4cb1-6660-a979-15c3" name="Assault (Vehicle)" hidden="false" targetId="7e17-fe3a-569d-ccc5" type="rule"/>
         <infoLink id="1c29-c903-0b74-1c2b" name="Jump" hidden="false" targetId="4a4f-888e-9547-2696" type="rule"/>
         <infoLink id="2c22-287e-4800-bea9" name="Walker" hidden="false" targetId="cc4e-54c3-faab-0936" type="rule"/>
+        <infoLink id="2896-3df6-f9f0-c155" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7536-f571-0944-f2d7" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
+        <categoryLink id="7536-f571-0944-f2d7" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false"/>
         <categoryLink id="6386-86e1-456b-d185" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="3d55-38d4-7ab5-84fe" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="491b-290f-f126-79ec" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="b451-ccad-3599-43dc" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="0232-9c73-888c-5423" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4be9-b9d4-7923-0c36" name="Left Arm" hidden="false" collective="false" import="true" defaultSelectionEntryId="d270-800b-031b-c714">
@@ -13552,13 +13638,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
     <selectionEntry id="8911-667b-aecc-0e60" name="(British) M22 Locust Light Tank" publicationId="9a47-ac76-pubN65838" page="57" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="04cf-ed57-a534-375c" name="Armored Car" hidden="false" targetId="efd3-31c5-154c-f4dc" type="profile"/>
+        <infoLink id="123c-9161-a48a-ef9c" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0db7-ef41-42e2-caa2" name="New CategoryLink" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
         <categoryLink id="35fc-ac54-d2d7-f9a6" name="New CategoryLink" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="bbc6-7e9e-4c06-9806" name="New CategoryLink" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="bde4-42a3-bd5e-da72" name="New CategoryLink" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
-        <categoryLink id="6963-36f3-fe1e-2656" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="6963-36f3-fe1e-2656" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
+        <categoryLink id="6904-2503-fd03-0755" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0035-8c0c-7384-1842" name="Recce" hidden="false" collective="false" import="true" type="upgrade">
@@ -13627,9 +13715,11 @@ These abilities are applied before any subsequent shooting or close quarters ass
       </rules>
       <infoLinks>
         <infoLink id="adf6-28db-e3cb-fd57" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
+        <infoLink id="be00-e66c-f876-32c2" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6651-4c5c-c022-2c43" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="6651-4c5c-c022-2c43" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
+        <categoryLink id="4602-ea84-5262-bf0c" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6f9c-bfef-fa27-5303" name="Recce" hidden="false" collective="false" import="true" type="upgrade">
@@ -13704,13 +13794,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
       </rules>
       <infoLinks>
         <infoLink id="08bf-3248-5d59-29ae" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
+        <infoLink id="1f55-8b0d-3c56-61b1" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0c21-fed2-d914-e478" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="0c21-fed2-d914-e478" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="33bf-96c0-9a9b-57aa" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="4989-78dc-e7e5-b936" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="86cc-7710-281e-1389" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="dce2-1526-1643-ad71" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="f677-2245-f5c8-b905" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9fde-e632-ba8a-9c08" name="Pintle Mount" hidden="false" collective="false" import="true">
@@ -13802,11 +13894,13 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="5b96-60c8-da54-bc66" name="Jump" hidden="false" targetId="4a4f-888e-9547-2696" type="rule"/>
         <infoLink id="b655-0c36-669d-71d9" name="Light Walker" hidden="false" targetId="58fc-34d8-c1ba-1236" type="profile"/>
         <infoLink id="f2e7-c990-d9d8-d30e" name="Single Crew" hidden="false" targetId="a82f-f01b-a5ab-ac28" type="rule"/>
+        <infoLink id="d659-8e31-f6ca-6245" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="63d2-53f1-15b4-284f" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
         <categoryLink id="bf5f-d1c4-929d-f163" name="Scout and Light Walkers" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false"/>
-        <categoryLink id="3caa-2218-fa7a-83d2" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
+        <categoryLink id="3caa-2218-fa7a-83d2" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false"/>
+        <categoryLink id="dc45-7011-9085-7594" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0cc9-f158-bb6f-f7a3" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="2f84-254c-f983-512f">
@@ -13858,11 +13952,13 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="cd4e-415c-3683-6c11" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
         <infoLink id="0862-4dd9-c4a1-a7c4" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
+        <infoLink id="fec8-4bb1-750a-a54e" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f77b-30e3-d31f-90d6" name="New CategoryLink" hidden="false" targetId="ae27-9d73-1390-d87c" primary="true"/>
+        <categoryLink id="f77b-30e3-d31f-90d6" name="New CategoryLink" hidden="false" targetId="ae27-9d73-1390-d87c" primary="false"/>
         <categoryLink id="0303-e3bb-a1e0-c4f8" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
         <categoryLink id="f185-d356-3918-43f2" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
+        <categoryLink id="66ca-9b48-f0ed-8016" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d808-6c6e-2283-f42c" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="f4fb-f325-d307-21fa">
@@ -13912,13 +14008,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="24d3-2186-4d1a-c2fe" name="Recce" hidden="false" targetId="fa0e-9e9d-0e65-1e3b" type="rule"/>
         <infoLink id="9c1a-f00a-352e-1cd9" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
         <infoLink id="063f-8e8b-b798-872f" name="Armored Car" hidden="false" targetId="efd3-31c5-154c-f4dc" type="profile"/>
+        <infoLink id="ac9c-1515-9171-8d87" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a3fb-be43-5448-8184" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
         <categoryLink id="1540-cace-0772-4e59" name="Armoured Cars" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false"/>
-        <categoryLink id="a933-f9f7-d7d1-d2db" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true"/>
+        <categoryLink id="a933-f9f7-d7d1-d2db" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
         <categoryLink id="a705-fffb-65e0-def8" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="68df-909f-19de-be53" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
+        <categoryLink id="cbd1-1022-794c-9b19" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ece1-1974-ac4e-716b" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="82a1-307d-c678-82c9">
@@ -13977,10 +14075,12 @@ These abilities are applied before any subsequent shooting or close quarters ass
       </rules>
       <infoLinks>
         <infoLink id="32c4-922e-9442-d8ba" name="3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
+        <infoLink id="71f8-6cf4-e4c3-cbcc" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6fe5-49da-1b18-7375" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
+        <categoryLink id="6fe5-49da-1b18-7375" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false"/>
         <categoryLink id="4f3d-2812-6bc8-aa37" name="Machine Gun Team" hidden="false" targetId="1688-881c-5284-0be8" primary="false"/>
+        <categoryLink id="b411-6ab0-f16e-0f18" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ae5a-3aaf-6381-6095" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="320e-edc5-5da4-b030">
@@ -14023,11 +14123,13 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="39bd-18b1-67f1-2651" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
         <infoLink id="90a3-2f5f-32f5-deca" name="4" hidden="false" targetId="f05e-dc7f-d24f-7acb" type="profile"/>
+        <infoLink id="f678-c36d-fce0-3cba" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6a78-603c-2003-8d77" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
+        <categoryLink id="6a78-603c-2003-8d77" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="false"/>
         <categoryLink id="0936-2296-b33a-0028" name="Heavy and Super Heavy AT Guns, Medium and Heavy Artillery" hidden="false" targetId="2b0f-97b2-f74a-0007" primary="false"/>
         <categoryLink id="330d-235d-dd56-9810" name="Light Artillery, Light &amp; Medium AT Guns, Medium &amp; Heavy Artillery" hidden="false" targetId="ee23-0c13-8958-df3f" primary="false"/>
+        <categoryLink id="8fa4-0645-c8fe-5e0a" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7d91-28ae-f556-2a37" name="Spotter" hidden="false" collective="false" import="true" type="model">
@@ -14076,13 +14178,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="05bf-d08c-3f77-aca0" name="Walker" hidden="false" targetId="cc4e-54c3-faab-0936" type="rule"/>
         <infoLink id="1a36-c755-edbb-8a98" name="Assault (Vehicle)" hidden="false" targetId="7e17-fe3a-569d-ccc5" type="rule"/>
         <infoLink id="de6b-5054-5c05-6a9f" name="Heavy Walker" hidden="false" targetId="98d8-436e-81b1-10a7" type="profile"/>
+        <infoLink id="1969-6252-46ac-8c39" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d876-9ac1-a106-3ed1" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
+        <categoryLink id="d876-9ac1-a106-3ed1" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false"/>
         <categoryLink id="56b9-034e-67c1-963a" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="f62d-2cb3-e780-f112" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="8193-7cde-69a1-62d3" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="bba3-7c1d-b502-cdef" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="6378-e7f7-8c40-75c8" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9cc7-a698-d5e1-5829" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="ca5b-5a8a-ef19-205d">
@@ -14144,12 +14248,14 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="4ec0-cd04-bc3c-96e4" name="Soft-Skinned Vehicle" hidden="false" targetId="db73-1b48-cf5a-7aff" type="profile"/>
         <infoLink id="0297-02bb-f78b-b3cd" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule"/>
+        <infoLink id="3722-a203-d1cb-06f4" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="988b-9206-0ca2-d52a" name="AA Vehicle and Self-Propelled Artillery" hidden="false" targetId="4bd2-90aa-426c-2737" primary="false"/>
-        <categoryLink id="3fa1-003a-2a88-8969" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true"/>
+        <categoryLink id="3fa1-003a-2a88-8969" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
         <categoryLink id="e447-8fb7-54ff-798e" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
         <categoryLink id="cb42-e868-b7b9-e9db" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
+        <categoryLink id="5ced-957b-ef12-1864" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8655-171c-3a8d-b637" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="6ed7-d063-04fd-1163">
@@ -14198,10 +14304,12 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="a097-8cf8-279d-841e" name="5" hidden="false" targetId="efe1-2d4f-9fad-6602" type="profile"/>
         <infoLink id="7cd4-1601-0364-118f" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
+        <infoLink id="d9ea-4469-117a-f214" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2501-e40f-5b91-57bd" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
+        <categoryLink id="2501-e40f-5b91-57bd" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="false"/>
         <categoryLink id="fcfc-7a6f-a08c-6f3b" name="Heavy and Super Heavy AT Guns, Medium and Heavy Artillery" hidden="false" targetId="2b0f-97b2-f74a-0007" primary="false"/>
+        <categoryLink id="0d14-75df-763a-d9d4" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c065-d96e-ce6c-799d" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="ccac-b2e2-0d9e-f636">
@@ -14239,10 +14347,12 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="3965-12b2-ae72-68ee" name="3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
         <infoLink id="2e59-d142-cbff-c7b7" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
+        <infoLink id="80ac-2cd9-f887-4bcf" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d074-a7bb-da46-d6ce" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
+        <categoryLink id="d074-a7bb-da46-d6ce" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="false"/>
         <categoryLink id="0315-54f8-5d54-c64d" name="Light Artillery, Light and Medium AT Guns" hidden="false" targetId="1842-7654-2d60-c182" primary="false"/>
+        <categoryLink id="d5b8-1ee7-6331-1e48" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b399-d793-6e0d-1a80" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="fb5c-aa87-c28b-d419">
@@ -14282,8 +14392,12 @@ These abilities are applied before any subsequent shooting or close quarters ass
       </costs>
     </selectionEntry>
     <selectionEntry id="086f-7c7f-b325-0f7b" name="(British) Royal Marine Section" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="d5b3-a15a-dd87-74b9" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="7343-b2ef-468f-cab3" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="7343-b2ef-468f-cab3" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="false"/>
+        <categoryLink id="4f32-8b32-3495-a229" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="49a4-855b-d194-5edc" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -14464,9 +14578,11 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="4fd7-c89b-c95a-80fd" name="Immune to Horror" hidden="false" targetId="5a7a-1ca8-871f-4cef" type="rule"/>
         <infoLink id="5ef8-b2f5-5863-e29b" name="Infrared (IR) Vision" hidden="false" targetId="8f1c-b9eb-2fab-a987" type="rule"/>
         <infoLink id="2c8c-d3c3-6ed7-9653" name="Behind Enemy Lines" hidden="false" targetId="b0b2-a8ed-77f8-6c43" type="rule"/>
+        <infoLink id="05c3-e6ff-2a30-5787" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9849-ec1f-7e4d-ef34" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="9849-ec1f-7e4d-ef34" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="false"/>
+        <categoryLink id="840d-3231-4c2a-84c4" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2f4c-3af4-0904-7633" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -14701,13 +14817,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
         </infoLink>
         <infoLink id="a717-ab76-002d-acb7" name="Recce" hidden="false" targetId="fa0e-9e9d-0e65-1e3b" type="rule"/>
         <infoLink id="9bdb-5caf-5e69-32a4" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
+        <infoLink id="3871-bf1d-0349-c480" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c1eb-9b23-211f-b937" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
         <categoryLink id="27c6-bcdd-621b-887a" name="Armoured Cars" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false"/>
-        <categoryLink id="6e31-7cb9-6a46-cdfe" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true"/>
+        <categoryLink id="6e31-7cb9-6a46-cdfe" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
         <categoryLink id="8593-fef2-1a3a-fdb7" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="ffec-6788-548d-0736" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
+        <categoryLink id="163d-9e88-3c5b-a671" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f637-b417-1ae4-2b2f" name="Remove Open-Topped" hidden="false" collective="false" import="true" type="upgrade">
@@ -14765,11 +14883,13 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="d15d-733c-851c-7220" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
         <infoLink id="b673-c37d-20ca-0a72" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
+        <infoLink id="0607-f91a-8056-dc33" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e9ce-9533-d8b5-8ab0" name="New CategoryLink" hidden="false" targetId="ae27-9d73-1390-d87c" primary="true"/>
+        <categoryLink id="e9ce-9533-d8b5-8ab0" name="New CategoryLink" hidden="false" targetId="ae27-9d73-1390-d87c" primary="false"/>
         <categoryLink id="b32a-2183-5baf-adc3" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="8ea0-8ca6-261b-f756" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="45cc-a100-e963-9432" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d58e-2750-fb17-8a3c" name="AT Rounds" hidden="false" collective="false" import="true" type="upgrade">
@@ -14835,13 +14955,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
     <selectionEntry id="5bbb-432f-2531-6193" name="(British) Sherman" publicationId="9a47-ac76-pubN65784" page="172" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="83b0-9370-b026-38b5" name="Medium Tank" hidden="false" targetId="f945-ed13-872d-e38b" type="profile"/>
+        <infoLink id="399a-ac16-392e-3b98" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1a43-ca7c-3aea-0d5d" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="1a43-ca7c-3aea-0d5d" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="df83-3c8f-194d-dae8" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="94a4-2f33-4d61-e1de" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="e87b-ca61-c34d-4424" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="1a1d-4e74-bf30-59dc" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="728c-08eb-376a-b1d2" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0237-c189-55c6-16e2" name="Outfitting" hidden="false" collective="false" import="true" defaultSelectionEntryId="2a71-12be-67f9-206a">
@@ -14986,12 +15108,16 @@ These abilities are applied before any subsequent shooting or close quarters ass
       </costs>
     </selectionEntry>
     <selectionEntry id="95e8-0c03-a1e9-414a" name="(British) Sherman V Medium Tank" publicationId="9a47-ac76-pubN65838" page="57" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="ff5f-7f79-866a-b7c7" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="419f-78ff-fe3f-30df" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="true"/>
+        <categoryLink id="419f-78ff-fe3f-30df" name="New CategoryLink" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="cb35-49fc-f6a5-6caf" name="Tank, Tank Destroyer, and Walker" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
         <categoryLink id="13e4-3872-187d-9446" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
         <categoryLink id="f5f9-c5f1-8ce1-3db3" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="6718-c251-f145-e693" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="e5ad-bdfe-fd88-eab9" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="98db-3452-82ca-996d" name="Turret Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1852-5199-0b52-3657">
@@ -15077,10 +15203,12 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="65d1-6e3c-faf8-4fb6" name="2" hidden="false" targetId="b6c1-c83f-a555-17ce" type="profile"/>
         <infoLink id="2ae4-45f0-cf56-9605" name="Snipers" hidden="false" targetId="8856-457a-f514-8251" type="rule"/>
         <infoLink id="b93c-c92a-5b07-7add" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="949a-c148-ce06-9a16" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="06ea-ea65-7ad2-e57d" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
+        <categoryLink id="06ea-ea65-7ad2-e57d" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false"/>
         <categoryLink id="a7e2-f7a0-2bb8-9245" name="Sniper Team" hidden="false" targetId="6077-3929-61c8-5eb7" primary="false"/>
+        <categoryLink id="4d9c-c698-97ec-cd0e" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="963c-6992-3167-513d" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="f996-cf9b-33ff-35e9">
@@ -15120,12 +15248,14 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="25d2-43e5-8b81-1422" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
         <infoLink id="c155-56bb-9b83-8efd" name="Flak" hidden="false" targetId="2257-21e2-e6a0-367d" type="rule"/>
         <infoLink id="53e0-67f9-9183-e2f8" name="Recce" hidden="false" targetId="fa0e-9e9d-0e65-1e3b" type="rule"/>
+        <infoLink id="a709-7fc2-3237-a3fa" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d527-5d72-34d4-26ce" name="AA Vehicle and Self-Propelled Artillery" hidden="false" targetId="4bd2-90aa-426c-2737" primary="false"/>
-        <categoryLink id="2237-1699-7ffa-a0eb" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true"/>
+        <categoryLink id="2237-1699-7ffa-a0eb" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
         <categoryLink id="7f12-c3a1-c8bb-0f42" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="f400-ce79-90f3-75c6" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="7a14-b741-cf74-8cd5" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d135-a120-b65c-6ea2" name="Turret-Mounted Linked HMGs" hidden="false" collective="false" import="true" type="upgrade">
@@ -15190,13 +15320,15 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="aa49-343a-3c39-66d5" name="Recce" hidden="false" targetId="fa0e-9e9d-0e65-1e3b" type="rule"/>
         <infoLink id="b2d1-9537-ebf4-55e7" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
+        <infoLink id="4a9e-d8f8-6b92-85e0" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="61e9-bd0c-1cff-8b5d" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
         <categoryLink id="b172-b5dc-07ac-1097" name="Armoured Cars" hidden="false" targetId="d949-1609-9ca2-a4c8" primary="false"/>
-        <categoryLink id="cc41-a231-dab0-2fc9" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="true"/>
+        <categoryLink id="cc41-a231-dab0-2fc9" name="New CategoryLink" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
         <categoryLink id="0441-6e85-1541-1793" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="8fc8-8a30-34fb-b79d" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
+        <categoryLink id="30a2-f82f-1d67-5196" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c2fe-e3a3-6d37-6714" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="2ed0-893f-cd2e-9bbc">
@@ -15251,9 +15383,11 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="e295-4bf1-0b4c-8277" name="Soft-Skinned Vehicle" hidden="false" targetId="db73-1b48-cf5a-7aff" type="profile"/>
         <infoLink id="1028-2393-7e40-749f" name="ARV" hidden="false" targetId="989b-f1c2-debc-660a" type="rule"/>
+        <infoLink id="fd4a-a999-1308-aa45" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e6f3-71a3-0ff9-a0db" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="true"/>
+        <categoryLink id="e6f3-71a3-0ff9-a0db" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="false"/>
+        <categoryLink id="c6b8-6b1e-349e-42fc" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="78f1-92ab-5925-3fb9" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="c72f-78b1-c5b5-f216">
@@ -15303,10 +15437,12 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="c807-cc36-4ea4-5d9c" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
         <infoLink id="1ca4-5579-03ff-cf46" name="3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
+        <infoLink id="ce10-7397-12e2-3045" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8fc6-ac02-512f-ae9b" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
+        <categoryLink id="8fc6-ac02-512f-ae9b" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="false"/>
         <categoryLink id="1fa1-6183-936d-4e21" name="New CategoryLink" hidden="false" targetId="1842-7654-2d60-c182" primary="false"/>
+        <categoryLink id="f66b-2a14-70c4-bc3b" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="fd78-21d3-4a7a-a2ac" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="298a-be77-a2c4-9605">
@@ -15345,9 +15481,11 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="2d02-5114-cfa5-f473" name="Medium Tank" hidden="false" targetId="f945-ed13-872d-e38b" type="profile"/>
         <infoLink id="e918-8499-977c-d227" name="Turret Emplacement" hidden="false" targetId="8ba6-531c-b977-f1c4" type="rule"/>
         <infoLink id="65f3-b7ea-6886-8099" name="Inexperienced (Vehicle)" hidden="false" targetId="f899-8972-8556-faeb" type="profile"/>
+        <infoLink id="d6e8-08c8-e960-0b8b" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9bfb-c743-ffb5-aa86" name="New CategoryLink" hidden="false" targetId="c000-16a2-fa3b-c139" primary="true"/>
+        <categoryLink id="9bfb-c743-ffb5-aa86" name="New CategoryLink" hidden="false" targetId="c000-16a2-fa3b-c139" primary="false"/>
+        <categoryLink id="ca3b-2da6-7e89-acbb" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c231-b003-2671-5dd1" name="Pintle-Mounted Turret-Based MMG" hidden="false" collective="false" import="true" targetId="4292-8803-1ece-6ed5" type="selectionEntry">
@@ -15370,8 +15508,12 @@ These abilities are applied before any subsequent shooting or close quarters ass
       </costs>
     </selectionEntry>
     <selectionEntry id="f22a-24f4-7891-e650" name="(British) Veteran Infantry Section" publicationId="9a47-ac76-pubN65838" page="54" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="bc0e-5446-428a-8486" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="a0a7-69a1-3108-94f8" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="a0a7-69a1-3108-94f8" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="false"/>
+        <categoryLink id="b2f0-b2da-86fa-9378" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="599b-4ceb-df33-5c66" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
@@ -15549,9 +15691,11 @@ These abilities are applied before any subsequent shooting or close quarters ass
     <selectionEntry id="0832-6a1b-ccca-9cee" name="(British) War Dog Squad" publicationId="9a47-ac76-pubN66291" page="47" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="b0c9-47f1-e6a2-f453" name="War Dogs" hidden="false" targetId="ed5a-27d0-55a5-79bc" type="rule"/>
+        <infoLink id="77e5-aad0-b35f-b82e" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9502-7fc4-0b67-977e" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="true"/>
+        <categoryLink id="9502-7fc4-0b67-977e" name="New CategoryLink" hidden="false" targetId="360a-867e-e501-63b2" primary="false"/>
+        <categoryLink id="d539-b46e-12f8-62e1" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c406-ab15-8914-12f7" name="Squad Members" hidden="false" collective="false" import="true">
@@ -15623,11 +15767,13 @@ These abilities are applied before any subsequent shooting or close quarters ass
       <infoLinks>
         <infoLink id="ad16-edef-8aa3-c5cf" name="Armored Carrier" hidden="false" targetId="52b0-f9c6-b4c6-9da1" type="profile"/>
         <infoLink id="536d-e88b-03f2-1ce8" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
+        <infoLink id="0474-c551-ece6-5b98" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2fb9-bed2-2478-206b" name="New CategoryLink" hidden="false" targetId="ae27-9d73-1390-d87c" primary="true"/>
+        <categoryLink id="2fb9-bed2-2478-206b" name="New CategoryLink" hidden="false" targetId="ae27-9d73-1390-d87c" primary="false"/>
         <categoryLink id="e367-cf9e-cfd8-e25e" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
         <categoryLink id="a4a0-82c6-bd0b-2b26" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="5326-ecec-0c28-7a99" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5b9b-9a6b-594c-b291" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="72e8-7531-95ff-e1cd">
