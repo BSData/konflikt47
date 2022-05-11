@@ -10170,7 +10170,8 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="72bf-f187-45bf-42ff" name="ARV" hidden="false" targetId="989b-f1c2-debc-660a" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="300a-6eaf-17ab-9cfa" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="true"/>
+        <categoryLink id="300a-6eaf-17ab-9cfa" name="New CategoryLink" hidden="false" targetId="f3c7-5675-463e-b566" primary="false"/>
+        <categoryLink id="35c9-c432-9abd-4c13" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c142-3f64-5eae-e772" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="b532-9d6a-0942-b56f">
@@ -10219,8 +10220,9 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <infoLink id="5f7f-d3f7-4015-f632" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7180-ceac-a597-14b0" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="true"/>
+        <categoryLink id="7180-ceac-a597-14b0" name="New CategoryLink" hidden="false" targetId="5056-7005-6edc-4816" primary="false"/>
         <categoryLink id="5d4a-39ee-97cf-ee0f" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false"/>
+        <categoryLink id="0e0b-ff08-4b63-5fab" name="New CategoryLink" hidden="false" targetId="e25b-5f45-ed29-bf97" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="28c7-2582-ddfd-c15a" name="M17 Tesla Cannon" hidden="false" collective="false" import="true" targetId="5a0d-4460-5e5e-f5e7" type="selectionEntry">
