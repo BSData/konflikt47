@@ -1094,8 +1094,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd6e-2dd0-58e5-05d0" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="3662-07a7-6418-70ef" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" targetId="cf14-d022-f031-dd65" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry id="309c-b552-90f3-89aa" name="Mine Clearing Equipment" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="1.0">
                   <repeats>
@@ -1104,10 +1104,10 @@
                 </modifier>
               </modifiers>
               <infoLinks>
-                <infoLink id="9808-f8e2-33c6-2881" name="Mine Clearing Equipment" hidden="false" targetId="a3a1-60b6-d85b-a69a" type="rule"/>
+                <infoLink id="bb96-8a7f-d0ee-196d" name="Mine Clearing Equipment" hidden="false" targetId="a3a1-60b6-d85b-a69a" type="rule"/>
               </infoLinks>
-            </entryLink>
-          </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="a8f5-72d5-918d-c9ab" name="Launchers" hidden="false" collective="false" import="true">
           <constraints>
