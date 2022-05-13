@@ -1,7 +1,7 @@
 Konflikt 47
 ===========
 
-*edit: archived by @amis92 on 2020-10-02 because of no dev activity in 10 months and no releases.*
+Note: The only current maintainer (Me, ingeanus) can't actually edit the master branch, so develop is functioning as that for the forseeable future.
 
 ####Contents####
 
