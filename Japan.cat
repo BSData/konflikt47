@@ -490,7 +490,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="0ac8-6aa2-3a45-b000" name="Squad Members" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0ac8-6aa2-3a45-b000" name="Squad Members" hidden="false" collective="false" import="true" defaultSelectionEntryId="16a5-7ccf-c0eb-d4de">
           <constraints>
             <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5743-180d-e65a-3063" type="min"/>
             <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c151-dab8-3f90-fbff" type="max"/>
@@ -1297,6 +1297,10 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="3a18-86cb-11e6-4d72" name="NCO" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f934-0d8c-3508-9f8f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7d9-6dee-7aaf-f172" type="min"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="ce24-1d97-a451-25cf" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
               </infoLinks>
@@ -1469,6 +1473,10 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="6234-0acb-614e-cd92" name="NCO" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1216-6419-f500-4b2e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afa9-4fd4-ab6f-b5b9" type="min"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="9476-2ff9-0cff-944b" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
               </infoLinks>
@@ -2120,17 +2128,17 @@
           <entryLinks>
             <entryLink id="2d39-c3c3-d4f2-0706" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
               <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="60.0"/>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="44.0"/>
               </costs>
             </entryLink>
             <entryLink id="c60e-af14-e2db-51dc" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry">
               <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="75.0"/>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="55.0"/>
               </costs>
             </entryLink>
             <entryLink id="13f6-98ac-d7ea-aedf" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
               <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="90.0"/>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="66.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2267,6 +2275,9 @@
               <infoLinks>
                 <infoLink id="c592-84bb-84f2-d15c" name="Team 5" hidden="false" targetId="efe1-2d4f-9fad-6602" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f99a-b562-e5e3-7204" name="6 Crew" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
