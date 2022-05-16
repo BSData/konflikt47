@@ -1918,11 +1918,19 @@
         <categoryLink id="bf68-3284-acd4-0ad2" name="Normal Infantry Squads" hidden="false" targetId="2481-1f77-6ef6-af0f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="65b3-a508-072d-da33" name="Animated Corpse" hidden="false" collective="true" import="true" type="model">
+        <selectionEntry id="65b3-a508-072d-da33" name="Animated Corpse" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faf8-46e1-9f2c-daea" type="min"/>
             <constraint field="selections" scope="parent" value="24.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf59-cac1-c51a-f372" type="max"/>
           </constraints>
+          <entryLinks>
+            <entryLink id="d8c6-1211-ff5a-611f" name="No Weapon" hidden="false" collective="false" import="true" targetId="10f5-c782-fafc-4786" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60c5-9754-a619-3e1d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b6c-1e7c-32ed-1b35" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="8.0"/>
           </costs>

@@ -596,7 +596,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="10f5-c782-fafc-4786" name="No Weapon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="10f5-c782-fafc-4786" name="No Weapon" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="36d1-98db-3842-910d" name="No Weapon" hidden="false" targetId="d1e1-7f47-e5ff-ad2e" type="profile"/>
       </infoLinks>
@@ -2942,7 +2942,7 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">36&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">5</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">-</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede"></characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede"/>
       </characteristics>
     </profile>
     <profile id="4836-b695-e9a2-828d" name="Turret-Mounted Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
