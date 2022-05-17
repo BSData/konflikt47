@@ -2839,7 +2839,7 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
     </profile>
     <profile id="e737-613c-8e1e-62a0" name="Heavy Tesla Rifle (Rapid Fire Mode)" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">12&quot;</characteristic>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">18&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">3</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">-</characteristic>
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Assault</characteristic>

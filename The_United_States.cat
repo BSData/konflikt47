@@ -124,11 +124,6 @@
       </categoryLinks>
     </forceEntry>
     <forceEntry id="d009-b54f-a9c0-dea3" name="United States Airborne Platoon" publicationId="2367-9a00-pubN65638" page="23" hidden="false">
-      <rules>
-        <rule id="0c0f-f4f9-60c4-b74d" name="Medium Vehicles Only" hidden="false">
-          <description>A Unites States Airborne Platoon can only take Walkers, Tanks, and Tank Destroyers of &apos;Medium Size&apos; or lower.</description>
-        </rule>
-      </rules>
       <categoryLinks>
         <categoryLink id="4d7d-42cc-bdca-9942" name="Commander" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
           <constraints>
@@ -259,11 +254,6 @@
       </categoryLinks>
     </forceEntry>
     <forceEntry id="fc99-d029-3815-9e1d" name="United States Marine Corps" publicationId="2367-9a00-pubN65638" page="23" hidden="false">
-      <rules>
-        <rule id="73fb-f140-6ec5-cff9" name="Medium Vehicles Only" hidden="false">
-          <description>A Unites States Airborne Platoon can only take Medium Walkers, Tanks, Tank Destroyers, AA Vehicles, and Self-Propelled Aritllery of &apos;Medium Size&apos; or lower.</description>
-        </rule>
-      </rules>
       <categoryLinks>
         <categoryLink id="0246-6368-0333-157f" name="Commander" hidden="false" targetId="fb1a-cb93-a427-51cf" primary="false">
           <constraints>
@@ -2733,20 +2723,18 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="8627-42b9-996a-3409" name="Sidearms" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2214-177a-927f-12ab" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="6d26-c09a-95ea-0e0c" name="Pistol" hidden="false" collective="false" import="true" targetId="1c96-bad3-b18b-1fe3" type="selectionEntry">
-                  <costs>
-                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="1.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="de88-e79f-32c8-08d4" name="Sidearms" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4ab-701d-e811-2346" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d4f9-1f2a-caf4-9c17" name="Pistol" hidden="false" collective="false" import="true" targetId="1c96-bad3-b18b-1fe3" type="selectionEntry">
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -3037,7 +3025,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d03-dcb8-d39a-f84f" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="b40d-09a1-f512-4ca8" name="Paragon NCO D" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="b40d-09a1-f512-4ca8" name="Paragon NCO D (Automatic Rifle &amp; Tough Fighter; Stubborn)" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="8dd7-c0bc-ccb5-9dde" name="Tough Fighters" hidden="false" targetId="d35f-b1c7-d0ff-2d11" type="rule"/>
                         <infoLink id="75dd-eb53-268a-e2a6" name="Stubborn (Paragon)" hidden="false" targetId="ae7e-f5d6-7fed-5037" type="rule"/>
@@ -3054,7 +3042,7 @@
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="9b56-7dd7-6fcf-530a" name="Paragon NCO B" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="9b56-7dd7-6fcf-530a" name="Paragon NCO B (SMG &amp; Tooth and Claw; Tough Fighters)" hidden="false" collective="false" import="true" type="upgrade">
                       <profiles>
                         <profile id="2b35-6713-514e-0692" name="Knives" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
                           <characteristics>
@@ -3081,7 +3069,7 @@
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="6af7-0165-d69c-a7ed" name="Paragon NCO C" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="6af7-0165-d69c-a7ed" name="Paragon NCO C (Pistol &amp; Tooth and Claw; Fanatics)" hidden="false" collective="false" import="true" type="upgrade">
                       <profiles>
                         <profile id="cd69-3620-7216-2838" name="Sword" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
                           <characteristics>
@@ -3108,7 +3096,7 @@
                         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="e968-161f-590d-3197" name="Paragon NCO A" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="e968-161f-590d-3197" name="Paragon NCO A (SMG &amp; Strong; Tank Hunters)" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="e94c-d9f3-f516-a67a" name="Strong" hidden="false" targetId="3425-a896-a3bb-8bef" type="rule"/>
                         <infoLink id="adf9-4c4a-78d6-d511" name="Tank Hunters (Paragon)" hidden="false" targetId="5743-8ce3-dec8-e3b8" type="rule"/>
@@ -5921,6 +5909,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fab0-31bb-75e7-8d6f" name="Firefly Jump Infantry Squad" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="fc99-d029-3815-9e1d" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <infoLinks>
         <infoLink id="9afb-0da0-e3e0-780d" name="Flight" hidden="false" targetId="e8fc-b495-4724-e2fd" type="rule"/>
       </infoLinks>
