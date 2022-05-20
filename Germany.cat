@@ -2672,6 +2672,9 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="78cc-3908-2b5b-94b2" name="Soldier with Rifle" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4644-a565-ac51-d8e3" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="7203-dfc1-b25f-1b87" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
               </infoLinks>
@@ -3093,6 +3096,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dbb-a23a-418b-98a5" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57e4-60ff-fdb3-928d" type="min"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="70b3-acf7-46f2-789f" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="f992-b07a-197d-b8d3" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="7cdc-1638-6e4c-f0fa" type="selectionEntry">
                   <constraints>
@@ -3109,6 +3115,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d052-a467-a18e-ef57" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="7365-4282-ef18-1c03" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="672b-7a64-7e76-295b" name="Assault Rifle" hidden="false" collective="false" import="true" targetId="7cdc-1638-6e4c-f0fa" type="selectionEntry">
                   <constraints>
@@ -3125,6 +3134,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8243-2cfd-04bc-63ca" type="max"/>
               </constraints>
+              <infoLinks>
+                <infoLink id="31cd-e331-de21-60b5" name="Veteran" hidden="false" targetId="0f37-68ae-dd72-d2dd" type="profile"/>
+              </infoLinks>
               <entryLinks>
                 <entryLink id="e529-451b-2036-a287" name="LMG" hidden="false" collective="false" import="true" targetId="6dc4-67a2-757e-5aa9" type="selectionEntry">
                   <constraints>
