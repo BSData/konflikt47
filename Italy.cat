@@ -11409,11 +11409,14 @@ These abilities are applied before any subsequent shooting or close quarters ass
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ccf0-65a2-16de-0322" name="Turret" hidden="false" collective="false" import="true" defaultSelectionEntryId="d365-37fd-70a0-1774">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db42-e427-3632-7e8c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b13e-869c-c4e0-9154" type="max"/>
+          </constraints>
           <entryLinks>
             <entryLink id="d365-37fd-70a0-1774" name="Turret-Mounted Medium AT Gun" hidden="false" collective="false" import="true" targetId="96c5-5bfc-cecc-66e9" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9cf-1604-6d04-3106" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b974-746f-83a7-c3df" type="min"/>
               </constraints>
               <infoLinks>
                 <infoLink id="d267-2718-a0de-eb78" name="75mm HE" hidden="false" targetId="0315-8062-b1dd-4c5d" type="rule"/>
@@ -11422,7 +11425,6 @@ These abilities are applied before any subsequent shooting or close quarters ass
             <entryLink id="4120-ef0a-20af-be5c" name="Turret-Mounted Light Howitzer" hidden="false" collective="false" import="true" targetId="d837-1e14-a538-69b8" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a141-7c3e-b023-fd85" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d0f-8b7c-b0af-b840" type="min"/>
               </constraints>
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="-30.0"/>
