@@ -8393,6 +8393,51 @@ These abilities are applied before any subsequent shooting or close quarters ass
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="791d-969f-8aeb-4598" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f21c-0f94-c9a2-5669">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="077f-41ca-336c-bb19" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1fe-d488-03d9-ad1f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f21c-0f94-c9a2-5669" name="Medium AT Gun" hidden="false" collective="false" import="true" targetId="18d0-3b64-50f8-83e6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c6-d520-d184-4b76" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="335f-7379-92f9-42d8" name="Gyro-Stabilised" hidden="false" targetId="3be1-53d5-a6b5-b637" type="rule"/>
+              </infoLinks>
+            </entryLink>
+            <entryLink id="5303-ae61-68a5-3cd9" name="Turret-Mounted Medium Howitzer" hidden="false" collective="false" import="true" targetId="2bc2-2040-0644-29c4" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="decrement" field="d66a-aa5a-74b9-e93a" value="32.0">
+                      <conditions>
+                        <condition field="selections" scope="c787-cf9e-a22d-9b92" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5344-848e-632f-9e09" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="decrement" field="d66a-aa5a-74b9-e93a" value="40.0">
+                      <conditions>
+                        <condition field="selections" scope="c787-cf9e-a22d-9b92" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="decrement" field="d66a-aa5a-74b9-e93a" value="48.0">
+                      <conditions>
+                        <condition field="selections" scope="c787-cf9e-a22d-9b92" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c04-8ed7-a22e-14ea" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b5a8-089c-a89e-0df3" name="Gyro-Stabilised" hidden="false" targetId="3be1-53d5-a6b5-b637" type="rule"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="f7bd-6612-85f6-e11d" name="Coaxial MMG" hidden="false" collective="false" import="true" targetId="cfd8-d421-3cd2-ab75" type="selectionEntry">
