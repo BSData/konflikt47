@@ -4967,11 +4967,14 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9ecd-3560-adba-d939" name="Turret" hidden="false" collective="false" import="true" defaultSelectionEntryId="0376-f358-160c-513a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f5a-dffe-48bf-09a7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13e2-b929-bb4a-d15d" type="max"/>
+          </constraints>
           <entryLinks>
             <entryLink id="0376-f358-160c-513a" name="Turret-Mounted Medium AT Gun" hidden="false" collective="false" import="true" targetId="96c5-5bfc-cecc-66e9" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7366-7b6c-9353-692c" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba58-e8ce-96aa-0b2c" type="min"/>
               </constraints>
               <infoLinks>
                 <infoLink id="31e4-fb93-6a36-b8e8" name="75mm HE" hidden="false" targetId="0315-8062-b1dd-4c5d" type="rule"/>
@@ -4980,7 +4983,6 @@
             <entryLink id="4df0-de57-3459-7a90" name="Turret-Mounted Light Howitzer" hidden="false" collective="false" import="true" targetId="d837-1e14-a538-69b8" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e34-32c0-48e7-6192" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8160-c5e0-3f3a-a57b" type="min"/>
               </constraints>
               <costs>
                 <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="-30.0"/>
