@@ -71,6 +71,21 @@
           </constraints>
         </categoryLink>
         <categoryLink id="870c-4b0d-6090-71a6" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <modifiers>
+            <modifier type="increment" field="36e4-53b4-9ed6-f89a" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2161-15bd-f8a3-750b" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4ef-18ac-e4b0-39cf" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36e4-53b4-9ed6-f89a" type="max"/>
           </constraints>
@@ -99,7 +114,14 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="943d-e33a-9403-c740" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="66af-3672-add5-dfdb" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Medium Walkers, and Heavy Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+        <categoryLink id="66af-3672-add5-dfdb" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <modifiers>
+            <modifier type="increment" field="f000-bb20-7680-ddb8" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="00b4-e9d7-e705-1f53" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f000-bb20-7680-ddb8" type="max"/>
           </constraints>
@@ -177,6 +199,21 @@
           </constraints>
         </categoryLink>
         <categoryLink id="6ba1-b7c5-3f0d-1feb" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <modifiers>
+            <modifier type="increment" field="acb5-c272-33a8-530a" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2161-15bd-f8a3-750b" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4ef-18ac-e4b0-39cf" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acb5-c272-33a8-530a" type="max"/>
           </constraints>
@@ -205,7 +242,14 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd4a-d690-2735-a599" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="090e-a7e3-99d0-e3cd" name="Tank, Tank Destroyer, Medium Walkers, and Heavy Walkers" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false">
+        <categoryLink id="090e-a7e3-99d0-e3cd" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <modifiers>
+            <modifier type="increment" field="5064-a61a-40b4-9511" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="00b4-e9d7-e705-1f53" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5064-a61a-40b4-9511" type="max"/>
           </constraints>
@@ -298,6 +342,21 @@
           </constraints>
         </categoryLink>
         <categoryLink id="ab28-d1ab-5272-6587" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <modifiers>
+            <modifier type="increment" field="b13b-5f1c-1c0b-1636" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2161-15bd-f8a3-750b" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4ef-18ac-e4b0-39cf" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b13b-5f1c-1c0b-1636" type="max"/>
           </constraints>
@@ -326,7 +385,14 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf73-1da1-2ee6-3fdc" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="dba3-bd1f-1451-cd7e" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Medium Walkers, and Heavy Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+        <categoryLink id="dba3-bd1f-1451-cd7e" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <modifiers>
+            <modifier type="increment" field="6639-9f27-e106-a7a4" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="00b4-e9d7-e705-1f53" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6639-9f27-e106-a7a4" type="max"/>
           </constraints>
@@ -448,6 +514,21 @@
           </constraints>
         </categoryLink>
         <categoryLink id="a89b-a35e-36a1-6118" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <modifiers>
+            <modifier type="increment" field="cb8c-7131-7ea8-1634" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2161-15bd-f8a3-750b" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4ef-18ac-e4b0-39cf" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb8c-7131-7ea8-1634" type="max"/>
           </constraints>
@@ -476,7 +557,14 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d18-38ee-3d5d-3a2e" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="ddaf-2649-e553-3996" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, and Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+        <categoryLink id="ddaf-2649-e553-3996" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <modifiers>
+            <modifier type="increment" field="8de2-ffb2-3c00-b44f" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="00b4-e9d7-e705-1f53" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8de2-ffb2-3c00-b44f" type="max"/>
           </constraints>
@@ -1886,7 +1974,7 @@
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
           </costs>
         </entryLink>
-        <entryLink id="b04d-0c1a-67f4-ed8a" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="b04d-0c1a-67f4-ed8a" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2011,7 +2099,7 @@
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
           </costs>
         </entryLink>
-        <entryLink id="a553-f4ad-3a55-6726" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="a553-f4ad-3a55-6726" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2129,7 +2217,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a72-126b-6e16-5117" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="41e5-29c1-8d11-63e0" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="41e5-29c1-8d11-63e0" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2250,7 +2338,7 @@
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
           </costs>
         </entryLink>
-        <entryLink id="1751-8d36-1de6-e622" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="1751-8d36-1de6-e622" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2414,7 +2502,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a66-9c2f-3611-c263" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="34ff-beb5-aaee-736a" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="34ff-beb5-aaee-736a" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2550,6 +2638,15 @@
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="15.0"/>
           </costs>
         </entryLink>
+        <entryLink id="55bf-4b7b-319a-9897" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="4fcf-76d8-8f5b-ffa8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -2655,7 +2752,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa8e-80a9-73e2-cc5a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e708-3618-26aa-2a86" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="e708-3618-26aa-2a86" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2788,7 +2885,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ab5-b8cd-bf3b-2164" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1fd5-e0ae-03da-1f37" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="1fd5-e0ae-03da-1f37" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -4140,7 +4237,7 @@
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
           </costs>
         </entryLink>
-        <entryLink id="d947-5972-17c0-43a2" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="d947-5972-17c0-43a2" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -4250,7 +4347,7 @@
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
           </costs>
         </entryLink>
-        <entryLink id="5cdb-0b12-7175-a3a6" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="5cdb-0b12-7175-a3a6" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -4349,7 +4446,7 @@
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
           </costs>
         </entryLink>
-        <entryLink id="1f63-5056-ebfa-5ba5" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="1f63-5056-ebfa-5ba5" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -4375,6 +4472,10 @@
         <categoryLink id="e273-b88c-3958-4417" name="Scout and Light Walkers" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false"/>
         <categoryLink id="b112-a362-5836-62a0" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
         <categoryLink id="033f-a410-8654-7ae5" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
+        <categoryLink id="69ca-0328-35fc-b305" name="Tank, Tank Destroyer, Walkers" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
+        <categoryLink id="c357-3553-1010-98ab" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
+        <categoryLink id="6f11-0986-97c5-0c15" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
+        <categoryLink id="25fc-99e9-951b-a638" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f005-24cc-d10c-7a29" name="Radio Network" hidden="true" collective="false" import="true" type="upgrade">
@@ -4448,7 +4549,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4470-f466-2958-f42a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="8cf2-e9c8-d7e4-8676" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="8cf2-e9c8-d7e4-8676" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -4475,6 +4576,10 @@
         <categoryLink id="1e37-3f8a-8f6c-2737" name="Scout and Light Walkers" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false"/>
         <categoryLink id="b778-6ef4-8cae-dd49" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
         <categoryLink id="831e-9e9e-8830-2319" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
+        <categoryLink id="cd27-e706-04fa-2e2f" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="8c84-2b80-026d-37a2" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
+        <categoryLink id="2b3e-26be-0876-3a6f" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
+        <categoryLink id="847e-befc-cb69-294e" name="Tank, Tank Destroyer, Walkers" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ddbe-bca1-ea42-05ec" name="Radio Network" hidden="true" collective="false" import="true" type="upgrade">
@@ -4550,7 +4655,7 @@
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="20.0"/>
           </costs>
         </entryLink>
-        <entryLink id="d729-807e-91b9-f7d3" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="d729-807e-91b9-f7d3" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -4653,7 +4758,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fdf-888e-e9fd-eeb4" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4c12-6d07-419c-b4c4" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="4c12-6d07-419c-b4c4" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -4762,7 +4867,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb56-24ac-ed6a-136d" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="0303-bdad-3a09-8f2a" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="0303-bdad-3a09-8f2a" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -4866,6 +4971,15 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fa1-12da-5b50-4aee" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bca8-8ff2-c33b-f907" type="max"/>
           </constraints>
+        </entryLink>
+        <entryLink id="5b1a-073f-1ae1-73da" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="4fcf-76d8-8f5b-ffa8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <costs>
@@ -4980,7 +5094,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8f9-31d6-69e3-dadd" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e9d0-b869-31aa-e368" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="e9d0-b869-31aa-e368" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -4999,6 +5113,10 @@
         <categoryLink id="efde-2c11-6361-414f" name="Scout and Light Walkers" hidden="false" targetId="81cb-605d-a02f-88ca" primary="false"/>
         <categoryLink id="e9e6-a517-d5e4-58c4" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
         <categoryLink id="4deb-e974-b9a1-0e71" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false"/>
+        <categoryLink id="eb25-41cb-81b3-30cb" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false"/>
+        <categoryLink id="8f1c-9846-b6cf-be3a" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false"/>
+        <categoryLink id="ac3e-7abf-ff7b-328e" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false"/>
+        <categoryLink id="8b6b-dbf1-18fc-bc90" name="Tank, Tank Destroyer, Walkers" hidden="false" targetId="b4ef-18ac-e4b0-39cf" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cc45-f242-e61d-92e4" name="Walkers" hidden="false" collective="false" import="true" defaultSelectionEntryId="529f-6d3e-9e11-299e">
@@ -5124,7 +5242,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d5f-b020-8cf8-c0b7" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="e275-1cc8-87e8-122d" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+                <entryLink id="e275-1cc8-87e8-122d" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -5522,7 +5640,7 @@
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
           </costs>
         </entryLink>
-        <entryLink id="2e39-9aad-26a1-337b" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="2e39-9aad-26a1-337b" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -5617,7 +5735,7 @@
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
           </costs>
         </entryLink>
-        <entryLink id="d9ab-4420-fc5c-2bcf" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="d9ab-4420-fc5c-2bcf" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -6282,7 +6400,7 @@
             <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
           </costs>
         </entryLink>
-        <entryLink id="ced8-f78d-8c5d-a2ca" name="Command Vehicle" hidden="false" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
+        <entryLink id="ced8-f78d-8c5d-a2ca" name="Command Vehicle" hidden="true" collective="false" import="true" targetId="61b2-f1f9-b980-c0c1" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>

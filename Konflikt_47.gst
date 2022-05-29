@@ -55,7 +55,7 @@
     <categoryEntry id="60fd-ed23-32dc-eb94" name="Free Units" hidden="false"/>
     <categoryEntry id="a60d-df71-bfcc-66c4" name="Transports" hidden="false"/>
     <categoryEntry id="f3c7-5675-463e-b566" name="Tows" hidden="false"/>
-    <categoryEntry id="45ac-0cd1-0fd0-edd3" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Medium Walkers, and Heavy Walkers" hidden="false"/>
+    <categoryEntry id="45ac-0cd1-0fd0-edd3" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Walkers" hidden="false"/>
     <categoryEntry id="b14d-60bd-51cb-1c49" name="Senior Officer" publicationId="9a47-ac76-pubN65784" page="126" hidden="false"/>
     <categoryEntry id="64b3-a04b-d6d0-add2" name="Medic" publicationId="9a47-ac76-pubN65784" page="126" hidden="false"/>
     <categoryEntry id="c048-dfb7-583d-2e79" name="Forward Observer" publicationId="9a47-ac76-pubN65784" page="126" hidden="false"/>
@@ -70,7 +70,7 @@
     <categoryEntry id="c5aa-dfef-70b7-726b" name="Flamethrower Team" hidden="false"/>
     <categoryEntry id="c04e-ff05-f7cb-ae9b" name="Anti-Tank Team" hidden="false"/>
     <categoryEntry id="9e4b-337b-7b0a-20f2" name="Light and Medium Mortar Team" hidden="false"/>
-    <categoryEntry id="b4ef-18ac-e4b0-39cf" name="Tank, Tank Destroyer, Medium Walkers, and Heavy Walkers" hidden="false"/>
+    <categoryEntry id="b4ef-18ac-e4b0-39cf" name="Tank, Tank Destroyer, Walkers" hidden="false"/>
     <categoryEntry id="4bd2-90aa-426c-2737" name="AA Vehicle and Self-Propelled Artillery" hidden="false"/>
     <categoryEntry id="2223-b0fe-f380-0b0d" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false"/>
     <categoryEntry id="c1e2-bbe0-922c-ff35" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false"/>
@@ -97,24 +97,9 @@
     <forceEntry id="4fcf-76d8-8f5b-ffa8" name="Reinforced Armoured Platoon" publicationId="9a47-ac76-pubN66291" page="35" hidden="false">
       <categoryLinks>
         <categoryLink id="5423-f22c-212d-6191" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
-          <modifiers>
-            <modifier type="increment" field="c356-356f-9f48-025f" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="equalTo"/>
-                    <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1e2-bbe0-922c-ff35" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec23-f222-130d-6ff3" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c356-356f-9f48-025f" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec23-f222-130d-6ff3" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c356-356f-9f48-025f" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="3c0d-725a-d11c-0eaa" name="Infantry Squad" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
@@ -276,11 +261,33 @@
           </constraints>
         </categoryLink>
         <categoryLink id="48eb-79a3-9fc4-2d5d" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <modifiers>
+            <modifier type="increment" field="0481-faf2-c2df-aa27" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2161-15bd-f8a3-750b" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4ef-18ac-e4b0-39cf" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0481-faf2-c2df-aa27" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="90ac-683c-2d82-fa79" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Medium Walkers, and Heavy Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+        <categoryLink id="90ac-683c-2d82-fa79" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <modifiers>
+            <modifier type="increment" field="b2da-7878-2d5f-7a48" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="00b4-e9d7-e705-1f53" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2da-7878-2d5f-7a48" type="max"/>
           </constraints>
