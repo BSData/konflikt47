@@ -96,13 +96,22 @@
   <forceEntries>
     <forceEntry id="4fcf-76d8-8f5b-ffa8" name="Reinforced Armoured Platoon" publicationId="9a47-ac76-pubN66291" page="35" hidden="false">
       <categoryLinks>
-        <categoryLink id="6e49-d10f-4799-cdd8" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fe1-b8e9-ac80-eb52" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fff-3c33-7d13-f022" type="max"/>
-          </constraints>
-        </categoryLink>
         <categoryLink id="5423-f22c-212d-6191" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
+          <modifiers>
+            <modifier type="increment" field="c356-356f-9f48-025f" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="equalTo"/>
+                    <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1e2-bbe0-922c-ff35" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec23-f222-130d-6ff3" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c356-356f-9f48-025f" type="max"/>
@@ -185,6 +194,26 @@
           </constraints>
         </categoryLink>
         <categoryLink id="a492-3c75-767d-7174" name="Free Units" hidden="false" targetId="60fd-ed23-32dc-eb94" primary="false"/>
+        <categoryLink id="3954-8399-8f5b-0b51" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <modifiers>
+            <modifier type="increment" field="7175-f7ef-81d4-bc61" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="equalTo"/>
+                    <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1e2-bbe0-922c-ff35" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7175-f7ef-81d4-bc61" type="min"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="1976-5c63-c819-3b4d" name="Reinforced Platoon" publicationId="9a47-ac76-pubN65784" page="126" hidden="false">
@@ -2340,8 +2369,8 @@ Units that are given an Ambush or Down order are unable to return a die to the c
 
 Once given the appropriate order, a Target Designator&apos;s rules apply unti the end of the turn, until the unit&apos;s order dice changes from Fire/Advance, or until it is destroyed. Any friendly  unit firing an anti-tank gun or rail gun may benefit from the target designator if both the firing unit and the Target Designator have line of sight to the intended target. The firing unit may then benefit from a re-roll of its to-hit roll when firing. If the re-roll is used, the order die on the Target Designating unit is changed to Down and it is therefore inactive for the remainder of the turn.</description>
     </rule>
-    <rule id="0727-1eba-1222-74fd" name="Radio Networks" publicationId="9a47-ac76-pubN66291" page="37" hidden="false">
-      <description>If the three compulsory vehicles in the blatoon are from the same unit entry in the force listst, then the player can declare they have a Radio Network. The Radio Network adds +1 to the command vehicle&apos;s morale bonus when adding its bonus to any armoured vehicle that forms part of the same platoon. The Radio Network costs an additional +5 points, added to the command vehicle&apos;s points cost. Note that the three compulsory vehicles can have different options or upgrades if relevant, but must be from the same unit entry.</description>
+    <rule id="0727-1eba-1222-74fd" name="Radio Network" publicationId="9a47-ac76-pubN66291" page="37" hidden="false">
+      <description>If the three compulsory vehicles in the platoon are from the same unit entry in the force listst, then the player can declare they have a Radio Network. The Radio Network adds +1 to the command vehicle&apos;s morale bonus when adding its bonus to any armoured vehicle that forms part of the same platoon. Note that the three compulsory vehicles can have different options or upgrades if relevant, but must be from the same unit entry.</description>
     </rule>
     <rule id="4272-afb2-0059-83de" name="Senior Command Vehicle" publicationId="9a47-ac76-pubN66291" page="37" hidden="false">
       <description>A Senior Command Vehicle can add +3 to the morale values of vehicles in the whole force which are within 12&quot;. A senior Command Vehicle may not use the Snap to Action rule.</description>
