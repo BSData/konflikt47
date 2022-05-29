@@ -381,9 +381,14 @@
         <categoryLink id="da1b-cb7f-ca89-890b" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
           <modifiers>
             <modifier type="increment" field="34e6-8ead-c8c6-bb38" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="00b4-e9d7-e705-1f53" repeats="1" roundUp="false"/>
-              </repeats>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="81cb-605d-a02f-88ca" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="34e6-8ead-c8c6-bb38" value="2.0">
+              <conditions>
+                <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="81cb-605d-a02f-88ca" type="atLeast"/>
+              </conditions>
             </modifier>
           </modifiers>
           <constraints>
