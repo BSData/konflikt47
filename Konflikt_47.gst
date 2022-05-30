@@ -55,7 +55,7 @@
     <categoryEntry id="60fd-ed23-32dc-eb94" name="Free Units" hidden="false"/>
     <categoryEntry id="a60d-df71-bfcc-66c4" name="Transports" hidden="false"/>
     <categoryEntry id="f3c7-5675-463e-b566" name="Tows" hidden="false"/>
-    <categoryEntry id="45ac-0cd1-0fd0-edd3" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Medium Walkers, and Heavy Walkers" hidden="false"/>
+    <categoryEntry id="45ac-0cd1-0fd0-edd3" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Walkers" hidden="false"/>
     <categoryEntry id="b14d-60bd-51cb-1c49" name="Senior Officer" publicationId="9a47-ac76-pubN65784" page="126" hidden="false"/>
     <categoryEntry id="64b3-a04b-d6d0-add2" name="Medic" publicationId="9a47-ac76-pubN65784" page="126" hidden="false"/>
     <categoryEntry id="c048-dfb7-583d-2e79" name="Forward Observer" publicationId="9a47-ac76-pubN65784" page="126" hidden="false"/>
@@ -70,7 +70,7 @@
     <categoryEntry id="c5aa-dfef-70b7-726b" name="Flamethrower Team" hidden="false"/>
     <categoryEntry id="c04e-ff05-f7cb-ae9b" name="Anti-Tank Team" hidden="false"/>
     <categoryEntry id="9e4b-337b-7b0a-20f2" name="Light and Medium Mortar Team" hidden="false"/>
-    <categoryEntry id="b4ef-18ac-e4b0-39cf" name="Tank, Tank Destroyer, Medium Walkers, and Heavy Walkers" hidden="false"/>
+    <categoryEntry id="b4ef-18ac-e4b0-39cf" name="Tank, Tank Destroyer, Walkers" hidden="false"/>
     <categoryEntry id="4bd2-90aa-426c-2737" name="AA Vehicle and Self-Propelled Artillery" hidden="false"/>
     <categoryEntry id="2223-b0fe-f380-0b0d" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false"/>
     <categoryEntry id="c1e2-bbe0-922c-ff35" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false"/>
@@ -96,16 +96,10 @@
   <forceEntries>
     <forceEntry id="4fcf-76d8-8f5b-ffa8" name="Reinforced Armoured Platoon" publicationId="9a47-ac76-pubN66291" page="35" hidden="false">
       <categoryLinks>
-        <categoryLink id="6e49-d10f-4799-cdd8" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fe1-b8e9-ac80-eb52" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fff-3c33-7d13-f022" type="max"/>
-          </constraints>
-        </categoryLink>
         <categoryLink id="5423-f22c-212d-6191" name="Tank, Tank Destroyer, Assault Gun, Walker, Self-Propelled Artillery, Anti-Aircraft Vehicle, Armoured Car" hidden="false" targetId="2223-b0fe-f380-0b0d" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec23-f222-130d-6ff3" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c356-356f-9f48-025f" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec23-f222-130d-6ff3" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c356-356f-9f48-025f" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="3c0d-725a-d11c-0eaa" name="Infantry Squad" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
@@ -185,6 +179,26 @@
           </constraints>
         </categoryLink>
         <categoryLink id="a492-3c75-767d-7174" name="Free Units" hidden="false" targetId="60fd-ed23-32dc-eb94" primary="false"/>
+        <categoryLink id="3954-8399-8f5b-0b51" name="Tank, Tank Destroyer, Assault Gun, Walker, and Armoured Car" hidden="false" targetId="c1e2-bbe0-922c-ff35" primary="false">
+          <modifiers>
+            <modifier type="increment" field="7175-f7ef-81d4-bc61" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="equalTo"/>
+                    <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1e2-bbe0-922c-ff35" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7175-f7ef-81d4-bc61" type="min"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="1976-5c63-c819-3b4d" name="Reinforced Platoon" publicationId="9a47-ac76-pubN65784" page="126" hidden="false">
@@ -247,11 +261,33 @@
           </constraints>
         </categoryLink>
         <categoryLink id="48eb-79a3-9fc4-2d5d" name="Armored Cars, Scout and Light Walkers" hidden="false" targetId="00b4-e9d7-e705-1f53" primary="false">
+          <modifiers>
+            <modifier type="increment" field="0481-faf2-c2df-aa27" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2223-b0fe-f380-0b0d" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2161-15bd-f8a3-750b" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4ef-18ac-e4b0-39cf" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ac-0cd1-0fd0-edd3" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0481-faf2-c2df-aa27" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="90ac-683c-2d82-fa79" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Medium Walkers, and Heavy Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+        <categoryLink id="90ac-683c-2d82-fa79" name="Tank, Tank Destroyer, AA Vehicles, Self-Propelled Artillery, Walkers" hidden="false" targetId="45ac-0cd1-0fd0-edd3" primary="false">
+          <modifiers>
+            <modifier type="increment" field="b2da-7878-2d5f-7a48" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="00b4-e9d7-e705-1f53" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2da-7878-2d5f-7a48" type="max"/>
           </constraints>
@@ -596,7 +632,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="10f5-c782-fafc-4786" name="No Weapon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="10f5-c782-fafc-4786" name="No Weapon" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="36d1-98db-3842-910d" name="No Weapon" hidden="false" targetId="d1e1-7f47-e5ff-ad2e" type="profile"/>
       </infoLinks>
@@ -2340,8 +2376,8 @@ Units that are given an Ambush or Down order are unable to return a die to the c
 
 Once given the appropriate order, a Target Designator&apos;s rules apply unti the end of the turn, until the unit&apos;s order dice changes from Fire/Advance, or until it is destroyed. Any friendly  unit firing an anti-tank gun or rail gun may benefit from the target designator if both the firing unit and the Target Designator have line of sight to the intended target. The firing unit may then benefit from a re-roll of its to-hit roll when firing. If the re-roll is used, the order die on the Target Designating unit is changed to Down and it is therefore inactive for the remainder of the turn.</description>
     </rule>
-    <rule id="0727-1eba-1222-74fd" name="Radio Networks" publicationId="9a47-ac76-pubN66291" page="37" hidden="false">
-      <description>If the three compulsory vehicles in the blatoon are from the same unit entry in the force listst, then the player can declare they have a Radio Network. The Radio Network adds +1 to the command vehicle&apos;s morale bonus when adding its bonus to any armoured vehicle that forms part of the same platoon. The Radio Network costs an additional +5 points, added to the command vehicle&apos;s points cost. Note that the three compulsory vehicles can have different options or upgrades if relevant, but must be from the same unit entry.</description>
+    <rule id="0727-1eba-1222-74fd" name="Radio Network" publicationId="9a47-ac76-pubN66291" page="37" hidden="false">
+      <description>If the three compulsory vehicles in the platoon are from the same unit entry in the force listst, then the player can declare they have a Radio Network. The Radio Network adds +1 to the command vehicle&apos;s morale bonus when adding its bonus to any armoured vehicle that forms part of the same platoon. Note that the three compulsory vehicles can have different options or upgrades if relevant, but must be from the same unit entry.</description>
     </rule>
     <rule id="4272-afb2-0059-83de" name="Senior Command Vehicle" publicationId="9a47-ac76-pubN66291" page="37" hidden="false">
       <description>A Senior Command Vehicle can add +3 to the morale values of vehicles in the whole force which are within 12&quot;. A senior Command Vehicle may not use the Snap to Action rule.</description>
@@ -2839,7 +2875,7 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
     </profile>
     <profile id="e737-613c-8e1e-62a0" name="Heavy Tesla Rifle (Rapid Fire Mode)" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">12&quot;</characteristic>
+        <characteristic name="Range" typeId="e5a6-c007-53d3-2748">18&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">3</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">-</characteristic>
         <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Assault</characteristic>
@@ -2942,7 +2978,7 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">36&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">5</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">-</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede"></characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede"/>
       </characteristics>
     </profile>
     <profile id="4836-b695-e9a2-828d" name="Turret-Mounted Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
