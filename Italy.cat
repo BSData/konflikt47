@@ -1601,6 +1601,7 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc68-f982-05a6-7c27" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e16f-e6a4-14bd-13e5" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="85f2-ae77-c6ec-96b4" name="Elite" hidden="false" targetId="5ee9-9b1c-5ea8-b5a4" type="rule"/>
@@ -5332,6 +5333,7 @@ These abilities are applied before any subsequent shooting or close quarters ass
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9824-9b3a-f8d7-dc8d" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dfb-6bfc-019b-c13c" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="f3fd-cef3-e9f2-7f87" name="Elite" hidden="false" targetId="5ee9-9b1c-5ea8-b5a4" type="rule"/>
@@ -11525,6 +11527,9 @@ These abilities are applied before any subsequent shooting or close quarters ass
               </repeats>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bb6-f8ab-b8cc-a5f6" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="aed7-1583-7a8c-21f5" name="Elite" hidden="false" targetId="5ee9-9b1c-5ea8-b5a4" type="rule"/>
           </infoLinks>

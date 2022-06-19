@@ -3457,6 +3457,9 @@
               </repeats>
             </modifier>
           </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9516-4dc0-21a6-5c0f" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="b790-c698-5cee-9dff" name="Elite" hidden="false" targetId="5ee9-9b1c-5ea8-b5a4" type="rule"/>
           </infoLinks>
