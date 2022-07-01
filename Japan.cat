@@ -521,6 +521,11 @@
                     <entryLink id="d922-f64b-cc0f-eec1" name="Pistol" hidden="false" collective="false" import="true" targetId="d7b1-e557-88f6-1ac4" type="selectionEntry"/>
                     <entryLink id="0880-b556-a2b9-c1a9" name="SMG" hidden="false" collective="false" import="true" targetId="da2f-423c-1523-5126" type="selectionEntry"/>
                     <entryLink id="d375-64e4-0f6b-8014" name="Rifle" hidden="false" collective="false" import="true" targetId="69b8-002c-ef16-c6e4" type="selectionEntry"/>
+                    <entryLink id="d30e-6023-6ffd-54de" name="Flag" hidden="false" collective="false" import="true" targetId="3af7-415d-30eb-3561" type="selectionEntry">
+                      <costs>
+                        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -920,6 +925,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf82-2152-c59d-bd82" type="max"/>
               </constraints>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="20.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -4247,7 +4255,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="210.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa12-83d8-88cc-e673" name="Light Mortar Team" publicationId="0f33-eaeb-pubN65551" page="65" hidden="false" collective="false" import="true" type="unit">
