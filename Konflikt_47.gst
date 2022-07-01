@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9a47-ac76-5252-54d0" name="Konflikt_47_Home_Rules" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="9a47-ac76-5252-54d0" name="Konflikt_47" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="9a47-ac76-pubN65784" name="Konflikt 47: Rules"/>
     <publication id="9a47-ac76-pubN65838" name="Konflikt 47: Defiance"/>
@@ -784,8 +784,8 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="bbd9-8a69-90a7-6f94" name="Heavy AT Gun" hidden="false" targetId="e492-f0a7-ec68-728c" type="profile"/>
         <infoLink id="ee81-808e-f45a-d93f" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="6dfa-21d7-0eb8-70e8" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
-        <infoLink id="6e7e-738b-1bca-6cf9" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
+        <infoLink id="6dfa-21d7-0eb8-70e8" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="6e7e-738b-1bca-6cf9" name="Team Weapon" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -795,7 +795,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="87ba-e0c8-dfdf-6a90" name="Super-heavy AT Gun" hidden="false" targetId="49b5-8198-173e-c6ae" type="profile"/>
         <infoLink id="e59b-fff1-9267-c6ef" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="db74-f5c4-bcf3-243b" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+        <infoLink id="db74-f5c4-bcf3-243b" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="8628-e415-a232-7fef" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
@@ -844,7 +844,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="d7fb-4b15-547d-43bd" name="Light Mortar" hidden="false" targetId="1f43-5d55-b748-53e3" type="profile"/>
         <infoLink id="ab4d-cf98-d01e-cbeb" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
-        <infoLink id="f9ae-8c14-59df-4eb5" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+        <infoLink id="f9ae-8c14-59df-4eb5" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="fe93-ad16-1d43-890e" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
@@ -855,7 +855,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="cdbc-2098-5ebd-b340" name="Medium Mortar" hidden="false" targetId="f6e0-8941-086c-3f6a" type="profile"/>
         <infoLink id="c86d-1074-c7d5-576f" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="b3f0-3306-6a55-edfc" name="High Explosive (D6)" hidden="false" targetId="0a02-e32c-4873-ca4a" type="rule"/>
+        <infoLink id="b3f0-3306-6a55-edfc" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="1c43-eaca-aa35-44e6" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
         <infoLink id="bbb2-88ec-858e-e655" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
@@ -867,7 +867,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="edf9-d916-5dad-bb95" name="Heavy Mortar" hidden="false" targetId="4636-6c87-01dd-2eb3" type="profile"/>
         <infoLink id="b2c2-c1e3-d561-3a41" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="99e8-476d-30bb-a604" name="High Explosive (2D6)" hidden="false" targetId="1d4e-1c5d-8cda-0711" type="rule"/>
+        <infoLink id="99e8-476d-30bb-a604" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="ce89-8f9a-8a74-7820" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
         <infoLink id="a688-236b-095a-4871" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
@@ -880,7 +880,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="511d-61b4-8298-4b5d" name="Light Howitzer" hidden="false" targetId="de13-e32d-2c59-7452" type="profile"/>
         <infoLink id="c0ea-412b-a7a3-7fa8" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule"/>
         <infoLink id="b3f0-c8ae-4434-1af3" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="1a80-fbda-c36a-941b" name="High Explosive (D6)" hidden="false" targetId="0a02-e32c-4873-ca4a" type="rule"/>
+        <infoLink id="1a80-fbda-c36a-941b" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="529a-301c-4af5-e323" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
         <infoLink id="b64d-2d6c-304f-4b88" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
@@ -893,7 +893,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="ca0d-112c-0a38-fd51" name="Medium Howitzer" hidden="false" targetId="f77a-68c2-e9e9-6294" type="profile"/>
         <infoLink id="b579-340f-355f-e72e" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule"/>
         <infoLink id="24ab-a61f-9d66-82fc" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="0c0b-f64a-6911-b597" name="High Explosive (2D6)" hidden="false" targetId="1d4e-1c5d-8cda-0711" type="rule"/>
+        <infoLink id="0c0b-f64a-6911-b597" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="5128-2625-5c51-fcb3" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
         <infoLink id="89d4-5190-5361-56b6" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
@@ -906,7 +906,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="9ef8-6db8-c85e-a32f" name="Heavy Howitzer" hidden="false" targetId="8938-308e-dcba-ce0e" type="profile"/>
         <infoLink id="3e1e-5e0a-9501-53f5" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule"/>
         <infoLink id="7eb5-c50a-e7aa-ae7c" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="6527-0a4b-b80b-c285" name="High Explosive (3D6)" hidden="false" targetId="8cea-e2b2-88f5-4604" type="rule"/>
+        <infoLink id="6527-0a4b-b80b-c285" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="ba64-b021-8105-c1ed" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
         <infoLink id="bf6b-4f92-4136-4854" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
@@ -1115,7 +1115,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     <selectionEntry id="359d-ffaf-84b8-7008" name="Turret-Mounted Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="01c0-4f1e-5e24-dad2" name="Turret-Mounted Super-Heavy AT Gun" hidden="false" targetId="4836-b695-e9a2-828d" type="profile"/>
-        <infoLink id="b3a3-be1c-2be4-2c46" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+        <infoLink id="b3a3-be1c-2be4-2c46" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -1280,7 +1280,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="2587-a073-653c-771e" name="Hull-Mounted Forward-Facing Light Howitzer" hidden="false" targetId="1ef1-c807-6dec-b8bf" type="profile"/>
         <infoLink id="da93-1eda-61b6-1625" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule"/>
-        <infoLink id="9186-4d14-7baf-da57" name="High Explosive (D6)" hidden="false" targetId="0a02-e32c-4873-ca4a" type="rule"/>
+        <infoLink id="9186-4d14-7baf-da57" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="742d-9b41-d16e-ffbc" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
@@ -1344,7 +1344,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     <selectionEntry id="3296-6844-2b99-aa77" name="Turret-Mounted Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="1b99-e9f3-64ca-d111" name="Turret-Mounted Heavy AT Gun" hidden="false" targetId="14a1-ce46-6725-2f55" type="profile"/>
-        <infoLink id="ef7b-40fe-e74d-8564" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+        <infoLink id="ef7b-40fe-e74d-8564" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -1380,7 +1380,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="5211-b465-aae9-202d" name="Light Rocket System" hidden="false" targetId="8d58-392d-5c8c-1579" type="profile"/>
         <infoLink id="32ff-645c-f6b8-2477" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
         <infoLink id="9f69-9079-e553-30ff" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="dc93-97dc-3b6b-d56f" name="High Explosive (D6)" hidden="false" targetId="0a02-e32c-4873-ca4a" type="rule"/>
+        <infoLink id="dc93-97dc-3b6b-d56f" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="00ee-fdbf-440f-1adc" name="Rocket System" hidden="false" targetId="a26c-b588-3c65-4ac8" type="rule"/>
       </infoLinks>
       <costs>
@@ -1390,7 +1390,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     <selectionEntry id="df09-d518-5944-8cd0" name="Hull-Mounted Forward-Facing Light Rocket System" publicationId="9a47-ac76-pubN65838" page="67" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4005-57f4-aefa-685b" name="Hull-Mounted Forward-Facing Light Rocket System" hidden="false" targetId="046f-f174-6055-8fee" type="profile"/>
-        <infoLink id="d2da-3b3b-599d-70c6" name="High Explosive (D6)" hidden="false" targetId="0a02-e32c-4873-ca4a" type="rule"/>
+        <infoLink id="d2da-3b3b-599d-70c6" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="d1c2-d76c-581e-0a7b" name="Rocket System" hidden="false" targetId="a26c-b588-3c65-4ac8" type="rule"/>
       </infoLinks>
       <costs>
@@ -1455,7 +1455,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="465e-0c80-7336-f57d" name="Turret-Mounted Light Howitzer" hidden="false" targetId="75e6-502c-f9b6-427a" type="profile"/>
         <infoLink id="f699-57b6-e62d-068c" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule"/>
-        <infoLink id="5ee6-0a29-2f0e-3523" name="High Explosive (D6)" hidden="false" targetId="0a02-e32c-4873-ca4a" type="rule"/>
+        <infoLink id="5ee6-0a29-2f0e-3523" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="2646-a6b6-4414-d0fa" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
@@ -1509,7 +1509,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     <selectionEntry id="cd8b-891f-47b9-9723" name="Casement-Mounted Forward-Facing Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="526e-557c-6753-79e3" name="Casement-Mounted Forward-Facing Heavy AT Gun" hidden="false" targetId="34b8-2bf2-ffb8-8e3b" type="profile"/>
-        <infoLink id="802a-9e62-3bde-7c3f" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+        <infoLink id="802a-9e62-3bde-7c3f" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -1528,7 +1528,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     <selectionEntry id="0886-169c-0892-c9da" name="Hull-Mounted Forward-Facing Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6016-e4df-1056-305d" name="Hull-Mounted Forward-Facing Super-Heavy AT Gun" hidden="false" targetId="6663-b081-159d-860e" type="profile"/>
-        <infoLink id="42ce-15e0-d6f0-aa09" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+        <infoLink id="42ce-15e0-d6f0-aa09" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -1618,7 +1618,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="7e2d-b845-9ba9-ba49" name="Light Howitzer (D3 HE)" hidden="false" targetId="304f-65a9-a59f-33d7" type="profile"/>
         <infoLink id="2470-4a8b-b1da-a0ec" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule"/>
         <infoLink id="34d2-6f84-9de0-384d" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="5d17-0c53-b5d0-bfe6" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+        <infoLink id="5d17-0c53-b5d0-bfe6" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="b8e3-a396-e3ac-ccdf" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
         <infoLink id="f7a5-cd12-b91c-761f" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
@@ -1630,7 +1630,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="17ce-a38e-0a98-317e" name="Turret-Mounted Medium Howitzer" hidden="false" targetId="6b19-2c96-f19b-d436" type="profile"/>
         <infoLink id="1f90-e4ea-db4a-43be" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule"/>
-        <infoLink id="b9e4-7ad2-4a3c-1040" name="High Explosive (2D6)" hidden="false" targetId="1d4e-1c5d-8cda-0711" type="rule"/>
+        <infoLink id="b9e4-7ad2-4a3c-1040" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="2b86-8cc2-ce02-e032" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
@@ -1675,7 +1675,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     </selectionEntry>
     <selectionEntry id="f953-5c05-5868-4daf" name="Right Arm Mounted Heavy Howitzer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="6913-b779-8e3e-4c17" name="High Explosive (3D6)" hidden="false" targetId="8cea-e2b2-88f5-4604" type="rule"/>
+        <infoLink id="6913-b779-8e3e-4c17" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="e216-376c-d2dc-40b3" name="Arm-Mounted Heavy Howitzer" hidden="false" targetId="17bd-a862-6ad3-5441" type="profile"/>
       </infoLinks>
       <costs>
@@ -1684,7 +1684,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     </selectionEntry>
     <selectionEntry id="5ba2-5cc2-9a12-2d17" name="Left Arm Mounted Heavy Howitzer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="a9ab-f18c-e6c8-2ee7" name="High Explosive (3D6)" hidden="false" targetId="8cea-e2b2-88f5-4604" type="rule"/>
+        <infoLink id="a9ab-f18c-e6c8-2ee7" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="9911-4c00-2f3d-27f7" name="Arm-Mounted Heavy Howitzer" hidden="false" targetId="17bd-a862-6ad3-5441" type="profile"/>
       </infoLinks>
       <costs>
@@ -1737,7 +1737,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     </selectionEntry>
     <selectionEntry id="f0b0-d4cd-1eab-b30e" name="Arm Mounted Heavy Howitzer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="ab5c-599d-9f7c-631b" name="High Explosive (3D6)" hidden="false" targetId="8cea-e2b2-88f5-4604" type="rule"/>
+        <infoLink id="ab5c-599d-9f7c-631b" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="8cbf-fa57-5e53-1a69" name="Arm-Mounted Heavy Howitzer" hidden="false" targetId="17bd-a862-6ad3-5441" type="profile"/>
       </infoLinks>
       <costs>
@@ -1783,7 +1783,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     <selectionEntry id="1faf-ad52-cb7f-202a" name="Turret-Mounted Multiple Launcher" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="fc4b-0410-2a57-c110" name="Turret-Mounted Multiple Launcher" hidden="false" targetId="d710-8282-402f-9a93" type="profile"/>
-        <infoLink id="4674-6c8a-d0c8-2031" name="High Explosive (2D6)" hidden="false" targetId="1d4e-1c5d-8cda-0711" type="rule"/>
+        <infoLink id="4674-6c8a-d0c8-2031" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="b380-d663-613a-bd69" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
@@ -1822,7 +1822,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="39dd-ecba-cd34-cc89" name="Heavy Howitzer" hidden="false" targetId="8938-308e-dcba-ce0e" type="profile"/>
         <infoLink id="d5a9-aa87-b8c2-859e" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule"/>
-        <infoLink id="87c5-f471-3d9a-c75b" name="High Explosive (3D6)" hidden="false" targetId="8cea-e2b2-88f5-4604" type="rule"/>
+        <infoLink id="87c5-f471-3d9a-c75b" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="ff6f-21a5-1152-59bc" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
@@ -1841,7 +1841,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     <selectionEntry id="eb32-b08d-c5d5-633d" name="Rear-Facing Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="36e7-e3ad-d125-572f" name="Turret-Mounted Rear-Facing Super-Heavy AT Gun" hidden="false" targetId="7056-ef87-0e27-c00d" type="profile"/>
-        <infoLink id="801d-55af-4b79-4681" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+        <infoLink id="801d-55af-4b79-4681" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -1889,7 +1889,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="1e4c-a6d4-d16f-04b2" name="Hull-Mounted Forward-Facing Medium Howitzer" hidden="false" targetId="e307-d4c8-f790-6715" type="profile"/>
         <infoLink id="478c-f929-bdaf-1253" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule"/>
-        <infoLink id="7e22-7b07-d72b-e115" name="High Explosive (2D6)" hidden="false" targetId="1d4e-1c5d-8cda-0711" type="rule"/>
+        <infoLink id="7e22-7b07-d72b-e115" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="118f-9ec6-85b9-0b51" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
@@ -1900,7 +1900,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="4397-29fe-df00-7b33" name="Hull-Mounted Forward-Facing Heavy Howitzer" hidden="false" targetId="f25c-c37b-2fb0-0252" type="profile"/>
         <infoLink id="774e-46a2-7063-614b" name="Howitzer" hidden="false" targetId="80d8-e9db-f2c5-5c48" type="rule"/>
-        <infoLink id="adef-bfd2-f830-039d" name="High Explosive (3D6)" hidden="false" targetId="8cea-e2b2-88f5-4604" type="rule"/>
+        <infoLink id="adef-bfd2-f830-039d" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="f3d0-0b13-a3f7-4d43" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
@@ -1910,7 +1910,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     <selectionEntry id="8aad-9827-72d2-822f" name="Hull-Mounted Forward-Facing Medium Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d9c2-64d9-612f-c238" name="Hull-Mounted Forward-Facing Medium Mortar" hidden="false" targetId="93a0-9215-68dd-b0aa" type="profile"/>
-        <infoLink id="ec9e-b783-0a98-837b" name="High Explosive (D6)" hidden="false" targetId="0a02-e32c-4873-ca4a" type="rule"/>
+        <infoLink id="ec9e-b783-0a98-837b" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="f870-a3f5-4503-538d" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
       </infoLinks>
       <costs>
@@ -1980,7 +1980,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     <selectionEntry id="305b-6bf3-dfac-871c" name="Hull-Mounted Forward-Facing Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9cd2-1178-ffd6-ceb8" name="Hull-Mounted Forward-Facing Heavy AT Gun" hidden="false" targetId="e308-bddf-d5f8-d8e2" type="profile"/>
-        <infoLink id="a562-37f5-3513-9daa" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+        <infoLink id="a562-37f5-3513-9daa" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -1989,7 +1989,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     <selectionEntry id="dc87-fb98-5307-06f7" name="Casement-Mounted Forward-Facing Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="36bf-fc56-019e-367e" name="Casement-Mounted Forward-Facing Super-Heavy AT Gun" hidden="false" targetId="0e34-abf1-3b90-b05e" type="profile"/>
-        <infoLink id="f0d3-19e8-1028-8f8b" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+        <infoLink id="f0d3-19e8-1028-8f8b" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -2064,7 +2064,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="1559-62f6-fb5e-031c" name="Light Mortar" hidden="false" targetId="1f43-5d55-b748-53e3" type="profile"/>
         <infoLink id="a9f5-8308-9fee-c3a2" name="Indirect Fire" hidden="false" targetId="bc43-6ea2-67b0-4b2a" type="rule"/>
-        <infoLink id="d759-2414-15df-afb8" name="High Explosive (D3)" hidden="false" targetId="4a4a-adcb-4b69-fac4" type="rule"/>
+        <infoLink id="d759-2414-15df-afb8" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
         <infoLink id="b68e-5ece-3444-407a" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
@@ -2207,45 +2207,14 @@ When rolling on the damage effects chart against vehicles with flamethrowers, ad
     <rule id="168d-af4b-bcef-697a" name="Multiple Launcher" publicationId="9a47-ac76-pubN65784" page="65" hidden="false">
       <description>A multiple launcher counts as a heavy mortar, but its chance of hitting never gets any better than a 6. However, because of the extensive blast area all units (friend or foe) within 6&quot; of the nominated target and not entirely within the weapon&apos;s minimum range can be hit. Roll a die to hit for the target and a separate die for each unit within 6&quot; of the target. Note that units that lie beyond the weapon&apos;s maximum range can also be hit in this way - although the target unit itself must be within range.</description>
     </rule>
-    <rule id="1683-f918-d74e-036b" name="High Explosive (1&quot;)" publicationId="9a47-ac76-pubN65784" page="65" hidden="false">
-      <description>Some weapons, for instance anti-tank guns, can fire either anti-tank shots (using the Pen value indicated) or HE shots. The player must declare which type of shot the weapon is firing as he declares the target. Some weapons can only fire HE shots and their Pen value is indicated as HE. When firing an HE weapon, pick a target unit and roll to hit in the same way as for a normal shot. 
-If the target is hit by an HE shot, you then need to use the appropriate template to determine how many models in the unit have been hit. The template is a circle of 1&quot; diameter. First pick a point to place the centre of the template on. This can be anywhere on top of, or between the target unit’s models, so that the template covers as many models as possible in the target unit (including a point that is out of sight and/or range), but the template cannot clip any friendly models.
-Once the template is in position, count the number of models whose bases are under the template (even partially) – that is the number of hits caused on the target unit. It is of course possible, especially with large explosions, to clip models from other enemy units nearby. This is fine, but remember that you are trying to hit as many models as possible in the target unit and you cannot clip any friendly models – once these two conditions are met, however, other enemy units nearby are fair game, even units that are out of sight! Each unit hit suffers a number of hits equal to the number of its models that are under the template. Note that a 1” template placed between two models of the same unit that are just spaced out as much as much as possible can always hit two models at a minimum (unless of course the unit has gaping holes in it due to having lost models in that same turn!).
-A unit shot at by HE can react by taking an immediate Down action in the usual manner. Once the unit has gone Down, roll to hit, place the template and determine the number of HE hits caused normally, but then halve that number, rounding up. This represents men who have ‘hit the dirt’ and who might be lucky enough to avoid the blast and flying shrapnel.
-HE hits don’t cause a single pin marker on the target, but rather a variable number of pin markers. This represents the terrifying effect of artillery shells exploding on and near the unit. The number of pin markers caused is generated randomly by rolling a D2.
-Roll to damage as normal, starting from the target unit and then rolling for other units hit in any order you like. The penetration value of HE shells, which is applied on the roll to damage for all targets hit, also varies with the HE values – larger and more powerful shells having higher values. This is also shown on the chart below. However, HE shells don’t rely on the kinetic energy of the shell itself to penetrate a target’s armour, so they don’t suffer the –1 penetration penalty when hitting an armoured target at long range. Note that the models removed as casualties can come from anywhere in the unit, not just from the models within the explosion radius.</description>
-    </rule>
-    <rule id="4a4a-adcb-4b69-fac4" name="High Explosive (1&quot;)" publicationId="9a47-ac76-pubN65784" page="65" hidden="false">
-      <description>Some weapons, for instance anti-tank guns, can fire either anti-tank shots (using the Pen value indicated) or HE shots. The player must declare which type of shot the weapon is firing as he declares the target. Some weapons can only fire HE shots and their Pen value is indicated as HE. When firing an HE weapon, pick a target unit and roll to hit in the same way as for a normal shot. 
-If the target is hit by an HE shot, you then need to use the appropriate template to determine how many models in the unit have been hit. The template is a circle of 1&quot; diameter. First pick a point to place the centre of the template on. This can be anywhere on top of, or between the target unit’s models, so that the template covers as many models as possible in the target unit (including a point that is out of sight and/or range), but the template cannot clip any friendly models.
-Once the template is in position, count the number of models whose bases are under the template (even partially) – that is the number of hits caused on the target unit. It is of course possible, especially with large explosions, to clip models from other enemy units nearby. This is fine, but remember that you are trying to hit as many models as possible in the target unit and you cannot clip any friendly models – once these two conditions are met, however, other enemy units nearby are fair game, even units that are out of sight! Each unit hit suffers a number of hits equal to the number of its models that are under the template. Note that a 1” template placed between two models of the same unit that are just spaced out as much as much as possible can always hit two models at a minimum (unless of course the unit has gaping holes in it due to having lost models in that same turn!).
-A unit shot at by HE can react by taking an immediate Down action in the usual manner. Once the unit has gone Down, roll to hit, place the template and determine the number of HE hits caused normally, but then halve that number, rounding up. This represents men who have ‘hit the dirt’ and who might be lucky enough to avoid the blast and flying shrapnel.
-HE hits don’t cause a single pin marker on the target, but rather a variable number of pin markers. This represents the terrifying effect of artillery shells exploding on and near the unit. The number of pin markers caused is generated randomly by rolling a D2.
-Roll to damage as normal, starting from the target unit and then rolling for other units hit in any order you like. The penetration value of HE shells, which is applied on the roll to damage for all targets hit, also varies with the HE values – larger and more powerful shells having higher values. This is also shown on the chart below. However, HE shells don’t rely on the kinetic energy of the shell itself to penetrate a target’s armour, so they don’t suffer the –1 penetration penalty when hitting an armoured target at long range. Note that the models removed as casualties can come from anywhere in the unit, not just from the models within the explosion radius.</description>
-    </rule>
-    <rule id="0a02-e32c-4873-ca4a" name="High Explosive (2&quot;)" publicationId="9a47-ac76-pubN65784" page="65" hidden="false">
-      <description>Some weapons, for instance anti-tank guns, can fire either anti-tank shots (using the Pen value indicated) or HE shots. The player must declare which type of shot the weapon is firing as he declares the target. Some weapons can only fire HE shots and their Pen value is indicated as HE. When firing an HE weapon, pick a target unit and roll to hit in the same way as for a normal shot. 
-If the target is hit by an HE shot, you then need to use the appropriate template to determine how many models in the unit have been hit. The template is a circle of 2&quot; diameter. First pick a point to place the centre of the template on. This can be anywhere on top of, or between the target unit’s models, so that the template covers as many models as possible in the target unit (including a point that is out of sight and/or range), but the template cannot clip any friendly models.
-Once the template is in position, count the number of models whose bases are under the template (even partially) – that is the number of hits caused on the target unit. It is of course possible, especially with large explosions, to clip models from other enemy units nearby. This is fine, but remember that you are trying to hit as many models as possible in the target unit and you cannot clip any friendly models – once these two conditions are met, however, other enemy units nearby are fair game, even units that are out of sight! Each unit hit suffers a number of hits equal to the number of its models that are under the template. Note that a 1” template placed between two models of the same unit that are just spaced out as much as much as possible can always hit two models at a minimum (unless of course the unit has gaping holes in it due to having lost models in that same turn!).
-A unit shot at by HE can react by taking an immediate Down action in the usual manner. Once the unit has gone Down, roll to hit, place the template and determine the number of HE hits caused normally, but then halve that number, rounding up. This represents men who have ‘hit the dirt’ and who might be lucky enough to avoid the blast and flying shrapnel.
-HE hits don’t cause a single pin marker on the target, but rather a variable number of pin markers. This represents the terrifying effect of artillery shells exploding on and near the unit. The number of pin markers caused is generated randomly by rolling a D3.
-Roll to damage as normal, starting from the target unit and then rolling for other units hit in any order you like. The penetration value of HE shells, which is applied on the roll to damage for all targets hit, also varies with the HE values – larger and more powerful shells having higher values. This is also shown on the chart below. However, HE shells don’t rely on the kinetic energy of the shell itself to penetrate a target’s armour, so they don’t suffer the –1 penetration penalty when hitting an armoured target at long range. Note that the models removed as casualties can come from anywhere in the unit, not just from the models within the explosion radius.</description>
-    </rule>
-    <rule id="1d4e-1c5d-8cda-0711" name="High Explosive (3&quot;)" publicationId="9a47-ac76-pubN65784" page="65" hidden="false">
-      <description>Some weapons, for instance anti-tank guns, can fire either anti-tank shots (using the Pen value indicated) or HE shots. The player must declare which type of shot the weapon is firing as he declares the target. Some weapons can only fire HE shots and their Pen value is indicated as HE. When firing an HE weapon, pick a target unit and roll to hit in the same way as for a normal shot. 
-If the target is hit by an HE shot, you then need to use the appropriate template to determine how many models in the unit have been hit. The template is a circle of 3&quot; diameter. First pick a point to place the centre of the template on. This can be anywhere on top of, or between the target unit’s models, so that the template covers as many models as possible in the target unit (including a point that is out of sight and/or range), but the template cannot clip any friendly models.
-Once the template is in position, count the number of models whose bases are under the template (even partially) – that is the number of hits caused on the target unit. It is of course possible, especially with large explosions, to clip models from other enemy units nearby. This is fine, but remember that you are trying to hit as many models as possible in the target unit and you cannot clip any friendly models – once these two conditions are met, however, other enemy units nearby are fair game, even units that are out of sight! Each unit hit suffers a number of hits equal to the number of its models that are under the template.
-A unit shot at by HE can react by taking an immediate Down action in the usual manner. Once the unit has gone Down, roll to hit, place the template and determine the number of HE hits caused normally, but then halve that number, rounding up. This represents men who have ‘hit the dirt’ and who might be lucky enough to avoid the blast and flying shrapnel.
-HE hits don’t cause a single pin marker on the target, but rather a variable number of pin markers. This represents the terrifying effect of artillery shells exploding on and near the unit. The number of pin markers caused is generated randomly by rolling a D3.
-Roll to damage as normal, starting from the target unit and then rolling for other units hit in any order you like. The penetration value of HE shells, which is applied on the roll to damage for all targets hit, also varies with the HE values – larger and more powerful shells having higher values. This is also shown on the chart below. However, HE shells don’t rely on the kinetic energy of the shell itself to penetrate a target’s armour, so they don’t suffer the –1 penetration penalty when hitting an armoured target at long range. Note that the models removed as casualties can come from anywhere in the unit, not just from the models within the explosion radius.</description>
-    </rule>
-    <rule id="8cea-e2b2-88f5-4604" name="High Explosive (4&quot;)" publicationId="9a47-ac76-pubN65784" page="65" hidden="false">
-      <description>Some weapons, for instance anti-tank guns, can fire either anti-tank shots (using the Pen value indicated) or HE shots. The player must declare which type of shot the weapon is firing as he declares the target. Some weapons can only fire HE shots and their Pen value is indicated as HE. When firing an HE weapon, pick a target unit and roll to hit in the same way as for a normal shot. 
-If the target is hit by an HE shot, you then need to use the appropriate template to determine how many models in the unit have been hit. The template is a circle of 4&quot; diameter. First pick a point to place the centre of the template on. This can be anywhere on top of, or between the target unit’s models, so that the template covers as many models as possible in the target unit (including a point that is out of sight and/or range), but the template cannot clip any friendly models.
-Once the template is in position, count the number of models whose bases are under the template (even partially) – that is the number of hits caused on the target unit. It is of course possible, especially with large explosions, to clip models from other enemy units nearby. This is fine, but remember that you are trying to hit as many models as possible in the target unit and you cannot clip any friendly models – once these two conditions are met, however, other enemy units nearby are fair game, even units that are out of sight! Each unit hit suffers a number of hits equal to the number of its models that are under the template.
-A unit shot at by HE can react by taking an immediate Down action in the usual manner. Once the unit has gone Down, roll to hit, place the template and determine the number of HE hits caused normally, but then halve that number, rounding up. This represents men who have ‘hit the dirt’ and who might be lucky enough to avoid the blast and flying shrapnel.
-HE hits don’t cause a single pin marker on the target, but rather a variable number of pin markers. This represents the terrifying effect of artillery shells exploding on and near the unit. The number of pin markers caused is generated randomly by rolling a D6.
-Roll to damage as normal, starting from the target unit and then rolling for other units hit in any order you like. The penetration value of HE shells, which is applied on the roll to damage for all targets hit, also varies with the HE values – larger and more powerful shells having higher values. This is also shown on the chart below. However, HE shells don’t rely on the kinetic energy of the shell itself to penetrate a target’s armour, so they don’t suffer the –1 penetration penalty when hitting an armoured target at long range. Note that the models removed as casualties can come from anywhere in the unit, not just from the models within the explosion radius.</description>
+    <rule id="1683-f918-d74e-036b" name="High Explosive" publicationId="9a47-ac76-pubN65784" page="65" hidden="false">
+      <description>ome weapons, for instance anti-tank guns, can fire either anti-tank shots (using the Pen value indicated) or HE shots. The player must declare which type of shot the weapon is firing as he declares the target. Some weapons can only fire HE shots and their Pen value is indicated as HE. When shooting against infantry, artillery, or soft-skin vehicles, a hit scored by an HE shell is multiplied into a number of hits as indicated by the bracketed die or dice value shown on the weapons chart. For example, HE D6 will result in from 1 to 6 hits on the target, HE 2D6 gives 2–12 hits, and so on. When fired against an armoured target, HE shots are not multiplied in this manner; instead a single hit is resolved in the same way as with other weapons.
+
+A target shot at by HE can react by taking an immediate Down action in the usual manner. Once the target has gone Down, the number of HE hits caused is halved (rounding down). This represents men who have ‘hit the dirt’ and who might be lucky enough to avoid the blast and flying shrapnel. Hits by weapons with an HE value greater than D3 can result in extra pin markers on the target. This represents the terrifying effect of artillery shells exploding on and near the unit. The total number of pin markers is generated randomly by rolling a D2, D3, or D6 depending on the HE value of the shooter as shown on the chart below. For example, if hit by a shell with an HE value of D6 the target takes D2 pin markers – i.e. roll a dice with scores of 1, 2, or 3 = 1 and scores of 4, 5, or 6 = 2. The penetration value of HE shells also varies with the HE values, with larger and more powerful shells having higher values. This is also shown on the chart below. HE shells don’t rely on the kinetic energy of the shell itself to penetrate a target’s armour, so they don’t suffer the –1 penetration penalty when firing at long range.
+
+When a unit capable of shooting HE or anti-tank shots is given an Ambush order the player must specify the type of round loaded. If this is forgotten then the default position is that anti-tank guns will load anti-tank rounds, whilst other guns will load HE rounds. The unit cannot change from one type of round to another until a further order is issued – though this could be another Ambush order if desired.
+
+</description>
     </rule>
     <rule id="bc43-6ea2-67b0-4b2a" name="Indirect Fire" publicationId="9a47-ac76-pubN65784" page="66" hidden="false">
       <description>These indirect fire weapons cannot be fired at targets within their minimum range. If a target lies within this minimum range the shot misses automatically and is ignored. When using indirect fire a 6 is required to hit regardless of all modifiers. In the following turn, if the shooter fires at the same target, and if neither the shooter nor the target has moved from their position, a hit is scored on a 5+. If the shooter continues to fire, and neither unit moves, a hit is scored on a 4+ in the next turn, then 3+, and finally 2+ in all subsequent turns. If a hit is scored in any turn, the shooter is zeroed in on the target and as long as neither unit moves, all further shots hit on 2+.
@@ -2438,7 +2407,7 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
 When a fanatic unit wins in close quarter combat, the fanatic unit must always opt for a follow-on round of combat.</description>
     </rule>
     <rule id="0315-8062-b1dd-4c5d" name="75mm HE" hidden="false">
-      <description>Instead of normal HE Hits, a 75mm HE is 2&quot;.</description>
+      <description>Instead of normal HE Hits, a 75mm HE is 2d6.</description>
     </rule>
     <rule id="a3a1-60b6-d85b-a69a" name="Mine Clearing Equipment" hidden="false">
       <description>Provides a +2 modifier to Mine Clearing.</description>
