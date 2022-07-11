@@ -1,8 +1,6 @@
 Konflikt 47
 ===========
 
-Note: The only current maintainer (Me, ingeanus) can't actually edit the master branch, so develop is functioning as that for the forseeable future.
-
 ####Contents####
 
 * [Overview][]
