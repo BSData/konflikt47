@@ -2237,7 +2237,19 @@ When targeting infantry and artillery the weapon arcs to nearby targets. After a
       <description>Hits on walkers do not recieve any penetration bonus for hitting the side, top, or rear armor.</description>
     </rule>
     <rule id="7e17-fe3a-569d-ccc5" name="Assault (Vehicle)" publicationId="9a47-ac76-pubN65784" page="104" hidden="false">
-      <description>A vehicle with this special rules is permitted to assault enemy infantry and vehicles using the unique rules for walkers detailed in the vehicle close quarters rules.</description>
+      <description>A vehicle with this special rules is permitted to assault enemy infantry and vehicles using the unique rules for walkers detailed in the vehicle close quarters rules of the errata.
+
+To assault an enemy infantry or artillery unit a walker must be given a RUN order and may make an initial turn of up to 90 degrees before moving forward in a straight line to contact the target. The assaulting walker stops in contact with the target and ends their movement on the target’s position. Targets can react to the assault as normal using the reaction rules to either escape or shoot.
+
+Walkers may choose to conduct point-blank fire with small arms or conduct hand-to-hand combat like infantry (See Fist rules).
+
+Infantry and artillery respond to the assault in the normal manner. The Walker is treated as an advancing vehicle so 6’s will be required to hit the walker in hand-to-hand combat.
+
+If the infantry inflicts no damage on the walker, they lose the combat if they suffer a casualty. If the Infantry destroy the walker they are clearly victorious. Otherwise the combat is a draw and both units will consolidate or conduct follow-on combat as per the Close Quarters rules. The walker can elect not to make a consolidation move, the infantry must therefore surrender their position. 
+
+To assault a vehicle, the walker must be given a RUN order and moves in the same manner as when assaulting infantry. The target may react as normal by either attempting an escape or a stand and shoot if able to. Walkers without the Assault special rule are not able to assault other vehicles using these rules and must ram their opponent as per the rules for Tanks Assaulting other vehicles.
+
+Once in contact with the target the walker rolls an attack dice for each fist it is equipped with. The number of dice is reduced by 1 (and only 1) if the assaulting walker has any pins. Walkers use the normal to hit rolls for close combat against vehicles (e.g. hitting on 4+ if they Advanced).  As normal, a successful hit places a PIN on the target. Roll for damage for each hit, using the PEN values above for the walker and factoring in the facing of the target vehicle when calculating its Damage Value. Once the assault is resolved, the walker moves 1” away from the target, neither unit makes a consolidation move.</description>
     </rule>
     <rule id="5209-ad07-7198-6f88" name="Command Vehicle" publicationId="9a47-ac76-pubN65784" page="104" hidden="false">
       <description>The command vehicle adds a morale bonus of +1 to itself and to any other friendly armoured vehicle within 12&quot;. It may not use the Snap to Action rule.</description>
@@ -2270,7 +2282,16 @@ When attacking, if a target of a recce vehicle is successful in making a Firefig
       <description>Vehicles with the jump special rule ignore terrain when moving so are always considered to be moving in open terrain. A vehicle with the jump special rule may also move over intervening models so long as it has enough movement to clear the troops and it can land over 1&quot; from any other unit. All jump movement is conducted at the vehicle&apos;s Run movement rate and must be in a straight line - no turns are permitted.</description>
     </rule>
     <rule id="952d-3a1b-a7be-28ac" name="Fist" publicationId="9a47-ac76-pubN65784" page="106" hidden="false">
-      <description>Some walkers are equipped with powered fists that imitate the functions of a hand. These are mainly appplicable in close quarters combat but also assist the walker in navigating rough terrain and clearing obstacles.</description>
+      <description>Some walkers are equipped with powered fists that imitate the functions of a hand. These are mainly appplicable in close quarters combat but also assist the walker in navigating rough terrain and clearing obstacles.
+
+In hand-to-hand combat walkers are considered to have 2 attack dice plus an additional attack die for each fist they possess. Walkers are affected by pins in the same way as infantry, losing 1 attack dice per pin on the walker. An artillery piece assaulted by a walker is automatically destroyed.
+
+The PEN values of a Walker&apos;s attacks are dependant on its size:
+Scout		+2
+Light		+3
+Medium		+4
+Heavy		+5
+Super-Heavy	+6</description>
     </rule>
     <rule id="d970-8622-a65d-57a6" name="Agile" publicationId="9a47-ac76-pubN65784" page="106" hidden="false">
       <description>A vehicle with the agile special rule may make an additional 90 degree pivot at any point in its movement (Advance or Run).</description>
@@ -2307,7 +2328,7 @@ Allocate each order dice before resolving any order tests or actions. Once all d
 Medics may not fire weapons or assault, but can defend themselves if assaulted using point-blank fire if armed, or hand-to-hand combat otherwise. Medic units cannot be used to control or contest objectives in scenarios.</description>
     </rule>
     <rule id="f420-1714-bff9-df70" name="Motivate" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
-      <description>When a model or unit with this special rule is allocated an order dice, it may select one other activated infantry or artillery unit within 6&quot; and remove the order dice from that unit and place it back in the dice bag. The selected unit can therefore be activated again later in the turn. This does allow an officer to motivate a nearby unit and then immediately allocate it a new order using the Snap to Action rules.</description>
+      <description>When a model or unit with this special rule is allocated an order dice, it may select one other activated infantry section or squad within 6” and remove the order dice from that unit and place it back in the dice bag. The selected unit can therefore be activated again later in the turn. This does allow an officer to motivate a nearby unit and then immediately allocate it a new order using the Snap to Action rules.</description>
     </rule>
     <rule id="d913-33b1-2d8e-cd0f" name="Hunters" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
       <description>Units with this special rule may conduct an Advance order as normal, but may change the order dice to Ambush instead of firing on the completion of their move. Should the unit fire as an Ambush reaction, it does not count as moving; however, you cannot use the Sniper special rule in the same turnas you use the Hunter special rule.</description>
@@ -2411,6 +2432,11 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
     </rule>
     <rule id="fa8b-d569-a354-0cf7" name="Engineers" hidden="false">
       <description>Engineers may force their opponent to re-roll a successful hit from minefields when they are following an Advance order only.</description>
+    </rule>
+    <rule id="10da-3538-cdcf-a7f3" name="Suppressive Fire" hidden="false">
+      <description>Suppressive fire may be used by giving a FIRE order to an infantry squad or team that includes at least 2 LMGs or an MMG. Once Suppressive Fire has been declared, the shooting unit suffers a further -1 penalty to hit. The attacker then rolls the to-hit dice as normal (or not if the attack now requires 8+ to hit). Calculate any hits and damage as normal. However, Suppressive Fire always inflicts 1  additional pin marker regardless of hits, and therefore causes a second pin marker if any of the shots hit the target.
+
+Note that Suppressive Fire cannot affect armoured vehicles unless they are open-topped, or the firing weapon has a chance of penetrating their armour (armoured car from the rear for example).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
