@@ -353,7 +353,7 @@
             </modifier>
             <modifier type="append" field="name" value="8">
               <conditions>
-                <condition field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
+                <condition field="selections" scope="force" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="unit" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="append" field="name" value="7">
