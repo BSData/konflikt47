@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d493-1108-bf82-3e47" name="Italy" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="9a47-ac76-5252-54d0" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d493-1108-bf82-3e47" name="Italy" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="9a47-ac76-5252-54d0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="e25b-5f45-ed29-bf97" name="Allied Mentorship" hidden="false"/>
     <categoryEntry id="74ad-af24-a135-3842" name="Wehrmacht Mentorship" hidden="false"/>
@@ -4500,7 +4500,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e58d-9d01-7ab6-e277" name="Coyote Light Walker" publicationId="9a47-ac76-pubN65838" page="92" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e58d-9d01-7ab6-e277" name="Coyote Light Walker" publicationId="9a47-ac76-pubN65838" page="92" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7878,7 +7878,7 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="128.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dfb0-a196-c6e4-ba89" name="(USA) Heavy Infantry Squad" page="148" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dfb0-a196-c6e4-ba89" name="(USA) Heavy Infantry Squad" page="148" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="0a57-eb8b-6c78-d7f2" name="Large Infantry" hidden="false" targetId="ae84-cf09-97d1-5204" type="rule"/>
         <infoLink id="7af2-4eb7-1d3d-1f0e" name="Infrared (IR) Vision" hidden="false" targetId="8f1c-b9eb-2fab-a987" type="rule"/>
@@ -11777,7 +11777,7 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f94f-30b4-68f5-28b6" name="(USA) Rangers Squad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f94f-30b4-68f5-28b6" name="(USA) Rangers Squad" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="ae64-5cc1-41da-0935" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
       </infoLinks>
@@ -12106,7 +12106,7 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="115.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f31a-72e3-3ed9-9d92" name="(British) 2&quot; Light Mortar Team" publicationId="9a47-ac76-pubN65784" page="168" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="f31a-72e3-3ed9-9d92" name="(British) 2&quot; Light Mortar Team" publicationId="9a47-ac76-pubN65784" page="168" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="33cf-93c7-aa59-d6d0" name="2" hidden="false" targetId="b6c1-c83f-a555-17ce" type="profile"/>
         <infoLink id="f5c0-f1f9-4be0-b535" name="Allied" hidden="false" targetId="e23f-807b-ec3d-f38d" type="rule"/>
@@ -17281,7 +17281,7 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d4cc-1d91-258a-f140" name="(British) QF 6-Pounder" publicationId="9a47-ac76-pubN65784" page="170" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d4cc-1d91-258a-f140" name="(British) QF 6-Pounder" publicationId="9a47-ac76-pubN65784" page="170" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="3965-12b2-ae72-68ee" name="3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
         <infoLink id="2e59-d142-cbff-c7b7" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
@@ -18262,7 +18262,7 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3050-637d-4032-7a50" name="(British) Sniper Team" publicationId="9a47-ac76-pubN65784" page="168" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3050-637d-4032-7a50" name="(British) Sniper Team" publicationId="9a47-ac76-pubN65784" page="168" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="65d1-6e3c-faf8-4fb6" name="2" hidden="false" targetId="b6c1-c83f-a555-17ce" type="profile"/>
         <infoLink id="2ae4-45f0-cf56-9605" name="Snipers" hidden="false" targetId="8856-457a-f514-8251" type="rule"/>
@@ -18306,7 +18306,7 @@ These abilities are applied before any subsequent shooting or close quarters ass
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2c58-c22c-6b18-3491" name="(British) Staghound AA" publicationId="9a47-ac76-pubN65784" page="176" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2c58-c22c-6b18-3491" name="(British) Staghound AA" publicationId="9a47-ac76-pubN65784" page="176" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="38c4-ba31-eaff-1448" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
         <infoLink id="25d2-43e5-8b81-1422" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
@@ -19377,7 +19377,7 @@ or medium howitzer</characteristic>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0123-4b87-cb86-8a72" name="(USA) LVT-3/LVT-4/LVT(A)-5 Amphibious Vehicle" publicationId="9a47-ac76-pubN65838" page="52" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0123-4b87-cb86-8a72" name="(USA) LVT-3/LVT-4/LVT(A)-5 Amphibious Vehicle" publicationId="9a47-ac76-pubN65838" page="52" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="262c-f875-8d9b-1e5b" name="M3 Half-Track" hidden="false" typeId="df59-65fe-854f-0590" typeName="Vehicle">
           <characteristics>

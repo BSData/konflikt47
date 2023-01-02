@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="24a5-18e9-c493-cc47" name="Great_Britain_and_the_Commonwealth" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="9a47-ac76-5252-54d0" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="24a5-18e9-c493-cc47" name="Great_Britain_and_the_Commonwealth" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="9a47-ac76-5252-54d0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="24a5-18e9-pubN65551" name="Konflikt 47 Rules"/>
     <publication id="24a5-18e9-pubN65619" name="Konflikt 47: Defiance"/>
@@ -4579,7 +4579,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2939-0ca4-ae62-4509" name="Sniper Team" publicationId="9a47-ac76-pubN65784" page="168" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2939-0ca4-ae62-4509" name="Sniper Team" publicationId="9a47-ac76-pubN65784" page="168" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -4668,7 +4668,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce20-a147-d6a6-dc47" name="2&quot; Light Mortar Team" publicationId="9a47-ac76-pubN65784" page="168" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="ce20-a147-d6a6-dc47" name="2&quot; Light Mortar Team" publicationId="9a47-ac76-pubN65784" page="168" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="650e-0c75-2c29-9694" name="2" hidden="false" targetId="b6c1-c83f-a555-17ce" type="profile"/>
       </infoLinks>
@@ -5111,7 +5111,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="787e-604d-b4c4-3c6d" name="QF 6-Pounder" publicationId="9a47-ac76-pubN65784" page="170" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="787e-604d-b4c4-3c6d" name="QF 6-Pounder" publicationId="9a47-ac76-pubN65784" page="170" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="034f-3cea-b27d-1f10" name="3" hidden="false" targetId="7368-80e0-15af-d330" type="profile"/>
         <infoLink id="14f9-b959-301a-5d9a" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
@@ -7044,7 +7044,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f8b9-9e65-7eac-1605" name="Staghound AA" publicationId="9a47-ac76-pubN65784" page="176" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f8b9-9e65-7eac-1605" name="Staghound AA" publicationId="9a47-ac76-pubN65784" page="176" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="008e-8fa4-fe93-bb91" name="Light Tank" hidden="false" targetId="5fe1-b45c-ad99-58cc" type="profile"/>
         <infoLink id="8d0f-307b-c7db-e39f" name="Open-Topped" hidden="false" targetId="29c0-1d9f-1f84-7795" type="rule"/>
@@ -7919,7 +7919,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ddcf-49f2-a161-e5c6" name="Forward Air Observer" publicationId="9a47-ac76-pubN65784" page="163" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="ddcf-49f2-a161-e5c6" name="Forward Air Observer" publicationId="9a47-ac76-pubN65784" page="163" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="d96e-c11e-4d13-44c2" name="Forward Air Observer" hidden="false" targetId="1a15-5468-fc36-e232" primary="false"/>
         <categoryLink id="46b8-53a0-3cc6-623c" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true"/>
@@ -8044,7 +8044,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="16f9-e3a1-4f7d-2237" name="Forward Artillery Observer" publicationId="9a47-ac76-pubN65784" page="163" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="16f9-e3a1-4f7d-2237" name="Forward Artillery Observer" publicationId="9a47-ac76-pubN65784" page="163" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="38a1-bcf4-c8e7-5b1c" name="Forward Artillery Observer" hidden="false" targetId="1f3d-c608-4cb7-2ec0" primary="false"/>
         <categoryLink id="018d-d240-ac67-7220" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true"/>

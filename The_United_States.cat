@@ -1401,6 +1401,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1fa7-eca5-8501-4463" name="Heavy Bazooka Team" page="150" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1466,7 +1469,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="128.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c001-5fc1-cc5c-0bff" name="Heavy Infantry Squad" page="148" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c001-5fc1-cc5c-0bff" name="Heavy Infantry Squad" page="148" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -3983,7 +3986,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="115.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bcda-3dae-042f-841d" name="Senior Officer" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bcda-3dae-042f-841d" name="Senior Officer" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -6512,7 +6515,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8583-53c7-63e8-00c6" name="Forward Artillery Observer" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="8583-53c7-63e8-00c6" name="Forward Artillery Observer" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="a975-cc8b-3b7a-e35b" name="Forward Artillery Observer" hidden="false" targetId="1f3d-c608-4cb7-2ec0" primary="false"/>
         <categoryLink id="d525-38b6-66b8-14cc" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true"/>
@@ -6615,7 +6618,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd1c-4ace-7bff-ec1d" name="Forward Air Observer" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="fd1c-4ace-7bff-ec1d" name="Forward Air Observer" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="d727-4c85-ff4c-4a89" name="Forward Air Observer" hidden="false" targetId="1a15-5468-fc36-e232" primary="false"/>
         <categoryLink id="33cb-777f-c4d6-96e1" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true"/>
@@ -6718,7 +6721,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c910-0584-887e-c4cc" name="Rangers Squad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c910-0584-887e-c4cc" name="Rangers Squad" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -6929,7 +6932,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fab0-31bb-75e7-8d6f" name="Firefly Jump Infantry Squad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fab0-31bb-75e7-8d6f" name="Firefly Jump Infantry Squad" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -7403,7 +7406,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9536-5a7b-abaf-2c9a" name="LVT-3/LVT-4/LVT(A)-5 Amphibious Vehicle" publicationId="9a47-ac76-pubN65838" page="52" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9536-5a7b-abaf-2c9a" name="LVT-3/LVT-4/LVT(A)-5 Amphibious Vehicle" publicationId="9a47-ac76-pubN65838" page="52" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="47ed-8233-29f9-c7d7" name="M3 Half-Track" hidden="false" typeId="df59-65fe-854f-0590" typeName="Vehicle">
           <characteristics>

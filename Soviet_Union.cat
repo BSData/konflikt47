@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="85fb-de5c-9b1d-bd6c" name="Soviet_Union" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="9a47-ac76-5252-54d0" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="85fb-de5c-9b1d-bd6c" name="Soviet_Union" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="9a47-ac76-5252-54d0" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="85fb-de5c-pubN65551" name="Konflikt 47 Rules"/>
     <publication id="85fb-de5c-pubN65619" name="Konflikt 47: Defiance"/>
@@ -5069,7 +5069,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e0a0-a18c-4e68-e9d4" name="Senior Officer" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e0a0-a18c-4e68-e9d4" name="Senior Officer" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -5354,7 +5354,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71c5-ca5b-094b-94fd" name="Forward Air Observer" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="71c5-ca5b-094b-94fd" name="Forward Air Observer" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="ae98-c33b-1be9-bedc" name="Forward Air Observer" hidden="false" targetId="1a15-5468-fc36-e232" primary="false"/>
         <categoryLink id="ff36-e919-0041-5a55" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true"/>
@@ -5512,7 +5512,7 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5e9e-06d4-57f1-852b" name="Forward Artillery Observer" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5e9e-06d4-57f1-852b" name="Forward Artillery Observer" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="8769-39ee-7e20-780d" name="Forward Artillery Observer" hidden="false" targetId="1f3d-c608-4cb7-2ec0" primary="false"/>
         <categoryLink id="7a65-f2de-3f5b-d387" name="New CategoryLink" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="true"/>
