@@ -1182,57 +1182,6 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0111-dd4a-abf0-b060" name="Anti-Tank Rifle Team" publicationId="9a47-ac76-pubN66291" page="79" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="7134-743c-31e2-e265" name="Team 2" hidden="false" targetId="b6c1-c83f-a555-17ce" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="ae34-30d8-32a9-cd62" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false"/>
-        <categoryLink id="b1b7-a905-3fe7-5084" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="ba42-06fc-484b-0918" name="Experience" hidden="false" collective="false" import="true" defaultSelectionEntryId="a525-2bc0-70c6-39df">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c45-9e36-0da9-b58d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b16-389f-0183-98e2" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="a525-2bc0-70c6-39df" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry"/>
-            <entryLink id="1f88-df54-3ed5-564e" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="9"/>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="2c24-eea5-b4e9-4d60" name="Anti-tank Rifle" hidden="false" collective="false" import="true" targetId="bf80-1393-76d8-5b2f" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54e6-79e6-4f54-7710" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c63a-c453-389c-61aa" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="6066-df32-782b-2c2d" name="Panzerfaust" hidden="false" collective="false" import="true" targetId="a3a4-0714-1a7e-1343" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="5"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e63-df07-7546-9f08" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e126-1ae7-38e9-79b7" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="8c6e-dca2-207d-7c6d" name="SMG" hidden="false" collective="false" import="true" targetId="da2f-423c-1523-5126" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d651-0742-6a7a-a65f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7148-d6cf-02c7-ace5" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="ac15-a028-4035-b9c8" name="37mm PaK 36" publicationId="9a47-ac76-pubN66291" page="79" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="b0e4-3ec5-9a21-ac91" name="Gun Shield" hidden="false" targetId="12a2-4a18-eb50-2652" type="rule"/>
@@ -2449,7 +2398,7 @@
         <categoryLink id="a87b-8c8a-f1fc-37f8" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="61c0-4b60-f50b-f625" name="Quality" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="61c0-4b60-f50b-f625" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="2aa4-4bf5-6445-66d8">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d57b-d291-5ea1-4871" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99ec-e870-f5e6-1720" type="max"/>
