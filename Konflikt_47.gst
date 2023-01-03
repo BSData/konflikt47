@@ -834,6 +834,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
       <infoLinks>
         <infoLink id="7127-9ab2-5bd0-a5ea" name="Rifle Grenade" hidden="false" targetId="491a-decf-800a-3f55" type="profile"/>
         <infoLink id="eb0d-0312-fe55-8915" name="High Explosive" hidden="false" targetId="1683-f918-d74e-036b" type="rule"/>
+        <infoLink id="dc63-3f4d-d0d6-d912" name="Limited HE" hidden="false" targetId="7e2e-8bc0-d9ba-88cc" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -1054,6 +1055,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="4c6c-e3f0-be9f-a848" name="Shaped Charge" hidden="false" targetId="15c0-3a4d-d191-89df" type="rule"/>
         <infoLink id="0cb9-d19a-a447-0e62" name="Grenade Launcher (Anti-Tank)" hidden="false" targetId="76b6-928d-55a2-5928" type="profile"/>
         <infoLink id="0422-c683-6f89-1eca" name="Grenade Launcher (HE)" hidden="false" targetId="eb5a-39fe-3d26-7afb" type="profile"/>
+        <infoLink id="f5b3-bcd3-79b0-3724" name="Limited HE" hidden="false" targetId="7e2e-8bc0-d9ba-88cc" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -1868,6 +1870,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
         <infoLink id="6a63-0f9c-4a88-a008" name="Shaped Charge" hidden="false" targetId="15c0-3a4d-d191-89df" type="rule"/>
         <infoLink id="0d01-ea36-5862-b023" name="Grenade Launcher (Anti-Tank)" hidden="false" targetId="76b6-928d-55a2-5928" type="profile"/>
         <infoLink id="1ba3-c587-1b3b-ca73" name="Grenade Launcher (HE)" hidden="false" targetId="eb5a-39fe-3d26-7afb" type="profile"/>
+        <infoLink id="32e9-278e-e006-b652" name="Limited HE" hidden="false" targetId="7e2e-8bc0-d9ba-88cc" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
@@ -2374,7 +2377,7 @@ When shooting at buildings, a rail gun round delivers enough kinetic energy to p
 Units that are given an Ambush or Down order are unable to return a die to the cup. However they may Rally and still return their die.</description>
     </rule>
     <rule id="0d3a-95d1-13c4-f94b" name="Rally to the Colors!" publicationId="9a47-ac76-pubN65838" page="16" hidden="false">
-      <description>All friendly infantry and artillery units within 12” of a model with this special rule can re-roll failed Orders Tests when attempting to follow a Rally order. In addition, if a Rally order is successfully issued, the unit rolls two dice to determine the number of pin markers removed and selects the higher roll. However, while a model with this special rule is in Ambush or Down, the Rally to the Colours! rule has no effect.</description>
+      <description>All friendly infantry and artillery units within 12” of a model with this special rule gain a +1 value to morale. However, while a model with this special rule is in Ambush or Down, the Rally to the Colours! rule has no effect.</description>
     </rule>
     <rule id="0426-bbeb-d6c4-25a0" name="Target Designator" publicationId="9a47-ac76-pubN65838" page="17" hidden="false">
       <description>A unit with this special rule must be given a Fire or Advance order to benefit from its rules. A Target Designator with the Fixed special rule cannot function on an Advance order, but if mounted in a vehicle would be able to do so.
@@ -2450,6 +2453,9 @@ When a fanatic unit wins in close quarter combat, the fanatic unit must always o
       <description>Suppressive fire may be used by giving a FIRE order to an infantry squad or team that includes at least 2 LMGs or an MMG. Once Suppressive Fire has been declared, the shooting unit suffers a further -1 penalty to hit. The attacker then rolls the to-hit dice as normal (or not if the attack now requires 8+ to hit). Calculate any hits and damage as normal. However, Suppressive Fire always inflicts 1  additional pin marker regardless of hits, and therefore causes a second pin marker if any of the shots hit the target.
 
 Note that Suppressive Fire cannot affect armoured vehicles unless they are open-topped, or the firing weapon has a chance of penetrating their armour (armoured car from the rear for example).</description>
+    </rule>
+    <rule id="7e2e-8bc0-d9ba-88cc" name="Limited HE" hidden="false">
+      <description>When using the HE profile for this weapon, roll a D6 - if a 1 is rolled, this profile is out of ammo and can no longer be used. Any other profiles may still be used as normal.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -2666,7 +2672,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">6-18&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (1&quot;)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="1f43-5d55-b748-53e3" name="Light Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2980,7 +2986,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">6&quot; - 24&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Indirect Fire, HE (1&quot;)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team,  HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="f08d-ea25-9525-68a6" name="Coaxial MMG" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
