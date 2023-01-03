@@ -4627,6 +4627,70 @@
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e466-ab5c-ab08-408e" name="Suicide Anti-Tank Team" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="acd8-61b7-eb89-3dd5" name="Forward Position" hidden="false">
+          <description>Counts as Observers/Snipers for Set-Up purposes.</description>
+        </rule>
+        <rule id="5fc6-464d-cc62-e611" name="Extra Selection" hidden="false">
+          <description>Up to 3 Suicide Anti-Tank Teams may be taken in one selection, each selection counting as its own unit.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ea5b-18d8-acc7-0dc2" name="Anti-Tank Team" hidden="false" targetId="c04e-ff05-f7cb-ae9b" primary="false"/>
+        <categoryLink id="e75b-427f-eaa2-0e8e" name="New CategoryLink" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1168-a72f-2d3d-3062" name="Squad Members" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a591-f4fe-63c2-a3b7" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e4e-63b6-ed4c-b1dc" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d035-dc44-2285-3097" name="Soldier with AT Weapon" hidden="false" collective="false" import="true" type="unit">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="12.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="6.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d5a-5081-4d1e-5d4e" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="79e9-878d-b2af-5fc8" name="Kamikaze" hidden="false">
+                  <description>If a suicide anti-tank team assaults an enemy vehicle and the model manages to move into contact with the target, remove it and immediately resolve a hit against the vehicle with a Penetration value of +8 (No other modifiers apply).</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="14.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6ff4-fb56-cb6f-501e" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="7841-e045-1c6c-a25c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="113e-30c0-0e8e-e151" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c891-7ad7-a2fc-24a3" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1de9-ec30-862b-d5ae" name="Regular" hidden="false" collective="false" import="true" targetId="020b-0c80-419b-6391" type="selectionEntry"/>
+            <entryLink id="ae8e-fc08-2814-f079" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry"/>
+            <entryLink id="7841-e045-1c6c-a25c" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="f590-62f5-5756-1d36" name="General Purpose Truck" hidden="false" collective="false" import="true" targetId="bf14-3694-73cb-4045" type="selectionEntry">
