@@ -4027,7 +4027,7 @@
           <entryLinks>
             <entryLink id="c1c6-0d6f-66d2-c1af" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry">
               <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="50.0"/>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="40.0"/>
               </costs>
             </entryLink>
             <entryLink id="c351-905a-a262-de7f" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
@@ -4512,6 +4512,10 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7060-279a-1b2f-f9ac" name="Schurzen Armour Skirts" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c54a-d763-23e1-a6d4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f54-5229-d037-aa1c" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="b322-5fc4-8087-8abc" name="Schuerzen Armoured Skirts" hidden="false" targetId="d9f9-c233-9cec-46e3" type="rule"/>
           </infoLinks>
@@ -4622,6 +4626,9 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7bfe-4453-9780-834b" name="Schurzen Armour Skirts" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46bb-0604-7f06-579d" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="c408-ddf5-fe1a-c97e" name="Schuerzen Armoured Skirts" hidden="false" targetId="d9f9-c233-9cec-46e3" type="rule"/>
           </infoLinks>
@@ -5053,6 +5060,9 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6bb1-48df-d656-333c" name="Schurzen Armour Skirts" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1343-2daf-2e77-28f3" type="max"/>
+          </constraints>
           <infoLinks>
             <infoLink id="48e1-f991-8747-01c9" name="Schuerzen Armoured Skirts" hidden="false" targetId="d9f9-c233-9cec-46e3" type="rule"/>
           </infoLinks>
@@ -5231,11 +5241,9 @@
       <entryLinks>
         <entryLink id="d703-3fc3-7a78-2ba6" name="Hull-Mounted Forward-Facing Super-Heavy AT Gun" hidden="false" collective="false" import="true" targetId="0886-169c-0892-c9da" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ba-a8ab-78ff-17a0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ba-a8ab-78ff-17a0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2015-8641-9651-cb2e" type="max"/>
           </constraints>
-          <costs>
-            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="80.0"/>
-          </costs>
         </entryLink>
         <entryLink id="7b9b-3b90-6303-ce5f" name="Hull-Mounted Forward-Facing MMG" hidden="false" collective="false" import="true" targetId="f3d9-1a0f-0031-e8c7" type="selectionEntry">
           <constraints>
@@ -5705,6 +5713,7 @@
         <infoLink id="0787-74dd-3886-26cf" name="Super-Heavy Walker" hidden="false" targetId="bfe8-25df-36d1-6a10" type="profile"/>
         <infoLink id="cc87-1bae-305f-e394" name="Walker" hidden="false" targetId="cc4e-54c3-faab-0936" type="rule"/>
         <infoLink id="16e1-98b1-d241-24c7" name="Tough (Vehicle)" hidden="false" targetId="70c6-fb82-b363-7792" type="rule"/>
+        <infoLink id="3a67-3413-475e-8020" name="Slow (Vehicle)" hidden="false" targetId="9e10-9ea1-508b-ae43" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9c3f-cbf0-0a24-ad5c" name="New CategoryLink" hidden="false" targetId="2161-15bd-f8a3-750b" primary="true"/>
@@ -7229,7 +7238,7 @@
             </entryLink>
             <entryLink id="f58a-0918-14f8-42d9" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry">
               <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="65.0"/>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="41.0"/>
               </costs>
             </entryLink>
           </entryLinks>
