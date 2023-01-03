@@ -573,12 +573,25 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="16a5-7ccf-c0eb-d4de" name="Soldier with Rifle" hidden="false" collective="false" import="true" type="model">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="10.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="13.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
               <constraints>
                 <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dfe-f7a1-853d-d67a" type="max"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="488f-e6aa-bed3-779e" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
               <entryLinks>
                 <entryLink id="8b44-5661-3922-b348" name="Rifle" hidden="false" collective="false" import="true" targetId="0a1a-55ad-a310-3cdc" type="selectionEntry">
                   <constraints>
@@ -592,12 +605,25 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="ff70-a811-82cc-7849" name="Soldier with SMG" hidden="false" collective="false" import="true" type="model">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="10.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="13.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7776-8dc3-c1c3-ab13" type="max"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="e609-c4b1-23ba-df48" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
               <entryLinks>
                 <entryLink id="e283-ee07-7399-6571" name="SMG" hidden="false" collective="false" import="true" targetId="0fae-2704-edd4-5dd1" type="selectionEntry">
                   <constraints>
@@ -614,12 +640,25 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="4254-444a-5ffc-aff8" name="Soldier with Compression Rifle" hidden="false" collective="false" import="true" type="model">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="10.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="13.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
               <constraints>
                 <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de9e-68f7-d4ba-31c5" type="max"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="2969-a12e-1c8c-b2c5" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
               <entryLinks>
                 <entryLink id="c7ba-a6a5-bb04-f8fd" name="Compression Rifle" hidden="false" collective="false" import="true" targetId="53a5-6c10-b8ea-349e" type="selectionEntry">
                   <constraints>
@@ -636,12 +675,25 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="0cab-45cf-3631-493b" name="Soldier with LMG" hidden="false" collective="false" import="true" type="model">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="10.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="13.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2965-a9b5-3b62-34ab" type="max"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="9532-47dc-a7cb-5bad" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
               <entryLinks>
                 <entryLink id="ba0c-7bb4-eb2b-594e" name="LMG" hidden="false" collective="false" import="true" targetId="6dc4-67a2-757e-5aa9" type="selectionEntry">
                   <constraints>
@@ -658,12 +710,25 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="adc2-ca7d-f027-9598" name="Soldier with Light Mortar" hidden="false" collective="false" import="true" type="model">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="10.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="13.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0282-c922-4c4e-f9d7" type="max"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="076a-88d3-f261-9812" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
               <entryLinks>
                 <entryLink id="fa17-6ef4-f009-fd07" name="Light Mortar" hidden="false" collective="false" import="true" targetId="a995-196d-d370-750c" type="selectionEntry">
                   <constraints>
@@ -680,9 +745,22 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="335e-d9c7-0bde-33fe" name="Soldier with Flag" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="1558-6a61-ed87-314b" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="10.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="13.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
               <entryLinks>
                 <entryLink id="dc7d-8b5b-a1f9-8ea5" name="Flag" hidden="false" collective="false" import="true" targetId="3af7-415d-30eb-3561" type="selectionEntry">
                   <constraints>
@@ -699,13 +777,26 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="d962-7e6b-12da-c1bf" name="NCO" hidden="false" collective="false" import="true" type="model">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="10.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="020b-0c80-419b-6391" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="13.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="611f-6911-51f6-d7a2" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bff-4244-ea8e-f44f" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9ce-9a22-d3e5-dbd7" type="max"/>
               </constraints>
-              <infoLinks>
-                <infoLink id="deb8-1a45-3ea1-25e1" name="Regular" hidden="false" targetId="f029-0937-76dc-18bb" type="profile"/>
-              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="9539-f031-5cbd-0e01" name="Weapon" hidden="false" collective="false" import="true">
                   <constraints>
@@ -727,9 +818,6 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
-              <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="10.0"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
