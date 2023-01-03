@@ -2208,8 +2208,7 @@ When rolling on the damage effects chart against vehicles with flamethrowers, ad
       <description>A multiple launcher counts as a heavy mortar, but its chance of hitting never gets any better than a 6. However, because of the extensive blast area all units (friend or foe) within 6&quot; of the nominated target and not entirely within the weapon&apos;s minimum range can be hit. Roll a die to hit for the target and a separate die for each unit within 6&quot; of the target. Note that units that lie beyond the weapon&apos;s maximum range can also be hit in this way - although the target unit itself must be within range.</description>
     </rule>
     <rule id="1683-f918-d74e-036b" name="High Explosive" publicationId="9a47-ac76-pubN65784" page="65" hidden="false">
-      <description>Some weapons can fire either anti-tank shots (using the Pen value indicated) or HE shots. The player must declare which type of shot the weapon is firing as he declares the target. Some weapons can only fire HE shots and their Pen value is indicated as HE.
-
+      <description>Some weapons, for instance anti-tank guns, can fire either anti-tank shots (using the Pen value indicated) or HE shots. The player must declare which type of shot the weapon is firing as he declares the target. Some weapons can only fire HE shots and their Pen value is indicated as HE. When shooting against infantry, artillery, or soft-skin vehicles, a hit scored by an HE shell is multiplied into a number of hits as indicated by the bracketed die or dice value shown on the weapons chart. For example, HE D6 will result in from 1 to 6 hits on the target, HE 2D6 gives 2–12 hits, and so on. When fired against an armoured target, HE shots are not multiplied in this manner; instead a single hit is resolved in the same way as with other weapons.
 The number in bracket after the HE shows how powerful the shell is and therefore how large its explosion is going to be, rated from 1–4” in diameter. When firing an HE weapon, pick a target unit and roll to hit in the same way as for a normal shot.
 
 First pick a point to place the centre of the template on. This can be anywhere on top of, or between the target unit’s models, so that the template covers as many models as possible in the target unit (including a point that is out of sight and/or range), but the template cannot clip any friendly models.
@@ -3496,7 +3495,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">18-60&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (2&quot;)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (D6)</characteristic>
       </characteristics>
     </profile>
     <profile id="cd2a-e87b-3970-9945" name="Pintle-Mounted Forward-Facing LMG" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
