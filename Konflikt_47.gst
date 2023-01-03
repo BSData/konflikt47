@@ -2074,7 +2074,7 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="d35f-b1c7-d0ff-2d11" name="Tough Fighters" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
-      <description>When a model with this rule scores a casualty in hand-to-hand fighting against enemy infantry or artillery units, it can immediately make a second damage roll (But not a third if the second scores a casualty!).</description>
+      <description>When a model with this rule makes it attacks in hand-to-hand fighting, it can make 1 additional attack.</description>
     </rule>
     <rule id="522c-b079-6711-12b1" name="Fanatics" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
       <description>When a fanatic unit loses half of its numbers from enemy fire it does not take a morale check, and it continues to fight as normal so long as it includes at least two men. Should the unit be reduced to a single man he must take checks as normal.
@@ -2433,7 +2433,7 @@ Once given the appropriate order, a Target Designator&apos;s rules apply unti th
       <description>The Paragon provides this trait to all models in the Unit: If a tank hunter unit wins an assault and scores damage against an armoured vehicle, the effect is resolved on the Damage Result table as for a normal anti-tank penetration rather than as for superficial damage. See page 102 for an explanation of how assaults against armoured vehicles are resolved.</description>
     </rule>
     <rule id="83d5-71d9-a858-9404" name="Tough Fighters (Paragon)" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
-      <description>The Paragon provides this trait to all models in the Unit:  When a model with this rule scores a casualty in hand-to-hand fighting against enemy infantry or artillery units, it can immediately make a second damage roll (But not a third if the second scores a casualty!).</description>
+      <description>The Paragon provides this trait to all models in the Unit:  When a model with this rule makes it attacks in hand-to-hand fighting, it can make 1 additional attack.</description>
     </rule>
     <rule id="960c-b7c4-c06b-d965" name="Fanatics (Paragon)" publicationId="9a47-ac76-pubN66291" page="30" hidden="false">
       <description>The Paragon provides this trait to all models in the Unit:  When a fanatic unit loses half of its numbers from enemy fire it does not take a morale check, and it continues to fight as normal so long as it includes at least two men. Should the unit be reduced to a single man he must take checks as normal.
