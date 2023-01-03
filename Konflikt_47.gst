@@ -2546,7 +2546,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="ca81-4948-bfd6-acaf" name="Heavy Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2554,7 +2554,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">72&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+3</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="d599-cf88-1c5a-fc05" name="Anti-tank Rifle" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2610,7 +2610,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+4</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="bdf7-97f2-0ff2-27b7" name="Medium AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2618,7 +2618,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">60&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+5</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="e492-f0a7-ec68-728c" name="Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2626,7 +2626,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">72&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+6</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (D3)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="49b5-8198-173e-c6ae" name="Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2634,7 +2634,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">84&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+7</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (D3)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="0caa-1b1b-f4d4-93ec" name="Flamethrower (Infantry)" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2666,7 +2666,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">6-18&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="1f43-5d55-b748-53e3" name="Light Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2674,7 +2674,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">12-24&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Indirect Fire, HE (D3)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Indirect Fire, HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="f6e0-8941-086c-3f6a" name="Medium Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2682,7 +2682,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">18-60&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Indirect Fire, HE (D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Indirect Fire, HE (2&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="4636-6c87-01dd-2eb3" name="Heavy Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2690,7 +2690,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">18-72&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Indirect Fire, HE (2D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Indirect Fire, HE (3&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="de13-e32d-2c59-7452" name="Light Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2698,7 +2698,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">0/24-48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Indirect Fire, HE (D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Indirect Fire, HE (2&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="f77a-68c2-e9e9-6294" name="Medium Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2706,7 +2706,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">0/24-60&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Indirect Fire, HE (2D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Indirect Fire, HE (3&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="8938-308e-dcba-ce0e" name="Heavy Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2714,7 +2714,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">0/24-72&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Indirect Fire, HE (3D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Indirect Fire, HE (4&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="32ba-3231-13aa-66a2" name="Turred-Mounted M17 Tesla Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2964,7 +2964,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">24&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">One-Shot, Flak, HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">One-Shot, Flak, HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="76b6-928d-55a2-5928" name="Grenade Launcher (Anti-Tank)" publicationId="9a47-ac76-pubN65838" page="15" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2980,7 +2980,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">6&quot; - 24&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Indirect Fire, HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Indirect Fire, HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="f08d-ea25-9525-68a6" name="Coaxial MMG" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -2996,7 +2996,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">84&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+7</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D3)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="406d-5c3b-1e7f-6b5c" name="Turret-Mounted Schwerefeld Projektor" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3028,7 +3028,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="8149-6382-e2ae-f795" name="Hull-Mounted Forward-Facing MMG" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3060,7 +3060,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+4</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="8eca-1bd4-7433-0b19" name="Casement-Mounted Forward Facing Light Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3068,7 +3068,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2), Linked Weapon</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;), Linked Weapon</characteristic>
       </characteristics>
     </profile>
     <profile id="6ac3-5ca6-e53a-df24" name="Fist" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3108,7 +3108,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">60&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+5</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="1ef1-c807-6dec-b8bf" name="Hull-Mounted Forward-Facing Light Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3116,7 +3116,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">0/24-48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (2&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="bb9a-582e-e237-36d8" name="Linked Hull-Mounted Forward-Facing HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3156,7 +3156,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">72&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+3</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="14a1-ce46-6725-2f55" name="Turret-Mounted Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3164,7 +3164,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">72&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+6</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D3)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="fe08-4495-93d5-8497" name="Pintle-Mounted Turret-Based HMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3188,7 +3188,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, HE (2&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="046f-f174-6055-8fee" name="Hull-Mounted Forward-Facing Light Rocket System" publicationId="9a47-ac76-pubN65838" page="67" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3196,7 +3196,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (2&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="684b-e37f-3df1-147f" name="Linked Hull-Mounted Forward-Facing MMG" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3212,7 +3212,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+4</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="9334-a0a6-0d69-cb0a" name="Casement-Mounted Forward-Facing Light Compression Cannon" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3228,7 +3228,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+4</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="ca0a-5749-2a3c-0288" name="Turret-Mounted Medium AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3236,7 +3236,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">60&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+5</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="4f59-1585-76a2-2324" name="Turret-Mounted Rear-Facing MMG" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3252,7 +3252,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">0/24-48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (2&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="e4b2-0e5c-c143-964d" name="Turret-Mounted Compression Cannon" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3300,7 +3300,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">72&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+6</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D3)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="f220-6bbc-83dd-68f7" name="360-Degree Remote-Operated MMG" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3316,7 +3316,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">84&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+7</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D3)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="4929-6588-e81c-9aeb" name="Coaxial Light Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3324,7 +3324,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="9daf-9e31-47ab-812b" name="Second Lieutenant" publicationId="9a47-ac76-pubN65784" page="76" hidden="false" typeId="e45b-8ecb-4fa7-ae2c" typeName="Rank">
@@ -3360,7 +3360,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">0/24-48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Indirect Fire, HE (D3)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Team, Fixed, Indirect Fire, HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="6b19-2c96-f19b-d436" name="Turret-Mounted Medium Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3368,7 +3368,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">0/24-60&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (2D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (3&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="7aa6-3c08-f83f-669f" name="Pintle-Mounted Turret-Based MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3408,7 +3408,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">60&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+5</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="17bd-a862-6ad3-5441" name="Arm-Mounted Heavy Howitzer" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3416,7 +3416,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">0/24-72&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (3D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (4&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="dc37-d51c-7e65-36c7" name="Arm-Mounted Light Automatic Cannon" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3424,7 +3424,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">36&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">5</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">-</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede"/>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="9ad5-5b4a-1e87-89fa" name="Linked Casement-Mounted Light Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3432,7 +3432,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2), Linked Weapon</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;), Linked Weapon</characteristic>
       </characteristics>
     </profile>
     <profile id="d9e9-7325-474b-e9d9" name="Flamethrower (Vehicle)" publicationId="9a47-ac76-pubN66291" page="26" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3448,7 +3448,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">18-72&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (2D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (3&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="7056-ef87-0e27-c00d" name="Rear-Facing Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3456,7 +3456,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">84&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+7</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D3)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="cbf5-6343-3629-917a" name="7" publicationId="9a47-ac76-pubN65784" page="63" hidden="false" typeId="4dde-1bbe-a285-8a61" typeName="Crew"/>
@@ -3474,7 +3474,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">0/24-60&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (2&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="f25c-c37b-2fb0-0252" name="Hull-Mounted Forward-Facing Heavy Howitzer" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3482,7 +3482,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">0/24-72&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (3D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (4&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="93a0-9215-68dd-b0aa" name="Hull-Mounted Forward-Facing Medium Mortar" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3490,7 +3490,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">18-60&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">HE</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (3D6)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">Indirect Fire, HE (2&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="cd2a-e87b-3970-9945" name="Pintle-Mounted Forward-Facing LMG" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3506,7 +3506,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">72&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+3</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="f2af-80f9-b4a2-8960" name="Turret-Mounted Light Automatic Cannon" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3514,7 +3514,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">48&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">2</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+2</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D2)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="e34f-3087-17ee-5527" name="Hull-Mounted Rear-Facing MMG" publicationId="9a47-ac76-pubN66291" page="25" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3530,7 +3530,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">72&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+6</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D3)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="0e34-abf1-3b90-b05e" name="Casement-Mounted Forward-Facing Super-Heavy AT Gun" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
@@ -3538,7 +3538,7 @@ Note that Suppressive Fire cannot affect armoured vehicles unless they are open-
         <characteristic name="Range" typeId="e5a6-c007-53d3-2748">84&quot;</characteristic>
         <characteristic name="Shots" typeId="3885-f1a7-cf7b-2689">1</characteristic>
         <characteristic name="Penetration" typeId="3085-58ff-3eed-bef7">+7</characteristic>
-        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (D3)</characteristic>
+        <characteristic name="Special Rules" typeId="97a0-68ed-1e14-2ede">HE (1&quot;)</characteristic>
       </characteristics>
     </profile>
     <profile id="0c20-9874-9cfe-b9fd" name="Turret-Mounted Light Rail Gun" hidden="false" typeId="6f79-864b-5586-5191" typeName="Weapon">
