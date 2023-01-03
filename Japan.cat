@@ -874,7 +874,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f80-ce10-20c7-0f0e" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
+                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="22.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -2175,6 +2175,9 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a4e-f915-3fc7-c679" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a442-a5f2-8d6d-87e5" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="-1.0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <costs>
@@ -2196,7 +2199,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="429d-58e2-66f8-6b9c" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="25.0"/>
+                    <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="21.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
