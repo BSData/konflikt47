@@ -818,6 +818,9 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -4776,6 +4779,67 @@
             <entryLink id="ae8e-fc08-2814-f079" name="Veteran" hidden="false" collective="false" import="true" targetId="611f-6911-51f6-d7a2" type="selectionEntry"/>
             <entryLink id="7841-e045-1c6c-a25c" name="Inexperienced" hidden="false" collective="false" import="true" targetId="5344-848e-632f-9e09" type="selectionEntry"/>
           </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a57-105d-c534-7006" name="Bamboo Spear Fighters" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="99d4-8620-278e-d172" name="Anti-Tank Grenades" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="d66a-aa5a-74b9-e93a" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="3a57-105d-c534-7006" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cfb-0c22-6f07-d5c4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ced8-7ffa-8b07-1dc1" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="dc2f-24f3-59c1-4094" name="Tank Hunters" hidden="false" targetId="c707-cf7b-113b-507b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d139-1f45-2448-54e4" name="Squad Members" hidden="false" collective="false" import="true" defaultSelectionEntryId="6a87-4956-3fd2-9a48">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11d0-73cd-f882-e1de" type="min"/>
+            <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="696e-d6a6-cc78-25a8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3475-8fa2-7f81-b967" name="NCO" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7d4-d836-7592-576a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="686f-f7f5-23bf-422a" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2c8e-fe26-4903-b951" name="Inexperienced" hidden="false" targetId="d484-27e5-6b70-dc42" type="profile"/>
+                <infoLink id="6ef2-c9bc-84a2-1c74" name="Green" hidden="false" targetId="a6b9-3b36-ca95-650b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6a87-4956-3fd2-9a48" name="Bamboo Spear Fighter" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="715e-d6c1-4ac3-6936" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ce56-eb81-cc70-e7e3" name="Inexperienced" hidden="false" targetId="d484-27e5-6b70-dc42" type="profile"/>
+                <infoLink id="e45f-9b8e-9f65-f4db" name="Green" hidden="false" targetId="a6b9-3b36-ca95-650b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
