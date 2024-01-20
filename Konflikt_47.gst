@@ -1516,8 +1516,6 @@ When a unit enters a dummy minefield, make an attack by the minefield as normal.
     <selectionEntry id="f7be-6840-b912-1ed6" name="360-Degree Remote-Operated MMG" publicationId="9a47-ac76-pubN65784" page="58" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4019-4051-56ed-4e46" name="360-Degree Remote-Operated MMG" hidden="false" targetId="f220-6bbc-83dd-68f7" type="profile"/>
-        <infoLink id="aa0d-3128-e677-0c10" name="Fixed" hidden="false" targetId="35f5-8cdf-741d-0eb4" type="rule"/>
-        <infoLink id="7bc0-0f9a-6466-1da3" name="Team" hidden="false" targetId="156d-a590-a33a-e434" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="0.0"/>
