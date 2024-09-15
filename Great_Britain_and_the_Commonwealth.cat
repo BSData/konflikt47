@@ -228,7 +228,11 @@
         <categoryLink id="e457-7925-ba86-36ba" name="Armoured Cars and Anti-Aircraft Vehicles" hidden="false" targetId="5c3c-21b9-e716-a67e" primary="false"/>
         <categoryLink id="4e0d-39ff-0ec2-ca9e" name="Assault Guns and Self-Propelled Artillery" hidden="false" targetId="ae27-9d73-1390-d87c" primary="false"/>
         <categoryLink id="e622-6329-ea36-f745" name="Walkers" hidden="false" targetId="2161-15bd-f8a3-750b" primary="false"/>
-        <categoryLink id="1b92-d4da-8dad-b873" name="Infantry Squads" hidden="false" targetId="360a-867e-e501-63b2" primary="false"/>
+        <categoryLink id="1b92-d4da-8dad-b873" name="Infantry Squads" hidden="false" targetId="360a-867e-e501-63b2" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="752e-93dc-324c-dd8c" type="min"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="acd8-d2b8-7bf9-de14" name="Tanks and Tank Destroyers" hidden="false" targetId="8847-c5b7-a651-1556" primary="false"/>
         <categoryLink id="2924-aee0-0775-e17d" name="Headquarters" hidden="false" targetId="1ca2-f9d6-c173-2664" primary="false"/>
         <categoryLink id="17ab-0416-4376-9809" name="Infantry Support Squads" hidden="false" targetId="b7cf-ebf3-4ee6-2706" primary="false"/>
@@ -322,6 +326,11 @@
         </categoryLink>
         <categoryLink id="a742-7bed-addf-d7e5" name="Tows" hidden="false" targetId="f3c7-5675-463e-b566" primary="false"/>
         <categoryLink id="7058-2afa-cc92-251d" name="Transports" hidden="false" targetId="a60d-df71-bfcc-66c4" primary="false"/>
+        <categoryLink id="ec2b-9911-7887-ceb1" name="Infantry and Automated Infantry Squads" hidden="false" targetId="a510-a39a-795e-374b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb52-d94c-2292-e27e" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="d94b-b4c4-0d8b-557a" name="Canadian Infantry Platoon" publicationId="24a5-18e9-pubN65619" page="25" hidden="false">
@@ -3006,7 +3015,7 @@
           <entryLinks>
             <entryLink id="a1af-c03f-b85a-4471" name="Veteran (Vehicle)" hidden="false" collective="false" import="true" targetId="bf9f-ad2a-55c5-505e" type="selectionEntry">
               <costs>
-                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="245.0"/>
+                <cost name="points" typeId="d66a-aa5a-74b9-e93a" value="45.0"/>
               </costs>
             </entryLink>
             <entryLink id="3619-5c78-0100-0b2a" name="Regular (Vehicle)" hidden="false" collective="false" import="true" targetId="db47-30f7-6497-9700" type="selectionEntry">
